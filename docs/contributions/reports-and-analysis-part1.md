@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how non-profit users can use CiviCRM's built-in reports and analysis tools to understand and manage their contributions effectively.  

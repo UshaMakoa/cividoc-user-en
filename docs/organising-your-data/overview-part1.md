@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to organize your data effectively in CiviCRM by understanding your current data systems, planning for data migration, and adapting your workflows.

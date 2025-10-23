@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to find and restore deleted contacts in CiviCRM, and understand when to permanently delete them.

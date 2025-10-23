@@ -1,6 +1,7 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/is-civicrm-for-you/
 
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page helps you decide if CiviCRM is the right tool for your non-profit organisation by exploring your needs and ways to learn more about the software.  

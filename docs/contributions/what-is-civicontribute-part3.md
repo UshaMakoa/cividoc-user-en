@@ -1,6 +1,7 @@
 # Source: https://docs.civicrm.org/user/en/latest/contributions/what-is-civicontribute/
 
 categories:
+  - Uncategorized
   - Guide  
 level: Intermediate  
 summary: How to manage online contributions and fundraising campaigns using CiviContribute features.  

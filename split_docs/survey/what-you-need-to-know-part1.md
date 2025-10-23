@@ -1,7 +1,7 @@
 # Source: https://docs.civicrm.org/user/en/latest/survey/what-you-need-to-know/
 
 ---
-categories: How-to guide  
+categories: Guide  
 level: Basic  
 summary: This guide explains what you need to know before creating and using surveys in CiviCRM, focusing on key concepts, setup, and practical considerations for non-expert nonprofit users.  
 section: Survey  

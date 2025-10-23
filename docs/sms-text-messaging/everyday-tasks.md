@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide shows non-profit users how to send SMS messages in CiviCRM, both to individual contacts and to groups, using simple step-by-step instructions.  

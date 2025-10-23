@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to select and configure payment processors in CiviCRM, including considerations for onsite vs. offsite processors, regional availability, and managing recurring contributions.

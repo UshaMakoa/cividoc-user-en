@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: Step-by-step instructions for adding and viewing soft credits in CiviCRM.  

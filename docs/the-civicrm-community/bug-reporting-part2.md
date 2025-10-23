@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: Practice writing a clear bug report for CiviCRM with step-by-step guidance and a sample template.

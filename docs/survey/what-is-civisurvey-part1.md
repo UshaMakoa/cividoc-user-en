@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains what CiviSurvey is, how it helps non-profit users collect and analyze survey data from existing contacts within CiviCRM, and illustrates its use with a practical example.  

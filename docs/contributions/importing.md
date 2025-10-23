@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for importing donation records into CiviCRM using the Civi Import extension, designed for non-profit users new to the process.

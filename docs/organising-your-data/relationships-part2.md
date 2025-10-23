@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: Customize relationship types and fields to match your organization’s needs, including creating, editing, and managing relationship types and custom fields.

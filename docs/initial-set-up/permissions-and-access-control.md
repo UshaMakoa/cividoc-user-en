@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide explains how to manage permissions and access control in CiviCRM, ensuring users can effectively use the system while keeping data secure.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow a step-by-step walkthrough to send your first thank-you letter in CiviCRM.

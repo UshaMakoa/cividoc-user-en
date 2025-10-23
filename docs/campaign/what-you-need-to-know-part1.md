@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: This page introduces key concepts and planning steps for non-profit staff who are new to using CiviCampaign in CiviCRM, helping them think through their campaign goals, activities, and reporting needs before getting started.

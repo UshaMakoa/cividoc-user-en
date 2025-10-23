@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page provides clear, step-by-step instructions for creating and managing your first petition using CiviPetition.  

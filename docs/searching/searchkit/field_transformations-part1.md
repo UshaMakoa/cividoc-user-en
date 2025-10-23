@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to apply field transformations in CiviCRM to modify and enhance your search results.

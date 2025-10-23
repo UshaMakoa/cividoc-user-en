@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This page outlines how to engage with the CiviCRM community offline.

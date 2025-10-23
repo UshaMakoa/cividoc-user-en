@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: This page provides background information about the creation and evolution of the CiviCRM User Guide.

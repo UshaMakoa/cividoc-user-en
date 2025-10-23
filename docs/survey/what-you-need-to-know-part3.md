@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: Background information on how surveys fit into CiviCRM’s components and how they relate to campaigns and engagement tools.  

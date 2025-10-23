@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page introduces CiviGrant, explaining its purpose, key concepts, and questions to consider before managing grants with CiviCRM.  

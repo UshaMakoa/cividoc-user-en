@@ -1,6 +1,7 @@
 ---
 
 categories:
+  - Uncategorized
   - Explanation
 level: Intermediate
 summary: This explanation provides an overview of CiviCRM's survey features and their integration with reporting tools.

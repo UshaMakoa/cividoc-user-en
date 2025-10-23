@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: A step-by-step tutorial for new users on how to create and manage a simple case in CiviCase, including adding activities and assigning roles.  

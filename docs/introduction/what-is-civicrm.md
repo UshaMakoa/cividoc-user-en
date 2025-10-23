@@ -1,6 +1,7 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/what-is-civicrm/
 
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: An introduction to CiviCRM, explaining what it is, who it is for, and how it helps nonprofit organizations manage their contacts and activities in one easy-to-use system.  

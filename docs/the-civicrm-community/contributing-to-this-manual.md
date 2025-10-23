@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page explains how to contribute to the CiviCRM user guide by making single or multiple changes, including setting up your account, editing files, and submitting your work for review.  

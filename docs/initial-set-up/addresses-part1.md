@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide provides a step-by-step approach to setting up and managing address settings in CiviCRM, tailored for non-profit users.

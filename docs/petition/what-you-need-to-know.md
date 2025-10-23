@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand the key concepts and considerations for creating and using petitions in CiviCRM.

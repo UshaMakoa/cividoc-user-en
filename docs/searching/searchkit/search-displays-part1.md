@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to create and customize search displays in CiviCRM to show your search results in different formats, helping non-profit users present data clearly and usefully.  

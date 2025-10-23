@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to plan for data migration by evaluating data relevance and standardizing formats.

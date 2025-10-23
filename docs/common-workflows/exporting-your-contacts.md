@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for exporting your contacts from CiviCRM, including how to select fields, save mappings, and handle common scenarios for non-profit users.

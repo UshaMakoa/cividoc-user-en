@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to use groups and tags in CiviCRM to organize your contacts and data effectively, helping non-profit users segment and manage their information easily.  

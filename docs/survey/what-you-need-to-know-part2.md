@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: Step-by-step instructions to create and manage a survey in CiviCRM using custom fields, profiles, and groups.  

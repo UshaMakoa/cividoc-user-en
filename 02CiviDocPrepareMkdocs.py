@@ -11,6 +11,9 @@
 # 
 # Requires PyYAML: pip install pyyaml
 #
+# TODO: verify mkdocs-categories-plugin configuration 
+# Known issues : error in categories (undefined)...
+#
 # @alain.benbassat, @davem, @usha.makoa
 # CiviCamp 2025 - Lunteren, Netherlands
 
@@ -96,7 +99,7 @@ def clean_markdown_files(folder):
             with open(path, "r", encoding="utf-8") as file:
                 content = file.read()
 
-            # Conserver texte entre 1er et 2e '---'
+            # Supprime tout avant le premier bloc "---"
             if "---" in content:
                 parts = content.split("---")
                 if len(parts) >= 3:
@@ -106,14 +109,21 @@ def clean_markdown_files(folder):
             else:
                 cleaned = content
 
-            # Corriger categories: si c’est une chaîne → YAML liste
+            # ✅ Si categories est une chaîne YAML, convertir en liste
             cleaned = re.sub(
                 r'(?m)^categories:\s*"?([\w\s\-|]+)"?$',
                 r'categories:\n  - \1',
                 cleaned
             )
 
-            # Supprimer les commentaires après la dernière ligne ---
+            # ✅ Si categories vide → valeur par défaut pour éviter les None
+            cleaned = re.sub(
+                r'(?m)^categories:\s*$',
+                'categories:\n  - Uncategorized',
+                cleaned
+            )
+
+            # 🧹 Supprime les commentaires HTML après dernier '---'
             lines = cleaned.splitlines()
             last_hr = None
             for i, l in enumerate(lines):
@@ -126,9 +136,10 @@ def clean_markdown_files(folder):
                         retained.append(l)
                 cleaned = "\n".join(retained).strip() + "\n"
 
+            # Sauvegarde du contenu nettoyé
             with open(path, "w", encoding="utf-8") as file:
                 file.write(cleaned)
-    print("✅ Fichiers nettoyés et YAML corrigé")
+    print("✅ Markdown files cleaned and safe for mkdocs-categories-plugin")
 
 # ===== Étape 3 : création navigation ===== #
 def build_nav(folder):

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides an overview of how to manage dates in CiviCRM, including localization, display formats, input fields, and preferences.

@@ -1,8 +1,14 @@
 # CiviDocRewriteByAI.py
 # Prompt‑based rewriting of CiviCRM documentation using multiple AI models with persistent model memory
 #
-# you must set the environment variables OPENAI_API_KEY and PERPLEXITY_API_KEY
+# you must install the modules 
+# and set the environment variables OPENAI_API_KEY and PERPLEXITY_API_KEY
+# you can create api keys on https://platform.openai.com/ and https://perplexity.ai/api
 #
+# If you set include_section environment variable, only that section will be processed (even if you fill the exclude list)
+#
+# TODO: handle rate limits and errors more gracefully
+# 
 # @alain.benbassat, @davem, @usha.makoa
 # CiviCamp 2025 - Lunteren, Netherlands
 
@@ -19,12 +25,15 @@ from openai import OpenAI
 
 # === CONFIGURATION ===
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-yourkeyhere")
-PERPLEXITY_API_KEY = os.getenv("civicrm doc", "pplx-yourkeyhere")
+PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_NAME", "pplx-yourkeyhere")
 
 BASE_URL = "https://docs.civicrm.org/user/en/latest/"
 OUTPUT_DIR = "ai_generated_docs"
 SPLIT_DIR = "split_docs"
 EXCLUDE_SECTIONS = ["membership", "email", "events"]
+INCLUDE_SECTION = os.getenv("INCLUDE_SECTION", "events")
+# Exemple d’utilisation :
+# INCLUDE_SECTION = "events"
 
 # === Clients API ===
 client_openai = OpenAI(api_key=OPENAI_API_KEY)
@@ -32,8 +41,6 @@ client_pplx = OpenAI(api_key=PERPLEXITY_API_KEY, base_url="https://api.perplexit
 
 # === Rotation multi‑modèles (2025 generation) ===
 MODELS = [
-    ("perplexity", "gpt-5-mini"),            # nouvelle génération compacte
-    ("perplexity", "gpt-5-nano"),            # nouvelle génération compacte
     ("perplexity", "sonar"),        # modèle de base
     ("perplexity", "sonar-pro"),    # modèle raisonnement web
     #("perplexity", "llama-3.1-sonar-large-128k-online"), # modèle étendu
@@ -97,15 +104,31 @@ def get_links(url):
         r.raise_for_status()
     except Exception:
         return []
+
     soup = BeautifulSoup(r.text, "html.parser")
     links = []
     for a in soup.find_all("a", href=True):
         link = urljoin(url, a["href"])
-        if not link.startswith(BASE_URL): continue
-        if any(x in link for x in EXCLUDE_SECTIONS): continue
+
+        # 🔒 force domaine de base
+        if not link.startswith(BASE_URL):
+            continue
+
+        # ✅ Si INCLUDE_SECTION est défini → ignorer tout le reste
+        if INCLUDE_SECTION:
+            if not f"/{INCLUDE_SECTION}/" in link:
+                continue
+
+        # Exclusion habituelle (seulement si aucune section particulière n’est forcée)
+        elif any(ex in link for ex in EXCLUDE_SECTIONS):
+            continue
+
+        # Empêche les doublons ou ancres internes
         if link not in visited and "#" not in link:
             links.append(link)
+
     return links
+
 
 # === API LOGIC — Garde le dernier modèle qui marche ===
 def ai_rewrite(content):
@@ -204,3 +227,7 @@ if __name__ == "__main__":
     print(f"🧩 Model pool size: {len(MODELS)}")
     crawl(BASE_URL)
     print(f"🎉 Done. Content in '{OUTPUT_DIR}' and '{SPLIT_DIR}'.")
+if INCLUDE_SECTION:
+    print(f"🎯 Mode 'include only': crawling section '{INCLUDE_SECTION}'")
+else:
+    print(f"🚫 Using exclude filter: {EXCLUDE_SECTIONS}")

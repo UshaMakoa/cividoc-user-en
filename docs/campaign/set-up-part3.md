@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This tutorial guides beginners through creating their first campaign in CiviCRM using CiviCampaign.

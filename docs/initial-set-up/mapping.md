@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide helps non-profit users set up and configure mapping and geocoding in CiviCRM to enhance contact management with geographic data.

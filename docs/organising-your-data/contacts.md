@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide introduces CiviCRM contacts, explaining how to find, add, edit, and delete contacts, and how to understand and customize contact information for non-expert nonprofit users.  

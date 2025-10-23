@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains the key concepts and settings you need to understand before using CiviContribute to manage donations and payments in CiviCRM.  

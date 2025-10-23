@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can enable and create invoices in CiviCRM, customize invoice templates, and understand basic invoicing settings.  

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide helps you understand and manage duplicate contacts in CiviCRM by explaining how to find, merge, and prevent duplicates.

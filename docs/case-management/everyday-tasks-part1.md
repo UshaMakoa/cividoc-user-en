@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-expert CiviCRM users can manage cases by performing everyday tasks such as viewing the case dashboard, finding and opening cases, managing case activities, and assigning roles.  

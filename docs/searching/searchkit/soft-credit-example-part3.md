@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Reference
 level: Intermediate
 summary: A quick reference list of fields and settings for soft credit searches in CiviCRM.

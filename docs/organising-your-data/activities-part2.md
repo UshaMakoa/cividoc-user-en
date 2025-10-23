@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for recording a new activity in CiviCRM, including how to assign it, add contacts, and set a status.

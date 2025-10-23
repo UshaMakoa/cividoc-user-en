@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: CiviCase is a tool in CiviCRM for managing sequences of interactions between your organization and contacts, similar to a case management system.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand what relationships are, why they matter for non-profits, and how they help you organize and communicate with your community.

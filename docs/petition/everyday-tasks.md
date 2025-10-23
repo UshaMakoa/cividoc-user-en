@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page guides non-profit users through the everyday tasks of managing petitions in CiviCRM, including creating, sharing, collecting signatures, and reviewing petition results.  

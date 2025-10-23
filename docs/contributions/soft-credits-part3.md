@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Reference  
 level: Intermediate  
 summary: A quick list of reserved soft credit types and where to find them in CiviCRM.  

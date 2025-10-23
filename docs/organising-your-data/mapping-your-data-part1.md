@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This page helps you plan how to bring your organization’s data into CiviCRM by matching your existing information to the right fields and features, with practical tips for common scenarios.

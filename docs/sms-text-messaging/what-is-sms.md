@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: This page explains what SMS (Short Message Service) is and how CiviCRM uses it to send and receive text messages for communication with contacts.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to use CiviCRM's GOTV (Voter Tracking) feature to track contacts who have voted.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can manually enter and batch enter offline contributions, memberships, or pledge payments in CiviCRM, ensuring accurate records for reporting and donor management.  

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide explains how user accounts in CiviCRM are linked to contact records, specifically focusing on the behaviors of Drupal, Joomla, and WordPress systems.

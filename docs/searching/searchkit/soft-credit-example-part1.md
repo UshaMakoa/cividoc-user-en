@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: Step-by-step instructions for creating a soft credit search and table display in CiviCRM, helping you recognize and thank supporters who helped raise donations.

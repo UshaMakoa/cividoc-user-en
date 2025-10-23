@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This page explains how to use relative date filters in CiviCRM for searching and reporting.

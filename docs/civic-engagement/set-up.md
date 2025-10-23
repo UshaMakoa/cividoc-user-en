@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to enable and set up the CiviEngage component in CiviCRM, including how to customize its contact subtypes, custom fields, and surveys to support your organization's community engagement work.  

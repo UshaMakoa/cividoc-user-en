@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This tutorial guides non-profit users through managing surveys in CiviCRM, including reserving respondents, interviewing them, reviewing survey results, and conducting door-knock canvasses.  

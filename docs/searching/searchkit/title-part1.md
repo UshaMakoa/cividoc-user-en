@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to give your saved searches in CiviCRM Search Kit clear and helpful titles so your team can easily find and use them.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: This guide explains how to export and import saved SearchKit searches in CiviCRM, allowing users to share or transfer their searches across different systems.

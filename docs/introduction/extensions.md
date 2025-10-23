@@ -1,6 +1,7 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/extensions/
 
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains what CiviCRM extensions are, how to find and install them, and encourages non-profits to explore extensions that add useful features to their system.  

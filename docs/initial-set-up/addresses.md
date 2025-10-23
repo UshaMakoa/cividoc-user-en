@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can set up and use address settings and USPS address standardization in CiviCRM to ensure accurate mailing information.  

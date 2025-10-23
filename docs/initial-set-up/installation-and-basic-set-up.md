@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide provides step-by-step instructions for installing and setting up CiviCRM for non-profit organizations, ensuring a smooth start to using the system effectively.

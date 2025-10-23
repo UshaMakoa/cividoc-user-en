@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This tutorial guides non-profit users through the process of setting up and customizing reports in CiviCRM using report templates.

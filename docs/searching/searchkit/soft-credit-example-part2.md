@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: An introduction to soft credits in CiviCRM, explaining how they help you recognize supporters who help raise donations.

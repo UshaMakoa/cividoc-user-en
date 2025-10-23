@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Reference
 level: Basic
 summary: A quick reference to the most common actions available in CiviCRM Search Kit for different types of data.

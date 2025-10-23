@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand why careful data mapping matters for your nonprofit’s success with CiviCRM, and how it affects reporting, communications, and daily work.

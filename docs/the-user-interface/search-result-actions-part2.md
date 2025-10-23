@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow step-by-step instructions to send an email to a group of contacts from your search results in CiviCRM.

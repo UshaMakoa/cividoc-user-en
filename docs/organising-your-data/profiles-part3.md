@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Practical examples of how to use Profiles for common nonprofit tasks, such as creating directories, sign-up forms, and batch updates.

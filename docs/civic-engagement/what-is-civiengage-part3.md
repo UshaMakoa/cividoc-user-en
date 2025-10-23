@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Reference  
 level: Intermediate  
 summary: A quick reference to CiviEngage features, custom fields, and reports for tracking community engagement in CiviCRM on Drupal 7.  

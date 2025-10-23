@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: Step-by-step instructions for setting up CiviGrant in CiviCRM.

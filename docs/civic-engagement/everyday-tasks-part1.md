@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides step-by-step instructions on how to conduct a door-knock canvass using CiviEngage.

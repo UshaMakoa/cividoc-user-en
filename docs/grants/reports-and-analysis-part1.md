@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how non-profit users can find and analyze grant data in CiviCRM using search forms and reports to better understand their grant activities.  

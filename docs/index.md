@@ -1,10 +1,11 @@
-# Source: https://docs.civicrm.org/user/en/latest/
-
+---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page introduces the CiviCRM User Guide, explaining who it is for, how it differs from the System Administrator Guide, and how to get the most from the documentation.  
 section: Introduction  
+---
 
 # Home
 
@@ -28,8 +29,4 @@ This guide is created and maintained by the CiviCRM community using a tool calle
 
 ## credits
 
-This User Guide is a team effort by many community members, supported by the Documentation Working Group. Their ongoing work helps keep the guide useful and up to date.  
-
----
-
-**Suggestion:** To make the documentation easier to use, consider splitting content into separate pages such as "Getting started with CiviCRM," "User tasks," and "Technical setup" for more detailed topics. This helps new users find the right information without feeling overwhelmed.
+This User Guide is a team effort by many community members, supported by the Documentation Working Group. Their ongoing work helps keep the guide useful and up to date.

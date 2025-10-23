@@ -115,6 +115,50 @@ nav:
   - What Is Civicontribute Part2: contributions/what-is-civicontribute-part2.md
   - What Is Civicontribute Part3: contributions/what-is-civicontribute-part3.md
   - Widgets: contributions/widgets.md
+- Email:
+  - Civimail Ab Testing: email/civimail-ab-testing.md
+  - Everyday Tasks Part2: email/everyday-tasks-part2.md
+  - Everyday Tasks: email/everyday-tasks.md
+  - Maintaining Healthy Email Lists Part2: email/maintaining-healthy-email-lists-part2.md
+  - Maintaining Healthy Email Lists Part3: email/maintaining-healthy-email-lists-part3.md
+  - Maintaining Healthy Email Lists Part4: email/maintaining-healthy-email-lists-part4.md
+  - Maintaining Healthy Email Lists Part5: email/maintaining-healthy-email-lists-part5.md
+  - Maintaining Healthy Email Lists: email/maintaining-healthy-email-lists.md
+  - Mass Mailings Using Civimail: email/mass-mailings-using-civimail.md
+  - Message Templates Part2: email/message-templates-part2.md
+  - Message Templates: email/message-templates.md
+  - Reports And Analysis: email/reports-and-analysis.md
+  - Scheduled Reminders Part2: email/scheduled-reminders-part2.md
+  - Scheduled Reminders: email/scheduled-reminders.md
+  - Set Up Part2: email/set-up-part2.md
+  - Set Up: email/set-up.md
+  - What Is Civimail Part2: email/what-is-civimail-part2.md
+  - What Is Civimail: email/what-is-civimail.md
+  - What You Need To Know Part2: email/what-you-need-to-know-part2.md
+  - What You Need To Know: email/what-you-need-to-know.md
+- Events:
+  - Complex Event Fees: events/complex-event-fees.md
+  - Creating An Event Part1: events/creating-an-event-part1.md
+  - Creating An Event Part2: events/creating-an-event-part2.md
+  - Creating An Event Part3: events/creating-an-event-part3.md
+  - Custom Data For Events Part1: events/custom-data-for-events-part1.md
+  - Custom Data For Events Part2: events/custom-data-for-events-part2.md
+  - Custom Data For Events Part3: events/custom-data-for-events-part3.md
+  - Event Planning And Management Part1: events/event-planning-and-management-part1.md
+  - Event Planning And Management Part2: events/event-planning-and-management-part2.md
+  - Event Templates Part1: events/event-templates-part1.md
+  - Event Templates Part2: events/event-templates-part2.md
+  - Integrating Events With Your Website Part1: events/integrating-events-with-your-website-part1.md
+  - Integrating Events With Your Website Part2: events/integrating-events-with-your-website-part2.md
+  - Keeping Track Of Events And Participants: events/keeping-track-of-events-and-participants.md
+  - Manual Event Registration: events/manual-event-registration.md
+  - Online Event Registration Part1: events/online-event-registration-part1.md
+  - Online Event Registration Part2: events/online-event-registration-part2.md
+  - Repeating Events Part1: events/repeating-events-part1.md
+  - Repeating Events Part2: events/repeating-events-part2.md
+  - Reports: events/reports.md
+  - What Is Civievent Part1: events/what-is-civievent-part1.md
+  - What Is Civievent Part2: events/what-is-civievent-part2.md
 - Grants:
   - Every Day Tasks: grants/every-day-tasks.md
   - Reports And Analysis Part1: grants/reports-and-analysis-part1.md
@@ -150,6 +194,18 @@ nav:
   - Real World Examples: introduction/real-world-examples.md
   - What Is Civicrm: introduction/what-is-civicrm.md
   - Who Is Civicrm: introduction/who-is-civicrm.md
+- Membership:
+  - Cancelling And Expiring Memberships: membership/cancelling-and-expiring-memberships.md
+  - Defining Memberships: membership/defining-memberships.md
+  - Finding And Viewing Memberships: membership/finding-and-viewing-memberships.md
+  - Manual Entry Of Memberships: membership/manual-entry-of-memberships.md
+  - Membership Price Sets: membership/membership-price-sets.md
+  - Membership Reports Part3: membership/membership-reports-part3.md
+  - Membership Reports: membership/membership-reports.md
+  - Membership Statuses And How They Work: membership/membership-statuses-and-how-they-work.md
+  - Online Membership Sign Up: membership/online-membership-sign-up.md
+  - Renewals: membership/renewals.md
+  - What Is Civimember: membership/what-is-civimember.md
 - Organising Your Data:
   - Activities Part1: organising-your-data/activities-part1.md
   - Activities Part2: organising-your-data/activities-part2.md

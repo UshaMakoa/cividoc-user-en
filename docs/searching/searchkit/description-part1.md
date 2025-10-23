@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains how to provide a detailed description for a saved search in CiviCRM, helping users understand the purpose and scope of their saved searches.  

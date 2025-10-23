@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to take common actions on groups of contacts, contributions, participants, activities, and members directly from your search results in CiviCRM.

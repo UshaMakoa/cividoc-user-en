@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains what smart groups are in CiviCRM, how to create and manage them, and practical ways non-expert users in non-profits can use smart groups to organize contacts automatically based on criteria.  

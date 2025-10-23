@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can manage everyday grant tasks in CiviCRM, including viewing, adding, editing grant recipients, and recording reports.  

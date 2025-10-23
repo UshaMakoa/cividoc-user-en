@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users understand and use the CiviCRM menu, dashboard, and dashlets to navigate and customize their workspace effectively.  

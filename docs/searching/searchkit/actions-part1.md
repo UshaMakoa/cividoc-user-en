@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to use the Actions menu in CiviCRM Search Kit to perform common tasks with your search results, such as exporting data or updating records.

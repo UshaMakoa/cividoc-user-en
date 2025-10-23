@@ -1,8 +1,8 @@
 # Source: https://docs.civicrm.org/user/en/latest/contributions/widgets/
 
 ---
-categories: guide  
-level: basic  
+categories: Guide  
+level: Basic  
 summary: This guide explains how to create, customize, and use fundraising widgets in CiviCRM to promote contribution campaigns on your website, with step-by-step instructions and helpful tips.  
 section: Contributions  
 ---

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-expert users at non-profits can import data into CiviCRM using CSV files, covering preparation, required fields, the import steps, and handling related data.  

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page introduces CiviPetition, explains what it is, and describes how non-profit organizations can use it to gather support and information from the public.  

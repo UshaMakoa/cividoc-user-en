@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: A hands-on walkthrough for creating and using a walk list in CiviEngage, helping you get started with door-to-door canvassing.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to identify, troubleshoot, and report bugs in CiviCRM, including tips for writing clear bug reports and understanding what happens after you report an issue.

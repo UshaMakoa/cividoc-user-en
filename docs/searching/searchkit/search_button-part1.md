@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page explains how to use the Search Button in CiviCRM to find contacts and data by running searches, with step-by-step instructions for new users.  

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides step-by-step instructions for setting up a petition in CiviCRM.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Reference
 level: Intermediate
 summary: A technical overview of CiviCampaign fields, statuses, and reporting options for non-profit staff who need to understand the system’s capabilities in more depth.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide explains how to link users from your CMS (Drupal, Joomla, or WordPress) to their corresponding contact records in CiviCRM.

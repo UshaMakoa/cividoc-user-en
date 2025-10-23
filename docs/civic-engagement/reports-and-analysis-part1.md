@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users learn how to create and analyze reports in CiviCRM to understand their campaign and engagement data.  

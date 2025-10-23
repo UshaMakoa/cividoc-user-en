@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Intermediate
 summary: This guide covers advanced setup options for petitions in CiviCRM.

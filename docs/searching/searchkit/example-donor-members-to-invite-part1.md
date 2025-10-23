@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users learn how to create a list of donor members to invite to an event using CiviCRM’s Search Kit, with clear step-by-step instructions.  

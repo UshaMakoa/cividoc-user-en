@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides an overview of external reporting options for CiviCRM users, highlighting how to access and utilize data for reporting purposes.

@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to use the "Group By" feature in CiviCRM Search Kit to organize and analyze your data by common fields, helping non-expert users better understand patterns and relationships in their data.  

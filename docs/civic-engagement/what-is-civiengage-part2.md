@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: Learn how to set up and start using CiviEngage for community organizing and civic engagement tasks in CiviCRM on Drupal 7.  

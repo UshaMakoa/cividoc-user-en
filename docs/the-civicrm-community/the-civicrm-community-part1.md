@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation
 level: Basic
 summary: This page introduces the CiviCRM community, explaining how it is structured and how users can engage with it online and offline.

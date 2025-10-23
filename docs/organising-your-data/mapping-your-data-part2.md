@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow these steps to map a simple contact list from your old system into CiviCRM, using default fields and avoiding common pitfalls.

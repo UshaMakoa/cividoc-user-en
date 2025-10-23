@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can manage offline fundraising in CiviCRM by creating contact lists, preparing postal mailings, and manually entering contribution data to keep records accurate.  

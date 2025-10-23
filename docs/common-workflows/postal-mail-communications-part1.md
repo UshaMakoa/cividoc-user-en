@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to use CiviCRM for postal mail communications, including planning, generating labels, and creating personalized documents.

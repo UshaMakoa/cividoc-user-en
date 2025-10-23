@@ -1,5 +1,6 @@
 ---
 categories:
+  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains what CiviPledge is and how it helps non-profits manage donor commitments to give donations over time.  
