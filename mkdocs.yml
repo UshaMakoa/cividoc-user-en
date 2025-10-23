@@ -1,0 +1,292 @@
+site_name: CiviCRM User Guide
+site_url: https://docs.civicrm.org/user/en/latest/
+repo_url: https://lab.civicrm.org/documentation/docs/user-en/
+edit_uri: https://lab.civicrm.org/documentation/docs/user-en/-/edit/master/docs/
+site_description: A guide for CiviCRM users.
+site_author: The CiviCRM community
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/gitlab
+markdown_extensions:
+- attr_list
+- admonition
+- def_list
+- toc:
+    permalink: true
+- pymdownx.highlight:
+    guess_lang: true
+- pymdownx.superfences:
+    css_class: codehilite
+- pymdownx.inlinehilite:
+    css_class: codehilite
+- pymdownx.tilde
+- pymdownx.betterem
+- pymdownx.mark
+plugins:
+- search:
+    lang: en
+- categories:
+    generate_index: true
+    verbose: true
+    base_name: categories
+    section_title: Categories
+    no_nav: false
+    category_separator: '|'
+nav:
+- Index: index.md
+- Appendices:
+  - Credits: appendices/credits.md
+  - Free Software: appendices/free-software.md
+  - Glossary Part1: appendices/glossary-part1.md
+  - Glossary Part2: appendices/glossary-part2.md
+  - History Of This Book: appendices/history-of-this-book.md
+- Campaign:
+  - Everyday Tasks Part1: campaign/everyday-tasks-part1.md
+  - Everyday Tasks Part2: campaign/everyday-tasks-part2.md
+  - Reports And Analysis Part1: campaign/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: campaign/reports-and-analysis-part2.md
+  - Set Up Part1: campaign/set-up-part1.md
+  - Set Up Part2: campaign/set-up-part2.md
+  - Set Up Part3: campaign/set-up-part3.md
+  - What Is Civicampaign Part1: campaign/what-is-civicampaign-part1.md
+  - What Is Civicampaign Part2: campaign/what-is-civicampaign-part2.md
+  - What You Need To Know Part1: campaign/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: campaign/what-you-need-to-know-part2.md
+  - What You Need To Know Part3: campaign/what-you-need-to-know-part3.md
+- Case Management:
+  - Everyday Tasks Part1: case-management/everyday-tasks-part1.md
+  - Everyday Tasks Part2: case-management/everyday-tasks-part2.md
+  - Reports And Analysis Part1: case-management/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: case-management/reports-and-analysis-part2.md
+  - Set Up: case-management/set-up.md
+  - What Is Civicase Part1: case-management/what-is-civicase-part1.md
+  - What Is Civicase Part2: case-management/what-is-civicase-part2.md
+  - What You Need To Know Part1: case-management/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: case-management/what-you-need-to-know-part2.md
+- Civic Engagement:
+  - Everyday Tasks Part1: civic-engagement/everyday-tasks-part1.md
+  - Everyday Tasks Part2: civic-engagement/everyday-tasks-part2.md
+  - Reports And Analysis Part1: civic-engagement/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: civic-engagement/reports-and-analysis-part2.md
+  - Set Up: civic-engagement/set-up.md
+  - What Is Civiengage Part1: civic-engagement/what-is-civiengage-part1.md
+  - What Is Civiengage Part2: civic-engagement/what-is-civiengage-part2.md
+  - What Is Civiengage Part3: civic-engagement/what-is-civiengage-part3.md
+  - What You Need To Know Part1: civic-engagement/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: civic-engagement/what-you-need-to-know-part2.md
+  - What You Need To Know Part3: civic-engagement/what-you-need-to-know-part3.md
+- Common Workflows:
+  - Automating Tasks Part1: common-workflows/automating-tasks-part1.md
+  - Automating Tasks Part2: common-workflows/automating-tasks-part2.md
+  - Automating Tasks Part3: common-workflows/automating-tasks-part3.md
+  - Automating Tasks Part4: common-workflows/automating-tasks-part4.md
+  - Deduping And Merging: common-workflows/deduping-and-merging.md
+  - Exporting Your Contacts: common-workflows/exporting-your-contacts.md
+  - Importing Data Into Civicrm: common-workflows/importing-data-into-civicrm.md
+  - Postal Mail Communications Part1: common-workflows/postal-mail-communications-part1.md
+  - Postal Mail Communications Part2: common-workflows/postal-mail-communications-part2.md
+  - Tokens And Mail Merge Part1: common-workflows/tokens-and-mail-merge-part1.md
+  - Tokens And Mail Merge Part2: common-workflows/tokens-and-mail-merge-part2.md
+- Contributions:
+  - Accounting Integration: contributions/accounting-integration.md
+  - Finding And Viewing Contributions: contributions/finding-and-viewing-contributions.md
+  - Importing: contributions/importing.md
+  - Invoicing: contributions/invoicing.md
+  - Key Concepts And Configurations: contributions/key-concepts-and-configurations.md
+  - Manual Entry Of Contributions: contributions/manual-entry-of-contributions.md
+  - Manual Receipts And Thank Yous Part1: contributions/manual-receipts-and-thank-yous-part1.md
+  - Manual Receipts And Thank Yous Part2: contributions/manual-receipts-and-thank-yous-part2.md
+  - Offline Fundraising: contributions/offline-fundraising.md
+  - Online Contributions: contributions/online-contributions.md
+  - Payment Processors Part1: contributions/payment-processors-part1.md
+  - Payment Processors Part2: contributions/payment-processors-part2.md
+  - Personal Campaign Pages: contributions/personal-campaign-pages.md
+  - Premiums Part1: contributions/premiums-part1.md
+  - Premiums Part2: contributions/premiums-part2.md
+  - Reports And Analysis Part1: contributions/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: contributions/reports-and-analysis-part2.md
+  - Reports And Analysis Part3: contributions/reports-and-analysis-part3.md
+  - Sales Tax And Vat: contributions/sales-tax-and-vat.md
+  - Soft Credits Part1: contributions/soft-credits-part1.md
+  - Soft Credits Part2: contributions/soft-credits-part2.md
+  - Soft Credits Part3: contributions/soft-credits-part3.md
+  - What Is Civicontribute Part1: contributions/what-is-civicontribute-part1.md
+  - What Is Civicontribute Part2: contributions/what-is-civicontribute-part2.md
+  - What Is Civicontribute Part3: contributions/what-is-civicontribute-part3.md
+  - Widgets: contributions/widgets.md
+- Grants:
+  - Every Day Tasks: grants/every-day-tasks.md
+  - Reports And Analysis Part1: grants/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: grants/reports-and-analysis-part2.md
+  - Reports And Analysis Part3: grants/reports-and-analysis-part3.md
+  - Reports And Analysis Part4: grants/reports-and-analysis-part4.md
+  - Set Up: grants/set-up.md
+  - What Is Civigrant Part1: grants/what-is-civigrant-part1.md
+  - What Is Civigrant Part2: grants/what-is-civigrant-part2.md
+  - What You Need To Know Part1: grants/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: grants/what-you-need-to-know-part2.md
+- Initial Set Up:
+  - Addresses Part1: initial-set-up/addresses-part1.md
+  - Addresses Part2: initial-set-up/addresses-part2.md
+  - Addresses: initial-set-up/addresses.md
+  - Change Logging: initial-set-up/change-logging.md
+  - Customizing The User Interface: initial-set-up/customizing-the-user-interface.md
+  - Dates Part1: initial-set-up/dates-part1.md
+  - Dates Part2: initial-set-up/dates-part2.md
+  - Dates: initial-set-up/dates.md
+  - Error Handling: initial-set-up/error-handling.md
+  - Installation And Basic Set Up: initial-set-up/installation-and-basic-set-up.md
+  - Mapping: initial-set-up/mapping.md
+  - Permissions And Access Control: initial-set-up/permissions-and-access-control.md
+  - Scheduled Jobs: initial-set-up/scheduled-jobs.md
+  - Users Contacts Part1: initial-set-up/users-contacts-part1.md
+  - Users Contacts Part2: initial-set-up/users-contacts-part2.md
+  - Users Contacts: initial-set-up/users-contacts.md
+- Introduction:
+  - Components: introduction/components.md
+  - Extensions: introduction/extensions.md
+  - Is Civicrm For You: introduction/is-civicrm-for-you.md
+  - Real World Examples: introduction/real-world-examples.md
+  - What Is Civicrm: introduction/what-is-civicrm.md
+  - Who Is Civicrm: introduction/who-is-civicrm.md
+- Organising Your Data:
+  - Activities Part1: organising-your-data/activities-part1.md
+  - Activities Part2: organising-your-data/activities-part2.md
+  - Activities Part3: organising-your-data/activities-part3.md
+  - Activities Part4: organising-your-data/activities-part4.md
+  - Contacts: organising-your-data/contacts.md
+  - Creating Custom Fields: organising-your-data/creating-custom-fields.md
+  - Groups And Tags: organising-your-data/groups-and-tags.md
+  - Mapping Your Data Part1: organising-your-data/mapping-your-data-part1.md
+  - Mapping Your Data Part2: organising-your-data/mapping-your-data-part2.md
+  - Mapping Your Data Part3: organising-your-data/mapping-your-data-part3.md
+  - Mapping Your Data Part4: organising-your-data/mapping-your-data-part4.md
+  - Overview Part1: organising-your-data/overview-part1.md
+  - Overview Part2: organising-your-data/overview-part2.md
+  - Overview Part3: organising-your-data/overview-part3.md
+  - Profiles Part1: organising-your-data/profiles-part1.md
+  - Profiles Part2: organising-your-data/profiles-part2.md
+  - Profiles Part3: organising-your-data/profiles-part3.md
+  - Profiles Part4: organising-your-data/profiles-part4.md
+  - Relationships Part1: organising-your-data/relationships-part1.md
+  - Relationships Part2: organising-your-data/relationships-part2.md
+  - Relationships Part3: organising-your-data/relationships-part3.md
+  - Smart Groups: organising-your-data/smart-groups.md
+- Petition:
+  - Everyday Tasks: petition/everyday-tasks.md
+  - Reports And Analysis Part1: petition/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: petition/reports-and-analysis-part2.md
+  - Set Up Part1: petition/set-up-part1.md
+  - Set Up Part2: petition/set-up-part2.md
+  - What Is Civipetition Part1: petition/what-is-civipetition-part1.md
+  - What Is Civipetition Part2: petition/what-is-civipetition-part2.md
+  - What Is Civipetition Part3: petition/what-is-civipetition-part3.md
+  - What You Need To Know: petition/what-you-need-to-know.md
+- Pledges:
+  - Everyday Tasks: pledges/everyday-tasks.md
+  - Pledges Reports And Analysis Part1: pledges/pledges-reports-and-analysis-part1.md
+  - Pledges Reports And Analysis Part2: pledges/pledges-reports-and-analysis-part2.md
+  - Set Up Part1: pledges/set-up-part1.md
+  - Set Up Part2: pledges/set-up-part2.md
+  - Set Up Part3: pledges/set-up-part3.md
+  - What Is Civipledge: pledges/what-is-civipledge.md
+  - What You Need To Know: pledges/what-you-need-to-know.md
+- Reporting:
+  - Everyday Tasks Part1: reporting/everyday-tasks-part1.md
+  - Everyday Tasks Part2: reporting/everyday-tasks-part2.md
+  - Everyday Tasks: reporting/everyday-tasks.md
+  - External Reporting: reporting/external_reporting.md
+  - Set Up Part1: reporting/set-up-part1.md
+  - Set Up Part2: reporting/set-up-part2.md
+  - Set Up: reporting/set-up.md
+  - What Is Civireport: reporting/what-is-civireport.md
+  - What You Need To Know Part1: reporting/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: reporting/what-you-need-to-know-part2.md
+- Searching:
+  - Relative Date Formats Part1: searching/relative-date-formats-part1.md
+  - Relative Date Formats Part2: searching/relative-date-formats-part2.md
+- Searching\Searchkit:
+  - Actions Part1: searching/searchkit/actions-part1.md
+  - Actions Part2: searching/searchkit/actions-part2.md
+  - Description Part1: searching/searchkit/description-part1.md
+  - Description Part2: searching/searchkit/description-part2.md
+  - Example Contacts With Same Type Relationships Part1: searching/searchkit/example-contacts-with-same-type-relationships-part1.md
+  - Example Contacts With Same Type Relationships Part2: searching/searchkit/example-contacts-with-same-type-relationships-part2.md
+  - Example Contacts With Same Type Relationships Part3: searching/searchkit/example-contacts-with-same-type-relationships-part3.md
+  - Example Donor Members To Invite Part1: searching/searchkit/example-donor-members-to-invite-part1.md
+  - Example Donor Members To Invite Part2: searching/searchkit/example-donor-members-to-invite-part2.md
+  - Expiration Date Part1: searching/searchkit/expiration_date-part1.md
+  - Expiration Date Part2: searching/searchkit/expiration_date-part2.md
+  - Export Import Part1: searching/searchkit/export-import-part1.md
+  - Export Import Part2: searching/searchkit/export-import-part2.md
+  - Field Transformations Part1: searching/searchkit/field_transformations-part1.md
+  - Field Transformations Part2: searching/searchkit/field_transformations-part2.md
+  - Group By Part1: searching/searchkit/group_by-part1.md
+  - Group By Part2: searching/searchkit/group_by-part2.md
+  - Having Part1: searching/searchkit/having-part1.md
+  - Having Part2: searching/searchkit/having-part2.md
+  - Query Info Part1: searching/searchkit/query_info-part1.md
+  - Query Info Part2: searching/searchkit/query_info-part2.md
+  - Save Part1: searching/searchkit/save-part1.md
+  - Save Part2: searching/searchkit/save-part2.md
+  - Search Displays Part1: searching/searchkit/search-displays-part1.md
+  - Search Displays Part2: searching/searchkit/search-displays-part2.md
+  - Search Button Part1: searching/searchkit/search_button-part1.md
+  - Search Button Part2: searching/searchkit/search_button-part2.md
+  - Search For Part1: searching/searchkit/search_for-part1.md
+  - Search For Part2: searching/searchkit/search_for-part2.md
+  - Soft Credit Example Part1: searching/searchkit/soft-credit-example-part1.md
+  - Soft Credit Example Part2: searching/searchkit/soft-credit-example-part2.md
+  - Soft Credit Example Part3: searching/searchkit/soft-credit-example-part3.md
+  - Tags: searching/searchkit/tags.md
+  - Title Part1: searching/searchkit/title-part1.md
+  - Title Part2: searching/searchkit/title-part2.md
+  - Title Part3: searching/searchkit/title-part3.md
+  - What Is Searchkit Part1: searching/searchkit/what-is-searchkit-part1.md
+  - What Is Searchkit Part2: searching/searchkit/what-is-searchkit-part2.md
+  - Where Part1: searching/searchkit/where-part1.md
+  - Where Part2: searching/searchkit/where-part2.md
+  - With Without Part1: searching/searchkit/with_without-part1.md
+  - With Without Part2: searching/searchkit/with_without-part2.md
+- Sms Text Messaging:
+  - Everyday Tasks: sms-text-messaging/everyday-tasks.md
+  - Reports And Analysis Sms Part1: sms-text-messaging/reports-and-analysis-sms-part1.md
+  - Reports And Analysis Sms Part2: sms-text-messaging/reports-and-analysis-sms-part2.md
+  - Reports And Analysis Sms Part3: sms-text-messaging/reports-and-analysis-sms-part3.md
+  - Set Up Part1: sms-text-messaging/set-up-part1.md
+  - Set Up Part2: sms-text-messaging/set-up-part2.md
+  - What Is Sms: sms-text-messaging/what-is-sms.md
+- Survey:
+  - Everyday Tasks: survey/everyday-tasks.md
+  - Reports And Analysis Part1: survey/reports-and-analysis-part1.md
+  - Reports And Analysis Part2: survey/reports-and-analysis-part2.md
+  - Set Up Part1: survey/set-up-part1.md
+  - Set Up Part2: survey/set-up-part2.md
+  - What Is Civisurvey Part1: survey/what-is-civisurvey-part1.md
+  - What Is Civisurvey Part2: survey/what-is-civisurvey-part2.md
+  - What Is Gotv Voter Tracking Part1: survey/what-is-gotv-voter-tracking-part1.md
+  - What Is Gotv Voter Tracking Part2: survey/what-is-gotv-voter-tracking-part2.md
+  - What You Need To Know Part1: survey/what-you-need-to-know-part1.md
+  - What You Need To Know Part2: survey/what-you-need-to-know-part2.md
+  - What You Need To Know Part3: survey/what-you-need-to-know-part3.md
+- The Civicrm Community:
+  - Asking For Help In Chat: the-civicrm-community/asking-for-help-in-chat.md
+  - Bug Reporting Part1: the-civicrm-community/bug-reporting-part1.md
+  - Bug Reporting Part2: the-civicrm-community/bug-reporting-part2.md
+  - Contributing To This Manual: the-civicrm-community/contributing-to-this-manual.md
+  - Localising Civicrm Part1: the-civicrm-community/localising-civicrm-part1.md
+  - Localising Civicrm Part2: the-civicrm-community/localising-civicrm-part2.md
+  - The Civicrm Community Part1: the-civicrm-community/the-civicrm-community-part1.md
+  - The Civicrm Community Part2: the-civicrm-community/the-civicrm-community-part2.md
+  - The Civicrm Community Part3: the-civicrm-community/the-civicrm-community-part3.md
+  - The Civicrm Community Part4: the-civicrm-community/the-civicrm-community-part4.md
+- The User Interface:
+  - Creating New Forms: the-user-interface/creating-new-forms.md
+  - Menu Dashboard And Dashlets: the-user-interface/menu-dashboard-and-dashlets.md
+  - Search Result Actions Part1: the-user-interface/search-result-actions-part1.md
+  - Search Result Actions Part2: the-user-interface/search-result-actions-part2.md
+  - Search Result Actions Part3: the-user-interface/search-result-actions-part3.md
+  - Searching Url Support: the-user-interface/searching-url-support.md
+  - Searching: the-user-interface/searching.md
+  - Undelete: the-user-interface/undelete.md
