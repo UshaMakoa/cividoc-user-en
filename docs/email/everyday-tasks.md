@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to manage your everyday CiviMail tasks, including creating, scheduling, testing, and tracking email campaigns.

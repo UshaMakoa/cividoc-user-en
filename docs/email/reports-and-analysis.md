@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to use CiviMail's built-in reports to understand how your mailings performed and improve your future campaigns.

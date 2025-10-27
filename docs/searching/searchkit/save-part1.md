@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to save a search in CiviCRM's SearchKit, including naming, configuring, and managing saved searches for easy reuse.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide shows non-expert nonprofit users how to find and view contribution records in CiviCRM, including how to use search criteria and perform common actions on contributions.  

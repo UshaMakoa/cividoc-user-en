@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Intermediate
 summary: Learn how to create and test a scheduled reminder in CiviCRM, step by step.

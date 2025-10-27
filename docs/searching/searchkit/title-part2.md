@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow step-by-step instructions to create and save your first search in CiviCRM Search Kit.

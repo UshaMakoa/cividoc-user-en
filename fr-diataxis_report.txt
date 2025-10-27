@@ -1,0 +1,1474 @@
+
+🔍 index.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 appendices\credits.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 appendices\free-software.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 appendices\glossary-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 appendices\glossary-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 appendices\history-of-this-book.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\everyday-tasks-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\everyday-tasks-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\reports-and-analysis-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\reports-and-analysis-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\set-up-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\set-up-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\set-up-part3.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\what-is-civicampaign-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\what-is-civicampaign-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\what-you-need-to-know-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\what-you-need-to-know-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 campaign\what-you-need-to-know-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\everyday-tasks-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\everyday-tasks-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 case-management\reports-and-analysis-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\reports-and-analysis-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   🔸 Phrases trop courtes : manque de rythme (flow).
+
+🔍 case-management\set-up.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\what-is-civicase-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\what-is-civicase-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+
+🔍 case-management\what-you-need-to-know-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 case-management\what-you-need-to-know-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\everyday-tasks-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\everyday-tasks-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 civic-engagement\reports-and-analysis-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\reports-and-analysis-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 civic-engagement\set-up.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-is-civiengage-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-is-civiengage-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-is-civiengage-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-you-need-to-know-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-you-need-to-know-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 civic-engagement\what-you-need-to-know-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\automating-tasks-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\automating-tasks-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 common-workflows\automating-tasks-part3.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 common-workflows\automating-tasks-part4.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 common-workflows\deduping-and-merging.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\exporting-your-contacts.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\importing-data-into-civicrm.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\postal-mail-communications-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\postal-mail-communications-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\tokens-and-mail-merge-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 common-workflows\tokens-and-mail-merge-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 contributions\accounting-integration.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\finding-and-viewing-contributions.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\importing.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\invoicing.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\key-concepts-and-configurations.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\manual-entry-of-contributions.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\manual-receipts-and-thank-yous-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\manual-receipts-and-thank-yous-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\offline-fundraising.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\online-contributions.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\payment-processors-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\payment-processors-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   🔸 Phrases trop courtes : manque de rythme (flow).
+
+🔍 contributions\personal-campaign-pages.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\premiums-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\premiums-part2.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\reports-and-analysis-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\reports-and-analysis-part2.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\reports-and-analysis-part3.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 contributions\sales-tax-and-vat.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\soft-credits-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\soft-credits-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Phrases trop courtes : manque de rythme (flow).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\soft-credits-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\what-is-civicontribute-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\what-is-civicontribute-part2.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\what-is-civicontribute-part3.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 contributions\widgets.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\civimail-ab-testing.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\everyday-tasks-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\everyday-tasks.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\maintaining-healthy-email-lists-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\maintaining-healthy-email-lists-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\maintaining-healthy-email-lists-part4.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\maintaining-healthy-email-lists-part5.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\maintaining-healthy-email-lists.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\mass-mailings-using-civimail.md  (score 90/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\message-templates-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\message-templates.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\reports-and-analysis.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\scheduled-reminders-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\scheduled-reminders.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\set-up-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\set-up.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\what-is-civimail-part2.md  (score 83/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Phrases longues : simplifier pour la fluidité (deep quality).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\what-is-civimail.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\what-you-need-to-know-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 email\what-you-need-to-know.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\complex-event-fees.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\creating-an-event-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\creating-an-event-part2.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\creating-an-event-part3.md  (score 78/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\custom-data-for-events-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\custom-data-for-events-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Phrases trop courtes : manque de rythme (flow).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\custom-data-for-events-part3.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\event-planning-and-management-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\event-planning-and-management-part2.md  (score 73/100)
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Niveau invalide 'none' (attendu : {'basic', 'intermediate', 'advanced'})
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   🔸 Phrases trop courtes : manque de rythme (flow).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\event-templates-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\event-templates-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\integrating-events-with-your-website-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\integrating-events-with-your-website-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 events\keeping-track-of-events-and-participants.md  (score 83/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Phrases longues : simplifier pour la fluidité (deep quality).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\manual-event-registration.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\online-event-registration-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\online-event-registration-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 events\repeating-events-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\repeating-events-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 events\reports.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\what-is-civievent-part1.md  (score 84/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Phrases longues : simplifier pour la fluidité (deep quality).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 events\what-is-civievent-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 grants\every-day-tasks.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\reports-and-analysis-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\reports-and-analysis-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Phrases trop courtes : manque de rythme (flow).
+
+🔍 grants\reports-and-analysis-part3.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\reports-and-analysis-part4.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 grants\set-up.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\what-is-civigrant-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\what-is-civigrant-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\what-you-need-to-know-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 grants\what-you-need-to-know-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 initial-set-up\addresses-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\addresses-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 initial-set-up\addresses.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\change-logging.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\customizing-the-user-interface.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\dates-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\dates-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 initial-set-up\dates.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\error-handling.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\installation-and-basic-set-up.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\mapping.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\permissions-and-access-control.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\scheduled-jobs.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\users-contacts-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 initial-set-up\users-contacts-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 initial-set-up\users-contacts.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\components.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\extensions.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\is-civicrm-for-you.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\real-world-examples.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\what-is-civicrm.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 introduction\who-is-civicrm.md  (score 78/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\cancelling-and-expiring-memberships.md  (score 90/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\defining-memberships.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\finding-and-viewing-memberships.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\manual-entry-of-memberships.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\membership-price-sets.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\membership-reports-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\membership-reports.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\membership-statuses-and-how-they-work.md  (score 90/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔗 Lien externe détecté : https://civicrm.stackexchange.com/questions/38377/membership-status-rules-query?utm_source=chatgpt.com
+   🔸 Phrases trop courtes : manque de rythme (flow).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\online-membership-sign-up.md  (score 90/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\renewals.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 membership\what-is-civimember.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\activities-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\activities-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\activities-part3.md  (score 83/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Phrases longues : simplifier pour la fluidité (deep quality).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\activities-part4.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\contacts.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\creating-custom-fields.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\groups-and-tags.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\mapping-your-data-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\mapping-your-data-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\mapping-your-data-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\mapping-your-data-part4.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\overview-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\overview-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\overview-part3.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\profiles-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\profiles-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Phrases trop courtes : manque de rythme (flow).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\profiles-part3.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\profiles-part4.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\relationships-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\relationships-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\relationships-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 organising-your-data\smart-groups.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\everyday-tasks.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\reports-and-analysis-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\reports-and-analysis-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 petition\set-up-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\set-up-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\what-is-civipetition-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\what-is-civipetition-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\what-is-civipetition-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 petition\what-you-need-to-know.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\everyday-tasks.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\pledges-reports-and-analysis-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\pledges-reports-and-analysis-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 pledges\set-up-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\set-up-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\set-up-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\what-is-civipledge.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 pledges\what-you-need-to-know.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\everyday-tasks-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\everyday-tasks-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 reporting\everyday-tasks.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\external_reporting.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\set-up-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\set-up-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 reporting\set-up.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\what-is-civireport.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\what-you-need-to-know-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 reporting\what-you-need-to-know-part2.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\relative-date-formats-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\relative-date-formats-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\actions-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\actions-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\description-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\description-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\example-contacts-with-same-type-relationships-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\example-contacts-with-same-type-relationships-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\example-contacts-with-same-type-relationships-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\example-donor-members-to-invite-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\example-donor-members-to-invite-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\expiration_date-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\expiration_date-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 searching\searchkit\export-import-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\export-import-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 searching\searchkit\field_transformations-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔗 Lien externe détecté : https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html
+   🔗 Lien externe détecté : https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\field_transformations-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 searching\searchkit\group_by-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\group_by-part2.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\having-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\having-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\query_info-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\query_info-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\save-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\save-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\search-displays-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\search-displays-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\search_button-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\search_button-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\search_for-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\search_for-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Phrases trop courtes : manque de rythme (flow).
+
+🔍 searching\searchkit\soft-credit-example-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\soft-credit-example-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\soft-credit-example-part3.md  (score 83/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Phrases longues : simplifier pour la fluidité (deep quality).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\tags.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\title-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\title-part2.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\title-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\what-is-searchkit-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\what-is-searchkit-part2.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 searching\searchkit\where-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\where-part2.md  (score 82/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 searching\searchkit\with_without-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 searching\searchkit\with_without-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 sms-text-messaging\everyday-tasks.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 sms-text-messaging\reports-and-analysis-sms-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 sms-text-messaging\reports-and-analysis-sms-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 sms-text-messaging\reports-and-analysis-sms-part3.md  (score 81/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 sms-text-messaging\set-up-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔗 Lien externe détecté : http://www.clickatell.com/register/
+   🔗 Lien externe détecté : https://www.twilio.com/try-twilio
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 sms-text-messaging\set-up-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 sms-text-messaging\what-is-sms.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\everyday-tasks.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\reports-and-analysis-part1.md  (score 76/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\reports-and-analysis-part2.md  (score 77/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\set-up-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\set-up-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\what-is-civisurvey-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\what-is-civisurvey-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 survey\what-is-gotv-voter-tracking-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\what-is-gotv-voter-tracking-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+   🔸 Pas de sections (## titres) détectées.
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+
+🔍 survey\what-you-need-to-know-part1.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\what-you-need-to-know-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 survey\what-you-need-to-know-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\asking-for-help-in-chat.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🔗 Lien externe détecté : https://civicrm.stackexchange.com
+   🔗 Lien externe détecté : https://civicrm.stackexchange.com
+   🔗 Lien externe détecté : https://civicrm.stackexchange.com
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\bug-reporting-part1.md  (score 90/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\bug-reporting-part2.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\contributing-to-this-manual.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\localising-civicrm-part1.md  (score 89/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\localising-civicrm-part2.md  (score 80/100)
+   ❌ Champ manquant ou vide : 'categories'
+   ❌ Champ manquant ou vide : 'level'
+   ❌ Champ manquant ou vide : 'summary'
+   ❌ Champ manquant ou vide : 'section'
+   🔸 Résumé trop court (< 5 mots).
+
+🔍 the-civicrm-community\the-civicrm-community-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\the-civicrm-community-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\the-civicrm-community-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-civicrm-community\the-civicrm-community-part4.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   🪶 Trop court (< 120 mots) : document probablement incomplet.
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\creating-new-forms.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\menu-dashboard-and-dashlets.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\search-result-actions-part1.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\search-result-actions-part2.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\search-result-actions-part3.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\searching-url-support.md  (score 88/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\searching.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+🔍 the-user-interface\undelete.md  (score 87/100)
+   ⚠️ Catégorie invalide : ['Uncategorized'] (attendu : {'reference', 'guide', 'tutorial', 'explanation'})
+   ⚠️ Section de conclusion inutile – Diátaxis implique finalité implicite (flow interrompu).
+
+📊 Résumé : 0/290 conformes, score moyen 85/100.

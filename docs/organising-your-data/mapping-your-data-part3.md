@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Reference
 level: Basic
 summary: Quick overview of CiviCRM’s main data fields and modules for storing common nonprofit information.

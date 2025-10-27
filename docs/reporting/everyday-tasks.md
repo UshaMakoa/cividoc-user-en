@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users of CiviCRM learn how to view, use, and manage reports within the system to support everyday tasks.  

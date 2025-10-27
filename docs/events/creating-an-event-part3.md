@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand the purpose and benefits of each event setting in CiviCRM, and how they help you manage successful non-profit events.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can set up and manage Personal Campaign Pages (PCPs) in CiviCRM to enable supporters to create and share their own fundraising pages.  

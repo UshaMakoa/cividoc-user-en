@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to create and use event templates in CiviCRM to streamline the process of setting up similar events.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary:  This guide shows you how to manually add a membership record to someone’s contact in CiviCRM. 

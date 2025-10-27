@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow step-by-step instructions to add your first custom field to an event in CiviCRM.

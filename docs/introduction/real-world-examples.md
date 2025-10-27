@@ -1,7 +1,6 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/real-world-examples/
 
 categories:
-  - Uncategorized
   -  
 level: Basic  
 summary: This page shares real-life stories of non-profit organizations using CiviCRM to manage their contacts, communications, events, and memberships, showing how the system can help improve their work.  

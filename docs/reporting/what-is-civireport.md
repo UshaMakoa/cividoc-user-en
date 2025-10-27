@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide introduces CiviReport, a tool for generating and managing reports in CiviCRM to help non-profits track their activities and impact.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary:  This guide explains how to set up an online membership sign-up form on your website.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: CiviGrant is a CiviCRM extension designed for organizations that distribute funds, managing grant applications and tracking funds disbursed.

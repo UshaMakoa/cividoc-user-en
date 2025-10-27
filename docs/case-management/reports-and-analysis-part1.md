@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: This guide helps users understand how to create and manage reports and analyses for case management in CiviCRM, including customizing views and using search features.

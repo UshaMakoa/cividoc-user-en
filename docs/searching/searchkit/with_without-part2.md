@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: This guide provides advanced techniques for using the With (Optional), With (Required), and Without options in CiviCRM searches.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow step-by-step instructions to add a campaign column to your contribution report.

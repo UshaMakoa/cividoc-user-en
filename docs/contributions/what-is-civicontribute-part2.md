@@ -1,7 +1,6 @@
 # Source: https://docs.civicrm.org/user/en/latest/contributions/what-is-civicontribute/
 
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: Step-by-step instructions to enter and manage contributions manually in CiviCRM using CiviContribute.  

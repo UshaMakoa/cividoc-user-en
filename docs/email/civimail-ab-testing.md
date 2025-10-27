@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to improve engagement and retention through segmentation, re-engagement campaigns, and data-driven insights.

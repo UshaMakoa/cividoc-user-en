@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Learn how to add and count relationships in a CiviCRM search.

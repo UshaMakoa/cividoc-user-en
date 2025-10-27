@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for creating a new Profile in CiviCRM and choosing the right settings for your needs.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary: This guide explains how to create and manage complex event fees in CiviCRM using price sets and discounts, helping non-profit users offer flexible pricing options for event registration.  

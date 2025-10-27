@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for setting up CiviEngage to support your civic engagement and community organizing activities.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This page walks you through the process of creating an event in CiviCRM, covering key settings and options for non-profit users who are new to event management.

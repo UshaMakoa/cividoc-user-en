@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: This guide provides advanced tips for managing and optimizing surveys in CiviCRM.

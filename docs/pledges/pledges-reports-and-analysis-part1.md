@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how to use and understand the pledge reports in CiviCRM to track and analyze pledge data for your non-profit organization.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to manually send receipts and thank-you letters for donations in CiviCRM, including options for email, PDF, and grouped contributions.

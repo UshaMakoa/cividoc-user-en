@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users create and manage online contribution pages in CiviCRM, enabling supporters to donate easily through their website.  

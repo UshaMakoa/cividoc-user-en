@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to export contact, contribution, participant, activity, or membership data from your search results for use in other tools.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to set up an SMS gateway in CiviCRM to send text messages to your contacts.

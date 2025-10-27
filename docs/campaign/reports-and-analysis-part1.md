@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to use CiviCRM’s reporting tools to track and analyze your campaign activities.

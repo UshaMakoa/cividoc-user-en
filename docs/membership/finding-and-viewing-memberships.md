@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary:  This guide explains how to export membership data from CiviCRM into a spreadsheet.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit staff can manually register participants for events in CiviCRM, including single registrations, partial payments, mass registrations, and importing registrations.  

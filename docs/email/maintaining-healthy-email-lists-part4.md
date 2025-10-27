@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to test and maintain your CiviMail setup to ensure reliable delivery and accurate tracking over time.

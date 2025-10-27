@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains what soft credits are, how they help non-profits track fundraising, and how to use them in CiviCRM.  

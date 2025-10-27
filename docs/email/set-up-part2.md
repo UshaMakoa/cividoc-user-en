@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to prepare your system for CiviMail by setting permissions, configuring sender addresses, and checking authentication.

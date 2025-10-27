@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: This page introduces the main concepts and questions to consider when using CiviEngage for civic engagement and community organizing, helping you understand how it connects with CiviCampaign and how to organize your data for effective outreach.

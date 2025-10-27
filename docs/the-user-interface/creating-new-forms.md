@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to create and customize forms in CiviCRM using the FormBuilder extension, helping non-expert nonprofit users build simple forms for tasks like activity tracking and contact management.  

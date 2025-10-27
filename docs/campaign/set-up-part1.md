@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide walks you through setting up CiviCampaign to track activities like contributions, surveys, and mailings for campaigns or projects.

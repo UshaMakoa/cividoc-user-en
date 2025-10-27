@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Intermediate
 summary: This page provides a deeper look into how relative date filters work in CiviCRM, including technical details and best practices.

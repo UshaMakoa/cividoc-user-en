@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to create and manage event reports in CiviCRM to analyze and understand participant data and event income.
@@ -30,7 +29,6 @@ If the content is too extensive or complex, consider splitting it into multiple 
 ### NEW PAGE ###
 ### Advanced Event Reporting
 categories:
-  - Uncategorized
   - Guide
 level: Advanced
 summary: Dive deeper into customizing event reports and integrating them with other CiviCRM features.

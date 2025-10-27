@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide provides step-by-step instructions on how to customize the user interface in CiviCRM to better suit the needs of your organization and its users.

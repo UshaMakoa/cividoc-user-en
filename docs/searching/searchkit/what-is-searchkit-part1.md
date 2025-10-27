@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page introduces SearchKit, a tool in CiviCRM that helps users build custom searches and display results, guiding non-expert non-profit users through its basic concepts and usage.  

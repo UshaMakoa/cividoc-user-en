@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide introduces you to logging in CiviCRM, explaining how to track changes made to contacts and data within the system.

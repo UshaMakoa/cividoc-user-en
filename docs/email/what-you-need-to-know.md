@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how user permissions work in CiviMail and what access you need before creating or sending bulk emails.

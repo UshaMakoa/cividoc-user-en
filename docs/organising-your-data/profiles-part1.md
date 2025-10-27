@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to create and use Profiles in CiviCRM to collect, display, and manage your organization’s data for common nonprofit tasks.

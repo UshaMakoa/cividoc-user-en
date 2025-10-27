@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide helps non-profit users of CiviCRM learn how to view and analyze petition signatures and results.

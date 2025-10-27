@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how to manage pledge payments in CiviCRM, including recording individual payments, entering multiple payments in batches, and canceling pledges.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to build and maintain strong, permission-based mailing lists using clear consent and opt-in practices.

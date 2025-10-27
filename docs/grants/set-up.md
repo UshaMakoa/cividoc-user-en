@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how to set up CiviGrant in CiviCRM, including enabling the extension, configuring grant types and statuses, and adding custom data fields to grants.  

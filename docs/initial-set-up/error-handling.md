@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide helps non-profit users understand how to manage error handling in CiviCRM to ensure smooth operation of their systems.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Reference
 level: Basic
 summary: A quick list of default activity types, statuses, and key fields in CiviCRM.

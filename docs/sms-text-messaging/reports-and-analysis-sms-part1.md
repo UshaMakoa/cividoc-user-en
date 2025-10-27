@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-expert users of CiviCRM can run and filter reports on SMS (text message) activity to monitor communication with their contacts.  

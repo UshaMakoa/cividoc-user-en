@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand how pledges work in CiviCRM and why they are useful for non-profits.

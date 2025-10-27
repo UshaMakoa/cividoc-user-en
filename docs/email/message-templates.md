@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to set up sender details and improve deliverability so your CiviMail messages reach supporters' inboxes reliably.

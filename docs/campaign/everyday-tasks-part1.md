@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide walks you through everyday tasks for managing campaigns using CiviCampaign, including creating new campaigns, targeting constituents, and recording contributions.

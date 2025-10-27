@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary:  This guide explains what membership statuses are in CiviCRM, how the system assigns them, and how you can configure them. 

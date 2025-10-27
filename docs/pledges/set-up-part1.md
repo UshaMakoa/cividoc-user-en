@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to enable and configure pledges in CiviCRM so your donors can commit to future donations through your online forms.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to configure bounce handling and unsubscribe links in CiviMail so your mailings stay accurate, compliant, and well maintained.

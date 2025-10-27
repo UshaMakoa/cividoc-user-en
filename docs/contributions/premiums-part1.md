@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to set up and manage thank-you gifts (premiums) for donors on your CiviCRM contribution pages.

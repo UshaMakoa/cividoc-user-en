@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page introduces the key concepts and assumptions behind CiviCase, a flexible case management tool in CiviCRM, helping non-expert users understand how cases, activities, roles, and timelines work together to support complex workflows in their organisation.  

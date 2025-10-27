@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can create, manage, and export accounting batches in CiviCRM to integrate contribution transactions with their accounting software.  

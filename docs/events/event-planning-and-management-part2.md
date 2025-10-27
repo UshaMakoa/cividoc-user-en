@@ -1,6 +1,6 @@
 ---
 categories:
-  - Uncategorized
+  - Guide 
 level:
 summary:
 section:

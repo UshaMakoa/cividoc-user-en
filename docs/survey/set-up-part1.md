@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This tutorial guides non-profit users through setting up a survey in CiviCRM, covering the creation of custom data sets, profiles, and survey types.

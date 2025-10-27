@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: CiviEngage is a Drupal module for CiviCRM that helps non-profits track and manage community organizing, door-to-door canvassing, and phone banking, with features for recording and analyzing constituent engagement over time.  

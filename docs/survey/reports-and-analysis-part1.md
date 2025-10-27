@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides step-by-step instructions on how to analyze survey results using CiviCRM's reporting features.

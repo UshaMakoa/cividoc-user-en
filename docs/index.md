@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page introduces the CiviCRM User Guide, explaining who it is for, how it differs from the System Administrator Guide, and how to get the most from the documentation.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Activities in CiviCRM are a central way to record and track interactions with your contacts, helping you keep a clear history of your organization’s work with supporters, clients, and partners.

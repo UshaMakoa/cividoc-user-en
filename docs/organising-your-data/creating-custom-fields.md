@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-expert users of CiviCRM can create and manage custom fields to collect additional information tailored to their organization's needs.  

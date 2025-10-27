@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: Learn how to manage subscription and service premiums for donors in CiviCRM.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary:  This page explains membership types in CiviCRM

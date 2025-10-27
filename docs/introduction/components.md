@@ -1,7 +1,6 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/components/
 
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page introduces the main components of CiviCRM, explaining their purpose and how they help you manage different tasks in your nonprofit organization.  

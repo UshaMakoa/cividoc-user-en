@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to collect and manage extra information for your events and participants using custom data in CiviCRM.

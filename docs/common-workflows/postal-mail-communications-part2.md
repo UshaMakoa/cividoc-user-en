@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Reference
 level: Intermediate
 summary: Detailed specifications and options for configuring mailing labels and print/merge documents in CiviCRM.

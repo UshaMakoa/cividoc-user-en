@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand the difference between custom data on contacts, participants, and events in CiviCRM.

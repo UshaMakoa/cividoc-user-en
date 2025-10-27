@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Introduces CiviCampaign, explaining how it helps non-profits organize and track all activities related to a specific outreach or mobilization goal.

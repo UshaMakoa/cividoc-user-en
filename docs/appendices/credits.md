@@ -1,9 +1,7 @@
 ---
-
 categories:
-  - Uncategorized
-  - - Tutorial
-- Guide
+  - Tutorial
+  - Guide
 level: Basic
 summary: This documentation helps non-profit users learn and perform specific tasks in CiviCRM through step-by-step instructions and practical guidance.
 section: Getting Started

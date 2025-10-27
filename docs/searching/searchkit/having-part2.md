@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow step-by-step instructions to create your first search in CiviCRM Search Kit and apply a Having filter to focus your results.

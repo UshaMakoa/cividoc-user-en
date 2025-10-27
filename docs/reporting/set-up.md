@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to create, customize, and manage reports in CiviCRM using the built-in report templates, helping non-profit users generate useful data insights without needing expert knowledge.  

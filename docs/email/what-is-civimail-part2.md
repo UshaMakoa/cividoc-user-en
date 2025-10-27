@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: CiviMail is the built-in email system in CiviCRM that lets you send and track personalised bulk emails, newsletters, and announcements directly to your contacts.

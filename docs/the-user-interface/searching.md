@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide introduces non-profit users to the various search functionalities in CiviCRM, helping them find and manage contact information effectively.

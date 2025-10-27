@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to manage mailing lists responsibly and follow data protection best practices when sending messages with CiviMail.

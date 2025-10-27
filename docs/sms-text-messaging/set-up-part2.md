@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Troubleshoot common issues with your SMS gateway setup in CiviCRM.

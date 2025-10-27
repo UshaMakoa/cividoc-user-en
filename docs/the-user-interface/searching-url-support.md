@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This tutorial explains how to use URL filtering in CiviCRM searches to efficiently bookmark and access specific search results.

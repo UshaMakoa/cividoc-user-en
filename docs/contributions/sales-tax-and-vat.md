@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to enable and set up sales tax or VAT in CiviCRM, including creating financial accounts and linking them to financial types.

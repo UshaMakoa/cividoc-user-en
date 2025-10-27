@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to configure CiviMail to handle bounced emails and manage unsubscribe preferences automatically.

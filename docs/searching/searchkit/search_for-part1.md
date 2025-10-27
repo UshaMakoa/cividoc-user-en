@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how to use the "Search For" feature in CiviCRM's Search Kit to select the primary entity you want to search for, helping non-expert users build effective searches for their data.  

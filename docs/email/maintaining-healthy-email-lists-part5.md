@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Intermediate
 summary: Learn how to test and troubleshoot common CiviMail delivery issues to make sure your emails reach supporters reliably.

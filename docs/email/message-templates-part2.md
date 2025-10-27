@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to design professional, branded email templates in CiviMail so your messages look consistent and engaging.

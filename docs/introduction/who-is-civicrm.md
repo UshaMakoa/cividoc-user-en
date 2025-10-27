@@ -1,7 +1,6 @@
 # Source: https://docs.civicrm.org/user/en/latest/introduction/who-is-civicrm/
 
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page introduces the CiviCRM community, its history, and how you can get involved and contribute as a non-profit user.  

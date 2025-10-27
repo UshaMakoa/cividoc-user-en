@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Learn how to use the "Having" filter in CiviCRM Search Kit to refine your search results by filtering on aggregated or transformed data.

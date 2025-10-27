@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide explains how to use the With (Optional), With (Required), and Without options when creating searches in CiviCRM.

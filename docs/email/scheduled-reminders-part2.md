@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Basic
 summary: Understand what scheduled reminders are, how they work, and why they're useful for automating communications in CiviCRM.

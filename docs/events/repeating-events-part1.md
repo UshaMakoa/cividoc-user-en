@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to set up and manage repeating events in CiviCRM, helping non-profit users schedule events that occur regularly with specific intervals and exclusions.  

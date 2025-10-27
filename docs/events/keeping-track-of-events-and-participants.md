@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users manage and track events and participants in CiviCRM, covering how to find, view, and update event and participant information using the CiviEvent tools.  

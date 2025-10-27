@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Intermediate
 summary: Tips for planning, managing, and troubleshooting your Profiles to make them work smoothly for your organization.

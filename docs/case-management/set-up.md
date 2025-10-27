@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to set up and configure the CiviCase component in CiviCRM to help non-profit users manage cases effectively.  

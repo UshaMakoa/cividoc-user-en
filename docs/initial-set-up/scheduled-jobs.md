@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: This guide introduces scheduled jobs in CiviCRM, explaining how they work and how to configure them for your non-profit's needs.

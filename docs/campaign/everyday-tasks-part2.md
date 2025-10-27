@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide explains how to create and manage events associated with campaigns using CiviEvent.

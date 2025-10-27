@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides tips and best practices for asking effective questions in CiviCRM's chat channels to get helpful responses from the community.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: A hands-on walkthrough for creating and managing repeating activities in CiviCRM.

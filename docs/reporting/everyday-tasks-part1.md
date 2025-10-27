@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: This guide provides step-by-step instructions for viewing reports in CiviCRM, adding them to your dashboard, and managing report results.

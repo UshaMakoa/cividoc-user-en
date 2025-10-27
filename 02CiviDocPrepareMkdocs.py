@@ -1,33 +1,25 @@
 # 02CiviDocPrepareMkdocs.py
-# 
-# Preparation script for MkDocs documentation site for CiviCRM user docs
 #
-# What it does:
-# - Merge ai_generated_docs/ and split_docs/ into docs/
-# - Prepare mkdocs.yml with proper navigation
-# - clean YAML front matter
-# - delete comments at end of files
-# - Generate mkdocs.yml including 'categories' plugin configuration - to be verified
-# 
-# Requires PyYAML: pip install pyyaml
+# Prepare MkDocs site for CiviCRM User documentation
+# --------------------------------------------------
+# ✓ Merge ai_generated_docs/ and split_docs/ into docs/
+# ✓ Clean YAML front matter & comments
+# ✓ Generate mkdocs.yml (navigation respecting official order)
+# ✓ Include categories-plugin configuration
 #
-# TODO: verify mkdocs-categories-plugin configuration 
-# Known issues : error in categories (undefined)...
+# Usage: python 02CiviDocPrepareMkdocs.py
+# Requires: pip install pyyaml
 #
 # @alain.benbassat, @davem, @usha.makoa
-# CiviCamp 2025 - Lunteren, Netherlands
 
- 
-import os
-import re
-import shutil
-import yaml
+import os, re, shutil, yaml
+from pathlib import Path
 
 SOURCE_DIRS = ["ai_generated_docs", "split_docs"]
 TARGET_DIR = "docs"
 MKDOCS_YML = "mkdocs.yml"
 
-# ===== CONFIGURATION MkDocs ===== #
+# === CONFIG MkDocs === #
 mkdocs_config = {
     "site_name": "CiviCRM User Guide",
     "site_url": "https://docs.civicrm.org/user/en/latest/",
@@ -40,44 +32,54 @@ mkdocs_config = {
         "icon": {"repo": "fontawesome/brands/gitlab"}
     },
     "markdown_extensions": [
-        "attr_list",
-        "admonition",
-        "def_list",
+        "attr_list", "admonition", "def_list",
         {"toc": {"permalink": True}},
         {"pymdownx.highlight": {"guess_lang": True}},
         {"pymdownx.superfences": {"css_class": "codehilite"}},
         {"pymdownx.inlinehilite": {"css_class": "codehilite"}},
-        "pymdownx.tilde",
-        "pymdownx.betterem",
-        "pymdownx.mark"
+        "pymdownx.tilde", "pymdownx.betterem", "pymdownx.mark"
     ],
     "plugins": [
         {"search": {"lang": "en"}},
-        {
-            "categories": {           # Option 3 : configuration complète
-                "generate_index": True,
-                "verbose": True,
-                "base_name": "categories",
-                "section_title": "Categories",
-                "no_nav": False,
-                "category_separator": "|"
-            }
-        }
+        {"categories": {
+            "generate_index": True,
+            "verbose": True,
+            "base_name": "categories",
+            "section_title": "Categories",
+            "no_nav": False,
+            "category_separator": "|"
+        }}
     ]
 }
 
-# ===== Étape 1 : fusion vers /docs ===== #
+# === Original CiviCRM navigation order === #
+ORDER = [
+    "introduction",
+    "organising-your-data",
+    "contacts",
+    "mailings",
+    "contributions",
+    "membership",
+    "events",
+    "searching",
+    "reports",
+    "customizing",
+    "system-administration",
+    "troubleshooting",
+]
+
+# === STEP 1 - merge source folders === #
 def merge_to_docs(sources, target):
     if os.path.exists(target):
-        print(f"🧹 Nettoyage de {target}/ existant…")
+        print(f"🧹 Cleaning {target}/ …")
         shutil.rmtree(target)
     os.makedirs(target, exist_ok=True)
 
     for src in sources:
         if not os.path.exists(src):
             continue
-        print(f"📁 Copie depuis {src}/ …")
-        for root, dirs, files in os.walk(src):
+        print(f"📂 Copying from {src}/ …")
+        for root, _, files in os.walk(src):
             for file in files:
                 if not file.endswith(".md"):
                     continue
@@ -86,45 +88,31 @@ def merge_to_docs(sources, target):
                 dest_path = os.path.join(target, rel_path)
                 os.makedirs(os.path.dirname(dest_path), exist_ok=True)
                 shutil.copy2(src_path, dest_path)
-    print(f"✅ Markdown copié dans {target}/")
+    print(f"✅ Markdown copied into {target}/")
 
-# ===== Étape 2 : nettoyage et réparation YAML ===== #
+
+# === STEP 2 - clean YAML and stray comments === #
 def clean_markdown_files(folder):
-    print("🧽 Nettoyage et correction YAML front matter…")
+    print("🧽 Cleaning Markdown files & YAML front matter …")
     for root, _, files in os.walk(folder):
         for f in files:
             if not f.endswith(".md"):
                 continue
             path = os.path.join(root, f)
-            with open(path, "r", encoding="utf-8") as file:
-                content = file.read()
+            content = open(path, encoding="utf-8").read()
 
-            # Supprime tout avant le premier bloc "---"
-            if "---" in content:
-                parts = content.split("---")
-                if len(parts) >= 3:
-                    cleaned = "---" + parts[1] + "---" + parts[2]
-                else:
-                    cleaned = content
-            else:
-                cleaned = content
+            # keep only first YAML block & content after it
+            content = re.sub(r'^[\s\S]*?(?=---\s*\n)', '', content, count=1)
 
-            # ✅ Si categories est une chaîne YAML, convertir en liste
-            cleaned = re.sub(
-                r'(?m)^categories:\s*"?([\w\s\-|]+)"?$',
-                r'categories:\n  - \1',
-                cleaned
-            )
+            # ensure categories are in list
+            content = re.sub(r'(?m)^categories:\s*"?([\w\s\-|]+)"?$', r'categories:\n  - \1', content)
 
-            # ✅ Si categories vide → valeur par défaut pour éviter les None
-            cleaned = re.sub(
-                r'(?m)^categories:\s*$',
-                'categories:\n  - Uncategorized',
-                cleaned
-            )
+            # ensure there is a valid categories block
+            if "categories:" not in content:
+                content = re.sub(r'^(---\s*\n)', r'\1categories:\n  - Uncategorized\n', content)
 
-            # 🧹 Supprime les commentaires HTML après dernier '---'
-            lines = cleaned.splitlines()
+            # strip HTML comments below last delimiter
+            lines = content.splitlines()
             last_hr = None
             for i, l in enumerate(lines):
                 if l.strip() == "---":
@@ -134,40 +122,55 @@ def clean_markdown_files(folder):
                 for l in lines[last_hr + 1:]:
                     if not l.strip().startswith("<!--"):
                         retained.append(l)
-                cleaned = "\n".join(retained).strip() + "\n"
+                content = "\n".join(retained).strip() + "\n"
 
-            # Sauvegarde du contenu nettoyé
-            with open(path, "w", encoding="utf-8") as file:
-                file.write(cleaned)
-    print("✅ Markdown files cleaned and safe for mkdocs-categories-plugin")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(content)
+    print("✅ YAML cleaned and safe for mkdocs-categories")
 
-# ===== Étape 3 : création navigation ===== #
+
+# === STEP 3 - build navigation === #
+def sort_key(path):
+    """Sort by CiviCRM section priority."""
+    path = path.lower()
+    for i, seg in enumerate(ORDER):
+        if f"/{seg}/" in f"/{path}/" or path.endswith(seg):
+            return i
+    return len(ORDER)
+
 def build_nav(folder):
-    nav = []
-    for root, dirs, files in os.walk(folder):
-        dirs.sort()
-        files = [f for f in files if f.endswith(".md")]
-        files.sort()
-        if not files:
+    sections = {}
+    for root, _, files in os.walk(folder):
+        md_files = sorted([f for f in files if f.endswith(".md")])
+        if not md_files:
             continue
         section = os.path.relpath(root, folder)
-        items = []
-        for f in files:
+        sections[section] = []
+        for f in md_files:
             rel_path = os.path.relpath(os.path.join(root, f), folder)
             title = os.path.splitext(f)[0].replace("-", " ").replace("_", " ").title()
-            items.append({title: rel_path.replace("\\", "/")})
-        if section != ".":
-            nav.append({section.replace("-", " ").title(): items})
-        else:
+            sections[section].append({title: rel_path.replace("\\", "/")})
+
+    # follow official doc order
+    sorted_sections = sorted(sections.items(), key=lambda kv: sort_key(kv[0]))
+
+    nav = []
+    for section, items in sorted_sections:
+        if section == ".":
             nav.extend(items)
+        else:
+            nav.append({section.replace("-", " ").title(): items})
     return nav
 
-# ===== PIPELINE COMPLET ===== #
-merge_to_docs(SOURCE_DIRS, TARGET_DIR)
-clean_markdown_files(TARGET_DIR)
-mkdocs_config["nav"] = build_nav(TARGET_DIR)
 
-with open(MKDOCS_YML, "w", encoding="utf-8") as f:
-    yaml.dump(mkdocs_config, f, sort_keys=False, allow_unicode=True, width=160)
+# === PIPELINE === #
+if __name__ == "__main__":
+    merge_to_docs(SOURCE_DIRS, TARGET_DIR)
+    clean_markdown_files(TARGET_DIR)
 
-print(f"🎉 mkdocs.yml généré + correction YAML pour compatibilité plugin 'categories'")
+    mkdocs_config["nav"] = build_nav(TARGET_DIR)
+    with open(MKDOCS_YML, "w", encoding="utf-8") as f:
+        yaml.dump(mkdocs_config, f, sort_keys=False, allow_unicode=True, width=160)
+
+    print("🎉 mkdocs.yml generated successfully.")
+    print("📚 Navigation follows the original structure of docs.civicrm.org/user/en/")

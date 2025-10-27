@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can set up and manage online event registration in CiviCRM, including configuring registration forms, managing participants, and using optional features like waitlists and participant approval.  

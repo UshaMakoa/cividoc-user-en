@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to find contacts in CiviCRM who have more than one relationship of the same type, for example, families with multiple children.

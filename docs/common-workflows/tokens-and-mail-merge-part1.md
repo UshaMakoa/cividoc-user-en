@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-expert users of CiviCRM can use tokens to personalize emails and printed materials, and how to set up mail merges to save time and improve communication.  

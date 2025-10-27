@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains what CiviContribute is and how it helps non-profits manage donations, membership fees, event payments, and fundraising activities within CiviCRM.  

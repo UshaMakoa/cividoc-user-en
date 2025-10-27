@@ -1,7 +1,6 @@
 ---
 
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Follow this step-by-step tutorial to create your first event in CiviCRM, with clear instructions and screenshots for each stage.

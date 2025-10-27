@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation
 level: Intermediate
 summary: This explanation provides background on how CiviCampaign integrates with other CiviCRM components to enhance campaign management.

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide helps non-profit users of CiviCRM understand how to automate routine tasks in the system to save time and reduce repetitive work.  

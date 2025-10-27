@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary:  This guide explains how to import existing memberships into CiviCRM using a spreadsheet.

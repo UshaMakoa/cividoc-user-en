@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary: This guide explains how to manage membership renewals in CiviCRM and how to set up automatic reminders so members are encouraged to renew on time.

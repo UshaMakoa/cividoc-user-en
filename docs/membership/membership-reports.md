@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary: This guide explains how to use CiviCRM’s built-in reports and dashboards to track membership trends, identify renewals and lapses, and present information to your team or board.

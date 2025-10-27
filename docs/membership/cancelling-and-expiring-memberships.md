@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Advanced  
 summary: This guide explains how to automate common membership tasks in CiviCRM using CiviRules.

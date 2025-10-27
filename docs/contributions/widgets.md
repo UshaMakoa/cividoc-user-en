@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how to create, customize, and use fundraising widgets in CiviCRM to promote contribution campaigns on your website, with step-by-step instructions and helpful tips.  

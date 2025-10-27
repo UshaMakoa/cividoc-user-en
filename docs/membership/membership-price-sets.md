@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary:  This page explains  membership price set - a flexible tool in CiviCRM that allows you to create forms with multiple membership and pricing options.

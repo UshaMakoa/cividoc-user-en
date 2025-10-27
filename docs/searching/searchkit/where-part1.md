@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This page explains how to use the "Where" filter in CiviCRM Search Kit to narrow down search results by setting conditions on data fields before the search runs.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Basic  
 summary: This guide explains how non-profit users can use tags in CiviCRM to organize and filter data such as contacts, activities, and saved searches.  

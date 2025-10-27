@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to review bounces, unsubscribes, and duplicates to keep your CiviMail lists clean and reliable.

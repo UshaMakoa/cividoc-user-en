@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Reference
 level: Basic
 summary: Defines key terms and concepts used in CiviCRM, helping non-profit users understand the language and features of the system.

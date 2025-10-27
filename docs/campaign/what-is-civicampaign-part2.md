@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Walks through the steps to set up your first campaign in CiviCRM, using clear, task-oriented instructions.

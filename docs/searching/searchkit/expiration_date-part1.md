@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to manage expiration dates in CiviCRM, including setting and handling expiration dates for searches.

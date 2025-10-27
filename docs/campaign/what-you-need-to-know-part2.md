@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Step-by-step instructions for non-profit staff to set up a new campaign in CiviCRM, including entering goals, planning activities, and connecting data for tracking and reporting.

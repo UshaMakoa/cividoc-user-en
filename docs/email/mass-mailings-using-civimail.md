@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Learn how to create and send mass mailings in CiviMail, from selecting your audience to designing, testing, and reviewing your campaign.

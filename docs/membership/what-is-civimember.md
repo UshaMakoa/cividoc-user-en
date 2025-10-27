@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide  
 level: Intermediate  
 summary:  This guide explains how to manage **related memberships** in CiviCRM — where one person or organisation’s membership automatically gives membership to another related contact.

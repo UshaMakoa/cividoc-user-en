@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial
 level: Basic
 summary: Learn how to plan and manage events in CiviCRM by understanding key considerations and setup processes.

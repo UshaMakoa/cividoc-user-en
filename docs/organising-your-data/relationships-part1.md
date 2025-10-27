@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Learn how to create, manage, and understand relationships between contacts in CiviCRM, including individuals, organizations, and households.

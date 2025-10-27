@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Tutorial  
 level: Basic  
 summary: This page introduces CiviEvent, a tool in CiviCRM that helps non-profit users organize and manage events efficiently, including registration, payments, and participant tracking.  

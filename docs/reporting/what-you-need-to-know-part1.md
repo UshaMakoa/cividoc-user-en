@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page introduces key concepts and considerations for using CiviReport, helping non-profit users understand when and how to use reports effectively in CiviCRM.  

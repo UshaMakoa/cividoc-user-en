@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Explanation  
 level: Basic  
 summary: This page explains what free and open source software is, why it matters for non-profits, and how CiviCRM’s open approach benefits your organisation.  

@@ -1,6 +1,5 @@
 ---
 categories:
-  - Uncategorized
   - Guide
 level: Basic
 summary: Discover how to adapt your workflows to effectively use CiviCRM's features.
