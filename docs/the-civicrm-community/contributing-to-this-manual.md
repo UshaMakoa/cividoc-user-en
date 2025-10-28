@@ -1,60 +1,66 @@
 ---
 categories:
-  - Tutorial  
-level: Basic  
-summary: This page explains how to contribute to the CiviCRM user guide by making single or multiple changes, including setting up your account, editing files, and submitting your work for review.  
-section: The CiviCRM Community  
+  - Guide
+level: Basic
+summary: Learn how to contribute edits and improvements to the CiviCRM User Guide, whether you want to make a simple correction or propose multiple changes.
+section: The CiviCRM Community
 ---
 
-# Contributing to this guide
+# Contributing to the CiviCRM User Guide
 
-## Introduction
+## Before you start
 
-This page helps you learn how to contribute to the CiviCRM user guide. Whether you want to fix a small typo or add detailed instructions, these steps will guide you through the process.
+You can help improve the CiviCRM User Guide by suggesting changes, fixing mistakes, or adding new information. You do not need to be a technical expert—everyone is welcome to contribute.
 
-## Preparing to contribute
-
-Before you start, you need to create an account on the CiviCRM community site and log in. This account lets you access the documentation files and submit your changes.
+If you want to make changes, you will need a civicrm.org account and access to lab.civicrm.org, where the documentation is managed.
 
 ## Making a single change
 
-If you want to make a small edit, such as fixing a spelling mistake or clarifying a sentence, follow these steps:
+To correct a typo or update a small section:
 
-1. Log in to the CiviCRM documentation site.
-2. Find the page you want to edit.
-3. Click the pencil icon next to the page title.
-4. Make your changes in the online editor.
-5. Write a short message describing your changes.
-6. Submit your changes for review.
-
-A member of the documentation team will check your edit and publish it once approved.
+1. **Sign up for a civicrm.org account** if you do not already have one, and log in at lab.civicrm.org.
+2. **Find the page** you want to edit in the User Guide. For example, you might want to update the "Menu, dashboard and dashlets" page.
+3. **Click the pencil icon** next to the page title to start editing.
+4. **Edit the page** in the GitLab editing screen that appears.
+5. **Describe your changes** in the commit message box so reviewers understand what you changed.
+6. **Commit your changes**. This creates a merge request, which will be reviewed by the documentation team.
+7. **Wait for review**. Your change will be published after it is reviewed and approved.
 
 ## Making multiple changes
 
-For larger updates, like adding new sections or reorganizing content, use this process:
+If you want to make several related changes at once:
 
-1. Log in and create a personal copy (called a "fork") of the documentation repository.
-2. Download the files to your computer using a Git client.
-3. Find the Markdown file that matches the page you want to edit.
-4. Make your changes locally and save them.
-5. Upload your changes back to your forked copy.
-6. Create a "merge request" to propose your changes to the main documentation.
-7. Add a clear description of your changes and submit the request.
+1. **Sign up for a civicrm.org account** and log in at lab.civicrm.org.
+2. **Create a fork** of the User Guide repository by clicking the fork button at the top right of the page.
+3. **Clone the repository** to your computer using your preferred git client.
+4. **Find the Markdown file** (.md) you want to edit. For example, to update "What is CiviCRM?", look for `docs/getting-prepared/is-civicrm-for-you.md`.
+5. **Make your changes** and commit them in your git client.
+6. **Push your changes** to your forked repository.
+7. **Create a merge request** in GitLab:
 
-The documentation team will review your work and merge it into the official guide when ready.
+- Click "Merge request".
 
-## Additional resources
+- Leave a descriptive message.
 
-If you want to learn more about how CiviCRM documentation works or how to use Markdown formatting, check the developer documentation for detailed guidance.
-
-## Versioning
-
-Always make your edits based on the latest version of CiviCRM by working on the master branch. This ensures your contributions match the current software.
+- Click "Create merge request".
+8. **Wait for review**. The documentation team will review your changes and publish them if approved.
 
 ## Style guide
 
-Please follow the CiviCRM documentation style guide when writing or editing content. This helps keep the guide clear, consistent, and easy to understand for everyone.
+When you suggest changes, please follow the Documentation style guide to keep the guide consistent and easy to read.
 
-## Getting help
+## Additional resources
 
-If you have questions or need support while contributing, you can ask for help in the CiviCRM community chat or forums.
+If you want to learn more about how CiviCRM documentation works, or about writing in Markdown, see the developer documentation.
+
+## Versioning
+
+All changes should be made to the master branch, which is based on the current version of CiviCRM. More details about versioning are available in the Developer Guide.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/the
+-civicrm-community/contributing-to-this-guide/ -->
+
+<!--
+Suggestion: This page is a "Guide" because it gives step
+-by-step instructions for a specific task (contributing to documentation), focused on "how" rather than "why" or "what". The level is "Basic" because it is intended for new contributors, not requiring technical expertise. If the style guide or versioning sections become more detailed or technical, they could be split into Reference pages. -->

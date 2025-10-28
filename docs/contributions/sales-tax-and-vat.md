@@ -1,37 +1,71 @@
 ---
 categories:
   - Guide
-level: Intermediate
-summary: Learn how to enable and set up sales tax or VAT in CiviCRM, including creating financial accounts and linking them to financial types.
-section: Contributions
+level: Basic
+summary: Learn how to enable and set up sales tax or VAT in CiviCRM so your organisation can properly track and display tax on contributions.
+section: Contributions > Sales tax and VAT
 ---
 
-# Setting up sales tax and VAT in CiviCRM
+# Sales tax and VAT setup
 
-## Enabling sales tax or VAT
+If your organisation needs to charge **sales tax** or **VAT** on contributions, you can enable and configure this feature in CiviCRM. This guide will walk you through each step.
 
-If your non-profit needs to charge sales tax or VAT, you can enable this feature in CiviCRM. Go to **Administer > CiviContribute > CiviContribute Component Settings** and check the **Enable Tax and Invoicing** box. Here, you can also set your preferred tax term (for example, “VAT” or “Sales Tax”) and choose how taxes are displayed on invoices and receipts—either as part of the total, or listed separately.
+## Enable sales tax/VAT
 
-## Adding a financial account for sales tax or VAT
+1. Go to **Administer > CiviContribute > CiviContribute Component Settings**.
 
-Once tax is enabled, you need to create a financial account to track it. Go to **Administer > CiviContribute > Financial Accounts**. Scroll to the bottom and click **Add Financial Account**.
+2. Find and check the box for **Enable Tax and Invoicing**.
 
-- Set **Financial Account Type** to **Liability**.
-- Make sure **Enabled** and **Is Tax** are selected.
-- Enter the **Tax Rate** that applies to your organization.
-- If you use QuickBooks, set **Account Type Code** to **SALESTAX**.
-- Enter your organization’s specific **Accounting Code**.
+3. On this screen, you can adjust the following settings:
+   - **Tax term**: Enter the name you want to use for your tax (e.g., "VAT", "Sales Tax").
+   - **Tax display settings**: Choose how you want tax to appear on invoices and receipts:
 
-## Assigning the tax account to a financial type
+- No breakdown, total only
 
-To apply the tax to a specific type of transaction (for example, donations or event fees), go to **Administer > CiviContribute > Financial Types**. Find the relevant financial type, click **Accounts**, then **Assign Account**.
+- Show as inclusive price (e.g., $120 includes $20 tax)
 
-- Choose **Sales Tax Account is** for the **Financial Account Relationship**.
-- Select your new sales tax account in the **Financial Account** field.
-- Click **Save**.
+- Show as exclusive price (e.g., $100 + $20 tax)
 
-Your sales tax account will now appear with the other financial accounts for that financial type.
+## Add a financial account for sales tax/VAT
 
-## Advanced configuration
+1. Go to **Administer > CiviContribute > Financial Account**.
 
-If you use accounting software like QuickBooks, involve your bookkeeper or accountant to ensure your financial types and accounts are set up correctly for your organization’s reporting needs.
+2. Scroll down and click **Add Financial Account**.
+
+3. Fill in the details:
+
+   - **Financial Account Type**: Set this to **Liability**.
+
+- Check **Enabled** and **Is Tax**.
+
+- Set the **Tax Rate** (e.g., 20 for 20%).
+
+- If using QuickBooks, set **Account Type Code** to **SALESTAX**.
+
+- Use your organisation’s accounting codes for the **Accounting Code** field.
+
+## Assign the tax account to a financial type
+
+1. Go to **Administer > CiviContribute > Financial Types**.
+
+2. Find the financial type (like "Donations" or "Event Fees") that should include tax, and click **Accounts**.
+
+3. Click **Assign Account**.
+
+4. For **Financial Account Relationship**, choose **Sales Tax Account is**.
+
+5. In the **Financial Account** field, select the tax account you just created.
+
+6. Click **Save**.
+
+You will now see the sales tax financial account listed with other accounts for that financial type.
+
+*Tip: For advanced accounting integration (for example, with QuickBooks), involve your bookkeeper or accountant to make sure your setup matches your organisation’s needs.*
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/sales
+-tax-and-vat/ -->
+
+<!--
+Suggestion: This page is a Guide (step
+-by-step, problem-oriented: "How do I enable and configure sales tax/VAT in CiviCRM?"). It is not a Tutorial (not a first-time, hands-on lesson), not Reference (not exhaustive options/config), and not Explanation (no background/why). Level is Basic, as it is aimed at non-experts performing a common admin task. For best clarity, the "Adding a Financial Account for Sales Tax/VAT" section could be split into its own page if more detail or troubleshooting is needed, but for most users, a single guide is sufficient. -->

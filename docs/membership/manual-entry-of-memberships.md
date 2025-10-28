@@ -1,125 +1,143 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary:  This guide shows you how to manually add a membership record to someone’s contact in CiviCRM. 
-section: Membership
+  - Guide
+level: Basic
+summary: Learn how to manually add, update, and manage memberships for your contacts in CiviCRM, including entering payments and handling gift memberships.
+section: Membership > Managing memberships
 ---
 
+# Manually entering memberships
 
-# Adding memberships manually
+## When to enter memberships manually
 
+While CiviCRM allows people to sign up for memberships themselves through your website, there are many times when your staff or volunteers will need to add or update memberships directly. For example, you might need to:
 
-This guide shows you how to manually add a membership record to someone’s contact in CiviCRM.  
- You’ll use this when someone joins offline (for example, by cheque, phone or in person), or if you’re adding existing members during setup.
+- Add a new member who joined by mail or in person
 
-No technical skills are needed — just access to the CiviMember component.
+- Record a gift membership paid for by someone else
 
-## **When to add a membership manually**
+- Enter a batch of memberships collected at an event
 
-You might add memberships manually when:
+- Import a list of members from another system
 
-* A member joins by post or phone.
+This guide shows you the main ways you can manually enter and manage memberships in CiviCRM.
 
-* You import contacts but still need to record their membership dates.
+## Permissions needed
 
-* You’re testing your membership setup.
+To add or edit memberships, your user account must have the right permissions:
 
-* Someone needs a complimentary or staff membership.
+- **Find and view memberships:** Needs “access CiviMember”, “view contributions” (if payments involved), and “view contact” permissions.
+- **Create or edit memberships:** Needs “edit memberships”, “edit contributions” (if payments involved), and “edit contact” permissions.
 
-It’s a good idea to make sure your **membership types** are already defined before starting this process.
+Ask your CiviCRM administrator if you are not sure you have these permissions.
 
-## **Step 1: Find the contact**
+## Adding a new membership
 
-1. Go to **Search → Find Contacts**, and look up the person or organisation.
+You can add a membership in two main ways:
 
-2. Click their name to open their contact record.
+###
+1. From a contact’s record
 
-3. Go to the **Memberships** tab.
+1. Find the contact in CiviCRM.
 
-If the contact doesn’t exist yet, create them first.
+2. Click the **Memberships** tab.
 
-## **Step 2: Add a new membership**
+3. Click **Add Membership**.
 
-1. On the Memberships tab, click **Add Membership**.
+4. Fill in the membership details:
+   - **Membership organization and type:** Choose the correct organization and membership type.
+   - **Number of terms:** Enter the number of membership periods (not shown if using price sets).
+   - **Source:** Leave blank to let CiviCRM fill in details automatically.
+   - **Campaign:** Select if this membership is part of a campaign.
+   - **Member since, start date, end date:** These are auto-filled but can be changed if needed.
+   - **Auto-renew:** Only shown if the membership type supports auto-renewal and you are using credit card payments.
+   - **Status override:** Use only if you need to set a custom status (this stops automatic status updates).
 
-2. Choose the **Membership organisation** (usually your own organisation).
+5. To record a payment, check **Record Membership Payment?** and fill in payment details:
+   - **Record payment from a different contact?** (for gift memberships)
+   - **Financial type, amount, received date, paid by, check number, transaction ID, payment status**
 
-3. Choose the **Membership type** from the list (for example, *Individual Annual*).
+6. To send a confirmation, check **Send Confirmation and Receipt?** and choose the sender and add a message if you wish.
 
-## **Step 3: Set membership dates**
+7. Save the membership.
 
-You can enter the start date, end date, and join date.
+###
 
-* **Join date**: The date the person first became a member (even if renewed since).
+2. From the Memberships menu
 
-* **Start date**: The beginning of the current membership period.
+1. Go to **Memberships > New Membership**.
 
-* **End date**: When this current membership expires.
+2. Select an existing contact or create a new one.
 
-Tip: If you select a membership type with fixed dates (like January to December), CiviCRM will adjust these automatically based on your settings.
+3. Fill out the membership form as above.
 
-## **Step 4: Record the membership status**
+**Note:** Credit card payments can only be processed when adding a membership from an existing contact’s record.
 
-Choose the appropriate **status** from the list — for example *New*, *Current*, *Grace*, or *Expired*.
+## Creating auto-renewing memberships
 
-Usually, you’ll select *New* or *Current* for new entries.  
- CiviCRM can update statuses automatically later based on start and end dates.
+If you want a membership to renew automatically:
 
-## **Step 5: Link to a contribution (optional)**
+1. Go to the contact’s summary.
 
-If the member paid for their membership and you want to record it:
+2. Click the **Memberships** tab and then **Submit Credit Card Membership**.
 
-* In the **Contribution** field, select the related payment if it already exists.
+3. Select a membership type that supports auto-renew.
 
-* Or, after saving the membership, go to the contact’s **Contributions** tab to add a payment and link it back to the membership.
+4. Check **Membership renewed automatically**.
 
-If it’s a free membership, you can leave this blank.
+5. Complete the payment details.
 
-## **Step 6: Add notes or custom fields**
+If successful, CiviCRM will automatically renew the membership each period until cancelled. The member will receive a receipt with a link to cancel auto-renewal.
 
-If you’ve set up **custom fields** for memberships (for example, *Source of membership* or *Region*), fill them in now.
+## Recording gift memberships
 
-You can also use the **Note** field to record any extra information, such as “Membership added by admin after phone call”.
+To record a membership paid for by someone else:
 
-## **Step 7: Save and review**
+- When adding the membership, check **Record Payment from a Different Contact?**
 
-Click **Save**.
+- Select the person who is paying (the gifter) or create a new contact.
 
-You’ll see the membership listed on the contact’s record. Check that:
+- The payment will be recorded for the gifter, and the membership for the recipient.
 
-* The start and end dates are correct.
+- The receipt will go to the gifter. You will need to notify the recipient separately.
 
-* The membership type and status are what you expect.
+## Entering batches of memberships
 
-* The payment (if linked) is shown correctly.
+If you have a stack of membership forms or payments to enter at once:
 
-## **Editing or renewing a membership**
+1. Use the **Batch Data Entry** feature in the Memberships menu.
 
-To make changes later:
+2. Enter information for multiple members in a grid
+-style form.
 
-* Open the contact’s **Memberships** tab.
+3. Use the copy feature to speed up data entry for similar memberships.
 
-* Click **Edit** beside the membership.
+4. You can create new contacts directly in the batch entry screen.
 
-* Adjust the details or click **Renew** to extend it for another period.
+5. The fields available depend on your CiviCRM profiles; these can be customized if you need to collect other information.
 
-CiviCRM automatically creates a new membership record when you renew, keeping a clear history of all periods.
+## Importing memberships
 
-## **Tips for accuracy**
+To import a large list of memberships from another system:
 
-* Be consistent with join and start dates — this helps reports stay accurate.
+1. Make sure all contacts already exist in CiviCRM. If not, import contacts first, including an External ID.
 
-* Avoid creating duplicate memberships of the same type for one person.
+2. Prepare a CSV file with at least **Membership Type** and **Start Date** for each membership.
 
-* Use the **Search → Find Memberships** screen to check for existing records before adding new ones.
+3. Go to **Memberships > Import Memberships**.
 
-## **What’s next**
+4. Upload your CSV file and match your columns to CiviCRM fields.
 
-Once you’re comfortable adding memberships manually, you can:
+5. Preview the import. Fix any errors as needed.
 
-* Import multiple memberships from a spreadsheet.
+6. Complete the import.
 
-* Manage renewals and automated reminders.
+You must import different contact types and new memberships/renewals separately.
 
-* Set up online sign-up pages so members can join themselves.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/membership/manual
+-entry-of-memberships/ -->
+
+<!--
+This page is a Guide because it provides step
+-by-step instructions for specific tasks (manual entry, batch entry, import), not general learning or background. The level is Basic because it is aimed at non-experts performing common admin tasks. If needed, the batch entry and import sections could be split into their own short guides for clarity. -->

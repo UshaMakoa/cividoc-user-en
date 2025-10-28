@@ -2,28 +2,32 @@
 categories:
   - Explanation
 level: Basic
-summary: This page explains what SMS (Short Message Service) is and how CiviCRM uses it to send and receive text messages for communication with contacts.
+summary: SMS in CiviCRM lets your organisation send and receive text messages, offering a simple way to communicate with your supporters beyond email.
 section: SMS (text messaging)
 ---
 
 # What is SMS?
 
-## Introduction to SMS
+## Understanding SMS in CiviCRM
 
-SMS stands for Short Message Service, which means the text messages you send and receive on your mobile phone every day. In CiviCRM, SMS lets you send and receive these text messages directly through the system.
+**SMS** stands for Short Message Service, which is the technical term for the text messages you send and receive on your mobile phone every day. In CiviCRM, SMS allows your organisation to send and receive these text messages directly from within the system, giving you another way to reach and interact with your contacts besides email.
 
-## Why use SMS in CiviCRM?
+## Why use SMS in your organisation?
 
-Using SMS in CiviCRM gives you another way to communicate with your contacts besides email. This can be especially helpful when:
+SMS can be a valuable communication tool for non-profits, especially in situations where email or internet access is limited or unreliable. Here are some common ways organisations use SMS with CiviCRM:
 
-- Internet access is limited or unreliable, but mobile phone coverage is available  
-- You want to collect quick responses or information from people in remote areas  
-- You are running an SMS marketing campaign  
-- You need to send alerts and reminders  
-- You want to notify event participants about last-minute changes like location or time  
+- **Share important updates** with people in areas where internet access is unavailable or unstable.
+- **Collect responses or information** from contacts in remote locations.
+- **Run SMS campaigns** to raise awareness or promote events.
+- **Send alerts and reminders** about meetings or deadlines.
+- **Notify event participants** quickly if there are last-minute changes to the time or location.
 
-SMS messages are a fast and direct way to reach people, making your communications more effective.
+SMS is a practical way to make sure your messages are delivered directly to your contacts’ phones, increasing the chances that they will read and respond.
 
-## How SMS fits into your work
+<!--
+Source: https://docs.civicrm.org/user/en/latest/sms/what
+-is-sms/ -->
 
-SMS can be used alongside your other communication tools in CiviCRM to keep your contacts informed and engaged. It’s a simple, accessible method that can improve your outreach, especially for non-profits working in diverse or hard-to-reach communities.
+<!--
+Suggestion: The original page is an Explanation, giving background and context on what SMS is and why you might use it in CiviCRM. It is not a step
+-by-step tutorial, a how-to guide, or a technical reference. The content is suitable for a basic level and fits in the "SMS (text messaging)" section. -->

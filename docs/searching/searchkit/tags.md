@@ -1,45 +1,71 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can use tags in CiviCRM to organize and filter data such as contacts, activities, and saved searches.  
-section: Tags  
+  - Guide
+level: Basic
+summary: Learn how to add and use tags in CiviCRM’s SearchKit to organize and filter your saved searches, even if you’re new to CiviCRM.
+section: Searching and reporting / Search Kit
 ---
 
-# Tags
+# Using tags in SearchKit
 
 ## What are tags?
 
-Tags in CiviCRM are labels you can apply to different types of data like contacts, activities, cases, files, and saved searches. They help you organize your information by grouping related items together, making it easier to find and manage your data.
+**Tags** in CiviCRM are labels you can use to organize and categorize your data. In SearchKit, tags help you group and filter your saved searches by topics such as department, project, or initiative.
 
-## Why use tags?
+You can use tags with different types of records, including Contacts, Activities, Cases, Files, and Saved Searches.
 
-As your database grows, tags become very useful for sorting and filtering your information. For example, you can tag contacts by department, initiative, or any other category that fits your organization’s needs. Tags also help when you save searches, allowing you to quickly filter those saved searches by tag.
+## Why use tags in SearchKit?
 
-## How to add tags to searches in SearchKit
+As your organization creates more saved searches, tags make it easier to find and manage them. On the SearchKit landing page (where all your saved searches are listed), you can use the “Filter by tags…” option in the upper right to quickly narrow down the list by one or more tags.
 
-You can add tags to your SearchKit searches in three ways:
+## How to add tags to a SearchKit search
 
-1. **When creating a new search**  
-2. **When editing an existing search**  
-3. **From the Saved Searches main screen**
+You can add tags to a search in three ways:
 
-### Steps to add tags while creating or editing a search
+- When creating a new search
 
-- Click **Configure Settings** on the left sidebar to open the settings panel.  
-- Find the **Tags** box and click it.  
-- Select one or more existing tags from the list or add a new tag by typing in the field.  
+- When editing an existing search
 
-### Adding tags from the Saved Searches page
+- Directly from the Saved Searches main screen
 
-- On the Saved Searches landing page, click the tag icon with a down arrow.  
-- Start typing in the **Add tag…** field. Matching tags will appear, or you can create a new tag if needed.  
-- New tags created here will be enabled for use with saved searches and other parts of CiviCRM, such as Advanced Search.
+### Steps to add a tag when creating or editing a search
 
-## Tips for using tags effectively
+1. Open the search you want to tag, or start a new search.
 
-- Use clear, consistent tag names that make sense to your team.  
-- Limit the number of tags to avoid clutter and confusion.  
-- Regularly review and clean up tags to keep your data organized.
+2. Click **Configure Settings** on the left sidebar.
 
-By using tags thoughtfully, you can make your CiviCRM data easier to manage and find, helping your non-profit work more efficiently.
+3. Find the **Tags** box.
+
+4. Click inside the Tags box. You can:
+
+- Select an existing tag from the list.
+
+- Type a new tag name and choose to create it if it doesn’t exist.
+
+### Steps to add a tag from the Saved Searches screen
+
+1. Go to the Saved Searches landing page.
+
+2. Find the search you want to tag.
+
+3. Click the tag icon with a down arrow next to the search.
+
+4. In the “Add tag…” field, start typing the tag name.
+
+- If the tag already exists, select it.
+
+- If it’s new, select “Create Tag” to add it to CiviCRM (it will be enabled for SavedSearch and can be used elsewhere).
+
+## Tips
+
+- Tags you create for searches can also be used in other parts of CiviCRM, such as Advanced Search.
+
+- Using clear, consistent tag names will help your team stay organized.
+
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
+
+<!--
+Suggestion: This content is a How
+-to Guide because it gives step-by-step instructions for achieving a specific goal (adding and using tags in SearchKit). It is aimed at users who want to perform a specific task, not learn background theory or see a technical reference. If the page grows with more details about tag management system-wide, consider splitting out a Reference page for all tag-related options. -->

@@ -1,61 +1,81 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains what smart groups are in CiviCRM, how to create and manage them, and practical ways non-expert users in non-profits can use smart groups to organize contacts automatically based on criteria.  
-section: Organising your data  
+  - Guide
+level: Basic
+summary: Learn how to use smart groups in CiviCRM to automatically keep track of contacts that meet specific criteria, such as members or event attendees, for tasks like directories and mailing lists.
+section: Organising your data
 ---
 
-# Smart groups
+# Using smart groups in CiviCRM
 
 ## What are smart groups?
 
-Smart groups in CiviCRM are saved searches that automatically collect contacts matching specific criteria you set. Instead of manually adding contacts to a group, a smart group updates itself whenever you view it, showing only contacts who meet your conditions at that time. This makes managing and communicating with specific sets of contacts easier and more accurate.
+Smart groups are **saved searches** that automatically include contacts who meet criteria you choose, such as “all members in Europe” or “everyone who attended an event.” This means your group updates itself—when a contact’s details change and they fit your criteria, they’re added; if they no longer match, they’re removed.
 
-## When might I use a smart group?
+## When should you use smart groups?
 
-Smart groups are helpful in many situations. For example:
+Smart groups are useful whenever you want a list that updates itself based on contact information. Here are two common examples:
 
-- **Membership directories:** You can create a smart group of all current members and use it with a profile to display an up-to-date member list on your website. When someone becomes a member, they automatically appear in the directory.
-
-- **Mailing lists for events:** Create a smart group of all people who have registered for or attended events. Use this group as a mailing list for newsletters about upcoming events. As people register or attend, they are automatically added to the group and can receive your communications.
+- **Membership directories:** You can create a smart group for all current members and use it with a profile to display a directory on your website. When someone becomes a member, they’re automatically added to the directory.
+- **Mailing lists for events:** If you want to send newsletters to everyone who registered for or attended an event, create a smart group based on those criteria. As people register or attend, they’re added to the mailing list automatically. If someone unsubscribes, they’re removed.
 
 ## How to create a smart group
 
-1. Go to **Search > Find Contacts > Advanced Search** in CiviCRM.  
-2. Set your search criteria to find the contacts you want in your group. For example, find all donors who have not yet received a thank-you letter by selecting the appropriate options under Contributions.  
-3. Click **Search** to see the results.  
-4. Select all contacts from the search results.  
-5. From the **Actions** dropdown, choose **Group - create smart group**.  
-6. Give your smart group a clear name and description. Optionally, mark it as a mailing list or assign it a parent group.  
+Follow these steps to create a smart group from a search:
+
+1. Go to **Search > Find Contacts > Advanced Search**.
+
+2. Set your criteria (for example, in the Contributions section, select “Thank-you date not set?” and choose “Donation” as the financial type).
+
+3. Click **Search**.
+
+4. Select all the records you want to include.
+
+5. From the **Actions** drop-down, choose **Group – create smart group**.
+
+6. Give your smart group a name and description. You can also make it a mailing list or link it to a parent group.
+
 7. Click **Save Smart Group**.
 
-You can also create smart groups from SearchKit by clicking **+Add** after a contact search and selecting **Smart Group**.
+You can also create smart groups using **SearchKit**. After running a contact search, click **+Add** on the left and select **Smart Group**.
+
+## How smart groups update
+
+Once you’ve created a smart group, CiviCRM will automatically update the group membership whenever contact details change. For example, if a contact no longer matches the criteria, they’ll be removed from the group. If this doesn’t happen immediately, smart group caching might be turned on (see below).
 
 ## Changing smart group criteria
 
-To update the conditions that define your smart group:
+If you want to change the criteria for a smart group:
 
-1. Go to **Contacts > Manage Groups**.  
-2. Find your smart group and click **Settings** next to it.  
-3. Click **Edit Smart Group Criteria** at the bottom left.  
-4. Adjust the search criteria as needed.  
-5. Select all contacts from the updated results.  
-6. From the **Actions** dropdown, choose **Update Smart Group**.
+1. Go to **Manage Groups**.
 
-Your smart group will now include contacts matching the new criteria.
+2. Find your smart group and click **Settings**.
+
+3. Click **Edit Smart Group Criteria**.
+
+4. Update your criteria and click **Search**.
+
+5. Select all matching records and choose **Update Smart Group** from the Actions list.
+
+Your smart group will now use the new criteria.
 
 ## Manually adding or removing contacts
 
-Smart groups usually update automatically based on their criteria, but you can manually add or remove contacts if needed:
+Normally, smart group membership is automatic, but you can override this:
 
-- To **add** contacts, use the same process as adding to a regular group.  
-- To **remove** contacts, go to **Contacts > Manage Groups**, select your smart group, click **Contacts** on the right, check the contacts to remove, then select **Group - remove contacts** from the Actions dropdown. Confirm the removal.
+- To **add contacts manually**, use the same process as for standard groups.
 
-Manually removed contacts will stay out of the smart group even if they meet the criteria, until you delete their smart group record on their contact page.
+- To **remove contacts manually**, go to **Contacts > Manage Groups**, select the group, and use the Actions drop
+-down to remove contacts. Confirm the removal. The contact will show the group under “Past Groups,” and CiviCRM won’t re-add them unless you delete the smart group record from their contact record.
 
 ## Smart group caching
 
-For faster performance, CiviCRM may cache smart groups, meaning it saves the list of contacts temporarily instead of recalculating every time. By default, this cache lasts about 5 minutes. This means changes in contacts might not appear immediately in the smart group.
+For performance, CiviCRM may “cache” smart groups, meaning the group membership list is saved for a short time (usually 5 minutes). This speeds up searches, especially for large groups, but means updates may not show instantly. You can adjust the cache timeout in **Administer > Customize Data and Screens > Search Preferences**. Setting the timeout to 0 turns caching off.
 
-You can adjust or disable this cache timeout in **Administer > Customize Data and Screens > Search Preferences** if you want smart groups to update instantly.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/organising
+-your-data/smart-groups/ -->
+
+<!--
+This page is a Guide, as it provides step
+-by-step instructions for achieving specific tasks (creating, using, and managing smart groups) and is focused on practical actions rather than background or exhaustive reference. The level is Basic, as it is aimed at new or non-expert users. The section is "Organising your data". If the page had more technical details about smart group configuration or caching, those could be split into Reference or Explanation pages. -->

@@ -1,37 +1,65 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how to create, customize, and use fundraising widgets in CiviCRM to promote contribution campaigns on your website, with step-by-step instructions and helpful tips.  
-section: Contributions  
+  - Guide
+level: Basic
+summary: Learn how to create and customize donation widgets in CiviCRM so your organisation can easily share fundraising progress on your website.
+section: Contributions
 ---
 
-# Widgets
+# Create and use contribution widgets
 
-## What are widgets?
+## What is a contribution widget?
 
-Widgets in CiviCRM are small, automatically updated visual tools that help you and your supporters promote fundraising campaigns. You can embed these widgets on your website or other sites to show campaign details and encourage donations.
+A **contribution widget** is a small, automatically updated box you can add to your website (or other sites) to show the progress of a fundraising campaign and encourage donations. It helps your supporters see your campaign’s impact and makes it easy for them to donate.
 
-## Creating a widget
+## How to create a widget
 
-1. Go to **Contributions > Manage Contribution Pages** in CiviCRM.  
-2. Find the Contribution Page you want to create a widget for and click **Configure**.  
-3. Select the **Widgets** tab at the top.  
-4. Click **Enable Widget** to start creating your widget.  
-5. Enter a **Title** for your widget. This can be the same as your Contribution Page name or something different.  
-6. (Optional) Add a URL for a **Logo Image** if you want an image to show in your widget. You will need the image URL from your website or server. Ask your system administrator if you need help.  
-7. Enter a **Button Title** that donors will click to go to your donation page (e.g., "Contribute").  
-8. Write some **About text** describing your campaign. Adjust the length based on where the widget will appear.  
-9. Click **Save and Preview** to see your widget and get the code to embed it on your website.  
+1. Go to your CiviCRM dashboard.
 
-To use the widget code, click **Select Code** to highlight all the code, then copy and paste it into your website where you want the widget to appear. You may need help from your website administrator to do this.
+2. Click on **Contributions** and choose **Manage Contribution Pages**.
 
-## Customizing your widget
+3. Find the campaign (Contribution Page) you want to use and click **Configure**.
 
-At the bottom of the widget configuration page, open the **Edit Widget Colors** section. Here you can change the colors of different parts of your widget by entering hexadecimal color codes (hex codes). You can find hex codes using online color pickers like the one at W3Schools.
+4. At the top, select the **Widgets** tab.
 
-If you have a web designer, check with them for the right colors to use to match your website style. After making changes, click **Save and Preview** to see how your widget looks.
+5. Click **Enable Widget** to start setting up your widget.
+
+6. Fill in these details:
+   - **Title**: Give your widget a clear name. This can match your campaign, but it does not have to.
+   - **Logo Image URL**: If you want to show a logo, enter the web address of an image. (You might need help from your website manager to get this.)
+   - **Button Title**: This is the text on the button people click to donate (for example, “Contribute”).
+   - **About text**: Add a short message about your campaign. Keep it brief if the widget will be small.
+
+7. When you’re ready, click **Save and Preview** to see how your widget will look.
+
+## How to add the widget to your website
+
+- On the right side of the widget setup page, you’ll see a box with code.
+
+- Click **Select Code** to highlight all the code.
+
+- Copy the code.
+
+- Paste it into your website where you want the widget to appear. (You may need help from your website administrator.)
+
+## Customizing your widget’s colors
+
+- At the bottom of the widget setup page, find and expand **Edit Widget Colors**.
+
+- You can set colors for different parts of the widget. You’ll need the “hex codes” for your chosen colors (for example, `#003366`). An online color picker can help you find these codes.
+
+- If your organisation has standard colors, ask your designer or web manager for the correct codes.
+
+- Click **Save and Preview** to see your changes.
 
 ## Using widgets with WordPress
 
-If your website uses WordPress, there is a plugin called **CiviCRM Contribution Page Widget** that makes it easy to add your CiviCRM widgets anywhere WordPress widgets can go. This helps you display fundraising widgets without dealing with code directly.
+If your website uses WordPress, you can use the **CiviCRM Contribution Page Widget** plugin. This lets you easily place your widget anywhere that accepts WordPress widgets.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/widgets/
+ -->
+
+<!--
+Suggestion: The original page is a step
+-by-step, goal-oriented guide for non-experts on how to create, customize, and use widgets, which fits the Diátaxis "Guide" category. It is not a tutorial (no first-time learning flow), not a reference (not exhaustive config/options listing), and not an explanation (no background or "why"). -->

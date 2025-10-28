@@ -1,50 +1,27 @@
-# Source: https://docs.civicrm.org/user/en/latest/introduction/what-is-civicrm/
-
+---
 categories:
-  - Explanation  
-level: Basic  
-summary: An introduction to CiviCRM, explaining what it is, who it is for, and how it helps nonprofit organizations manage their contacts and activities in one easy-to-use system.  
-section: Introduction  
-
-# What is CiviCRM?  
-
-## Understanding CiviCRM  
-
-CiviCRM is a free, web-based tool designed especially for nonprofit organizations and NGOs to help them manage their relationships with people and groups they work with. It’s more than just an address book — it helps you keep track of contacts, donations, events, memberships, communications, and many other activities all in one place.  
-
-## Why use CiviCRM?  
-
-Imagine having an assistant that remembers every phone call, meeting, or email you have with someone, and helps you follow up at the right time. CiviCRM does this for your organization. It helps you organize your work, communicate better with supporters, and keep everything you need in one system.  
-
-## What can CiviCRM do?  
-
-At its simplest, CiviCRM lets you:  
-- Store contact details like names, addresses, emails, and phone numbers  
-- Define relationships between people and organizations  
-- Send emails and keep a record of your interactions  
-
-With additional features called components and extensions, you can also:  
-- Manage memberships and event registrations  
-- Track donations and grants  
-- Run campaigns and send newsletters  
-
-## How does CiviCRM work with your website?  
-
-CiviCRM works alongside popular website tools called content management systems (CMS) like WordPress, Drupal, Joomla, and Backdrop. This means your website visitors can do things like renew memberships, sign up for events, or donate online, while the information automatically updates in CiviCRM.  
-
-## Why choose CiviCRM?  
-
-CiviCRM is open source software, which means it’s free to use and you have the freedom to customize it to fit your needs. It supports multiple languages and can be accessed online by many users at once, making it a flexible and powerful tool for nonprofits around the world.  
-
-## Summary  
-
-CiviCRM helps nonprofits build stronger relationships, manage their work efficiently, and engage their communities — all through one easy-to-use system designed just for their needs.  
-
+  - Explanation
+level: Basic
+summary: CiviCRM is a powerful web-based constituent relationship management system designed for non-profits, allowing them to manage interactions with contacts, including donations, events, and memberships.
+section: Introduction
 ---
 
-**Suggestion:** For users new to CiviCRM, it may be helpful to split the introduction into separate pages covering:  
-- What is a CRM and why nonprofits need one (basic concepts)  
-- Overview of CiviCRM components and extensions (features explained simply)  
-- How CiviCRM integrates with websites (CMS integration basics)  
+# What is civicrm?
+CiviCRM is a powerful, web-based constituent relationship management (CRM) system built by and for nonprofit organizations and NGOs. It helps organizations manage interactions with contacts, including donations, events, memberships, activities, cases, campaigns, mailings, and more. CiviCRM is more than just an address book; it's a flexible platform that integrates tightly with popular open-source content management systems (CMS) like WordPress, Joomla, and Drupal.
 
-This will make it easier for users to learn step-by-step without feeling overwhelmed.
+## Key features of civicrm
+- **Web-based**: Accessible by multiple users from different locations.
+- **Free/Open Source**: No license costs or user fees, with the freedom to view and modify the source code.
+- **Multi-language Support**: Translations and multi-language options are available.
+- **Integration with CMS**: Allows website visitors to perform tasks like renewing memberships or donating money.
+
+## How civicrm helps non-profits
+CiviCRM empowers communications, community engagement, activism, outreach, donor management, and more. It helps organizations target messages to specific groups and observe reactions to improve interactions.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/introduction/what
+-is-civicrm/ -->
+
+<!--
+Suggestion: This page could be split into two parts if needed: one focusing on the basic explanation of CiviCRM and another delving into its features and benefits. However, for non
+-experts, keeping it as a single explanation page seems most appropriate. -->

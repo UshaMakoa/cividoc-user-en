@@ -1,87 +1,107 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide helps non-profit users understand and use the CiviCRM menu, dashboard, and dashlets to navigate and customize their workspace effectively.  
-section: Customising the user interface  
+  - Guide
+level: Basic
+summary: Learn how to use and customize the CiviCRM menu, dashboard, and dashlets to access features and display key information for your organisation.
+section: Customising the user interface
 ---
 
-# Menu, dashboard and dashlets
+# Menu, dashboard, and dashlets
 
-## Understanding the navigation menu
+## Using the navigation menu
 
-The navigation menu is a small bar at the top of every CiviCRM page you use behind the scenes. It groups the main functions of CiviCRM into areas like Contacts, Contributions, Events, Mailings, Reports, and Administration.
+The **navigation menu** is always at the top of every CiviCRM page and helps you quickly access different features. The menu includes areas for:
 
-Key parts of the menu include:
-
-- **Quick Search**: Quickly look up names, emails, or other contact details.  
-- **Menu Search and Logout**: Search the whole menu to find what you need or log out.  
-- **Search**: Search your CiviCRM data in detail.  
-- **Contacts**: Find, add, and manage your contacts.  
-- **Contributions**: Manage donations and contribution pages.  
-- **Events**: Create and manage event registrations.  
-- **Mailings**: Send bulk emails and check past mailings.  
-- **Reports**: Generate and view reports.  
-- **Administer**: Change system settings and add custom data.  
+- **Quick search**: Find a contact by name, email, or custom field.
+- **Menu search and logout**: Search all menu items or log out.
+- **Search**: Search your CRM data.
+- **Contacts**: Find, add, and manage contacts.
+- **Contributions**: Search and manage donations and contribution pages.
+- **Events**: Create and manage event registrations.
+- **Mailings**: Send bulk emails and view mailing history.
+- **Reports**: Access and generate reports.
+- **Administer**: Configure system settings and custom data.
 
 ## Quickly finding menu items
 
-If you’re not sure where a menu item is, you can search for it easily:
+If you’re not sure where something is in the menu, you can use the **menu search**:
 
-- Hover over the **CiviCRM logo** in the top menu bar.  
-- A small panel appears with a search box and a list of menu items.  
-- Start typing part of the menu item name (for example, "groups" or "display preferences").  
-- The list filters to show matching items.  
-- Click the item to go directly to that page.  
+- Hover your mouse over the CiviCRM logo in the top bar (next to the quick search).
 
-This helps you find what you need without memorizing the menu structure.
+- A panel appears with a search field and a list of menu items.
+
+- Click the search field and start typing part of a menu item name, such as “display preferences” or “groups”.
+
+- The list will filter to show only matching items.
+
+- Click the item you want to go straight to that page.
+
+This helps you find features quickly without remembering the whole menu structure.
 
 ## Modifying the menu
 
-You can change the menu to better fit your needs by going to:
+You can change the navigation menu to fit your organisation’s needs:
 
-**Administer > Customize > Navigation Menu**
+- Go to **Administer > Customize > Navigation Menu**.
 
-Here you can add, disable, or rearrange menu items.
+- Add, disable, or rearrange menu items as needed.
 
-**Important:** Changes affect everyone who can see that menu, so be careful when editing.
+**Note:** Any changes you make will affect everyone with permission to see the menu. Be careful when editing, as this impacts all users.
 
 ## The home dashboard and dashlets
 
-When you log in to CiviCRM, you see the **dashboard** (also called CiviCRM Home). This page shows important information about your organization using **dashlets** — small reports displayed on your dashboard.
+When you log in, you’ll see the **dashboard** (CiviCRM Home). The dashboard shows important information using **dashlets**—small reports or summaries.
 
-### Common dashlets include:
+Some common dashlets include:
 
-- **Donor report**: A bar graph showing total donations.  
-- **Activities**: A list of recent actions like emails sent, donations received, or meetings scheduled.  
-- **Membership report**: A table summarizing membership details by month, including member counts and payments.  
+- **Donor report**: A bar graph showing total contributions.
+- **Activities**: A list of recent activities (emails, donations, meetings, etc.).
+- **Membership report**: A table summarizing member information by month (number of members, payments, contributions, etc.).
 
-### Adding or changing dashlets
+You can add dashlets to your dashboard:
 
-To customize your dashboard:
+1. Click **Configure Your Dashboard**.
 
-1. Click the **Configure Your Dashboard** button.  
-2. Drag dashlets from the available list into the left or right column.  
-3. Click **Done** to save your layout.  
+2. Drag dashlets into the left or right column.
 
-Dashlets update each time you log in. To refresh manually, click **Refresh Dashboard Data**.
+3. Click **Done** to save.
 
-### Creating new dashlets from reports
+Your dashboard will update each time you log in. To see the latest data, click **Refresh Dashboard Data**. Dashlets are cached for performance, but you can adjust how often they refresh by editing their report settings.
 
-Any CiviReport can become a dashlet:
+## Creating and adding custom dashlets
 
-1. Go to **Reports > My Reports** and click **New Report**.  
-2. Choose a report template and set up columns, sorting, and filters (for example, filter by date).  
-3. Click **View results**.  
-4. Select how to display the report: table, bar chart, or pie chart.  
-5. On the **Access** tab, check **Available for Dashboard?**  
-6. Click **Actions > Create Report**.  
+You can create new dashlets from any CiviReport:
 
-Then add the new dashlet to your dashboard as described above.
+1. Go to **Reports > My Reports** and click **New Report**.
 
-### Notes
+2. Choose a report template.
 
-- Dashlets cache data for performance. You can adjust how often they refresh in the report settings.  
-- You can also use **Search Kit** with **FormBuilder** to add dashlets (see FormBuilder documentation for details).  
+3. Set up the report using the **Columns**, **Sorting**, and **Filters** tabs (for example, filter by “This Year”).
 
-This guide helps you get comfortable with the CiviCRM interface so you can find what you need quickly and keep your dashboard showing the most useful information for your work.
+4. Click **View results**.
+
+5. Choose the display style (Tabular, Bar Chart, Pie Chart).
+
+6. On the **Access** tab, select **Available for Dashboard?** so users with permission can add it.
+
+7. Click **Actions > Create Report**.
+
+To add your new dashlet to the dashboard:
+
+1. Go to the CiviCRM menu and click **CiviCRM Home**.
+
+2. Click **Configure Dashboard**.
+
+3. Drag your new dashlet from the “Available Dashlets” box to the column you want.
+
+4. Click **Done**.
+
+You can use Search Kit with FormBuilder to add dashlets as well. See the FormBuilder section for more details.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/customising
+-the-user-interface/menu-dashboard-and-dashlets/ -->
+
+<!--
+Suggestion: This page is a Guide because it provides step
+-by-step instructions for specific tasks (using and customizing the menu, dashboard, and dashlets), without focusing on background or exhaustive technical details. The level is Basic, as it is aimed at new or non-expert users. If needed, reference material about dashlet/report settings or a separate tutorial for first-time dashboard setup could be split off for clarity. -->

@@ -1,42 +1,53 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can manage everyday grant tasks in CiviCRM, including viewing, adding, editing grant recipients, and recording reports.  
-section: Everyday tasks  
+  - Guide
+level: Basic
+summary: Learn how to view, add, edit, and manage grants for your organisation in CiviCRM using straightforward, everyday steps.
+section: Grants > Everyday tasks
 ---
 
-# Everyday tasks
+# Everyday tasks for managing grants
 
-## CiviGrant dashboard
+## Using the CiviGrant dashboard
 
-To start managing your grants, go to **Other > Grants > Dashboard** in CiviCRM. This dashboard gives you a quick overview of all grants in your system, grouped by grant type, and shows recent grant recipients. It helps you keep track of your grants in one place.
+To see a summary of all grants in your CiviCRM system and a list of recent grant recipients, go to **Other > Grants > Dashboard**. The dashboard gives you an overview grouped by grant type and shows the latest grants added to your database.
 
 ## Viewing grants
 
 You can view grants in two main ways:
 
-- From the **Grants dashboard**, which shows the status of all grants and recent activity.
-- From an individual contact’s record, by clicking the **Grants** tab to see grants associated with that person.
+- Use the **Grants dashboard** to see a summary of grant statuses and types, as well as recent grants.
+
+- Open an individual contact’s record and select the **Grants** tab to see all grants associated with that person or organisation.
 
 ## Adding and editing grant recipients
 
-When you have selected grant recipients, you can add or update their grant records:
+To record a new grant for a recipient:
 
 1. Go to **Other > Grants > New Grant**.
-2. Choose an existing contact or create a new contact to assign the grant.
-3. Fill in the grant details. Include as much information as you can, but you can always update this later.
+
+2. Find and select the contact who will receive the grant, or create a new contact if they are not in your system yet.
+
+3. Fill in the grant details. Include as much information as you can, such as custom fields set up by your organisation. You can update or add more details later if needed.
+
 4. Click **Save**.
 
-To edit a grant later, use the **edit** link in the grant record.
+If you need to update a grant later, open the grant record and use the **edit** link to make changes.
 
 ## Recording reports from grant recipients
 
-When you receive reports from grant recipients, update the grant record to reflect this:
+When you receive a report from a grant recipient:
 
-- Open the grant record from the dashboard or contact’s Grants tab.
-- Check the box labeled **Grant Report Received?**
-- Add any notes or comments related to the report.
-- Save your changes.
+- Edit the relevant grant record (either from the dashboard or the contact’s grants tab).
 
-This helps you keep track of which grants have received reports and any important information related to them.
+- Tick the **Grant Report Received?** box on the form.
+
+- Add any notes or details about the report as needed.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/grants/everyday
+-tasks/ -->
+
+<!--
+This page is a Guide because it gives step
+-by-step instructions for common, goal-oriented tasks (viewing, adding, editing grants) without background theory or exhaustive reference. The instructions are practical and action-focused, matching the Diátaxis definition of a Guide[3][4]. The level is Basic, as it assumes no advanced knowledge or configuration. The logical section is Grants > Everyday tasks. -->

@@ -1,83 +1,101 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-expert users of CiviCRM can create and manage custom fields to collect additional information tailored to their organization's needs.  
-section: Organising your data  
+  - Guide
+level: Basic
+summary: Learn how to create and manage custom fields in CiviCRM to collect and organize information specific to your organisation’s needs.
+section: Organising your data
 ---
 
 # Creating custom fields
 
-## Introduction
+## What are custom fields?
 
-CiviCRM lets you collect extra information about your contacts and records by creating **custom fields**. These fields help you track details that are not included by default in CiviCRM. For example, you might want to add checkboxes to track which clients an organization serves or add a field listing subjects studied by students.
+Custom fields let your organisation collect and store information in CiviCRM that is not included by default. For example, you might want to track which services an organisation provides, or record a student’s subjects. Custom fields are grouped into *custom field sets*, which are containers for related fields.
 
-Custom fields are always grouped into **custom field sets**, which act like containers holding related fields together. Creating custom data involves two steps:
+## Before you start
 
-1. Create a **custom field set** (the container for your fields).  
-2. Add **custom fields** to that set.
+- Think about what information you need to collect and who it applies to (e.g., individuals, organisations, events).
 
-## Custom field sets
+- Plan your custom field sets carefully. Once you set the scope (what type of record the set applies to), you cannot change it later.
 
-A **custom field set** defines where and how the custom fields apply. For example, you might create a field set called "Nationality" that applies to all contact types, or one called "Immigration status" that applies only to individual contacts.
+## Steps to create custom fields
 
-### Important considerations when creating a field set:
+###
+1. Create a custom field set
 
-- Decide **what the fields will be used for** and which types of records they relate to (e.g., Individuals, Organizations, Events).  
-- The **scope** of a field set is permanent—you cannot change it after creating the set.  
-- Group related fields together for clarity. For example, split a large number of fields into smaller sets based on their topic or purpose.
+1. Go to **Administer > Customize Data and Screens > Custom Data**.
 
-### Examples of "Used For" options include:
+2. Click **Add Set of Custom Fields**.
 
-- Contacts (all contacts or specific types like Individual or Organization)  
-- Activities (e.g., meetings, phone calls)  
-- Events (all events or specific event types)  
-- Contributions (all contributions or specific financial types)  
-- Participants (event registrations)  
-- Relationships (e.g., spouse, employee)  
+3. Enter a **Set Name**. This will appear as the title for your group of fields.
 
-You create and manage custom field sets by going to:  
-**Administer > Customize Data and Screens > Custom Data**
+4. Choose **Used For** to decide what type of record this set will be attached to (such as Contacts, Individuals, Events, etc.).
 
-### Display options for field sets on contact records
+5. Set the **Order** if you have multiple field sets and want to control their display order.
 
-- **Inline display:** Fields appear directly on the contact summary screen.  
-- **Tab display:** Fields appear under a separate tab.  
-- You can also choose to have the field set **collapsed** by default to save space.
+6. Decide if this set should allow **multiple records** (for example, a person with several educational degrees).
 
-### Multiple record field sets
+7. Choose **Display options** (inline, tab, or tab with table) for how the set appears.
 
-Some field sets can hold **multiple records** per contact. For example, if you want to track multiple educational qualifications for a person, use a multiple record field set. This option is only available for contacts.
+8. Set whether the field set is **Active** (visible and usable) and **Public** (shown on public pages).
 
-## Creating custom fields
+9. Add any **Pre
+-form Help** or **Post-form Help** text to guide users filling out the fields.
 
-After creating a custom field set, add fields to it. Each field has options to define how it behaves and appears.
+10. Click **Save**.
 
-### Key field settings:
+###
 
-- **Field label:** The name shown to users and in exports.  
-- **Type:** Choose the kind of data (text, number, date, checkbox, select list, file upload, contact reference, etc.).  
-- **Database field length:** Usually leave at default maximum.  
-- **Order:** Controls the order fields appear in the form.  
-- **Default value:** Optional preset value for the field.  
-- **Help text:** Add instructions above (pre-form) or below (post-form) the field to guide users.  
-- **Required:** Make the field mandatory for data entry.  
-- **Optimize for search:** Index the field to speed up searches if it will be used frequently in filters or reports.  
-- **Active:** Enable or disable the field's visibility.  
-- **View only:** Show the field but prevent editing (useful for imported or system-managed data).  
-- **Multiple choice options:** For fields like dropdowns or checkboxes, define the list of choices users can select.
+2. Add custom fields to your set
 
-### Managing multiple choice options
+1. In your new field set, click **View and Edit Custom Fields**.
 
-You can reuse option sets across multiple fields or create new ones. You can edit option labels, order, and active status later.
+2. Click **New Custom Field**.
 
-## Best practices and tips
+3. Fill in the **Field Label** (the name shown to users).
 
-- Think carefully about whether to use **custom fields, groups, or tags**. Groups and tags can be easier to manage for categories of contacts and support powerful search and mailing features.  
-- Avoid creating too many custom fields or very large field sets, as this can slow down searches and reports. Consult your system administrator if unsure.  
-- Preview your custom fields as you create them to check layout and usability.  
-- Use clear, simple field labels and help text to make data entry easier for all users.
+4. Choose the **Type** of field (text, select, checkbox, date, etc.).
 
-## Where to find custom fields
+5. Set **Database Field Length** if needed (usually leave at the default).
 
-Once created, custom fields appear in contact records, event registrations, contribution records, or wherever you assigned them. You can edit or disable fields later but cannot change the field set scope after creation.
+6. Set the **Order** for display within the set.
+
+7. Choose a **Default Value** if you want one.
+
+8. Add **Pre-form Help** or **Post-form Help** for this field if needed.
+
+9. Decide if the field is **Required** (must be filled in).
+
+10. Choose whether to **Optimize for Search** (recommended for fields you’ll often search by).
+
+11. Set whether the field is **Active** and/or **View Only**.
+
+12. For multiple choice fields, add or select your options.
+
+13. Click **Save** or **Save and New** to add more fields.
+
+###
+
+3. Manage your custom fields
+
+- You can edit, disable, delete, or move fields within the set at any time (as long as no data has been entered, you can also change the set’s scope).
+
+- For multiple choice fields, you can add, remove, or reorder options as needed.
+
+## Tips for using custom fields
+
+- Use **custom field sets** to group related information and keep screens tidy.
+
+- Use **multiple record field sets** for information that repeats (like educational history).
+
+- Consider whether information is better stored as a field, group, or tag. For example, use groups for mailing lists and tags for flexible categorization.
+
+- Too many custom fields or sets can slow down your system. If you plan to add many, discuss with your system administrator.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/organising
+-your-data/creating-custom-fields/ -->
+
+<!--
+Suggestion: This page is a Guide because it provides step
+-by-step instructions for a specific task (creating custom fields), aimed at helping users achieve a practical goal. It is basic level, as it is for users new to custom fields. The content does not delve into background theory (Explanation), exhaustive options (Reference), or a first-time learning journey (Tutorial). If needed, the “Choosing between fields, groups and tags” section could be split into an Explanation page for deeper understanding. -->

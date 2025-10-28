@@ -2,90 +2,99 @@
 categories:
   - Guide
 level: Basic
-summary: Learn how to manage your everyday CiviMail tasks, including creating, scheduling, testing, and tracking email campaigns.
-section: Email and communications
+summary: Step-by-step instructions for sending individual and small group emails, and inserting images in emails, using CiviCRM.
+section: Email > Everyday tasks
 ---
 
-# Everyday CiviMail tasks
+# Everyday email tasks
 
-Once CiviMail is set up, most of your work will involve creating, sending, and reviewing mailings.
+## Send an email to one person (with CC and BCC)
 
-This guide walks you through the routine tasks you'll do most often, helping you send effective, professional emails with confidence.
+You can send an email to an individual contact in CiviCRM, which is helpful if you want to keep a record of the message or use a template.
 
-## Creating a new mailing
+1. **Find the contact you want to email:**
 
-1. Go to **Mailings → New Mailing**  
-2. Enter a descriptive name for your mailing.  
-3. Choose the sender (approved address).  
-4. Select recipient group or Smart Group.  
-5. Click **Continue** to create your message.
+- Use the Quick Search box at the top left—type part of the person's name or email, then select them from the list.
 
-**Tip:** Use clear, consistent names for mailings so reports are easier to read later.
+- Or go to Search > Find Contact, enter part of the name or email, click Search, and select the person from the results.
 
-## Writing your message
+2. **Start your email:**
 
-Use the editor to:
+- On the contact’s summary page, click Actions > Send an email, or go to the Activities tab and choose Send an Email from the dropdown.
 
-- Write email text directly.  
-- Add personalisation tokens like `{first_name}`.  
-- Insert links and images.  
-- Use message templates for branding.  
+3. **Add recipients (optional):**
 
-Keep messages short and focused to improve engagement.
+- Use the CC and BCC fields to include additional people.
 
-## Sending a test message
+4. **Use a template (optional):**
 
-Before large sends:
+- If your organisation has templates, select one from the Use Template menu. You can edit the content after selecting.
 
-- Click **Send Test** and use internal addresses.  
-- Check subject, formatting, and links.  
-- Verify unsubscribe/footer tokens appear correctly.
+5. **Write your message:**
 
-## Scheduling a mailing
+- Enter your content. If you only want to send plain text, use the Plain Text Format section.
 
-You can send **immediately** or **schedule** a future time.
+6. **Send your message:**
 
-1. Choose **Schedule for Later** during review.  
-2. Pick a date/time.  
-3. Click **Schedule**.
+- Click Send.
 
-Timing matters: mid-week and mid-day usually perform best.
+7. **Check the activity record:**
 
-## Monitoring progress
+- To see the email you just sent, open the Activities tab for the contact.
 
-Track messages under **Mailings → Scheduled and Sent Mailings**.
+## Send a quick email to less than 50 contacts
 
-View delivery, opens, clicks, and bounces.  
-Cancel only before sending starts.
+You can send a simple email to a small group (up to 50 people) directly from search results. This is quick, but does not track emails or allow recipients to opt out. For larger mailings, use CiviMail.
 
-## Reviewing report data
+1. **Find your contacts:**
 
-After delivery, review:
+- Use Search > Find Contacts or Advanced Search to select who you want to email.
 
-- Deliveries and open rate  
-- Bounce and unsubscribe totals  
-- Click engagement trends  
+2. **Select contacts and start email:**
 
-## Reusing previous mailings
+- In the search results, select the contacts, then choose Actions > Email
+ - send now (to 50 or less).
 
-If you send similar updates often:
+3. **Compose and send:**
 
-1. Go to **Scheduled and Sent Mailings**  
-2. Choose an old message  
-3. Click **Reuse Mailing** 
+- Follow the same steps as for sending an email to one person.
 
-Then update content and recipients.
+**Note:** Each recipient will only see their own address in the To field. If you want everyone to know who received the email, mention the group in your message (for example: "TO: Members of the board, staff").
 
-## Managing drafts
+## Insert an image in an email
 
-Unfinished mailings are saved as drafts.
+You can add images to your emails using the built
+-in editor.
 
-- Go to **Mailings → Draft and Scheduled Mailings**  
-- Edit or delete as needed  
+1. **Click the image button** in the WYSIWYG editor.
 
-## Best practice
+2. **Choose your image:**
 
-- Use clear names and consistent processes.  
-- Review each campaign after sending.  
-- Clean up old drafts regularly.  
-- Refine future emails based on reports.
+- In the Image Properties window, click Browse Server.
+
+- If the image is already uploaded, find and select it. Otherwise, click Upload to choose a file from your computer.
+
+3. **Upload (if needed):**
+
+- Select your image file and click Open. You can upload several files at once.
+
+4. **Insert the image:**
+
+- Double
+-click the image you want. You’ll return to the Image Properties window.
+
+5. **Adjust settings:**
+
+- Set the size, alignment, and border. Fill in the Alternative Text field so people using screen readers or those who can’t see images still get the information.
+
+6. **Finish:**
+
+- Click OK to insert the image.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/email/everyday
+-tasks/ -->
+
+<!--
+Suggestion: This page is a Guide, as it provides step
+-by-step actions for specific, common email-related tasks in CiviCRM. It is aimed at basic users. The content belongs under "Email > Everyday tasks". If needed, the image insertion instructions could be split into a separate short Guide page for clarity, but for non-experts, grouping these everyday email tasks together is likely most helpful. -->

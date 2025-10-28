@@ -1,110 +1,137 @@
 ---
 categories:
-  - Tutorial
+  - Guide
 level: Basic
-summary: Learn how to create and send mass mailings in CiviMail, from selecting your audience to designing, testing, and reviewing your campaign.
-section: Email and communications
+summary: Learn how to send mass emails to your contacts using CiviMail, including how to choose recipients, set up your mailing, and track results.
+section: Email > Mass mailings
 ---
 
-# Sending mass mailings using CiviMail
+# Send a mass email with CiviMail
 
-Mass mailings are a key part of staying in touch with supporters, members, and donors.
+## Choose your recipients
 
-CiviMail makes it simple to send newsletters, announcements, and updates to large groups of people while tracking who opens, clicks, or unsubscribes.
+You can send a mass email in CiviMail to either:
+- **Groups**: Predefined lists of contacts, such as your newsletter subscribers.
+- **Search results**: Contacts found by searching (for example, new members added this month).
 
-## What you'll need before you start
+**Important:**
+If you send to search results, you must select an **Unsubscribe Group**. This group keeps track of people who unsubscribe, so you don’t accidentally email them again. If you’re sending to a Group, this is handled automatically.
 
-Before sending a mass mailing, ensure that:
+**Tip:**
+If you don’t have a suitable group for unsubscribes, create one (for example, “General Unsubscribes”) and use it for future mailings.
 
-- CiviMail has been set up and tested on your system.  
-- You have permission to use the Mailings menu.  
-- Your contact list or Smart Group is ready and updated.  
-- Your organisation's sender details and unsubscribe tokens are configured.  
+## When are recipients set?
 
-These steps ensure your emails work smoothly and reach your audience reliably.
+- The list of recipients is fixed when you schedule the mailing, even if it’s sent later.
 
-## Step 1: Create a new mailing
+- If you send to a **smart group**, the recipient list is based on who matches the smart group at the time you schedule the mailing.
 
-1. Go to **Mailings → New Mailing**.  
-2. Give your mailing a clear name, like “April Newsletter” or “Event Reminder”.  
-3. Choose your **From Address**.  
-4. Select your **recipient group** (a static list or Smart Group).  
-5. Click **Continue** to begin editing.
+- If you send to search results using “All NNN records,” CiviCRM creates a hidden smart group, which updates based on your search criteria at the time you submit the mailing.
 
-### Tip
-Double-check recipients before sending to avoid test or outdated lists.
+- If you want to send only to specific people, use “NNN Selected records only” after ticking the checkboxes for those contacts.
 
-## Step 2: Write and design your message
+## Set up your mailing
 
-You can:
+### Start a new mailing
 
-- Write directly in the editor, or  
-- Use a saved message template for branding consistency.  
+- To send to a Group: Go to **Mailings > New Mailing**.
 
-Add your subject, body text, and images. Keep your message short with a clear call to action (donation, registration, etc.).
+- To send to search results: Perform your search, then choose **Email
 
-Include personalisation tokens (like `{contact.first_name}`) for a friendly tone.
+- Schedule/Send via CiviMail** from the Actions dropdown.
 
-## Step 3: Add tracking and footer details
+### Fill in the mailing details
 
-Enable tracking for opens and clicks.  
-Ensure your footer has:
+**Mailing Name**
+Give your mailing a clear name (e.g., “2025
+-04-25 – Monthly Newsletter”). This is for your use only.
 
-- Organisation contact info  
-- Unsubscribe link `{action.unsubscribe}`  
-- Address token `{domain.address}`  
+**Campaign**
+Optionally link the mailing to a campaign.
 
-This ensures compliance and accurate tracking.
+**Template**
+Select a message template to start from, or write your own content. You can edit the content for this mailing, but not the template itself.
 
-## Step 4: Send a test message
+**From**
+Choose which email address the mailing will come from. Admins can add more addresses in **Administer > CiviMail > From Email addresses**.
 
-Before full delivery:
+**Recipients**
+Choose which Groups to include or exclude. Only “Mailing List” type groups are shown. You can also exclude people who received previous mailings.
 
-1. Click **Send Test** and use internal addresses.  
-2. Confirm links, layout, and personalisation display properly.  
+**Dedupe by email**
+By default, CiviMail sends only one email per unique contact. If multiple contacts share an email address, you can choose whether to send one or multiple copies.
 
-If something looks off, update and retest.
+**Location type**
+Choose which email address type to use for sending (for example, “Bulk Mailings” or “Primary”).
 
-## Step 5: Schedule or send
+**Unsubscribe Group**
+(For search-based mailings only) Choose the group that will track unsubscribes.
 
-Choose to:
+**Subject**
+Enter the subject line for your email. You can use tokens to personalize it.
 
-- **Send immediately**, or  
-- **Schedule for later** (specific date/time).  
+**Email content**
+Write your message in the HTML or Plain Text section. Use tokens to personalize your message (like including the recipient’s name).
 
-CiviCRM handles queueing and delivery automatically.
+**Preview and test**
 
-## Step 6: Monitor mailing progress
+- Preview how your email will look.
 
-Track live under **Mailings → Scheduled and Sent Mailings**.
+- Send a test email to yourself or a test group to check formatting and links.
 
-Reports display:
+**Tip:**
+Always test your email before sending to your full list.
 
-- Emails sent  
-- Opens  
-- Clicks  
-- Bounces  
-- Unsubscribes  
+### Optional tabs
 
-Use this to gauge engagement.
+**Attachments**
+Add files to send with your email.
 
-## Step 7: Review your results
+**Header and Footer**
+Choose or create a header and footer for your email.
 
-Once complete, review detailed reports:
+**Publication**
+Set whether your email can be viewed publicly or only by recipients and admins.
 
-- High opens = good subject line  
-- High clicks = engaging content  
-- High bounces/unsubs = list or content issues  
+**Responses**
 
-## Step 8: Reuse a mailing
+- Track replies so they’re stored in CiviCRM.
 
-Repeated newsletters?  
-Go to **Scheduled and Sent Mailings → Reuse Mailing**, then update details.
+- Set up automated replies.
 
-## Best practice
+- Edit opt
+-out, resubscribe, and unsubscribe messages.
 
-- Always test before sending.  
-- Keep lists clean and current.  
-- Use mobile-friendly designs.  
-- Avoid large attachments.  
-- Review reports regularly.
+**Tracking**
+
+- Track who clicks links and who opens your email.
+
+- Note: Tracking may not work if recipients block images or use certain email settings.
+
+## Review and schedule your mailing
+
+- Review all details on the summary screen. You can check who will receive the email and view your message.
+
+- Choose to send immediately or schedule for later.
+
+- Click **Submit Mailing** to finish. CiviMail may take up to 15 minutes to start sending, and large mailings are sent in batches.
+
+## Track and manage your mailings
+
+- Go to **Mailings > Scheduled and Sent Mailings** to see your mailings.
+
+- Click **Report** to view statistics like opens, clicks, and bounces.
+
+- Click a statistic to see which contacts opened or clicked your email.
+
+- Use **Draft and Unscheduled Mailings** to continue working on drafts.
+
+- Use **Archive** to store old mailings.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/email/mass
+-mailings/ -->
+
+<!--
+This page is a Guide, as it walks users through the steps to accomplish a specific goal (sending a mass email), without focusing on background or exhaustive options. It is suitable for Basic level users. The content logically belongs under Email > Mass mailings. If desired, the “Tracking and managing your mailings” section could be split into a separate guide for clarity, but it is acceptable as a single page for non
+-expert users. -->

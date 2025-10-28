@@ -2,30 +2,56 @@
 categories:
   - Explanation
 level: Basic
-summary: Understand the key concepts and considerations for creating and using petitions in CiviCRM.
-section: Petitions
+summary: Learn the key concepts and important questions to consider before creating and using petitions in CiviCRM, designed for non-profit users new to the system.
+section: Petition
 ---
 
-# creating and using petitions in civicrm
+# What you need to know about petitions in CiviCRM
 
-## introduction
-Petitions in CiviCRM are a feature of the CiviCampaign component, allowing you to collect responses from individuals. These responses are recorded as activity records of the type "Petition," similar to online surveys.
+## Key concepts
 
-## key concepts
-Petitions can be used independently or connected to specific campaigns. For example, a petition might be used to assess member satisfaction or as part of a broader campaign strategy. Understanding how petitions integrate with campaigns is crucial for analyzing responses in context.
+- **Petitions** are a feature of the CiviCampaign component in CiviCRM. When someone signs a petition, CiviCRM creates an activity record of type "Petition" that includes their responses to the petition questions.
+- **Petitions are like online surveys.** They collect information from people who sign, and this data can be used for analysis or follow-up.
+- **Petitions and campaigns:** While petitions are part of the CiviCampaign tool, you do not have to link every petition to a campaign. For example, you might use a petition to get feedback from your members without connecting it to a larger campaign. However, linking a petition to a campaign lets you see how petition responses fit with your other campaign activities.
 
-## profiles and custom fields
-When a site visitor signs a petition, a contact is saved, and an activity is created. Profiles are used to display fields for each signer, including email addresses, which are necessary for validating submissions. Custom fields can be used to collect additional information specific to the petition.
+## Profiles and custom fields
 
-## cms permissions
-To manage who can sign petitions, you need to set appropriate permissions for specific roles. Refer to the permissions setup chapter for details.
+- When a visitor signs a petition, CiviCRM saves their contact details and creates an activity record.
 
-## planning your petition
-Before creating a petition, consider your online strategy:
+- **Profiles** are used to display and collect the information you want from petition signers.
 
-- **Email and Website Integration**: Will you send the petition via email or link to it on your website?
-- **Social Media and Offline Strategies**: How will you promote the petition through social media or offline channels?
-- **Messaging and Engagement**: How will you frame your message to encourage signatures, and what follow-up activities will you use to build relationships with signers?
-- **Results and Follow-up**: What will you do with the petition results, and how will you continue engaging with signers?
+- The **contact profile** gathers basic information, such as the signer's email address. This is required to help you verify submissions and avoid counting multiple signatures from the same person.
 
-This explanation provides a foundational understanding of petitions in CiviCRM, helping you plan and execute effective petition campaigns.
+- The **activity profile** can collect extra information specific to the petition.
+
+- Before you create a petition, prepare any **custom fields** you want to use for your questions. Then, set up the profiles, and finally select the profiles when creating the petition.
+
+## CMS permissions
+
+- You must set permissions in your website system (CMS) to allow the right people to sign CiviCRM petitions. Check the Set
+-up section for details on which permissions are needed.
+
+## Key questions to consider
+
+Before creating your petition, think about these questions to help plan your approach:
+
+- Will you send the petition by email?
+
+- Will you link to the petition on your website for people to sign?
+
+- Will you use social media or offline methods to encourage people to sign?
+
+- How will you write your message so people want to sign?
+
+- What will you do with the results of the petition?
+
+- What follow
+-up actions will you take to keep in touch with signers and build relationships?
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/petition/what
+-you-need-to-know/ -->
+
+<!--
+Suggestion: This page is best categorized as an Explanation because it provides background, context, and key concepts for understanding petitions in CiviCRM, rather than step
+-by-step instructions or technical reference. It is written for users who are new to petitions and need foundational understanding before proceeding with setup or use. If the page grows, the "Key questions" section could be split into a Guide for planning a petition campaign. -->

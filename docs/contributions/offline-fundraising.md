@@ -1,68 +1,81 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can manage offline fundraising in CiviCRM by creating contact lists, preparing postal mailings, and manually entering contribution data to keep records accurate.  
-section: Offline fundraising  
+  - Guide
+level: Basic
+summary: Learn how to manage donations collected offline—such as at events or through postal mail—in CiviCRM, including creating recipient lists, preparing mailings, and entering contributions.
+section: Contributions > Offline fundraising
 ---
 
 # Offline fundraising
 
-## Introduction
+## Overview
 
-Offline fundraising includes collecting donations at events or through postal mailings. Since these donations happen outside of online forms, you need to manually enter the contribution details into CiviCRM to keep your records and reports accurate.
+Your organisation may collect donations in person at events, by mail, or through other offline methods. To keep your records accurate and up to date, you need to enter these offline donations into CiviCRM manually. This guide will help you:
 
-This guide will walk you through the three main steps for offline fundraising in CiviCRM:
+- Create lists of people to contact for offline fundraising
 
-- Creating your contact lists  
-- Preparing postal mailings  
-- Manually entering contribution information  
+- Prepare and send postal mailings
 
-## Creating your lists
+- Enter offline contributions into CiviCRM
 
-To reach supporters with offline appeals, first create a list of contacts:
+## Step 1: Create your recipient list
 
-1. Go to **Search > Find Contacts** in CiviCRM.  
-2. Use search filters to select the contacts you want to include (this could be your entire database or a specific group).  
-3. To track who receives your mailing, save the search results as a group:  
-   - Select all contacts using the checkbox.  
-   - From the **Actions** dropdown, choose **Group - add contacts** or **Group - create smart group**.  
-4. Later, you can mark contacts in this group as recipients of a mailing by adding an activity via the **Actions** menu.
+1. Go to **Search > Find Contacts** in CiviCRM to find the people you want to include in your offline fundraising campaign. This might be everyone in your database or a specific group.
 
-If you want to create letters for postal mailings, you can either:
+2. To keep track of who receives your mailing or to measure its success, save your search results as a group:
 
-- Use CiviCRM's built-in PDF letter printing feature, or  
-- Export the contact list as a CSV file for use in mail merge with a word processor like LibreOffice or Microsoft Word.
+- Select the contacts using the checkboxes.
 
-### Exporting a contact list
+- From the **Actions** dropdown, choose **Group
+ - add contacts** or **Group - create smart group**.
 
-To export contacts for mail merge or other uses:
+- You can later use this group to record who received your appeal (for example, by adding an activity for each recipient).
 
-1. Select the contacts you want to export using the checkboxes.  
-2. From the **Actions** dropdown, choose **Export Contacts**.  
-3. Choose whether to export **Primary fields** or **Select fields for Export**.  
-   - If you select primary fields, the CSV file is generated immediately.  
-   - If you choose to select fields, you will be prompted to pick which data columns to include.  
-4. Optionally, save your field selections as an export mapping for future use.  
-5. Click **Export** to download the CSV file.  
+## Step 2: Prepare your postal mailings
+
+You can send letters using CiviCRM’s built
+-in PDF letter feature or by exporting your contact list for use with a word processor.
+
+**To export your contact list:**
+
+1. Select the contacts you want to include.
+
+2. From the **Actions** dropdown, choose **Export Contacts**.
+
+3. Choose to export either **PRIMARY fields** (for a quick export) or **Select fields for Export** (to choose specific details).
+
+4. If you select specific fields, pick the ones you need and optionally save your selection for future use.
+
+5. Click **Export** to download a CSV file.
+
 6. Click **Done** to return to your contact list.
 
-## Creating postal mailings
+You can now use this CSV file with your word processor’s mail merge feature to create personalised letters.
 
-Once you have your contact list or CSV file:
+## Step 3: Print mailing labels (optional)
 
-- Use your word processor’s mail merge feature to create personalized letters.  
-- Alternatively, create mailing labels directly in CiviCRM:
+CiviCRM can create mailing labels for your recipients.
 
-  1. Perform the same contact search to get your mailing list.  
-  2. From the **Actions** dropdown, select **Mailing labels - print**.  
-  3. Choose the label type that matches your label sheets.  
-  4. Decide whether to exclude contacts who have "do not mail" checked (recommended).  
-  5. Choose whether to merge multiple contacts at the same address into one label (useful for households or organizations).  
-  6. Click **Make Mailing Labels** to generate a printable PDF of your labels.
+1. Use the same search as above to find your recipients.
 
-Note: Labels are printed in a column-by-column order matching the contact search results.
+2. From the **Actions** dropdown, select **Mailing labels - print**.
 
-## Manually entering contributions
+3. Choose the label format, whether to exclude people who have opted out of mail (recommended), and whether to merge labels for people at the same address (useful for households or organisations).
 
-After your offline fundraising events or mailings, enter the donations into CiviCRM manually to keep your financial records complete. (This step is covered in detail in the next guide: Manual entry of contributions.)
+4. Click **Make Mailing Labels** to generate a printable PDF.
+
+*Note: Labels are printed in the order shown on the search results page, moving down each column before starting the next.*
+
+## Next steps
+
+After sending your mailings, you will need to manually enter any donations you receive into CiviCRM. See the “Manual entry of contributions” guide for instructions.
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/offline
+-fundraising/ -->
+
+<!--
+This page is a How
+-to Guide, as it provides step-by-step actions for a specific, common task (handling offline fundraising workflows in CiviCRM). It does not explain underlying concepts or provide exhaustive reference details, nor is it a hands-on tutorial for first-time users. The level is Basic, as it covers essential, everyday tasks for non-expert users. -->

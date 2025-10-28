@@ -82,9 +82,10 @@ def analyze_file(path):
     elif avg_len < 7:
         issues.append("🔸 Sentences too short; rhythm could be improved (flow).")
 
-    # --- "Flow breaking" patterns
-    if re.search(r"In conclusion|Summary|To recap|Wrapping up", content, flags=re.IGNORECASE):
-        issues.append("⚠️ Ending section (e.g. 'In conclusion') detected – not idiomatic Diátaxis.")
+# --- "Flow breaking" patterns
+# (désactivé : ne pas signaler les sections de fin de type "In conclusion")
+# if re.search(r"In conclusion|Summary|To recap|Wrapping up", content, flags=re.IGNORECASE):
+#     issues.append("⚠️ Ending section (e.g. 'In conclusion') detected – not idiomatic Diátaxis.")
 
     # --- "Anticipation": Prerequisites in tutorials
     if "prerequisite" not in content.lower() and cats and cats[0].lower() == "tutorial":

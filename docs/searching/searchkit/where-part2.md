@@ -1,9 +1,41 @@
-# Source: https://docs.civicrm.org/user/en/latest/searching/searchkit/where/
-
-# Having filter in Search Kit
-
-(Consider creating a separate page for "Having" if your documentation covers it, to keep "Where" focused and simple.)
-
+---
+categories:
+  - Tutorial
+level: Basic
+summary: A step-by-step guide to using the "Where" clause in CiviCRM for filtering data.
+section: Searching and reporting
 ---
 
-This rewrite is a **Basic-level Guide** aimed at non-expert nonprofit users learning how to apply filters in CiviCRM Search Kit. It uses plain English, clear structure, and encouraging tone to help users understand and apply the "Where" filter effectively. Splitting complex topics like "Having" into another page is recommended for clarity and ease of learning.
+# Step-by-step tutorial: using the "where" clause
+
+### Step 1: Access SearchKit
+
+1. Log into your CiviCRM dashboard.
+
+2. Navigate to the SearchKit section.
+
+### Step 2: Set Up Your Search
+
+1. Choose the entity you want to search (e.g., contacts).
+
+2. Click on the "Where" clause section.
+
+### Step 3: Apply the "Where" Clause
+
+1. Select the element you want to compare.
+
+2. Choose the appropriate operator.
+
+3. Enter the value or select the field to compare against.
+
+4. Click "Search" to apply the filter.
+
+### Step 4: Review Your Results
+
+1. Look at the filtered results.
+
+2. Adjust your search criteria as needed.
+
+<!--
+This tutorial format is more suitable for users who are new to using the "Where" clause in CiviCRM.
+ -->

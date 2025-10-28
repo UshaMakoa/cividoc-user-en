@@ -1,5 +1,3 @@
-...
-text
 ---
 categories: Guide
 level: Basic

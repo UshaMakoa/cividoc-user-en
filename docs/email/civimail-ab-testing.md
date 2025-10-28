@@ -1,56 +1,78 @@
 ---
 categories:
   - Guide
-level: Intermediate
-summary: Learn how to improve engagement and retention through segmentation, re-engagement campaigns, and data-driven insights.
-section: Email and communications
+level: Basic
+summary: Learn how to set up and use A/B testing in CiviMail to compare two email versions and send the most effective one to your audience.
+section: Email > CiviMail A/B Testing
 ---
 
-# Improving engagement and retention
+# CiviMail A/B testing
 
-Healthy mailing lists rely on meaningful communication — not just clean data.
+## What you can do with A/B testing
 
-This page explains how to use segmentation and re-engagement strategies to keep supporters active.
+A/B testing in CiviMail lets you compare two different emails by sending each to a small, random sample of your mailing list. After you see which version performs better, you can send the winning email to the rest of your recipients.
 
-## Understanding engagement
+## Before you start
 
-Engagement measures how contacts interact with emails through opens, clicks, and replies.
+- Make sure your recipients are already in a mailing list (group). If you need help creating a mailing list, see the sections on Groups and Tags.
 
-Monitoring engagement helps you identify which messages resonate and who may be losing interest.
+## Steps to create an A/B test
 
-## Segmenting your audience
+1. **Start a new A/B test**
 
-Segment groups by:
+- Go to the CiviCRM menu and select **Mailings > New A/B Test**.
 
-- Contact type or membership level  
-- Event attendance or donation frequency  
-- Communication preferences or topics  
-- Geographic area  
+2. **Set up your test**
 
-Targeted messages feel relevant and reduce unsubscribes.
+- Choose the campaign for your mailing (optional).
 
-## Running re-engagement campaigns
+- Pick the type of test you want to run:
 
-To re-engage inactive contacts:
+- Compare different subject lines.
 
-1. Identify who hasn’t opened or clicked within six months.  
-2. Send a re-engagement message (e.g., “We’d love to stay in touch”).  
-3. Offer a simple preference update option.  
-4. Remove unresponsive contacts after repeated attempts.  
+- Compare different From (sender) lines.
 
-## Analysing results
+- Compare two entirely different emails.
 
-Use **CiviMail reports** to review open/click data.  
-Compare results between groups or message styles.
+3. **Select your recipients and test size**
 
-## Maintaining long-term health
+- On the Target screen, pick your mailing list.
 
-- Review engagement data quarterly.  
-- Update subject lines and design regularly.  
-- Don’t overcommunicate — focus on value.  
+- Decide what percentage of your audience will receive each test email. Use the blue bar to adjust the split. The remaining recipients will get the final, winning email. The total (test group plus final group) will always add up to 100%.
 
-## Best practice
+4. **Compose your emails**
 
-- Re-engage before you remove.  
-- Celebrate milestones of active supporters.  
-- Be authentic and respect contacts’ time.
+- The compose screen changes based on your test type:
+
+- For subject line tests: Enter Subject (A) and Subject (B).
+
+- For From line tests: Enter From (A) and From (B).
+
+- For different emails: Choose a template for each version, and enter separate From and Subject fields.
+
+- Always send yourself a test email before scheduling or sending the real mailing.
+
+5. **Send your test**
+
+- Schedule or send the test emails to your selected test group.
+
+6. **Review results and send the final mailing**
+
+- Go to **Mailings > Manage A/B Tests** and select **Results** to see how each version performed.
+
+- Choose the best
+-performing email to send to the rest of your recipients.
+
+## Tips
+
+- Use clear and meaningful differences between your test emails (for example, a different subject or a different sender name).
+
+- Check your results carefully before sending the final mailing.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/email/ab
+-testing/ -->
+
+<!--
+This page is a How
+-to Guide because it is focused on the steps to achieve a specific task (setting up and running an A/B test) and does not provide background theory or exhaustive reference details. The instructions are practical and goal-oriented, matching the Diátaxis definition of a Guide[1][4]. -->

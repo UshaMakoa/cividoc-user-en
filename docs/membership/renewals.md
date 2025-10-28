@@ -1,160 +1,116 @@
 ---
 categories:
-  - Guide  
-level: Intermediate  
-summary: This guide explains how to manage membership renewals in CiviCRM and how to set up automatic reminders so members are encouraged to renew on time.
+  - Guide
+level: Basic
+summary: Learn how to manage membership renewals in CiviCRM, including sending reminders, handling automatic and manual renewals, and updating multiple memberships.
 section: Membership
 ---
 
+# Renewing memberships
 
-# Managing membership renewals and reminders
+## Understanding membership renewals
 
-This guide explains how to manage membership renewals in CiviCRM and how to set up automatic reminders so members are encouraged to renew on time.
+When a member’s end date is approaching and they want to continue, you should **renew** their existing membership instead of creating a new one. This keeps their membership history and financial records together.
 
-You’ll learn the difference between manual and automatic renewals, how to configure renewal settings, and how to use scheduled reminders to save your team time and reduce lapsed memberships.
+Each membership has three main dates:
+- **Member since**: The original join date. This does not change when renewing.
+- **Start date** and **End date**: These may change depending on the member’s current status.
 
-It’s written for membership managers and administrators who already have membership types set up and are ready to improve their renewal process.
+If you renew while the member’s status is still “active” (as set in your Membership Status Rules), the **start date stays the same** and the **end date is extended**. If you renew after the membership has lapsed, the **start date becomes the renewal date** and the **end date is set based on the new start date**.
 
-## **Understanding membership renewal**
+Each renewal can also record a payment, linking the financial transaction to the membership record.
 
-A membership renewal is when an existing member extends their current membership for another period.
+## Changing membership type during renewal (up-sell)
 
-Renewals can be:
+If a member wants to change to a different membership type within the same organisation while renewing, CiviCRM will update their existing membership to the new type. Their join date and payment history are kept. The new end date will be based on the new membership type’s duration.
 
-* **Manual** – when a staff member or administrator updates a record directly, or when a member renews through a paper form or phone call.
+If you want to prevent this (for example, to keep memberships separate), set up the new membership type under a different organisation in CiviCRM.
 
-* **Online** – when members renew through your website using a contribution page.
+## Reminding members to renew
 
-* **Automatic** – when the system renews memberships linked to recurring payments.
+You can remind members about upcoming renewals by email or post.
 
-CiviCRM can handle all of these methods and keep each renewal recorded as a separate entry, preserving membership history for every contact.
+### Sending email reminders
 
-## **Step 1: Setting up renewal options**
+Use **Scheduled Reminders** (Administer > Communications > Schedule Reminders) to automatically email members before their membership expires. This is especially useful for memberships that end at different times.
 
-Each membership type includes its own renewal settings.
+Tips:
 
-To check or edit them:
+- Customise your reminder emails for different member types and timing.
 
-1. Go to **Administer → CiviMember → Membership Types**.
+- Include a **checksum token link** in your email so members can renew online easily—their information will be pre
+-filled.
 
-2. Click **Edit** next to the membership type.
+- Test your reminder templates to make sure they work for all your membership types.
 
-3. Review the **Duration** and **Period Type** settings to ensure they reflect your renewal model.
+- By default, reminders go to everyone, even those who opted out of bulk emails, unless you exclude them.
 
-4. If you want to allow early renewals, tick the option **Renewal extend current end date**.
+- Exclude members who have chosen automatic renewal from these reminders.
 
-Tip: Allowing early renewal helps members who want to renew before their current term expires.
+### Sending postal reminders
 
-## **Step 2: Renewing a membership manually**
+You can also send letters to members who are due to renew, especially those without email addresses or who opted out of email. Use CiviCRM’s postal mail features to generate these letters.
 
-To renew a membership from a contact record:
+## Automatically renewed memberships
 
-1. Search for the contact and open their record.
+If a member has chosen automatic renewal, CiviCRM will process their payment automatically on the renewal date, update their membership end date, and send a thank
+-you and receipt. See the relevant setup guides for enabling auto-renewal.
 
-2. Go to the **Memberships** tab.
+## Online renewals
 
-3. Click **Renew** next to the membership you want to extend.
+CiviCRM uses the same web page for new memberships and renewals. Members who are **logged in** will see the renewal page. If they are not logged in, they will see the sign-up page. If CiviCRM matches their contact details, it will renew their membership; otherwise, it will create a new record (which can cause duplicates).
 
-4. Confirm or update the renewal date and contribution details.
+To reduce duplicates:
 
-5. Click **Save**.
+- Always include a checksum token in your renewal reminder emails.
 
-CiviCRM automatically creates a new membership record for the new period and keeps the old one for reference, maintaining a complete membership history.
+- Remind members to log in before renewing.
 
-## **Step 3: Enabling online renewals**
+## Setting up the default online renewal page
 
-If you use online membership sign-up pages, you can also allow members to renew directly through the same form.
+To allow all members to renew online (even those entered manually), set a **Default Online Membership Renewal Page**:
 
-To enable this:
+1. Create a membership page that includes all your membership types (use a price set if needed).
 
-1. Go to **Contributions → Manage Contribution Pages**.
+2. Go to Administer > CiviMember > CiviMember Component Settings.
 
-2. Edit your membership sign-up page.
+3. Set the Default Online Membership Renewal Page to your membership page.
 
-3. Open the **Memberships** tab.
+A “renew” link will then appear on the member’s Contact Dashboard.
 
-4. Ensure that **Membership section enabled** is ticked.
+## Manually renewing a membership for one member
 
-5. Add text in the **Renewal message** area so returning members know they can renew.
+1. Go to the member’s contact summary page.
 
-6. Save the page.
+2. Click the **Memberships** tab.
 
-When existing members visit the page and log in, CiviCRM will recognise them and offer renewal instead of new sign-up.
+3. Click **MORE** next to the membership record.
 
-If your payment processor supports it, you can also offer **auto-renewal** — where a recurring payment automatically renews the membership at the end of each term.
+4. Choose **Renew** (for cash, cheque, or EFT) or **Renew
+-Credit Card** (for online payment).
 
-## **Step 4: Setting up renewal reminders**
+## Updating multiple memberships at once
 
-Automated reminders help you communicate with members before and after their membership expires.
+To update several memberships (for example, after a bulk payment):
 
-To create one:
+1. Create a **Profile** with the membership fields you want to update.
 
-1. Go to **Administer → Communications → Scheduled Reminders**.
+2. Find the memberships: go to Memberships > Find Members, enter your criteria, and click Search.
 
-2. Click **Add Reminder**.
+3. Select the memberships in the results.
 
-3. In **Entity**, choose **Membership**.
+4. From the actions dropdown, choose **Update multiple memberships** and click Go.
 
-4. Select the membership type or status this reminder applies to.
+5. Select your profile and click Continue.
 
-5. Set the timing (for example, *2 weeks before membership end date*).
+6. Update the fields as needed. Use the “auto-copy” icon to fill down values.
 
-6. Choose the email template or write your own message.
+7. Click **Update Memberships** when finished.
 
-7. Select who should receive the reminder — member, staff contact, or both.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/membership/renewals/
+ -->
 
-8. Set it to **Active** and **Save**.
-
-You can create multiple reminders — for example:
-
-* One before expiry (“Your membership is due for renewal”)
-
-* One after expiry (“Your membership has lapsed — we’d love to have you back”)
-
-Once reminders are active, CiviCRM automatically sends them when the scheduled job runs.
-
-## **Step 5: Testing your renewal process**
-
-Before going live, test the full renewal process from start to finish:
-
-* Renew a membership manually and check that dates update correctly.
-
-* Complete a renewal through your online page and confirm payment links to the new membership record.
-
-* Run the **Scheduled Jobs** manually to trigger reminders and check that the correct messages are sent.
-
-Testing ensures your process works smoothly before members begin using it.
-
-## **Step 6: Monitoring renewals**
-
-To keep track of renewals and expirations:
-
-* Use the **Find Memberships** search to filter by membership status (Current, Grace, or Expired).
-
-* Create a **Smart Group** for members due to renew soon — for example, those with memberships ending in the next 30 days.
-
-* Review the **Membership Summary Report** to track overall renewal rates and trends.
-
-Monitoring regularly helps you identify members who may need a reminder or personal follow-up.
-
-## **Best practices**
-
-* Always test renewal forms with real-world examples before launching.
-
-* Make your reminder messages friendly and appreciative, not just transactional.
-
-* Avoid overwhelming members with too many reminders — one before and one after expiry is usually enough.
-
-* Keep your message consistent with your organisation’s tone and brand.
-
-* If you manage multiple membership types, ensure each one has the correct renewal and reminder settings.
-
-## **What’s next**
-
-Once your renewal and reminder processes are in place, you can:
-
-* Add automation with CiviRules (for example, send a thank-you when someone renews).
-
-* Build dashboards or reports to track renewals and lapsed members.
-
-* Test auto-renew options for regular supporters who prefer set-and-forget memberships.
+<!--
+This page is a Guide because it provides step
+-by-step instructions for common membership renewal tasks and addresses specific problems (how to remind, renew, and update memberships). It is not a Tutorial (no first-time onboarding flow), Reference (not exhaustive or systematic), or Explanation (no deep background or theory). Level is Basic, as it assumes minimal prior knowledge and is aimed at everyday users. -->

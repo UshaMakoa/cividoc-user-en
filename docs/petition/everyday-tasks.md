@@ -1,36 +1,71 @@
 ---
 categories:
-  - Tutorial  
-level: Basic  
-summary: This page guides non-profit users through the everyday tasks of managing petitions in CiviCRM, including creating, sharing, collecting signatures, and reviewing petition results.  
-section: Everyday tasks  
+  - Guide
+level: Basic
+summary: Step-by-step instructions for non-profit users to manage petitions in CiviCRM, including sending out petitions, collecting signatures, and reviewing results.
+section: Petition > Everyday tasks
 ---
 
-# Everyday tasks for managing petitions in CiviCRM
+# Everyday petition tasks
 
-## Manage your petitions  
-To start managing your petitions, go to **Campaigns > Dashboard > Petitions**. Here you can view, edit, and organize all your petitions in one place.
+## Manage your petitions
 
-## Send out a petition for signing  
-Once your petition is ready, you need to share it so people can sign it:  
-- Go to **Campaigns > Dashboard > Petitions**.  
-- Find your petition and click **More > Sign**.  
-- Copy the petition URL shown.  
-- Share this link by email or add it to your website so people can access and sign the petition online.
+To view, manage, or edit your petitions:
 
-## Collect responses online  
-After sharing the petition link, supporters can fill out the petition form and submit their responses. When they sign, they will see a message asking them to check and verify their email address to confirm their signature.
+- Go to **Campaigns > Dashboard > Petitions** in your CiviCRM menu.
 
-## Collect signatures  
-To see who has signed your petition:  
-- Go to **Campaign > Dashboard > Petitions**.  
-- Click **More > Signatures** next to the petition name.  
-- You can view individual petition activity or select multiple contacts to send emails or perform batch updates.
+- Here you will see a list of all your petitions. You can select any petition to view or make changes.
 
-## Review results with activity report  
-To analyze petition responses:  
-- Navigate to **Reports > Create Reports from Templates > Activity Report**.  
-- Select the fields you want to see, such as contact emails.  
-- Expand the Petition Questions section to filter results by specific answers.  
-- Click **Preview Report** to view the data.  
-- You can also export the report as a CSV file for further analysis.
+## Send out a petition for signing
+
+Once your petition is ready, you can share it so people can sign:
+
+- Go to **Campaigns > Dashboard > Petitions**.
+
+- Find your petition and click **More > Sign** next to its name.
+
+- The petition form will open. Copy the web address (URL) from your browser.
+
+- Share this link by email with your contacts or add it to your website so people can access and sign your petition.
+
+## Collect responses online
+
+After you share your petition link, people can fill out the form and submit their responses online.
+
+- When someone completes the form and clicks **Sign the Petition**, they will see a message asking them to check their email and verify their email address.
+
+- This helps ensure that only valid signatures are counted.
+
+## Collect signatures
+
+To see who has signed your petition:
+
+- Go to **Campaign > Dashboard > Petitions**.
+
+- Click **More > Signatures** next to your petition.
+
+- You can view the list of people who have signed.
+
+- You can select contacts and perform actions, such as sending an email or updating their information in bulk.
+
+## Review results with activity report
+
+To review and analyze petition results:
+
+- Go to **Reports > Create Reports from Templates > Activity Report**.
+
+- In the **Display Column** area, choose which fields you want to see, such as the signer's email address.
+
+- Expand the **Petition Questions** area and select any specific responses you want to review.
+
+- Click **Preview Report** to see the results.
+
+- You can also export the report to a CSV file for further analysis.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/petition/everyday
+-tasks/ -->
+
+<!--
+Suggestion: This page is a How
+-to Guide (step-by-step instructions for common tasks, no background or deep explanation). The content is basic and suitable for new users. If more detailed field descriptions or technical options were present, those could be split off as Reference. -->

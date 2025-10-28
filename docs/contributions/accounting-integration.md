@@ -1,64 +1,102 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can create, manage, and export accounting batches in CiviCRM to integrate contribution transactions with their accounting software.  
-section: Accounting Integration  
+  - Guide
+level: Intermediate
+summary: Learn how to group, review, and export CiviCRM financial transactions in batches for easy import into your accounting software.
+section: Contributions > Accounting Integration
 ---
 
-# Accounting integration
+# Accounting integration: managing and exporting batches
 
 ## What is accounting integration?
 
-Accounting integration in CiviCRM helps you export groups of financial transactions (called batches) so you can import them into your accounting software. This makes it easier to keep your accounting records up to date with your contributions.
+Accounting integration helps your organisation organise and export groups of financial transactions (like donations or payments) from CiviCRM, so you can import them into your accounting software. You can create a new batch for existing transactions, or use a batch created during manual data entry.
 
-## Using batches created through batch data entry
+## Using a batch created through batch data entry
 
-If you use batch data entry to record contributions, once you finish and close a batch, it automatically appears in the accounting batches list with the status *Closed*. You can use these batches directly for accounting export.
+If you already use batch data entry for contributions, those batches can also be used for accounting integration. Once you validate and close a batch, it will appear in the accounting batch list with the status "Closed".
 
-## Creating a new accounting batch from existing transactions
+## Creating a new batch from existing transactions
 
-1. Go to **Contributions > Accounting Batches** and click **New Batch**.  
-2. Fill in the batch details:  
-   - **Batch name**: Required. CiviCRM suggests a default name you can change.  
-   - **Description**: Optional notes about the batch.  
-   - **Payment method**: Choose if you want to include only transactions paid by a specific method (e.g., Credit Card, Check).  
-   - **Number of transactions**: If you know how many transactions will be in the batch, enter this to help with verification later.  
-   - **Total amount**: If you know the total money amount expected, enter it for verification.  
-3. Save the batch. You can edit these details later as long as the batch is open.
+### Create the batch
+
+1. Go to **Contributions > Accounting Batches** and select **New Batch**.
+
+2. Enter a **Batch Name** (required). CiviCRM suggests a default name, but you can change it.
+
+3. Optionally, add a **Description** to help you identify the batch.
+
+4. If you want to include only certain payment types (like credit card, check, cash, or EFT), select the **Payment Instrument**.
+
+5. If you know the number of transactions or the total amount in advance, enter these. CiviCRM will check these when you close the batch, but you can override any warnings if they don’t match.
+
+6. Click **Save**.
+
+You can edit these details later as long as the batch is still open.
 
 ## Assigning transactions to a batch
 
-1. After creating or opening a batch, you will see the batch details at the top of the page, including status, payment method, and totals.  
-2. Use the *Edit Search Criteria* section to find contributions to add. If you selected a payment method when creating the batch, it will filter transactions automatically.  
-3. From the search results, assign transactions one by one by clicking **Assign**, or select multiple and use the action menu to assign them all at once.  
-4. Assigned transactions appear in the list in the middle of the page.
+After creating or opening a batch, you’ll see the batch details at the top of the screen (such as who created it, its status, payment method, and totals).
+
+To add transactions:
+
+1. Use the **Edit Search Criteria** section to filter which contributions you want to add.
+
+2. In the search results, assign transactions one at a time (using **Assign**) or select several and use the action menu to assign them all at once.
+
+3. Assigned transactions move to the batch list and disappear from search results.
 
 ## Viewing and removing assigned transactions
 
-- To remove a transaction, click **Remove** next to it, or select multiple transactions and choose **Remove from Batch** from the action menu.  
-- The batch totals update automatically as you add or remove transactions.  
-- You can leave the batch open and return later to continue editing.
+- All assigned transactions appear in the batch list.
 
-## Closing and exporting a batch
+- To remove a transaction, click **Remove** next to it, or select several and use the action menu to remove them.
 
-- When you finish assigning transactions, you can **Close** or **Close and Export** the batch.  
-- If the number or total amount of assigned transactions does not match what you entered, CiviCRM will warn you. You can fix the mismatch or override the warning to close the batch.  
-- Closing without exporting sets the batch status to *Closed*. You can reopen it later to export.  
-- Closing and exporting lets you choose an export format:  
-  - **CSV**: A spreadsheet format.  
-  - **IIF**: A format for QuickBooks and other Intuit products.  
-- Once exported, the batch status changes to *Exported* and cannot be reopened.
+- The batch totals update as you add or remove transactions.
 
-## Managing batches
+- You can return and edit an open batch at any time.
 
-- Go to **Contributions > Accounting Batches** and select **Open Batches** to see all batches.  
-- You can filter batches by status (Open, Closed, Exported), name, creator, payment method, number of transactions, or total amount.  
-- For *Open* batches, you can assign/remove transactions, edit details, close, export, or delete.  
-- For *Closed* batches, you can view transactions, export, reopen, or delete.  
-- For *Exported* batches, you can view transactions, download the export file again, or delete the batch. Exported batches cannot be reopened.  
-- You can also select multiple batches and perform bulk actions like re-open, close, export, or delete.
+## Closing and exporting a completed batch
+
+When you’re done assigning transactions:
+
+1. Choose **Close Batch** or **Close and Export**.
+
+2. If the number or total amount of assigned transactions doesn’t match what you entered, you’ll see a "Mismatch" warning. You can fix the numbers or override the warning to update them.
+
+3. Closing the batch changes its status to "Closed". You can reopen it before exporting if needed.
+
+4. Exporting the batch lets you choose a format:
+
+   - **CSV**: For spreadsheets.
+   - **IIF**: For importing into QuickBooks and similar software.
+
+5. Once exported, the batch status is "Exported" and it cannot be reopened.
+
+## Searching for and managing batches
+
+- Go to **Contributions > Accounting Batches** to see all batches.
+
+- Filter batches by status, name, creator, payment method, number of transactions, or total amount.
+
+- For **Open** batches: assign/remove transactions, edit details, close, export, or delete.
+
+- For **Closed** batches: view transactions, export, reopen, or delete.
+
+- For **Exported** batches: view transactions, download export files, or delete (cannot reopen).
+
+You can also select multiple batches from the list and use the action menu to reopen, close, export, or delete several at once.
 
 ## Finding transactions by batch
 
-- Use the **Advanced Search** or **Find Contributions** and search by batch name to see all transactions included in a specific batch.
+- In **Advanced Search** or **Find Contributions**, you can search by batch name to see all transactions in a specific batch.
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/accounting
+-integration/ -->
+
+<!--
+This page is a Guide, as it provides step
+-by-step instructions for achieving a specific task (managing and exporting accounting batches) without focusing on background theory or exhaustive reference details. The level is Intermediate, as it assumes users are familiar with contributions and basic CiviCRM navigation but may not know about accounting integration. The page logically belongs under Contributions > Accounting Integration. If further split is needed, a Tutorial could be created for first-time users, and Reference material could list all batch fields and export formats. -->

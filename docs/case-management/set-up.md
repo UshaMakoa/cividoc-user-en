@@ -1,74 +1,156 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how to set up and configure the CiviCase component in CiviCRM to help non-profit users manage cases effectively.  
-section: Set-up  
+  - Guide
+level: Intermediate
+summary: Step-by-step instructions for setting up CiviCase so your organisation can manage cases, roles, activities, and permissions in CiviCRM.
+section: Case management > Set-up
 ---
 
-# Set up CiviCase in CiviCRM
+# Set up CiviCase
 
 ## Enable the CiviCase component
 
-To start using case management in CiviCRM, you first need to enable the CiviCase component:
+To start using CiviCase, you first need to enable it in your CiviCRM system.
 
-- Go to **Administer > System Settings > Components**.
-- Find and select **CiviCase**.
-- Click **Save**.
+1. Go to **Administer > System Settings > Components**.
 
-After this, you will see **Cases** appear in your main navigation menu.
+2. Find and select **CiviCase**.
+
+3. Click **Save**.
+
+You should now see **Cases** in your main navigation menu.
 
 ## Define case types
 
-Case types help you organize different kinds of cases you manage. You can create one or more case types to fit your needs.
+Case types help you organise the different kinds of cases your organisation manages (for example, "Employment Counselling" or "Support Request").
 
-To add a case type:
+To add a new case type:
 
-- Go to **Administer > CiviCase > Case Types**.
-- Click **New Case Type**.
-- Enter a **Title** (this is what users will see) and an optional **Description**.
-- The system will auto-fill a **Name** field for internal use; leave it as is unless you are an advanced user.
-- Optionally, restrict who can be assigned to case activities by groups or website users.
-- Select or create **Case Roles** — these are the people involved in the case (e.g., client, case manager).
-  - You can assign roles automatically to the case creator.
-  - Mark one role as the **Manager** to highlight that person in case lists.
-- Choose **Activity Types** that users can add quickly when working on a case (e.g., Phone Call, Email).
-  - You can create new custom activity types if needed.
-  - Set limits on how many times an activity can be used per case if you want.
-- Define **Timelines** and **Sequences** to set standard workflows for your cases.
-  - Timelines schedule activities relative to case start or other activities.
-  - Sequences define the order of activities, creating the next only after the previous is done.
-  - Each case type must have a **Standard Timeline** starting with the "Open Case" activity.
+1. Go to **Administer > CiviCase > Case Types**.
 
-## Create custom fields for cases and activities
+2. Click **New Case Type**.
 
-Custom fields let you collect specific information relevant to your cases or activities.
+3. Enter a **Title** (what users will see) and an optional **Description**.
 
-To create custom fields:
+4. The **Name** field is filled in automatically for internal use. Advanced users can change this, but it should not be changed after the case type is created.
 
-- Go to **Administer > Customize Data and Screens > Custom Fields**.
-- Click **Add a Set of Custom Fields**.
-- Choose if the fields are for **Cases** or **Activities**.
-- Select the specific case or activity types these fields apply to.
-- Add helpful instructions for users if needed.
-- Save and then add individual custom fields.
-- Organize large numbers of fields into logical groups to keep forms user-friendly.
+### Restrict activity assignment (optional)
 
-## Filing emails on cases
+- By default, any contact can be assigned to activities in a case.
 
-You can keep case-related emails attached to cases for easy reference.
+- You can choose to limit this to certain groups or to users with website accounts.
 
-- Send emails directly from the **Manage Case** screen to have them filed automatically.
-- If you use the Email Processor, replies to case emails will also be filed automatically.
-- Alternatively, include “[case #123]” in the email subject to file it to case ID 123.
+### Include case roles
 
-## Set up user permissions for CiviCase
+- Roles are the types of people involved in a case (like "Case Manager" or "Client").
 
-To control who can see and manage cases:
+- Use the **Add role** drop
+-down to select or create roles for this case type.
 
-- Create contact records for all staff or service providers using CiviCase.
-- Ensure they have user accounts in your CMS (Drupal, Joomla!, or WordPress).
-- Assign appropriate permissions based on their roles:
+- To create a new role, type its name and select it when it appears underlined in blue.
 
-| Permission                  | What it allows                                   | Notes                                                                                         |
-|
+- For each role, you can set:
+
+  - **Assign to Creator**: Automatically assigns the role to the person who creates the case.
+  - **Is Manager**: Marks the role as a manager, which will be shown in listings and reports.
+
+**Note:** Roles created here are for individual-to-individual relationships. To set up individual-to-organisation roles, edit them later at **Administer > Customize Data and Screens > Relationship Types**.
+
+### Include activities
+
+- Activities are the actions or steps that happen in a case (like phone calls, emails, or meetings).
+
+- Choose which activity types users can add to this case type using the **Add activity type** drop
+-down.
+
+- To add a new activity type, type its name and select it when it appears underlined in blue.
+
+- For each activity type, you can set a maximum number of times it can be used in a case.
+
+- You can edit activity types later at **Administer > Customize Data and Screens > Activity Types**.
+
+### Set up timelines and sequences
+
+- **Timelines** are groups of activities scheduled relative to when the case is opened or to another activity.
+
+- The **Standard Timeline** is required and is added automatically when a case is opened.
+
+- You can add more timelines or a **Sequence** (a set of activities where each one appears only after the previous is completed).
+
+- To add activities to a timeline:
+
+1. Select or create an activity.
+
+2. Set its status (default is Scheduled).
+
+3. Choose a reference activity (often "Open Case").
+
+4. Enter an offset in days (when the activity should happen).
+
+5. Use the "Select" option if there are multiple reference activities to choose from.
+
+- You can rename timelines or sequences in the **Advanced** section.
+
+- Reorder activities using the drag
+-and-drop handles.
+
+**Tip:** Sample case types are included when you enable CiviCase. Use these as examples or starting points.
+
+## Add custom fields
+
+Custom fields let you collect extra information specific to your cases or activities.
+
+To add custom fields:
+
+1. Go to **Administer > Customize Data and Screens > Custom Fields**.
+
+2. Click **Add a Set of Custom Fields**.
+
+3. Under **Used For**, select **Activities** or **Cases**.
+
+4. Choose the specific activity or case types these fields are for.
+
+5. Add any help text for your users.
+
+6. Click **Save**.
+
+7. Add your custom fields to the set.
+
+**Tip:** If you need many fields, group them into sets that make sense to users to avoid overwhelming forms.
+
+## File emails on cases
+
+You can keep emails related to a case in CiviCase.
+
+- You can send emails directly from the **Manage Case** screen.
+
+- If you use the Email Processor, replies to emails sent from CiviCase are filed automatically.
+
+- To file an email or activity to a case manually, add `[case #123]` (replace 123 with the case ID) at the start of the subject line.
+
+## Set CiviCase permissions
+
+To manage who can access and work with cases:
+
+- Each staff member or provider needs a contact record in CiviCRM and a user account on your website (Drupal, Joomla!, or WordPress).
+
+- In Joomla! and WordPress, users must have administrator access to use CiviCase.
+
+- Add contact records for external providers who need to be assigned roles but will not log in.
+
+- Assign permissions in your CMS to control access:
+
+  - **Access my cases and activities**: User can create and manage their own cases and activities, but not see others'.
+  - **Access all cases and activities**: User can create, view, and manage any case.
+  - **Delete in CiviCase**: User can mark cases and activities as deleted (they are hidden, not removed).
+  - **Administer CiviCase**: User can create/edit case types, set case statuses, and define rules for redacting case data.
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/case
+-management/set-up/ -->
+
+<!--
+This page is a Guide, as it provides step
+-by-step instructions for configuring CiviCase, aimed at users who need to achieve a specific setup goal. It is not a Tutorial (not a first-time learning exercise), nor Reference (not exhaustive options), nor Explanation (not background/why). The level is Intermediate, as it expects users to be familiar with basic CiviCRM navigation and concepts. -->

@@ -1,73 +1,189 @@
-# Source: https://docs.civicrm.org/user/en/latest/introduction/real-world-examples/
-
+---
 categories:
-  -  
-level: Basic  
-summary: This page shares real-life stories of non-profit organizations using CiviCRM to manage their contacts, communications, events, and memberships, showing how the system can help improve their work.  
-section: Introduction  
-
-# Real world examples  
-
-## Introduction  
-CiviCRM is used by many different non-profit organizations around the world. Some have just a few people, while others have hundreds of staff. Their needs can be simple or quite complex. This page shares real stories of how organizations use CiviCRM to manage their work better. You will see mentions of CiviCRM features like CiviEmail, CiviMember, and CiviPledge. Don’t worry if you don’t know these yet — this is about understanding how CiviCRM can help you.  
-
-## suffering relieved!  
-The American Friends Service Committee (AFSC) is a large peace and social justice organization with over 400 employees and many offices worldwide. Each office kept its own lists of contacts, but they used many different systems that didn’t work well together. Staff found it hard to manage contacts, send newsletters, and collect information online.  
-
-### what they did  
-AFSC started using CiviCRM with CiviMail to send emails and newsletters, CiviEvent to track event registrations, and CiviMember to manage committee members. When they found a missing feature, they worked with the CiviCRM developers to add it — a change that helped everyone using CiviCRM.  
-
-### the results  
-After switching hosting from an outside vendor to internal management, AFSC staff could fully use CiviCRM’s features. They now manage contacts, send newsletters, and handle event sign-ups easily. Nine AFSC offices use CiviCRM, and the IT department recommends it as their main database. Staff can access data anywhere, run searches, and communicate better, making their work easier and more effective.  
-
-## a crm education  
-Schoolhouse Supplies (SHS) in Portland, Oregon, collects and gives out school supplies. Before CiviCRM, they used many different software tools and hundreds of spreadsheets, which made managing data hard.  
-
-### what they did  
-SHS moved all their data into CiviCRM Standalone. They replaced several old tools with CiviCRM components for contacts, contributions, and emails. They also connected their custom online store and inventory systems to CiviCRM.  
-
-### the results  
-SHS now coordinates all their activities from one place. They are moving more manual tasks, like volunteer coordination, into CiviCRM. This helps them plan new campaigns that were too difficult before.  
-
-## growing satisfaction  
-The New York State Nursery Landscape Association (NYSNLA) supports nursery and landscape professionals. They used spreadsheets and a Microsoft Access database before moving to CiviCRM to better manage members and provide a public member directory.  
-
-### what they did  
-With help from a consultant, NYSNLA mapped their data into CiviCRM and used CiviMember, CiviEvent, CiviContribute, and CiviMail. They tracked their special Certified Nursery Landscape Professional program using membership features and event registrations. They also customized the system to quickly see certification status for employees.  
-
-### the results  
-NYSNLA created a searchable member directory on their website that always shows up-to-date information. Members can update their own details, making communication easier and more accurate.  
-
-## campaigning for efficiency  
-The Green Party of New Zealand has thousands of members and contacts. Before CiviCRM, they used many different systems for managing members, donations, and campaigns.  
-
-### what they did  
-Starting in 2007, the Green Party set up CiviCRM with Drupal. They used it for online donations, memberships, and event registrations. They created custom data fields and smart groups to manage media releases. They also developed a special access control system to meet their complex needs.  
-
-### the results  
-The Party increased online fundraising and made membership renewals easier. They continue to improve how they use CiviCRM and train staff to get the most from it.  
-
-## quest for success  
-QuestBridge helps motivated low-income high school students get into college. They built their application and communication system around CiviCRM.  
-
-### what they did  
-QuestBridge used CiviCRM to store student applications, biographical data, and communication history, extending it with custom programming.  
-
-### the results  
-In one school year, QuestBridge helped over 1200 students get accepted to partner colleges efficiently. They plan to upgrade CiviCRM and wish they had invested more in training at the start.  
-
-## changing with the times  
-The San Francisco School serves preschool to 8th grade students. Good communication with families is very important.  
-
-### what they did  
-They created a Parent Portal using CiviCRM where parents log in to see and update contact information, schedule parent-teacher conferences, and register for after-school classes. Features were introduced gradually to help everyone adjust.  
-
-### the results  
-Parents can keep their information up to date and manage schedules online. This improved communication and made school processes smoother for both families and staff.  
-
-## summary  
-These real-world stories show how CiviCRM helps non-profits manage contacts, communications, events, memberships, and more. Whether you are just starting or looking to improve your system, learning from others’ experiences can inspire you to use CiviCRM in ways that fit your organization’s needs.  
-
+  - Explanation
+level: Basic
+summary: Real-world stories show how non-profit organisations use CiviCRM to solve everyday challenges and improve their work.
+section: Introduction
 ---
 
-**Suggestion:** Because this page covers many different examples, consider splitting it into separate pages for each organization or theme (for example, one page for “Managing members and events,” another for “Fundraising and communications,” and another for “Custom solutions and integrations”) to make it easier for users to find the examples most relevant to them.
+# Real world examples
+
+## What is this page about?
+
+This page shares real-world stories from organisations of different sizes and missions, showing how they use CiviCRM to manage contacts, run events, communicate with supporters, and improve their operations.
+
+You do not need to know all the details about CiviCRM features mentioned here—these examples are meant to inspire and help you see what is possible.
+
+## Example 1: American Friends Service Committee (AFSC)
+
+**About the organisation:**
+A large peace and social justice group with offices across the USA and worldwide.
+
+**Challenges they faced:**
+
+- Many offices used different systems to track contacts, leading to duplicate data and confusion.
+
+- Staff struggled to search for contacts, send bulk emails, and collect information online.
+
+**What they did:**
+
+- Chose CiviCRM to unify contact management and communications.
+
+- Set up CiviCRM sites for several offices, using features like CiviMail (for emails), CiviEvent (for event registrations), and CiviMember (for membership tracking).
+
+- Worked with CiviCRM developers to add missing features, benefiting both their organisation and the wider CiviCRM community.
+
+**Results:**
+
+- Staff can now manage contacts, send newsletters, and run online events easily.
+
+- Data is accessible from anywhere, and support from the CiviCRM community is strong.
+
+- Offices can run complex searches and communicate more effectively.
+
+## Example 2: Schoolhouse Supplies (SHS)
+
+**About the organisation:**
+A non
+-profit in Portland, Oregon, providing school supplies to students and teachers.
+
+**Challenges they faced:**
+
+- Used many different software tools and spreadsheets, making data management complicated.
+
+**What they did:**
+
+- Moved all data into CiviCRM Standalone.
+
+- Replaced old systems with CiviCRM components for contacts, contributions, and emails.
+
+- Integrated their online store and inventory management with CiviCRM.
+
+**Results:**
+
+- All business processes now use the same database.
+
+- Manual tasks like volunteer coordination are being moved into CiviCRM, saving time and effort.
+
+- New campaigns are possible that were previously too difficult or expensive.
+
+## Example 3: New York State Nursery Landscape Association (NYSNLA)
+
+**About the organisation:**
+A member
+-based association supporting nursery and landscape professionals in New York State.
+
+**Challenges they faced:**
+
+- Needed to consolidate data and provide members with real
+-time access to their information.
+
+- Wanted a searchable member directory for website visitors.
+
+**What they did:**
+
+- Analysed their old database and mapped functions to CiviCRM.
+
+- Used CiviMember, CiviEvent, CiviContribute, and CiviMail for core needs.
+
+- Tracked certification programs using CiviCRM’s membership features.
+
+- Customised the interface to better view and manage member records.
+
+**Results:**
+
+- Created a public, searchable member directory with up
+-to-date information.
+
+- Members can update their own contact details and services.
+
+- Improved management of certification and member services.
+
+## Example 4: Green Party of New Zealand
+
+**About the organisation:**
+A political party with thousands of members and contacts, running campaigns and advocacy work nationwide.
+
+**Challenges they faced:**
+
+- Used many different systems for members, donations, contacts, and campaigning.
+
+- Needed to follow policies supporting open
+-source software.
+
+**What they did:**
+
+- Adopted CiviCRM and Drupal for their database and website.
+
+- Set up online donations, memberships, and event registrations.
+
+- Built custom data fields and Smart Groups for targeted communications.
+
+- Developed a granular access control system for complex permissions.
+
+**Results:**
+
+- Online fundraising and membership renewal became much easier.
+
+- Media releases and communications are more targeted and efficient.
+
+- Training and super
+-user development are ongoing needs.
+
+## Example 5: QuestBridge
+
+**About the organisation:**
+Helps talented low-income students apply to top colleges in the USA.
+
+**Challenges they faced:**
+
+- Needed to manage applications and communications with students and partner colleges.
+
+**What they did:**
+
+- Built business processes around CiviCRM, including a custom online application.
+
+- Used CiviCRM to store student information and communication history.
+
+**Results:**
+
+- Helped over 1200 students get accepted and funded at partner colleges.
+
+- Efficient operations thanks to CiviCRM.
+
+- Plans to invest more in training and upgrade to new features.
+
+## Example 6: San Francisco School (SFS)
+
+**About the organisation:**
+A diverse preschool–8th grade school with about 270 students.
+
+**Challenges they faced:**
+
+- Needed better communication between school and families.
+
+- Wanted parents to easily access and update contact and student information.
+
+**What they did:**
+
+- Created a Parent Portal using CiviCRM.
+
+- Allowed parents to log in, view and update information, schedule conferences, and manage after
+-school class registrations.
+
+**Results:**
+
+- Parents can update contact details and view their child’s activities and fees.
+
+- Online sign
+-ups make scheduling more flexible.
+
+- Improved collaboration between parents and staff.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/introduction/real
+-world-examples/ -->
+
+<!--
+Suggestion: This page is an Explanation, as it provides context and background through stories, not step
+-by-step instructions or factual reference. It is best suited for users seeking to understand CiviCRM’s real-world impact, not for performing a specific task. The level is Basic, and it belongs in the Introduction section. If desired, individual case studies could be split into short Guides for specific goals (e.g. “How to set up a Parent Portal with CiviCRM”), but the current content is best kept as Explanation. -->

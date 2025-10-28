@@ -1,68 +1,108 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how to create and customize forms in CiviCRM using the FormBuilder extension, helping non-expert nonprofit users build simple forms for tasks like activity tracking and contact management.  
-section: Customising the user interface  
+  - Tutorial
+level: Basic
+summary: Learn how to create, configure, and customize forms in CiviCRM using FormBuilder, step by step, designed for non-profit users with no technical background.
+section: Customising the user interface > FormBuilder
 ---
 
-# FormBuilder
+# Creating forms with FormBuilder
 
-## What is FormBuilder?
+## Introduction
 
-FormBuilder is a CiviCRM extension that lets you create your own custom forms easily. It is useful when you need a form with just a few fields, for example, to quickly create and assign activities like scheduling phone calls. Once enabled, you can find FormBuilder under **Administer > Customize Data and Screens**.
+FormBuilder is a tool in CiviCRM that lets you create custom forms for your organisation’s needs, such as collecting information or scheduling activities. You don’t need to be a technical expert to use FormBuilder, and this guide will walk you through each step.
 
-## Enabling FormBuilder
+## Step 1: Enable FormBuilder
 
-If FormBuilder is not already installed, you can enable it on the **Extensions** page in CiviCRM. After enabling, the FormBuilder link will appear in the menu.
+- Go to your CiviCRM dashboard.
 
-## Creating a form
+- Navigate to **Administer > System Settings > Extensions**.
 
-1. Go to **Administer > Customize Data and Screens > FormBuilder**.
-2. Click to create a new form.
-3. Choose the type of form you want to build (currently, activity and contact forms are available).
+- Look for **FormBuilder** (sometimes called Afform). If it’s not enabled, click to install or enable it.
 
-## Configuring form settings
+Once enabled, you’ll see a **FormBuilder** link under **Administer > Customize Data and Screens**.
 
-The form settings screen has two main parts:
+## Step 2: Create a new form
 
-- **Left pane (configuration):**  
-  - Set the form title (required) and description (recommended for clarity).  
-  - Choose the permission needed to access the form.  
-  - Define the URL path for the form (must start with `civicrm/`).  
-  - Decide if the form should be accessible on your website front end.  
-  - Optionally add the form to the navigation menu.  
-  - Choose where the form is exposed (e.g., Contact Layout editor, dashlets, or tokens).  
-  - Enable logging of form submissions if needed.
+- Click on **Administer > Customize Data and Screens > FormBuilder**.
 
-- **Right pane (layout):**  
-  - See a live preview of the form.  
-  - Drag and drop fields to build the form layout.  
-  - Customize field settings such as making fields required, adding default values, and showing or hiding labels.  
-  - Add text blocks or HTML containers to organize fields visually.
+- Click **Add Form** or **New Form**.
 
-## Building the form layout
+- Choose the type of form you want to create (for example, for activities or contacts).
 
-- Use the second tab in the left pane to select fields related to the chosen contact or activity type.
-- Drag fields into the layout pane on the right and arrange them as needed.
-- Click on fields to rename labels, add placeholder text, or change input styles (e.g., switch to a rich text editor).
-- Group fields into containers and save these as reusable blocks to use on other forms.
+*Note: Currently, you can make forms for activities, contacts, and some other types. More types may be added in future versions.*
 
-## Using URL filters with forms
+## Step 3: Configure form settings
 
-You can set default filter values in search forms by adding parameters to the URL. For example, adding `#?haircolor=brown` to the form URL will filter results by hair color brown automatically. Multiple filters can be combined with `&`.
+On the left side of the screen, you’ll see the configuration panel:
 
-This also works for setting default values in submission forms. For instance, a signup form URL can preset fields like hair color or event name, which users can change before submitting.
+- **Title**: Give your form a clear name. This will show up on the form itself.
+- **Description**: Add a short description to help users understand what the form is for.
+- **Permission**: Choose who can access the form (e.g., only logged-in users, anyone with a special link, or all users).
+- **URL**: Set the web address for your form. It must start with `civicrm/`.
+- **Front-end access**: Tick the box if you want the form to be available on your website.
+- **Navigation menu**: Tick the box to add the form to your site’s menu.
+- **Expose to**: Decide if the form should be available in other areas, like the Contact Layout editor or dashlets.
+- **Log submissions**: Choose whether to keep a record of form submissions.
 
-## Setting up secret links for forms
+## Step 4: Build your form layout
 
-FormBuilder supports "secret links" (similar to checksums in other CiviCRM forms) that allow users to access pre-filled forms securely via unique URLs sent by email.
+On the right side, you’ll see the layout panel:
 
-To enable this:
+- Drag and drop the fields you want from the left onto the layout area.
 
-- On the form tab, set permissions to one of the generic options like "Anyone with secret link".
-- Set the form’s page route (URL path) and enable front-end access.
-- Expose the form to message tokens.
-- On the individual tab, set security to "Form-Based", enable autofill for the current user, and allow update actions.
+- You can rearrange fields and group them using containers.
 
-This setup allows users to access forms with pre-filled data securely without logging in.
+- Use formatting options to add text blocks or HTML for instructions or section headings.
+
+## Step 5: Customize fields
+
+For each field, you can:
+
+- Change how data is entered (for example, use a rich text editor for detailed answers).
+
+- Mark fields as required or optional.
+
+- Set default values.
+
+- Show or hide the label.
+
+- Add help text before or after the field.
+
+- Rename labels or add placeholder text for guidance.
+
+## Step 6: Save and use reusable blocks
+
+- If you create a group of fields you’ll use often, save them as a block. You can reuse blocks in other forms, saving time and keeping things consistent.
+
+- To update a block, edit it once and all forms using it will update automatically.
+
+## Step 7: Set preset values
+
+- At the top of the left panel, use the **Values** section to set preset data, such as default status or who added the activity.
+
+- This is useful for forms that need to keep certain information the same every time.
+
+## Step 8: Save and publish your form
+
+- Review your form layout and settings.
+
+- Click **Save**.
+
+- Share the form’s URL with your team or add it to your website as needed.
+
+## Tips
+
+- You can always go back and edit your form later.
+
+- Test your form by submitting sample data to check everything works as expected.
+
+- Ask for feedback from colleagues to make sure the form is clear and easy to use.
+
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
+
+<!--
+This page is a Tutorial because it provides a step
+-by-step walkthrough for first-time users to create and configure forms using FormBuilder. It does not focus on solving a specific problem (Guide), list exhaustive options (Reference), or explain underlying concepts (Explanation). The level is Basic, suitable for non-expert non-profit users. If more advanced features or troubleshooting steps are added, those could be split into separate Guides or Reference pages. -->

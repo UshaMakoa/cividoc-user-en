@@ -1,45 +1,57 @@
 ---
 categories:
-  - Tutorial
+  - Guide
 level: Basic
-summary: This guide helps non-profit users set up and configure mapping and geocoding in CiviCRM to enhance contact management with geographic data.
-section: Mapping
+summary: Learn how to set up mapping and geocoding in CiviCRM so your organisation can display maps and automatically fill in location details for contacts.
+section: Initial set up
 ---
 
-# Mapping in CiviCRM
+# Set up mapping and geocoding
 
-## Introduction to mapping and geocoding
+## What you can do with mapping
 
-Mapping and geocoding in CiviCRM allow you to visualize contact addresses on a map. This feature can help your organization better understand where your contacts are located, which can be useful for planning events, outreach, and more.
+With mapping enabled, your organisation can display maps for contact addresses and automatically fill in latitude and longitude information (geocoding) when you add or edit records.
 
-## Setting up your mapping provider
+## Steps to set up mapping and geocoding
 
-To get started, you need to choose a mapping provider. CiviCRM supports two main options: OpenStreetMap and Google Maps. Here’s how to set it up:
+1. Go to **Administer > System Settings > Mapping and Geocoding** in your CiviCRM menu.
 
-1. Navigate to **Administer > System Settings > Mapping and Geocoding**.
-2. In the **Mapping Provider** section, select either **OpenStreetMap** or **Google** based on your preference.
-3. If you choose Google, you will also need to enter your **Geo Provider Key**, which is an API key required by Google.
+2. **Choose your mapping provider**:
 
-Make sure to save your changes. You should see a confirmation message stating, "Your changes have been saved."
+- Select either **OpenStreetMap** or **Google**.
 
-## Understanding geocoding
+- Pick the provider that works best for the locations your contacts are in.
 
-Geocoding is the process of converting addresses into latitude and longitude coordinates. This is particularly useful for mapping your contacts accurately. If you have configured a geocoding provider, CiviCRM will automatically fill in the latitude and longitude fields when you add or edit a contact.
+3. **Choose your geocoding provider**:
 
-## Troubleshooting connectivity issues
+- Select **Google** or another available provider.
 
-If your CiviCRM installation is on a server without internet access, or if there’s a firewall blocking communication with your mapping provider, you may encounter errors when trying to save contact records. In this case, you will need to either disable mapping and geocoding or resolve the connectivity issue.
+- This service translates addresses into latitude and longitude.
 
-## Setting up scheduled jobs
+4. **Enter your API key**:
 
-After enabling your mapping provider, it’s important to configure the **job.geocode** scheduled job. This job will geocode addresses that do not have latitude and longitude information based on your configured settings.
+- If your chosen provider requires an API key, enter it in the **Geo Provider Key** field.
 
-## Be mindful of usage limits
+5. Click **Save** to apply your changes.
 
-Keep in mind that some mapping and geocoding providers have usage limits. If you exceed these limits, you may receive an error message when trying to save an address. 
+6. If successful, you’ll see a message confirming that your changes have been saved.
 
-## Alternative geocoding options
+## Important notes
 
-If you need to explore other geocoding options, consider checking out the [Geocoder extension](https://civicrm.org/extensions/geocoder), which offers additional features and improvements.
+- If your server cannot access the public internet (for example, due to a firewall), mapping and geocoding may not work. You may see errors when adding or editing contacts. In this case, either resolve the connectivity issue or disable mapping and geocoding.
 
-With these steps, you’re now ready to utilize mapping and geocoding in CiviCRM to enhance your organization’s contact management capabilities!
+- After setting up mapping, make sure to configure the **job.geocode** scheduled job. This job automatically geocodes any addresses that do not already have latitude and longitude.
+
+- Some providers have usage limits. If you exceed these limits, you may see an error when saving an address.
+
+## Alternative providers
+
+If you need more options, consider using the **Geocoder extension** for additional geocoding providers and features.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/initial
+-set-up/mapping/ -->
+
+<!--
+This page is a Guide because it provides step
+-by-step instructions for a specific configuration task, without background or systematic reference details. The content is basic, as it is for first-time setup by non-expert users. The logical section is "Initial set up". -->

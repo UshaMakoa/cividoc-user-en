@@ -1,0 +1,265 @@
+
+🔍 index.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ appendices\credits.md  (score 95/100)
+✅ appendices\free-software.md  (score 95/100)
+✅ appendices\glossary.md  (score 96/100)
+✅ appendices\history-of-this-book.md  (score 94/100)
+✅ campaign\everyday-tasks.md  (score 95/100)
+✅ campaign\reports-and-analysis.md  (score 94/100)
+✅ campaign\set-up.md  (score 94/100)
+✅ campaign\what-is-civicampaign.md  (score 94/100)
+✅ campaign\what-you-need-to-know.md  (score 95/100)
+✅ case-management\everyday-tasks.md  (score 94/100)
+✅ case-management\reports-and-analysis.md  (score 94/100)
+
+🔍 case-management\set-up.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ case-management\what-is-civicase.md  (score 95/100)
+✅ case-management\what-you-need-to-know.md  (score 95/100)
+✅ civic-engagement\everyday-tasks-part1.md  (score 94/100)
+
+🔍 civic-engagement\everyday-tasks-part2.md  (score 94/100)
+   🔸 No sections (## headers) detected.
+
+🔍 civic-engagement\everyday-tasks-part3.md  (score 94/100)
+   🔸 No sections (## headers) detected.
+✅ civic-engagement\reports-and-analysis.md  (score 95/100)
+✅ civic-engagement\set-up.md  (score 94/100)
+✅ civic-engagement\what-is-civiengage.md  (score 94/100)
+✅ civic-engagement\what-you-need-to-know.md  (score 94/100)
+✅ common-workflows\automating-tasks.md  (score 96/100)
+
+🔍 common-workflows\deduping-and-merging.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ common-workflows\exporting-your-contacts.md  (score 96/100)
+✅ common-workflows\importing-data-into-civicrm.md  (score 95/100)
+✅ common-workflows\postal-mail-communications.md  (score 96/100)
+
+🔍 common-workflows\tokens-and-mail-merge.md  (score 96/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ contributions\accounting-integration.md  (score 94/100)
+✅ contributions\finding-and-viewing-contributions.md  (score 94/100)
+✅ contributions\importing.md  (score 94/100)
+✅ contributions\invoicing.md  (score 96/100)
+
+🔍 contributions\key-concepts-and-configurations.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ contributions\manual-entry-of-contributions.md  (score 95/100)
+✅ contributions\manual-receipts-and-thank-yous.md  (score 95/100)
+✅ contributions\offline-fundraising.md  (score 95/100)
+
+🔍 contributions\online-contributions.md  (score 95/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 contributions\payment-processors.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+
+🔍 contributions\personal-campaign-pages.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+
+🔍 contributions\premiums.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ contributions\reports-and-analysis.md  (score 94/100)
+
+🔍 contributions\sales-tax-and-vat.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ contributions\soft-credits.md  (score 94/100)
+✅ contributions\what-is-civicontribute.md  (score 94/100)
+
+🔍 contributions\widgets.md  (score 92/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ email\civimail-ab-testing.md  (score 95/100)
+✅ email\everyday-tasks.md  (score 95/100)
+✅ email\maintaining-healthy-email-lists.md  (score 94/100)
+✅ email\mass-mailings-using-civimail.md  (score 95/100)
+✅ email\message-templates.md  (score 95/100)
+✅ email\reports-and-analysis.md  (score 94/100)
+
+🔍 email\scheduled-reminders.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ email\set-up.md  (score 96/100)
+✅ email\what-is-civimail.md  (score 94/100)
+✅ email\what-you-need-to-know.md  (score 96/100)
+✅ events\complex-event-fees.md  (score 96/100)
+✅ events\creating-an-event.md  (score 95/100)
+✅ events\custom-data-for-events.md  (score 94/100)
+✅ events\event-planning-and-management.md  (score 95/100)
+✅ events\event-templates.md  (score 95/100)
+✅ events\integrating-events-with-your-website.md  (score 94/100)
+✅ events\keeping-track-of-events-and-participants.md  (score 94/100)
+✅ events\manual-event-registration.md  (score 94/100)
+✅ events\online-event-registration.md  (score 94/100)
+
+🔍 events\repeating-events.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ events\reports.md  (score 95/100)
+✅ events\what-is-civievent.md  (score 94/100)
+✅ grants\every-day-tasks.md  (score 94/100)
+✅ grants\reports-and-analysis.md  (score 95/100)
+✅ grants\set-up.md  (score 95/100)
+✅ grants\what-is-civigrant.md  (score 95/100)
+✅ grants\what-you-need-to-know.md  (score 95/100)
+
+🔍 initial-set-up\addresses.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ initial-set-up\change-logging.md  (score 96/100)
+✅ initial-set-up\customizing-the-user-interface.md  (score 96/100)
+✅ initial-set-up\dates.md  (score 94/100)
+
+🔍 initial-set-up\error-handling.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ initial-set-up\installation-and-basic-set-up.md  (score 94/100)
+✅ initial-set-up\mapping.md  (score 94/100)
+✅ initial-set-up\permissions-and-access-control.md  (score 95/100)
+
+🔍 initial-set-up\scheduled-jobs.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ initial-set-up\users-contacts.md  (score 94/100)
+✅ introduction\components.md  (score 94/100)
+✅ introduction\extensions.md  (score 94/100)
+✅ introduction\is-civicrm-for-you.md  (score 95/100)
+✅ introduction\real-world-examples.md  (score 94/100)
+✅ introduction\what-is-civicrm.md  (score 94/100)
+✅ introduction\who-is-civicrm.md  (score 94/100)
+✅ membership\cancelling-and-expiring-memberships.md  (score 94/100)
+
+🔍 membership\defining-memberships.md  (score 96/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ membership\finding-and-viewing-memberships.md  (score 94/100)
+
+🔍 membership\making-member-only-websites.md  (score 92/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ membership\manual-entry-of-memberships.md  (score 94/100)
+✅ membership\membership-price-sets.md  (score 95/100)
+
+🔍 membership\membership-reports.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ membership\online-membership-sign-up.md  (score 95/100)
+✅ membership\renewals.md  (score 95/100)
+✅ membership\what-is-civimember.md  (score 95/100)
+✅ organising-your-data\activities-part1.md  (score 94/100)
+✅ organising-your-data\activities-part2.md  (score 94/100)
+✅ organising-your-data\activities-part3.md  (score 94/100)
+
+🔍 organising-your-data\contacts.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ organising-your-data\creating-custom-fields.md  (score 94/100)
+✅ organising-your-data\groups-and-tags.md  (score 94/100)
+✅ organising-your-data\mapping-your-data.md  (score 94/100)
+✅ organising-your-data\overview.md  (score 95/100)
+✅ organising-your-data\profiles.md  (score 94/100)
+✅ organising-your-data\relationships.md  (score 95/100)
+✅ organising-your-data\smart-groups.md  (score 94/100)
+✅ petition\everyday-tasks.md  (score 94/100)
+✅ petition\reports-and-analysis.md  (score 95/100)
+
+🔍 petition\set-up.md  (score 90/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ petition\what-is-civipetition.md  (score 94/100)
+✅ petition\what-you-need-to-know.md  (score 94/100)
+✅ pledges\everyday-tasks.md  (score 94/100)
+✅ pledges\pledges-reports-and-analysis.md  (score 94/100)
+✅ pledges\set-up.md  (score 94/100)
+✅ pledges\what-is-civipledge.md  (score 94/100)
+✅ pledges\what-you-need-to-know.md  (score 94/100)
+✅ reporting\everyday-tasks.md  (score 94/100)
+✅ reporting\external_reporting.md  (score 95/100)
+
+🔍 reporting\set-up.md  (score 92/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ reporting\what-is-civireport.md  (score 94/100)
+✅ reporting\what-you-need-to-know.md  (score 94/100)
+✅ searching\relative-date-formats.md  (score 94/100)
+✅ searching\searchkit\actions.md  (score 95/100)
+
+🔍 searching\searchkit\description.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\example-contacts-with-same-type-relationships.md  (score 94/100)
+
+🔍 searching\searchkit\example-donor-members-to-invite.md  (score 95/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 searching\searchkit\example-membership-listing.md  (score 94/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 searching\searchkit\example-upcoming-events.md  (score 95/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 searching\searchkit\expiration_date.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\export-import.md  (score 94/100)
+
+🔍 searching\searchkit\field_transformations.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 searching\searchkit\group_by.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\having.md  (score 94/100)
+
+🔍 searching\searchkit\query_info.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 searching\searchkit\save.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 searching\searchkit\search-displays.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\search_button.md  (score 96/100)
+
+🔍 searching\searchkit\search_for.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 searching\searchkit\soft-credit-example.md  (score 95/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 searching\searchkit\tags.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+
+🔍 searching\searchkit\title.md  (score 95/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\what-is-searchkit.md  (score 95/100)
+✅ searching\searchkit\where-part1.md  (score 94/100)
+
+🔍 searching\searchkit\where-part2.md  (score 94/100)
+   🔸 No sections (## headers) detected.
+   🔸 Sentences too short; rhythm could be improved (flow).
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+
+🔍 searching\searchkit\where.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+✅ searching\searchkit\with_without.md  (score 94/100)
+✅ sms-text-messaging\everyday-tasks.md  (score 95/100)
+✅ sms-text-messaging\reports-and-analysis-sms.md  (score 95/100)
+✅ sms-text-messaging\set-up.md  (score 94/100)
+✅ sms-text-messaging\what-is-sms.md  (score 95/100)
+✅ survey\everyday-tasks-part1.md  (score 94/100)
+✅ survey\everyday-tasks-part2.md  (score 95/100)
+✅ survey\reports-and-analysis.md  (score 95/100)
+✅ survey\set-up.md  (score 94/100)
+✅ survey\what-is-civisurvey.md  (score 94/100)
+✅ survey\what-is-gotv-voter-tracking.md  (score 94/100)
+✅ survey\what-you-need-to-know.md  (score 94/100)
+✅ the-civicrm-community\asking-for-help-in-chat.md  (score 95/100)
+✅ the-civicrm-community\bug-reporting.md  (score 95/100)
+
+🔍 the-civicrm-community\contributing-to-this-manual.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ the-civicrm-community\localising-civicrm.md  (score 95/100)
+✅ the-civicrm-community\the-civicrm-community.md  (score 94/100)
+
+🔍 the-user-interface\creating-new-forms.md  (score 95/100)
+   🔸 Tutorial lacks a 'Prerequisites' section – anticipate user needs.
+✅ the-user-interface\menu-dashboard-and-dashlets.md  (score 94/100)
+
+🔍 the-user-interface\search-result-actions.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 the-user-interface\searching-url-support.md  (score 94/100)
+   🔸 Reference with 'how-to': should be split into guides.
+
+🔍 the-user-interface\searching.md  (score 91/100)
+   ⚠️ Found 'explanation' concepts inside tutorial/guide (should be separated).
+✅ the-user-interface\undelete.md  (score 94/100)
+
+📊 Summary: 126/171 fully compliant, average score 94/100.

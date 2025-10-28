@@ -1,88 +1,112 @@
 ---
 categories:
-  - Guide  
-level: Intermediate  
-summary: This guide explains how to create and manage complex event fees in CiviCRM using price sets and discounts, helping non-profit users offer flexible pricing options for event registration.  
-section: Events  
+  - Guide
+level: Intermediate
+summary: Learn how to set up and manage complex event fees in CiviCRM using price sets and discounts, so your organisation can offer flexible event registration options.
+section: Events > Event Fees
 ---
 
 # Complex event fees
 
-## Understanding complex event fees
+## Using price sets for flexible event fees
 
-When you create an event in CiviCRM, the basic fee setup lets registrants choose just one fee option. However, many events need more flexible pricing — for example, adding optional sessions, meals, or materials at extra cost. This guide shows you how to use **price sets** and **discounts** to create more detailed fee structures that fit your event’s needs.
-
-## What are price sets?
-
-Price sets break down event fees into smaller parts, each with its own price. This lets you offer optional extras, like a post-event dinner or training sessions, that attendees can add to their registration.
+Sometimes your event needs more than a simple, single fee—maybe you want to offer optional meals, workshops, or merchandise during registration. **Price sets** in CiviCRM let you break down event fees into smaller, customizable pieces, so participants can choose the options that suit them.
 
 ### Example
 
-For a conference, you might have a price set that includes:
+Imagine you’re running a conference. With a price set, you can let people select:
 
-- Base registration fee  
-- Optional pre-conference workshops  
-- Meal options  
-- Accommodation choices  
+- Pre
+-conference training sessions (optional, extra cost)
 
-Each item can have its own price, and attendees select what they want.
+- Meals (choose which ones to attend)
 
-## Creating a new price set
+- Lodging (pick a room type)
 
-To create a price set:
+## How to create a new price set
 
-1. Go to **CiviEvent > New Price Sets**.  
-2. Enter a name for your price set.  
-3. Under **Used For**, select **Event**.  
-4. Choose the **financial type** (usually "Event Fee").  
-5. Optionally, add help text to guide registrants.  
-6. Check **Is this price set active**.  
+1. Go to **CiviEvent > New Price Sets** in your CiviCRM dashboard.
+
+2. Enter a clear name for your price set.
+
+3. Tick the **Used For > Event** box.
+
+4. Choose the **financial type** (usually “Event Fee”).
+
+5. (Optional) Add help text for users, before or after the form.
+
+6. Tick **Is this price set active**.
+
 7. Click **Save**.
 
-After saving, you can add price fields to this set.
+Now you’re ready to add fields to your price set.
 
-## Adding price fields to your price set
+## How to add price fields
 
-Each price field represents one part of the fee structure.
+Each price field is an item or option you want to offer (like “Gala Dinner” or “Workshop A”).
 
-- Enter a **Field Label** (the name of the item).  
-- Choose an **Input Field Type**:  
-  - *Text/Numeric Quantity*: registrants enter how many units they want, multiplied by the unit price.  
-  - *Select*: choose one option from a dropdown list.  
-  - *Radio*: choose one option from multiple choices shown.  
-  - *Checkbox*: select any number of options.  
+- Enter a **Field Label** (the name people will see).
 
-- Set the **Price** for each option or unit.  
-- If needed, enter a **Participant Count** to increase the event’s capacity based on this item (e.g., a table of 8 seats).  
-- Decide whether to **display the price** next to the item.  
-- Add **Field Help** text to explain the item.  
-- Mark the item as **required** or optional.  
-- Set **visibility** (public or admin only).  
-- Activate the field and optionally set active dates to offer early bird or late registration pricing.
+- Choose an **Input Field Type**:
 
-When done, click **Save** or **Save and New** to add more fields.
+  - **Text/Numeric Quantity**: Participants enter a number (e.g., number of tickets). The system multiplies this by your set price.
+  - **Select**: A dropdown menu for one choice.
+  - **Radio**: A list where only one option can be picked.
+  - **Checkbox**: Multiple options can be chosen.
 
-## Using price sets in your event
+You can mix these types to build the fee structure you need.
 
-After creating your price set, assign it to your event on the **Fees** tab by selecting it in the **Price Set** field.
+- For **Text/Numeric Quantity**: Set the unit price.
 
-You can reuse price sets for multiple events, which is helpful for series or recurring events.
+- For **Select/Radio/Checkbox**: Enter a price for each option.
 
-## Managing price sets
+- If you want the price to show next to the item, tick **Display Amount?**.
 
-To edit or manage price sets:
+- Use **Participant Count** if one selection counts for several people (e.g., a table for 8).
 
-- Go to **CiviEvent > Manage Price Sets** and select **Events** or **Administer**.
+- Add help text, set if the field is required, and adjust visibility (public or admin
+-only).
 
-## Offering discounts
+- Set **Active dates** if you want this option available only for certain periods (e.g., early bird rates).
 
-CiviCRM lets you create **early bird discounts** based on registration dates for simple fee structures.
+Click **Save** to finish, or **Save and New** to add another price field.
 
-To set up:
+## Assigning your price set to an event
 
-1. In your event’s fee section, check **Discounts by sign up date**.  
-2. Create a discount set that duplicates your fee table.  
-3. Edit the discount labels and prices to reflect the reduced rates.  
-4. You can create multiple discount periods with different rates.
+When creating or editing your event, go to the **Fees** tab and select your price set in the **Price Set** field.
 
-For more advanced discount options like discount codes or membership-based discounts, install the **CiviDiscount** extension.
+**Tip:** It’s best to plan and create your price set before building your event, but you can always return and add it later.
+
+## Reusing and managing price sets
+
+Price sets can be reused for multiple events—perfect for recurring workshops or seminars.
+
+To manage existing price sets:
+
+- Go to **Manage Price Sets** and choose **Events**, or
+
+- Navigate to **CiviEvent > Manage Price Sets > Administer**.
+
+## Setting up discounts
+
+You can offer **early bird discounts** or other date
+-based price reductions:
+
+- In your event’s fee section, tick **Discounts by sign up date**.
+
+- Create your discount set and add it to the fee table.
+
+- Edit labels and fees for each discount period.
+
+You can have several date
+-based discount sets (e.g., early bird, regular, last-minute).
+
+For more advanced discounts (like codes or member-only rates), consider installing the **CiviDiscount extension**.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/events/complex
+-event-fees/ -->
+
+<!--
+This page is a Guide, as it gives step
+-by-step actions to achieve a specific goal (setting up complex event fees), not a linear learning experience (Tutorial), exhaustive options (Reference), or background/conceptual context (Explanation). The level is Intermediate because it assumes users are comfortable with basic event setup and want to add more advanced fee structures. -->

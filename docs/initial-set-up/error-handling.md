@@ -1,33 +1,38 @@
 ---
 categories:
-  - Tutorial
+  - Reference
 level: Basic
-summary: This guide helps non-profit users understand how to manage error handling in CiviCRM to ensure smooth operation of their systems.
+summary: Learn how to set up error handling in CiviCRM to manage what happens when a system error occurs.
 section: Initial set up
 ---
 
-# Error handling in CiviCRM
+# Error handling
 
-When using CiviCRM, it's important to know how to handle errors effectively to keep your system running smoothly. This guide will walk you through the basic steps to set up error handling in CiviCRM, making it easier for you to troubleshoot issues as they arise.
+## Overview
 
-## Understanding error handling
+CiviCRM lets you customize how the system responds when a serious (fatal) error occurs. This can help your organisation provide a better experience for users and make troubleshooting easier.
 
-Error handling in CiviCRM allows you to manage how errors are displayed and logged. This is particularly useful for non-technical users who want to ensure that they can address issues without needing extensive programming knowledge.
+## Options for error handling
 
-## Setting up error handling
+You can adjust error handling settings by going to:
 
-1. **Access the error handling settings:**
-   To begin, navigate to the "Administer" section in your CiviCRM dashboard. From there, go to "System Settings" and then select "Debugging and Error Handling."
+**Administer → System Settings → Debugging and Error Handling**
 
-2. **Customize error display:**
-   - **Fatal Error Template:** If you'd like to create a custom screen for displaying fatal errors, enter the path and filename for your Smarty template here. This allows you to provide a user-friendly message when something goes wrong.
-   - **Fatal Error Handler:** If you want to override the built-in error handling, you can specify a custom PHP error-handling function by entering its path and class here.
+Here are the main options you can configure:
 
-3. **Save your changes:**
-   Once you've made your adjustments, click "Save" to apply your changes. If successful, you will see a message confirming that "Your changes have been saved."
+- **Fatal error template**: Enter the path and filename for a custom Smarty template if you want to show a personalised error screen when a fatal error happens.
+- **Fatal error handler**: Enter the path and class for a custom PHP error-handling function if you want to override CiviCRM’s default error handling.
 
-## Conclusion
+## Saving your changes
 
-By setting up error handling in CiviCRM, you can create a more user-friendly experience for yourself and your team. This ensures that when issues arise, they can be addressed quickly and effectively, allowing you to focus on your important work in the non-profit sector.
+- After making changes, click **Save** to apply them or **Cancel** to discard them.
 
-If you have further questions or need assistance, don't hesitate to reach out for help. You're not alone in this journey!
+- If successful, you will see the message: “Your changes have been saved.”
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/initial
+-set-up/error-handling/ -->
+
+<!--
+This content is best categorized as Reference. It provides factual, systematic information about configuration options, not step
+-by-step instructions or conceptual background. The intended audience is new or non-expert users, so the level is Basic. The logical section is "Initial set up," as it covers a core configuration option. The summary is tailored for non-experts. If users need step-by-step instructions for creating a custom template or handler, a separate Tutorial or Guide would be appropriate. -->

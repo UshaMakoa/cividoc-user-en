@@ -1,47 +1,45 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This page explains how to use the "Where" filter in CiviCRM Search Kit to narrow down search results by setting conditions on data fields before the search runs.  
-section: Searching and reporting  
+  - Guide
+level: Basic
+summary: Learn how to use the "Where" clause in CiviCRM to filter data effectively, making it easier to manage and analyze your contacts and other data.
+section: Searching and reporting
 ---
 
-# Where filter in Search Kit
+# Using the "where" clause in civicrm
 
-## What is the "Where" filter?
+The "Where" clause in CiviCRM is a powerful tool used to filter data from your database before it is returned to SearchKit. This helps you narrow down your search results to only the most relevant information. Here's how you can use it effectively:
 
-The "Where" filter helps you **narrow down your search results** by telling CiviCRM which contacts or records to include based on specific conditions. It works by filtering data inside the database before the results are shown to you.
+## Components of the "where" clause
 
-## Main parts of a "Where" filter
+1. **Element**: This is the field you want to compare. For example, it could be a contact's email address or their primary address.
+2. **Operator**: These are similar to arithmetic or SQL operators. Common operators include "Is Like," "Contains," and "Matches Pattern."
+3. **Value or Field**: This is what you compare the element against. It can be a specific value or another field.
+4. **Comparison Type**: You can compare against a value or a field.
 
-When you create a "Where" filter, you need to set four things:
+## Tips for using operators
 
-- **Element**: The field or data you want to check (for example, Email or Address).  
-- **Operator**: How you want to compare the data (for example, equals, contains, or not equals).  
-- **Value or field**: The value or another field to compare against (for example, the text ".gov" or another address).  
-- **Comparison type**: Whether you are comparing the element with a fixed value or with another field.
-
-## Common operators and tips
-
-- **Matches Pattern**: Use this to match a pattern using regular expressions (advanced users).  
-- **Is Like**: Checks if the whole field matches, often used with wildcards like `%search term%` to find parts of a field.  
-- **Contains**: Useful for fields that store multiple values together, like Contact Subtype. It matches whole values only (e.g., "Parent" but not part of a word).  
-- **Negated operators** (e.g., Not Like, ≠, Doesn't Contain) do *not* match empty fields (NULL). To include empty fields, combine conditions like “≠ searchterm OR Is Empty”.
+- **Matches Pattern**: Use this to match a regular expression pattern.
+- **Is Like**: This matches a complete field. Use it with wildcards (e.g., `%search term%`) to find parts of a field.
+- **Contains**: Useful for searching in serialized fields, but it only matches full values.
+- **Negated Operators**: Be careful with operators like "Not Like" or "Doesn't Contain," as they won't match NULL fields. To include NULL fields, use a combination like `!= searchterm OR Is Empty`.
 
 ## Examples
 
-- To find contacts whose **email contains ".gov"**, set:  
-  - Element: Email  
-  - Operator: Contains  
-  - Value: `.gov`
+### Example 1: Filtering Contacts by Email
 
-- To find contacts whose **primary address is different from their billing address**, set a condition comparing the two address fields with a "not equal" operator.
+To find all contacts whose email address contains `.gov`, you can use the "Contains" operator with the value `.gov`.
 
-## When to use "Where" vs. "Having"
+### Example 2: Comparing Primary and Billing Addresses
 
-- Use **Where** to filter data *before* it is returned from the database (most common).  
-- Use **Having** to filter *after* the data is returned, usually for filtering aggregated or grouped data.
+To find contacts whose primary address is not the same as their billing address, use the "!=" operator.
 
-## Summary
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
 
-The "Where" filter is a powerful way to limit your search results in CiviCRM by setting clear conditions on your data fields. It helps you find exactly the contacts or records you need by filtering data early in the search process.
+<!--
+Suggestion: Consider breaking this into a tutorial if it's intended for first
+-time users, focusing on step-by-step instructions for using the "Where" clause.  -->
+
+---

@@ -2,63 +2,178 @@
 categories:
   - Guide
 level: Basic
-summary: Learn how to prepare your system for CiviMail, including setting permissions and adding trusted sender addresses.
-section: Email and communications
+summary: Learn how to set up your organisation's contact details, mailing groups, and email templates in CiviCRM so you can send mass emails and manage your mailing lists.
+section: Email > Set-up
 ---
 
-# Preparing your system for CiviMail
+# Set up email and mailing lists
 
-Before sending newsletters or campaign messages, you need to make sure your CiviCRM system is ready to use CiviMail.
+## Configure your organisation's contact information
 
-This page explains how to confirm access permissions and set up the email addresses your organisation will use for sending.
+To send mass emails using CiviCRM, you must enter your organisation’s basic details: name, description, email address, and postal address. This information is required by privacy laws in many countries and will be included in your emails using special tokens.
 
-## Why preparation matters
+- Go to **Administer > Communications > Organization Address and Contact Info**.
 
-CiviMail is a bulk email tool that connects directly to your contact records.
+- Fill in your organisation’s name, description, email, and postal address.
 
-Setting it up properly helps ensure that your messages:
+- Save your changes.
 
-- Are sent only by authorised users  
-- Come from recognised and trusted addresses  
-- Reach your audience's inboxes reliably  
+## Create mailing groups
 
-## Checking user permissions
+Mailing groups help you organise who receives your emails.
 
-Only users with the correct permissions can use CiviMail.
+- Go to **Contacts > New Group**.
 
-If you don't see the **Mailings** menu, ask your administrator to review your access.
+- Enter a name and description for your group.
 
-Typical roles might include:
+- Under **Group Type**, check **Mailing List** so it can be used for mailings.
 
-- **Administrators** who configure system settings  
-- **Communications staff** who create and send mailings  
-- **Support staff** who view reports but cannot send  
+- Add contacts to the group as needed.
 
-## Setting up sender addresses
+You can also create **Smart Groups** that automatically update based on search criteria (for example, all active members or contacts in a specific city):
 
-Each mailing needs a valid **From**, **Reply-To**, and optional **Bounce** address.
+- Use **Advanced Search** or **Find Contact** to search for the contacts you want.
 
-Your organisation should use professional, monitored email accounts—never personal ones.
+- Select all results.
 
-When adding or reviewing sender addresses, make sure they:
+- From the **Actions** menu, choose **Group
+ - create smart group**.
 
-- Use your organisation's domain (for example, *info@yourcharity.org*)  
-- Represent your organisation clearly in the **From Name**  
-- Belong to an inbox that is monitored for replies  
+- Name your Smart Group and make it a Mailing List if needed.
 
-You can create multiple From addresses for different teams or campaigns, but they should all follow the same format and be approved for use.
+- Save the Smart Group.
 
-## Verifying sender identity
+**Note:** If you create a Smart Group from a participant search, you may need to edit its settings in **Contacts > Manage Groups** to mark it as a Mailing List.
 
-To improve deliverability, your admin may configure SPF and DKIM.
+## Allow people to sign up for your mailing lists online
 
-These tell mail providers that CiviCRM is authorised to send emails on behalf of your domain.
+To let people join your mailing lists themselves:
 
-If your emails go to spam or are rejected, ask your admin to verify these settings.
+- Make sure the group is marked as a **Mailing List**.
 
-## Best practice
+- Set the group’s **Visibility** to **Public Pages** in **Contacts > Manage Groups**.
 
-- Use consistent sender details.  
-- Keep email addresses updated.  
-- Avoid generic addresses that no one checks.  
-- Test each new sender before a full send.
+- For sites using Drupal, ensure anonymous users have the “Access CiviMail subscribe/unsubscribe pages” permission.
+
+People can sign up using a special subscribe link, a profile form, or (for Drupal) a webform.
+
+## Let users subscribe using a link
+
+Share the appropriate subscribe link for your website:
+
+- **Drupal, Backdrop, WordPress, Joomla:** The link format depends on your site. See your CiviCRM documentation for the exact URL.
+
+Anyone with the link can subscribe to your public mailing list groups.
+
+## Use a profile for sign-ups
+
+You can collect more information from subscribers by using a profile form:
+
+- Create a profile (for example, “Newsletter Sign
+-up”) with the fields you want users to fill out.
+
+- Make sure the email field is required and visible to Public Pages.
+
+- Share the profile’s public link or embed the form on your website.
+
+- For WordPress, use the CiviCRM button in the page editor to insert the profile form.
+
+## Use a webform (Drupal only)
+
+Drupal sites can use webforms for newsletter sign
+-ups, which offer advanced features like spam control and custom design. Ask your site administrator for help if you want to use this option.
+
+## Automatically add people to mailing groups with a profile
+
+To add users to mailing groups when they fill out your sign-up form:
+
+- Option A: Add a “Group(s)” field to your profile so users can choose which lists to join.
+
+- Option B: In the profile’s advanced settings, set a default group for all new sign
+-ups.
+
+## Mailing list confirmation workflow
+
+CiviCRM can require users to confirm their subscription (double opt-in):
+
+- Enable **Double Opt
+-in** in **Administer > Administration Console > CiviMail Component Settings**.
+
+- When someone subscribes, they get a confirmation email. Their status is “Pending” until they confirm.
+
+- Once confirmed, their status changes to “Added” and they receive a welcome message.
+
+**Note:** If someone subscribes to multiple groups at once, they’ll receive a separate confirmation email for each group.
+
+## Set up scheduled jobs and cron jobs
+
+To send mass mailings and handle bounces automatically, you need to enable scheduled jobs:
+
+- Go to **Administer > System Settings > Scheduled Jobs**.
+
+- Enable the **Send Scheduled Mailings** and **Fetch Bounces** jobs.
+
+Your server must trigger these jobs, usually with a cron job. Ask your system administrator for help if you’re unsure how to set this up.
+
+## Automated messages and mailing list management
+
+CiviCRM can send automated emails for actions like:
+
+- Confirming a new subscription
+
+- Sending a welcome message
+
+- Confirming an unsubscribe or opt
+-out
+
+- Sending an auto
+-response to replies
+
+Edit these messages at **Mailings > Headers, Footers, and Automated Messages**.
+
+For more on managing your email lists, see the “Maintaining Healthy Email Lists” section.
+
+## Create headers and footers for your mailings
+
+Headers and footers help standardise your emails:
+
+- Go to **Mailings > Headers, Footers, and Automated Messages**.
+
+- Create and edit headers (top of the email) and footers (bottom of the email).
+
+- Include your organisation’s logo and required unsubscribe links.
+
+- Staff can select these when creating new mailings.
+
+Headers and footers can be plain text or HTML. You may need to write or paste in HTML code.
+
+## Test your email templates
+
+Test your templates in different email clients (like Outlook, Gmail, etc.) to make sure they display correctly. Use a test group with contacts representing each email service. Keep your HTML simple and use inline CSS or tables for best results.
+
+## Auto
+-filing email conversations in CiviCRM
+
+You can automatically file emails sent or received in your regular email client as activities in CiviCRM:
+
+- Include a special email address (set up by your administrator) in the Bcc field.
+
+- CiviCRM matches email addresses to contacts, or creates new ones if needed.
+
+Your administrator must configure this feature.
+
+## Allow users to edit inbound emails
+
+By default, activities created from inbound emails are not editable. To allow editing:
+
+- An administrator can grant the **CiviCRM: edit inbound email basic information** or **CiviCRM: edit inbound email basic information and content** permissions to the appropriate user roles.
+
+The first permission allows editing activity fields except the original message. The second allows editing all fields, including the message content.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/email/set
+-up/ -->
+
+<!--
+Suggestion: This page is a "Guide" because it provides step
+-by-step instructions for setting up email and mailing lists, addressing practical tasks non-expert users need to accomplish. It is not a Tutorial (no single hands-on scenario), not Reference (not exhaustive or systematic), and not Explanation (no conceptual background). Level is Basic because it covers first-time setup for non-experts. If desired, parts about Smart Groups or cron jobs could be split into separate, more advanced guides. -->

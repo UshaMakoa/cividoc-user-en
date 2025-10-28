@@ -2,40 +2,87 @@
 categories:
   - Guide
 level: Basic
-summary: Step-by-step instructions for importing donation records into CiviCRM using the Civi Import extension, designed for non-profit users new to the process.
-section: Contributions
+summary: Learn how to import contributions (donations and payments) into CiviCRM using a step-by-step process designed for non-profit users.
+section: Contributions > Importing contributions
 ---
 
-# Importing donations into CiviCRM
+# Importing contributions
 
-## Before you begin
+## Overview
 
-Make sure you have installed the Civi Import extension in your CiviCRM system. If you need help with this, see the Extensions section of the documentation.
+Importing contributions allows you to add donation and payment records from an external file (like a spreadsheet) into CiviCRM. This is helpful if your organisation receives donations through other systems or needs to update multiple records at once.
 
-## Prepare your donation data
+## Before you start
 
-Gather your donation records in a file—this could be a spreadsheet (.xlsx or .ods) or a CSV file. If you use a CSV, ensure it is saved with UTF-8 encoding if you have special characters (like accents or non-English letters). Check that numbers with decimals use the correct separator for your region to avoid errors during import.
+- Make sure you have the **Civi Import extension** installed in your CiviCRM system.
 
-## Start the import process
+- Prepare your data file (for example, a CSV or spreadsheet) with all the contributions you want to import.
 
-1. **Go to Contributions > Import Contributions** in your CiviCRM menu.
-2. **Choose your data source**—select the type of file you are importing (CSV, spreadsheet, etc.).
-3. **Select your file**—upload the file from your computer or network.
-4. **Set import options**:
-   - Choose the contact type (usually Individuals for donations).
-   - Decide if you are adding new donations or updating existing ones.
-   - Pick the date format used in your file.
-   - If you have a saved field mapping, you can select it here.
-5. **Map your fields**—match the columns in your file to the correct fields in CiviCRM. You can set default values for any empty fields. If you plan to do similar imports in the future, save your field mapping for reuse.
-6. **Preview your import**—review the data before finalizing. Make sure everything looks correct.
-7. **Complete the import**—click to import your donations. You’ll see a summary of successful imports and any errors.
+- Check that your file is **UTF
+-8 encoded** if it contains special characters.
 
-## After importing
+- Decide which field separator your file uses (commonly a comma or semicolon).
 
-Check the results to confirm your donations were imported correctly. You can view details for each imported donation by clicking its ID. If there were errors, review them and correct your file if needed, then try the import again.
+## Step 1: Start the import
 
-## Tips for success
+- Go to **Contributions > Import Contributions** in the CiviCRM menu.
 
-- **Double-check your data file** for missing or incorrect information before importing.
-- **Save your field mapping** if you’ll import similar files in the future—this saves time and reduces errors.
-- **Reach out for help** if you run into problems—your CiviCRM community is here to support you.
+## Step 2: Choose your data source
+
+- Select the type of file you want to import (CSV is most common, but spreadsheets like .odt or .xlsx are also supported).
+
+- Click the button next to **Import Data File** to select your file from your computer or network.
+
+- Specify your file’s field separator (for example, comma or semicolon).
+
+    - *Tip:* If your numbers use commas as decimal separators, use a semicolon as the field separator to avoid errors.
+
+## Step 3: Set import options
+
+- Choose the **contact type** for these contributions (for example, Individuals).
+
+- Decide if you are **adding new contributions** or **updating existing ones**.
+
+- Select the **date format** used in your file (for example, mm/dd/yy).
+
+- If you have saved a field mapping from a previous import, you can select it to save time.
+
+## Step 4: Match fields
+
+- On the next screen, match each column in your file to the correct CiviCRM field.
+
+- If you don’t want to import a particular column, select “do not import” for that field.
+
+- You can set a **default value** for any CiviCRM field if your file does not have data for it.
+
+- Choose how you want CiviCRM to handle contacts:
+
+- Update or create contacts (recommended if you are not sure if all contacts already exist).
+
+- Match to existing contacts.
+
+- Select a **deduplication rule** to help CiviCRM avoid creating duplicate contacts.
+
+- (Optional) If your data includes soft credits, you can map those as well.
+
+## Step 5: Review and import
+
+- Preview the import to see how your data will look in CiviCRM.
+
+- If everything looks correct, click **Import now**.
+
+## Step 6: Check your results
+
+- After the import, CiviCRM will show how many rows were successfully imported and if there were any errors.
+
+- Click **See rows** to view details about errors or review specific records.
+
+- You can click on a contribution’s ID number to view it directly in CiviCRM.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/importing
+-contributions/ -->
+
+<!--
+This page is a How
+-to Guide because it provides step-by-step, goal-oriented instructions for a specific task (importing contributions), with minimal background or conceptual explanation. The level is Basic, as it is aimed at users new to this feature. If needed, more advanced troubleshooting or explanation of deduplication and soft credits could be split into separate Explanation or Reference pages for clarity. -->

@@ -1,85 +1,143 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide helps non-profit users manage and track events and participants in CiviCRM, covering how to find, view, and update event and participant information using the CiviEvent tools.  
-section: Keeping track of events and participants  
+  - Guide
+level: Basic
+summary: Learn how to find, view, and manage your organisation’s events and participants in CiviCRM using easy-to-follow steps.
+section: Events > Managing events and participants
 ---
 
 # Keeping track of events and participants
 
-## Introduction  
-After you create an event and share the registration form with your supporters, CiviCRM lets you manage the people who sign up. This guide explains how to find your events and participants, view their details, and update registrations using the CiviEvent tools. It is designed for non-profit users who are new to managing events in CiviCRM.
+## Using the events dashboard
 
-## Event dashboard  
-The **CiviEvent Dashboard** (found under Events > Dashboard) is your main hub for event information. It shows a summary of up to ten upcoming or recent events, including how many people have registered.  
+The CiviEvent dashboard brings together details about your events and participants in one place.
 
-- Click an event name to see the public event page as visitors do.  
-- Click the number of participants to see who has signed up.  
-- Use the link *Find more event participants* to search for participants by name, event, date, or status.  
-- From the dashboard, you can also:  
-  - Manage existing events  
-  - Create new events  
-  - Access RSS feeds or calendar links to share event data with other applications  
+- Go to **Events > Dashboard**.
 
-## Finding and viewing events  
-To see all your events, go to **Events > Manage Events**. This page lists every event you have created. Use the search filters to find events by name, type, or date.  
+- You’ll see a summary table showing up to ten scheduled or recent events.
 
-For each event, you have quick links to:  
-- **Configure** the event settings (like location, fees, registration options)  
-- View **Participants** lists (registered, attending, or not attending)  
-- Access **Event Links** for registering participants or viewing live event pages  
+- Click the event name to see how it looks to visitors.
 
-## Finding and managing participants  
-You can find participants for any event by going to **Events > Find Participants**.  
+- Click the participant count to view a list of people registered for that event.
 
-- Start typing the event name to select it.  
-- Add other search filters if needed (like participant status or date).  
-- Click *Search* to see matching participants.  
+- To search for more participants, click **Find more event participants** at the end of the page.
 
-Once you have your list, you can select participants and perform actions such as:  
-- Cancel registrations  
-- Delete participants (removes event data but keeps their contact record)  
-- Send emails to participants (for updates or reminders)  
-- Export participant data to CSV files for spreadsheets or mail merges  
-- Add participants to groups or create smart groups (saved searches that update automatically)  
-- Print name badges or letters  
-- Change participant status (which can trigger automatic emails)  
-- Print selected participant rows  
-- Update multiple participants at once using a profile you have created  
+- You can also:
 
-## Viewing participant fees  
-To see individual fees paid by participants:  
-- Go to **Search > Custom Searches**  
-- Select **Event Aggregate**  
-- Set your search criteria and click *Search*  
+- Click **Manage Events** to find and manage specific events.
 
-## Changing registration details for participants  
-Sometimes you need to update a participant’s registration, for example:  
-- Changing their role (e.g., from attendee to volunteer)  
-- Adjusting fee options or refunds  
-- Adding sessions or meal choices  
+- Click **New Event** to create a new event.
 
-To do this:  
-- Find the participant via **Events > Find Participants**  
-- Click *View* or *Edit* next to their registration  
-- Click *Change Selections*  
-- Make the changes; fees and registration status will update accordingly  
+- Use the RSS and calendar icons to export event data to other applications.
 
-Note: Additional payments or refunds must be entered separately through the payment record linked to the registration.
+## Finding and viewing events
 
-## Creating and printing event badges  
-You can design custom name badges for your events:  
-- Go to **Administer > CiviEvent > Event Badge Layout > New Badge Layout**  
-- Choose label size (e.g., Avery 5395, A6 Portrait)  
-- Add images like your logo or sponsor logos  
-- Select up to 6 rows of participant or event information (name, role, sessions, etc.)  
-- Optionally add barcodes or QR codes  
-- Enable the layout to make it available for printing  
+You can access all your events from the **Manage Events** screen.
 
-To print badges:  
-- Go to **Events > Find Participants**  
-- Select participants  
-- Choose *Print Event Name Badges* from the actions menu and click *Go*  
-- Pick the badge layout and click *Make Name Badges*  
-- A PDF will be generated for printing
+- Go to **Events > Manage Events**.
+
+- Use the search filters at the top to find events by name, type, or date.
+
+- For each event, you’ll see links on the right:
+
+  - **Configure**: Change event settings like information, location, fees, registration, reminders, and sharing options.
+  - **Participants**: View lists of people registered or attending, or those not attending.
+  - **Event Links**: Quick access to register participants and view live event pages.
+
+## Finding and administering participants
+
+To manage participants for your events, follow these steps:
+
+- Go to **Events > Dashboard**.
+
+- Click the counted link next to an event to see all its contacts. (If the count is zero, this won’t be a link.)
+
+- To search for participants with specific criteria:
+
+- Go to **Events > Find Participants**.
+
+- Start typing the event name and select it from the list.
+
+- Set any other search filters you need.
+
+- Click **Search**.
+
+Once you have your results, you can select participants and perform actions such as:
+
+- **Cancel registration** for selected participants.
+- **Delete participants** from the event (this removes their event records but not their contact details; this cannot be undone).
+- **Send email** to selected participants, for example, to share event updates.
+- **Export participants** to a CSV file for use in spreadsheets or mail merges.
+- **Add to group** or create a new group during this action.
+- **Create smart group** for saved searches that update automatically.
+- **Print name badges** for selected participants.
+- **Print PDF letters** for participants.
+- **Change participant status** (emails will be sent if you change from pending to registered/attended, or to expired/cancelled).
+- **Print selected rows** to get a printout of what’s on your screen.
+- **Update multiple participants** in a table grid (requires a profile set; see the Profiles chapter for more info).
+
+## Listing participant fees
+
+To see individual fees for participants:
+
+- Go to **Search > Custom Searches**.
+
+- Click on **Event Aggregate**.
+
+- Choose your search criteria and click **Search**.
+
+## Changing event registration selections
+
+If you need to update a participant’s registration details (for example, change their role, adjust fees, or update session choices):
+
+- Find the participant’s event registration (for example, via **Events > Find Participants**).
+
+- Select **View** or **Edit** next to their event record.
+
+- Click **Change Selections**.
+
+- Make the necessary adjustments. CiviCRM will update the fee and status based on changes.
+
+- For extra payments or refunds, use the **record payment** link in the registration record.
+
+## Creating and printing event badges
+
+You can create custom name badges for your events.
+
+- Go to **Administer > CiviEvent > Event Badge Layout > New Badge Layout**.
+
+- Choose your label format (Avery 5395, A6 Badge Portrait, Fattorini Name Badge, or Hanging Badge).
+
+- Add images (top left/right), such as your logo or sponsor’s logo.
+
+- Select up to 6 rows of information (name, organisation, country, participant role, etc.).
+
+- Add a barcode or QR code if needed.
+
+- Tick **Enabled** to make the badge layout available.
+
+- Tick **Reserved** to prevent accidental deletion by admin users.
+
+**Note:** You need at least one event and one participant registered to preview badge layouts.
+
+To print name badges:
+
+- Go to **Events > Find Participants**.
+
+- Select the relevant participants.
+
+- Choose **Print Event Name Badges** from the actions menu and click **Go**.
+
+- Select the badge layout for your event.
+
+- Click **Make Name Badges**.
+
+- Download and print the PDF file on your chosen labels.
+
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
+
+<!--
+Suggestion: This page is a Guide, as it provides step
+-by-step instructions for specific administrative tasks (finding, viewing, and managing events and participants) without background theory or exhaustive reference details. The level is Basic, as it is intended for users new to CiviCRM event management. If needed, badge creation and printing could be split into a separate Tutorial for clarity, and fee listing could be referenced in a separate Reference page for advanced users. -->

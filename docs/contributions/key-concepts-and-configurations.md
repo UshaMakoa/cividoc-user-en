@@ -1,50 +1,91 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This page explains the key concepts and settings you need to understand before using CiviContribute to manage donations and payments in CiviCRM.  
-section: Contributions  
+  - Reference
+level: Basic
+summary: Understand the essential concepts and setup options for tracking and managing contributions in CiviCRM, including financial types, accounts, payment processors, and contribution data fields.
+section: Contributions > Key concepts and configurations
 ---
 
 # Key concepts and configurations
 
-## Introduction  
-This guide introduces the main ideas behind managing contributions in CiviCRM and walks you through the important setup steps you need before recording donations, membership fees, or other payments.
+This page introduces the main ideas and setup options you need to manage your organisation’s contributions in CiviCRM. It covers the basic building blocks for tracking donations, membership fees, and other income, and helps you understand how to configure CiviCRM to suit your reporting and accounting needs.
 
-## Financial types, accounts, and accounting codes  
-Different organizations have different needs for tracking their income. Some just want to see totals, while others need detailed accounting records. CiviCRM helps by using **financial types** to group income, and linking these to **financial accounts** that record the money flow.
+## Financial types, financial accounts, and accounting codes
 
-- Each contribution must have a financial type (like donation, membership dues, event fee).  
-- Financial types connect to accounts that track income, assets, and fees automatically.  
-- You can create new financial types if you want to separate income streams (for example, different donation campaigns).  
-- Always check with your accountant before changing financial types or accounts.
+- **Financial types** are categories for the different kinds of income your organisation receives, such as donations, membership dues, or event fees. Each contribution in CiviCRM must be assigned a financial type.
+- **Financial accounts** are linked to financial types and represent the accounts in your organisation’s chart of accounts, such as income, assets, or expenses.
 
-To manage financial types, go to **Administer > CiviContribute > Financial Types**.
+- When you set up a new financial type, CiviCRM automatically creates a matching revenue account and connects it to default accounts for assets and expenses.
 
-## Financial accounts  
-Financial accounts represent the categories in your accounting system (like bank accounts or income categories). You can customize them if needed at **Administer > CiviContribute > Financial Accounts**.
+- You can customise financial types and accounts to match your organisation’s needs. For example, if you want to track tax appeal donations separately from general donations, you should create a separate financial type for each.
 
-- For accounting exports, you may need to add accounting codes exactly as your accounting software requires.  
-- Changing a financial account name will also change the linked financial type name.
+- Consult your bookkeeper or accountant before changing financial types or accounts to ensure your records stay accurate.
 
-## Payment processors  
-To accept online payments (credit cards, bank transfers), you must set up a **payment processor**. This connects your website to the payment networks.
+## Managing financial types
 
-## Payment methods  
-CiviCRM comes with common payment methods like credit card, cash, check, and debit card. You can add or edit these at **Administer > CiviContribute > Payment Methods**. Make sure each method is linked to the correct financial account.
+- To create or edit financial types, go to **Administer > CiviContribute > Financial Types**.
 
-## Accepted credit cards  
-You can specify which credit cards you accept at **Administer > CiviContribute > Accepted Credit Cards**. If billing happens on the payment processor’s site, you must configure accepted cards there too.
+- When you add a new financial type, CiviCRM creates related accounts automatically, but you can adjust these by clicking “Accounts” next to the financial type.
 
-## Contribution status  
-Each contribution has a status that shows its payment progress:
+- Use CiviCRM’s permission system to control who can access contribution data based on financial type.
 
-- **Pending (Pay Later):** entered but not yet paid (e.g., by check).  
-- **Pending (Incomplete):** payment started but not completed or response not received.  
-- **Failed:** payment declined or errored.  
-- **Completed:** payment processed successfully.  
+## Managing financial accounts
 
-Other statuses like In Progress or Partially Paid relate to special cases like recurring payments. You can rename statuses but adding new ones is not recommended.
+- Edit financial accounts at **Administer > CiviContribute > Financial Accounts**.
 
-## Custom data fields  
-CiviCRM includes many fields for contribution details. If you need to track extra information, you can create **custom fields** to capture what’s unique to your organization. Before adding custom fields, list what you want to track and compare it to existing fields to avoid duplication.
+- The required fields are **Name** and **Financial Account Type**.
+
+- If you plan to export transactions to accounting software, fill in the accounting code accurately. For QuickBooks, you may also need the account type code.
+
+- Changing a financial account’s name will also change the linked financial type’s name.
+
+## Payment processors
+
+- A **payment processor** connects your CiviCRM site to banks or credit card services, allowing you to accept online payments for donations, memberships, or event registrations.
+
+- Set up payment processors under **Administer > CiviContribute > Payment Processors**.
+
+## Payment methods
+
+- Manage payment methods (such as credit card, cash, check, debit card, EFT) at **Administer > CiviContribute > Payment Methods**.
+
+- Check with your accountant that each method is linked to the correct asset account.
+
+## Accepted credit cards
+
+- Define which credit cards are accepted at **Administer > CiviContribute > Accepted Credit Cards**.
+
+- If your payment processor collects billing info on its own site, configure accepted cards there as well.
+
+## Contribution status
+
+Every contribution in CiviCRM has a **status** that shows its progress:
+
+- **Pending (Pay Later):** Entered but not yet paid (e.g., awaiting a check).
+- **Pending (Incomplete):** Payment started but not finished or confirmed.
+- **Failed:** Payment was declined or had an error.
+- **Completed:** Payment was processed successfully.
+
+- Other statuses like **In Progress**, **Overdue**, or **Partially Paid** are used for features like partial or recurring payments.
+
+- You can change status labels at **Administer > System Settings > Option Groups**, but adding new statuses is not recommended.
+
+## Data needs and fields
+
+- CiviContribute includes standard fields for tracking contributions.
+
+- If you need to record extra information, you can add custom fields.
+
+- Before creating custom fields, list what information you want to track and compare it to the existing fields (look at the “add contribution” screen).
+
+- Avoid duplicating standard fields; use custom fields only for unique needs.
+
+- For instructions on adding custom fields, see the “Creating Custom Fields” section.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/key
+-concepts-and-configurations/ -->
+
+<!--
+This page is best classified as Reference because it systematically describes key concepts, configuration options, and factual details about contributions in CiviCRM, rather than providing step
+-by-step instructions or background explanation. The content is introductory and suitable for basic-level users. If more detailed setup steps were included, a separate Tutorial or Guide could be created. -->

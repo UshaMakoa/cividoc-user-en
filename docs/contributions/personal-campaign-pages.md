@@ -1,67 +1,98 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can set up and manage Personal Campaign Pages (PCPs) in CiviCRM to enable supporters to create and share their own fundraising pages.  
-section: Contributions  
+  - Guide
+level: Basic
+summary: Learn how your organisation can set up, manage, and use Personal Campaign Pages in CiviCRM so supporters can fundraise on your behalf.
+section: Contributions > Personal Campaign Pages
 ---
 
 # Personal campaign pages
 
 ## What are personal campaign pages?
 
-Personal Campaign Pages (PCPs) let your supporters create their own fundraising pages linked to your organization’s events or contribution pages. These pages allow individuals to share their personal reasons for fundraising and invite friends to contribute. Examples include campaigns like "Sponsor my 5k walk" or "Help fund our trip."
+Personal campaign pages (PCPs) let your supporters create their own fundraising pages to raise money for your organisation or a specific event. These pages allow individuals to share their personal stories and reasons for supporting your cause, and invite their friends and contacts to contribute.
 
-## Setting up personal campaign pages
+## Administrator tasks
 
-To use PCPs, you first need an existing online contribution page or event in CiviCRM:
+As an administrator, you can:
 
-- Go to **Contributions > New Contribution Page** or **Events > New Event** to create one.  
-- While editing the page or event, find the **Personal Campaigns** tab and enable personal campaign pages.  
-- Configure options such as:  
-  - **Approval required**: Choose if an admin must approve new PCPs before they go live.  
-  - **Notification email**: Enter admin email(s) to get notified when a new PCP is created.  
-  - **Supporter profile**: Select which supporter information fields to collect.  
-  - **Owner email notification**: Decide if PCP owners get emails when donations come in, always, never, or optionally.  
-  - **Allow 'tell a friend'**: Enable fundraisers to email their contacts to promote their PCP.  
-  - **Campaign type** (for events): Let registrants create either a fundraising event or a contribution page.
+- **Require approval** before a new fundraising page goes live.
+- **Enable or disable “tell a friend”**, which lets fundraisers email others about their page.
+- **Set notification emails** so you’re alerted when a new PCP is created.
+- **Choose how PCP owners are notified** when someone donates through their page.
+- **Select which supporter information to collect** using profiles.
+- **Customise the “create” button text** for fundraisers.
 
-## Creating personal campaign pages
+Once PCPs are active, you can:
 
-There are two ways supporters can create PCPs:
+- **Approve, reject, or disable PCPs** as needed.
+- **Edit PCP content** if updates are required.
+- **View fundraising progress** for each PCP.
+- **Run summary reports** using CiviReport to see overall results.
+- **Credit offline donations (like checks)** to the appropriate PCP.
 
-- After making a donation or registering for an event, they see a button on the thank-you page to create their own PCP.  
-- You can also share a direct link that lets anyone create a PCP without donating or registering first. This link needs your site domain and the contribution or event ID.
+## Fundraiser options
+
+Supporters who create PCPs can:
+
+- **Choose their own page title and description**.
+- **Set a fundraising goal**.
+- **Upload a single image** for their page.
+- **Decide whether to display a list of donor names (“honor roll”)**.
+- **Show a progress thermometer** to track donations.
+- **Create a username** (or use an existing one) to edit their page later.
+
+## Limitations
+
+- **Team fundraising is not supported**—each PCP is for an individual, not a group.
+- **Only one image can be uploaded** per PCP, and it is not resized automatically.
+- **Customising the thermometer and honor roll** requires coding skills and affects all PCPs.
+- **Automated emails** sent to PCP owners and administrators can be changed, but you need some technical knowledge (Smarty 2).
+
+## How to set up personal campaign pages
+
+You must first create an online contribution page or event in CiviCRM:
+
+1. Go to **Contributions > New Contribution Page** or **Events > New Event**.
+
+2. Edit the page or event, find the **Personal Campaigns** tab, and click **Enable personal campaign pages**.
+
+3. Configure options such as:
+   - **Approval required**: Moderate all PCP requests; admins must approve before pages go live.
+   - **Notification email**: Enter addresses to alert admins when PCPs are created.
+   - **Supporter profile**: Choose which fields to collect from PCP creators.
+   - **Owner email notification**: Decide if PCP owners get emails when donations are made.
+   - **Tell a friend**: Allow PCP owners to invite others to their page.
+   - **Campaign type** (for events): Let registrants create a fundraising event or a contribution page.
+
+## How supporters create a personal campaign page
+
+Supporters can create a PCP in two ways:
+
+- **After donating or registering**, they see an option to build their own PCP on the “thank you” page.
+- **Via a direct link** you provide (by email, on your website, or as a menu item), which lets anyone create a PCP without donating first.
+
+To create a direct link, use:
+
+```
+http://YOUR-SITE.ORG/civicrm/contribute/campaign?action=add&reset=1&pageId=CONTRIBUTION_OR_EVENT_ID&component=EVENT_OR_CONTRIBUTE
+```
+
+Replace:
+- **YOUR-SITE.ORG** with your organisation’s website address.
+- **CONTRIBUTION_OR_EVENT_ID** with the ID of the contribution page or event.
+- **EVENT_OR_CONTRIBUTE** with “contribute” (for contribution pages) or “event” (for events).
 
 ## Managing personal campaign pages
 
-Supporters can personalize their PCP by: 
+When a supporter clicks the “create your own fundraising page” button or direct link, they fill out a form with their page details. If moderation is enabled, you must approve the page in **Contributions > Personal Campaign Pages**. Find the PCP, then click **Approve**, **Reject**, or **Delete**. You can also enable/disable PCPs later.
 
-- Choosing a title and writing a message  
-- Setting a fundraising goal  
-- Uploading one image (note: image resizing is not automatic)  
-- Deciding whether to show a donor honor roll  
-- Displaying a progress thermometer  
-- Activating or deactivating their campaign  
+After approval, the supporter gets an email with instructions to promote and edit their page. Both administrators and PCP owners can edit page settings at any time.
 
-If approval is required, an admin must review and approve the PCP in **Contributions > Personal Campaign Pages** before the page becomes active. Admins can also edit, disable, or delete PCPs at any time.
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
 
-## Features for administrators
-
-Admins can:  
-
-- Require approval for new PCPs  
-- Enable or disable the "tell a friend" feature  
-- Receive notifications when new PCPs are created  
-- Choose supporter profile fields to collect  
-- Customize the create button text  
-- View fundraising totals per PCP  
-- Run reports summarizing PCP fundraising  
-- Enter offline contributions credited to PCPs  
-
-## Limitations to be aware of
-
-- PCPs do not support team fundraising or tracking individual team member contributions.  
-- Only one image can be uploaded per PCP, and it is not resized automatically.  
-- Customizing the thermometer or honor roll appearance requires coding skills.  
-- Modifying automated emails sent to PCP owners or admins requires knowledge of the Smarty template system.
+<!--
+This content is best classified as a Guide: it provides step
+-by-step instructions and options for setting up and managing Personal Campaign Pages, focusing on “how” rather than “why” or technical reference details. Some reference-like details (limitations, options) are included, but the primary user need is practical guidance for non-experts. For improved clarity, the limitations and administrator/fundraiser features could be split into separate Reference pages, but for basic users, keeping them together is appropriate. -->

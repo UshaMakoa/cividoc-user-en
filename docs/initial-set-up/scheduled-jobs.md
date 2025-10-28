@@ -1,53 +1,108 @@
 ---
 categories:
-  - Tutorial
-level: Basic
-summary: This guide introduces scheduled jobs in CiviCRM, explaining how they work and how to configure them for your non-profit's needs.
-section: Scheduled Jobs
+  - Reference
+level: Intermediate
+summary: This page lists and describes all scheduled jobs in CiviCRM, including how they work, how to configure them, and details for each job, to help your organisation keep data and communications up to date automatically.
+section: Initial set up
 ---
 
-# Understanding scheduled jobs in CiviCRM
+# Scheduled jobs in CiviCRM
 
-Scheduled jobs are essential for keeping your CiviCRM data up-to-date and ensuring important tasks run automatically. For example, these jobs can send reminders, check for software updates, and perform many other functions that help your organization stay organized. This guide will help you understand how scheduled jobs work and how to set them up effectively.
+## What are scheduled jobs?
 
-## How scheduled jobs are initiated
+Scheduled jobs are automated tasks that CiviCRM runs at regular intervals to keep your organisation’s data accurate and your communications timely. These jobs handle things like sending reminders, updating membership statuses, processing mailings, and more.
 
-Scheduled jobs run automatically, but they need a tool called "cron" to start. Cron is a separate piece of software that tells CiviCRM when to execute these jobs. Your system administrator will need to set up cron to run at regular intervals, typically every 5 to 60 minutes. This setup is crucial because if cron runs infrequently, your scheduled jobs won't run as often as needed.
+## How are scheduled jobs started?
+
+CiviCRM cannot start scheduled jobs by itself. Instead, it relies on a tool called **cron**, which is software installed on your server. Cron is set up by your system administrator to tell CiviCRM when to run these jobs (for example, every 5, 10, or 60 minutes). You cannot set up cron from within CiviCRM; this must be done outside the CiviCRM interface.
+
+- If cron runs every hour, jobs can only run hourly or less often.
+
+- Some jobs can be set to run more or less frequently, but they cannot run more often than cron itself.
 
 ## Configuring scheduled jobs
 
-To configure scheduled jobs in CiviCRM, navigate to **Administer > System Settings > Scheduled Jobs**. Here, you can see the jobs that are already set up and make adjustments as needed.
+To manage scheduled jobs, go to:
 
-## Scheduled jobs vs API calls
+**Administer > System Settings > Scheduled Jobs**
 
-CiviCRM has a feature called the "API," which allows for various tasks to be automated. Scheduled jobs combine an API call with a schedule. For example, a scheduled job might automatically send reminders to contacts every day. Understanding this connection can help you make the most of CiviCRM's capabilities.
+From here, you can:
+
+- See all available jobs
+
+- Add, edit, or delete jobs
+
+- Set how often each job should run (hourly, daily, weekly, etc.)
+
+- Manually run a job by clicking **More > Execute Now**
+
+- View logs to check if jobs ran successfully or troubleshoot errors
+
+## Scheduled jobs and the API
+
+Each scheduled job is based on a CiviCRM API call (an instruction for CiviCRM to do something). You don’t need to know API details to use scheduled jobs, but it helps to understand that each job performs a specific action, sometimes with extra parameters you can set.
 
 ## Default scheduled jobs
 
-When you first install CiviCRM, several default scheduled jobs are already configured. These jobs provide a great starting point, and you can rename or delete them as needed. You can also refer to the specific jobs section for detailed information on how to recreate any of these default jobs.
+When you install CiviCRM, it comes with several scheduled jobs already set up. You can rename, delete, or re
+-create these jobs as needed. Some jobs need extra parameters to work correctly.
 
-## Job frequency
+## Job frequency and timing
 
-Different jobs need to run at different frequencies. For instance, tasks like sending emails should run every 5 or 10 minutes, while others, like updating memberships, can run daily. When setting up or editing a job, you can choose from several frequency options, including:
+- Choose how often a job runs: yearly, quarterly, monthly, weekly, daily, hourly, or every time cron runs.
 
-- Yearly
-- Quarterly
-- Monthly
-- Weekly
-- Daily
-- Hourly
-- Every time cron runs
+- The actual frequency depends on how often cron is set to run.
 
-Keep in mind that your cron setup will limit how often these jobs can run.
+- You cannot specify exact days (like "the 15th of each month") from within CiviCRM.
 
-## Manually executing a scheduled job
+## Command parameters
 
-If you need to run a scheduled job immediately, you can do so by clicking **More > Execute Now** for that job on the Scheduled Jobs page. This is helpful for jobs that don't need to run frequently, such as geo-coding or updating greetings.
+Some jobs accept extra settings called “command parameters.” Enter one parameter per line, using `parameter=value` (no spaces or quotes). Each job’s parameters are listed below.
 
-## Viewing the job log
+**Example for Job.mail_report:**
+```
+instanceId=7
+format=csv
+```
 
-You can check the job log to see if your scheduled jobs are running correctly. From the Scheduled Jobs screen, click on **View Log** to see all jobs or **View Job Log** for a specific job. This log is useful for troubleshooting any issues that may arise.
+## Viewing job logs
 
-## Conclusion
+On the Scheduled Jobs page, you can view logs for all jobs or a specific job. Logs show when jobs started and finished, and display any error messages.
 
-Understanding and configuring scheduled jobs in CiviCRM can significantly enhance your organization's efficiency. By automating routine tasks, you can focus more on your mission and less on administrative work. If you have any questions or need assistance, don't hesitate to reach out to your system administrator or consult further resources.
+## List of scheduled jobs
+
+Below is a summary of the most common scheduled jobs, their purpose, recommended frequency, and parameters.
+
+| Job name                        | Purpose                                              | Recommended frequency | Parameters (if any)                          |
+|
+----------------------------------|------------------------------------------------------|----------------------|----------------------------------------------|
+| Clean-up Temporary Data and Files| Removes old temp data and cache                      | Hourly               | session, tempTables, jobLog, prevNext, dbCache, memCache, tplCache, wordRplc (all optional, 1=clean, 0=skip) |
+| Disable expired relationships    | Disables relationships past their end date           | Daily                | None                                         |
+| Process Inbound Emails           | Adds activities from incoming emails                 | Hourly               | None                                         |
+| Fetch Bounces                    | Records bounced emails from mailings                 | Hourly               | is_create_activities (optional, 1=create)    |
+| Geocode and Parse Addresses      | Adds geocodes and parses street addresses            | Daily                | geocoding (required), parse (required), start, end, throttle (optional) |
+| Rebuild Smart Group Cache        | Rebuilds smart group cache                           | Never                | limit (optional)                             |
+| Mail Reports                     | Sends report instance by email                       | Daily                | instanceId (required), format, sendmail      |
+| Send Scheduled Mailings          | Sends scheduled email campaigns                      | Every cron run       | None                                         |
+| Update Membership Statuses       | Updates membership statuses                          | Daily                | None                                         |
+| Update Participant Statuses      | Updates event participant statuses                   | Every cron run       | None                                         |
+| Process Pledges                  | Updates pledge statuses and sends reminders          | Daily                | send_reminders (optional, 1=send)            |
+| Send Scheduled SMS               | Sends scheduled SMS messages                         | Every cron run       | None                                         |
+| Send Scheduled Reminders         | Sends scheduled email reminders                      | Daily                | None                                         |
+| Update Greetings and Addressees  | Updates greetings/addressees for contacts            | Daily                | ct, gt (required), id, force, limit (optional) |
+| CiviCRM Update Check             | Checks for software updates                          | Daily                | None                                         |
+| Validate Email Address from Mailing| Updates email reset date after successful delivery  | Daily                | minDays, maxDays (optional)                  |
+
+## Multisite / multi-domain considerations
+
+- Most jobs only need to be set up for your primary domain (usually domain ID 1).
+
+- For CiviMail in multisite setups, **Send Scheduled Mailings** and **Process Inbound Emails** must be configured for each site, with unique job names.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/initial
+-set-up/scheduled-jobs/ -->
+
+<!--
+This page is primarily a Reference, as it lists and describes scheduled jobs, their parameters, and configuration details. Some sections (like configuring jobs and viewing logs) could become How
+-to Guides if split off. For non-experts, the Reference format is most useful for quick lookup and understanding what each job does. -->

@@ -1,36 +1,53 @@
 ---
 categories:
-  - Explanation  
-level: Basic  
-summary: This page explains what free and open source software is, why it matters for non-profits, and how CiviCRM’s open approach benefits your organisation.  
-section: Appendices  
+  - Explanation
+level: Basic
+summary: Understand what "Free Software" means for your organisation and why CiviCRM is free and open source.
+section: Appendices
 ---
 
-# Understanding free and open source software and CiviCRM
+# Free software and your organisation
 
-## What is free and open source software?
+## What is free software?
 
-Free and open source software (FOSS) is software that anyone can use, share, and modify without restriction. This means you can download CiviCRM for free, use it for any purpose, and even change it to better suit your needs—though most non-profits use it as-is. The “free” in free software refers to freedom, not just price: you have the freedom to control the software, not the other way around[5].
+**CiviCRM is Free Software.** This means you can use it for free, share it, and even change it to fit your organisation’s needs. Free Software (sometimes called Free and Open Source Software, FLOSS, FOSS, Software Libre, or Open Source) is software that anyone can download, use, and modify.
 
-CiviCRM is developed by a global community, not a single company. This community approach helps ensure the software keeps improving and doesn’t disappear if a company stops supporting it. You’ll never face a sudden license change or lose access to features you rely on.
+You may never need to change the software yourself, but the important thing is that you have the *freedom* to do so if you want. This freedom offers several benefits:
 
-## Why does this matter for non-profits?
+- **CiviCRM is here to stay:** Unlike some paid software that might disappear if a company closes or changes direction, Free Software like CiviCRM is supported by a community. It won’t just vanish.
+- **No hidden costs or restrictions:** You can use and customise CiviCRM without paying license fees or worrying about sudden changes to what you’re allowed to do.
+- **Customise to fit your needs:** If you want a new feature, you can hire someone to build it, or request it from the community.
+- **Anyone can fix problems:** If there’s a bug, anyone with the right skills can fix it. This makes the software more reliable over time.
+- **Community-driven development:** Users and organisations can help shape the future of CiviCRM by suggesting improvements or contributing code.
 
-For non-profits, using FOSS like CiviCRM means more than saving money. It means independence and flexibility. If you need a feature that isn’t available, you can hire a developer to build it—something usually impossible with proprietary software. If you find a bug, you or someone you hire can fix it, because the source code is open for anyone to inspect and improve.
+## What do “free software” and “open source” mean?
 
-Being part of the CiviCRM community also means you benefit from the collective experience of other non-profits. Your feedback and contributions help shape the software, making it more useful for everyone. If the main organisation behind CiviCRM were to change focus, the community could keep the project going—there’s no single point of failure.
+- **Free software** is software you can use, study, change, and share with almost no restrictions. The main rule is that these freedoms must be preserved for everyone who uses the software in the future.
+- **Open source software** is software for which the source code (the instructions that make it work) is available to everyone. You can use, change, and share it, often developed in a public, collaborative way.
 
-## Shared values
+Most software that is “free” is also “open source,” and vice versa. The main difference is that “free software” focuses on your freedoms, while “open source” highlights the benefits of sharing and improving the code.
 
-There’s a natural alignment between the values of the non-profit sector and the FOSS community. Both believe in collaboration, transparency, and making tools accessible to all. By using and contributing to CiviCRM, you’re helping to strengthen the entire non-profit ecosystem.
+When you install CiviCRM, you won’t see a long, restrictive license agreement. Instead, CiviCRM uses a simple, generous license (the Affero General Public License version 3.0) that protects your rights to use and adapt the software.
 
-## Key points to remember
+## Why does free software matter for non-profits?
 
-- **CiviCRM is free to use, share, and modify**—you’re in control.
-- **Your organisation can customise CiviCRM** to meet your unique needs.
-- **The community ensures CiviCRM’s future**—it won’t disappear if a company changes direction.
-- **You’re part of a global network** of non-profits and advocates sharing knowledge and solutions.
+Free and Open Source Software (FOSS) like CiviCRM is especially valuable for non-profits:
+
+- **Community involvement:** FOSS projects encourage users to help design and improve the software. This means CiviCRM is shaped by real-world needs and experiences from other non-profits.
+- **Independence:** You are not locked into one vendor. If you need something special, you can hire any developer to help, and you can share improvements with others.
+- **Stability and continuity:** If a company behind a paid software product disappears, you may have to start over. With FOSS, the community can keep the project alive, so your organisation isn’t left stranded.
+- **Shared values:** Many non-profits and FOSS communities share values like openness, collaboration, and sharing. By contributing to CiviCRM, you help strengthen the whole non-profit sector.
 
 ## Further reading
 
-If you’d like to learn more about free and open source software, visit the Free Software Foundation or the Open Source Initiative. These organisations provide clear definitions and resources for non-profits exploring FOSS options.
+If you want to learn more about Free Software and Open Source, you can explore resources from the Free Software Foundation, the Open Source Initiative, and guides specifically for non-profits.
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/appendices/free
+-software/ -->
+
+<!--
+This page is an Explanation, as it provides background, context, and rationale about Free Software and its relevance to non
+-profits, rather than step-by-step instructions or technical reference. The content is introductory and suitable for a basic level audience. It logically belongs in the Appendices section, as background material supporting the main user guide. -->

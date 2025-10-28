@@ -2,44 +2,47 @@
 categories:
   - Guide
 level: Basic
-summary: Learn how to find and restore deleted contacts in CiviCRM, and understand when to permanently delete them.
+summary: Learn how to recover deleted contacts in CiviCRM and permanently delete contacts you no longer need.
 section: Organising your data
 ---
 
-# Restore deleted contacts in CiviCRM
+# Restore deleted contacts
 
-## Find deleted contacts
+## Recovering a deleted contact
 
-When a contact is deleted in CiviCRM, it is moved to the trash rather than being permanently removed. This means you can recover accidental deletions if you act quickly.
+When you delete a contact in CiviCRM, it is first moved to the trash instead of being removed right away. This means you can restore the contact later if needed.
 
-To find deleted contacts:
+To recover a deleted contact:
 
-- Go to **Advanced Search**.
-- Enter the contact’s details to help narrow your search.
-- At the bottom of the **Basic Criteria** section, check the **Search in Trash** box.
-- Click **Search**.
+1. Go to **Advanced Search** in CiviCRM.
 
-## Restore deleted contacts
+2. Enter the details of the contact you want to recover.
 
-Once you see your deleted contact in the search results, you have two options to restore them:
+3. In the **Basic Criteria** section, check the box labeled **Search in Trash**.
 
-- **Restore individually:** Click the **Restore** link at the end of the row for the contact you want to recover.
-- **Restore multiple contacts:** Use the action drop-down menu at the top of the results list and select **Restore contacts**.
+4. Click **Search** to see results that include deleted contacts.
 
-After restoring, the contact will reappear in your main contact list and all their information will be available as before.
+5. In the results list, you can:
 
-## Permanently delete contacts
+- Restore a single contact by clicking the **Restore** link at the end of the contact’s row.
 
-If you are certain you no longer need a contact, you can delete them permanently. This action cannot be undone, so use it with care.
+- Restore multiple contacts by selecting them and choosing **Restore contacts** from the action drop
+-down menu.
 
-## Disable the trash function
+## Permanently deleting a contact
 
-If your organisation prefers not to use the trash, you can disable this feature. Go to **Administer > System Settings > Misc (Undelete, PDFs, Limits, Logging, etc.)** and adjust the setting there.
+If you are sure you no longer need a contact, you can delete it permanently from the trash.
 
-## Tips for non-profit teams
+## Disabling the trash feature
 
-- **Regularly check the trash** if you suspect a contact has been accidentally deleted.
-- **Communicate with your team** about when to restore or permanently delete contacts to avoid confusion.
-- **Review your settings** to make sure the trash function matches your organisation’s data retention policy.
+If your organisation prefers not to use the trash (so contacts are deleted immediately), you can turn off this feature:
 
-This guide is designed for non-profit staff who are new to CiviCRM and need to manage their contact data confidently. If you have questions or need more advanced options, ask your system administrator or check the CiviCRM community for support.
+- Go to **Administer > System Settings > Misc (Undelete, PDFs, Limits, Logging, etc.)** and adjust the settings as needed.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/organising
+-your-data/undelete/ -->
+
+<!--
+Suggestion: This is a Guide because it provides step
+-by-step instructions to achieve a specific goal (recovering deleted contacts), fits a basic skill level, and belongs in the "Organising your data" section. No splitting needed; the reference to disabling the trash is minor and relevant for context. -->

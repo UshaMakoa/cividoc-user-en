@@ -1,48 +1,103 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This page explains how to manage pledge payments in CiviCRM, including recording individual payments, entering multiple payments in batches, and canceling pledges.  
-section: Everyday tasks  
+  - Guide
+level: Basic
+summary: Learn how to record, batch-enter, and cancel pledge payments in CiviCRM, step by step, for non-profit staff handling offline donations.
+section: Pledges > Everyday tasks
 ---
 
-# Managing pledge payments in CiviCRM
+# Everyday pledge tasks
 
-## Recording individual pledge payments
+## Record a payment for a pledge
 
-If a donor pays offline (for example, by cash or cheque), you need to record their payment manually in CiviCRM:
+If someone makes a pledge and pays by cash, cheque, or another offline method, you need to manually record that payment in CiviCRM.
 
-- Search for the contact in CiviCRM using **Search > Find Contacts**.
-- Open the contact’s record and go to the **Pledges** tab.
-- Click the small arrow next to the pledge to view scheduled payments.
-- Find the next scheduled payment and mark it as **Completed**.
+1. Search for the contact:
+
+- Go to **Search** and select **Find Contacts**.
+
+2. Open the pledges tab:
+
+- In the contact’s record, click the **Pledges** tab.
+
+3. View scheduled payments:
+
+- Click the small arrow next to the pledge to show scheduled payments.
+
+4. Mark a payment as completed:
+
+- Find the next scheduled payment and set its status to **Completed**.
+
+5. Edit payment details (optional):
+
 - You can also edit the scheduled payment to change the due date or amount if needed.
 
-## Entering multiple pledge payments using batch data entry
+## Enter multiple pledge payments in a batch
 
-When you have many pledge payments to record at once, use the Batch Data Entry feature to save time:
+If you have many payments to enter at once (for example, after a fundraising event), use the Batch Data Entry feature.
 
-1. **Create a new batch:**
-   - Go to **Contributions > Batch Data Entry > New Data Entry Batch**.
-   - Enter a batch name (you can keep the default), select **Payment Type** as *Pledge Payment*, and fill in the total number of items and total amount.
-   - Optionally, add a description.
+1. Create a new data entry batch:
 
-2. **Enter pledge payments:**
-   - In the batch entry grid, start typing a contact’s name to select an existing contact or create a new one.
-   - Use the drop-down to select an open pledge for that contact.
-   - The payment amount and financial type will fill automatically but can be adjusted if you have permission.
-   - Fill in payment details such as payment status (defaults to Completed), date received, payment method (cash, check, EFT, etc.), check number if applicable, and source.
-   - You can also choose to send a receipt by email.
+- Go to **Contributions > Batch Data Entry** and select **New Data Entry Batch**.
 
-3. **Save and process the batch:**
-   - You can save the batch and continue later by clicking **Save & Continue Later**.
-   - To add or edit payments later, go to **Contributions > Batch Data Entry** and select **Enter Records** for your batch.
-   - When finished, click **Validate & Process the Batch** to close it.
-   - If the total amount or count of payments does not match the batch totals you entered, you will be warned and can either fix the entries or override the totals.
+- Fill in the required fields:
 
-## Canceling pledges
+     - **Batch Name** (edit if you wish)
+     - **Type:** Choose **Pledge Payment**
+     - **Description** (optional)
+     - **Number of Items** (required)
+     - **Total Amount** (required)
 
-If a pledge will not be fulfilled, you can cancel it:
+2. Enter pledge payments:
 
-- Find the pledge via the contact record or the **Find Pledges** search tool.
+- For each line, start typing an existing contact’s name or create a new contact.
+
+- Click the arrow to see all open pledges for that contact and assign the payment.
+
+- The financial type and amount will fill in automatically but can be changed if you have permission.
+
+- Enter payment details:
+
+     - **Status** (defaults to Completed)
+     - **Date and Time** (defaults to now, can be changed)
+     - **Source** (describe where the payment came from)
+     - **Paid by** (required: cash, cheque, EFT, etc.)
+     - **Check Number** (if paid by cheque)
+     - **Send Receipt** (tick if you want to send a receipt by email)
+     - **Invoice ID**, **Soft Credit**, **Soft Credit Type** (if needed)
+
+3. Save or process the batch:
+
+- You can save and return later, or enter all transactions in one go.
+
+- To continue later, click **Save & Continue Later**.
+
+- When finished, click **Validate & Process the Batch** to close it.
+
+- If totals or counts don’t match what you entered at the start, you’ll be alerted. You can:
+
+- Click **Ignore Mismatch & Process the Batch** to update the batch totals, or
+
+- Continue editing until the totals match, then process again.
+
+## Cancel a pledge
+
+If a pledge will not be fulfilled, you can cancel it.
+
+1. Find the pledge:
+
+- Search for the contact or use the **Find Pledges** tool.
+
+2. Cancel:
+
 - Click the **more** link next to the pledge and select **Cancel**.
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/pledges/everyday
+-tasks/ -->
+
+<!--
+Suggestion: This page is a How
+-to Guide (problem-oriented, step-by-step instructions for common tasks, no background or reference material). The content is basic, suitable for new or non-expert users. If needed, batch data entry could be split into a separate guide for clarity, but for this audience, grouping all everyday pledge tasks together is likely most approachable. -->

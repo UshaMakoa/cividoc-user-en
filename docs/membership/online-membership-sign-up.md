@@ -1,136 +1,165 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary:  This guide explains how to set up an online membership sign-up form on your website.
-section: Membership
+  - Guide
+level: Basic
+summary: Learn how to set up and add an online membership sign up page to your website in CiviCRM, so people can easily join your organisation online.
+section: Membership > Online membership sign up
 ---
 
 # Online membership sign up
 
+This page shows you how to create and add an online membership sign up page to your website using CiviCRM, so people can join your organisation as members.
 
-This guide explains how to set up an online membership sign-up form on your website. You’ll learn how to build a page where visitors can join or renew their membership, pay (if required), and have everything recorded automatically in CiviCRM.
+## About membership sign up pages
 
-It’s aimed at non-technical users working in charities, community groups or other non-profits, so you don’t need to be a tech expert to follow these steps.
+- **Membership sign up pages** let people join your organisation online.
 
-## **About membership sign up pages**
+- You create them by making a *contribution page* and enabling membership options on it.
 
-In CiviCRM, a membership sign-up page is built using a contribution page. Because joining a membership is much like making a contribution (people pay, supply details, and you record data), using the contribution page gives you access to lots of useful features.
+- Even if your membership is free, you should use a contribution page for online sign up.
 
-Even if your membership is free, you still use a contribution page (just with no payment element).
+- Contribution pages have several tabs for configuration—some are especially important for memberships.
 
-## **The Title tab**
+## Steps to create an online membership sign up page
 
-* This is the first step when creating your membership sign-up page.
+###
+1. Create a contribution page
 
-* You’ll give your page a clear title (for example, “Join us as a member”).
+- Go to **Contributions > New Contribution Page** in CiviCRM.
 
-* You’ll choose which financial type will record the payment or membership fee.
+- Give your page a name and fill in the required details.
 
-* You can add an introductory message that appears on the web form; you can include images or simple formatting to make it inviting.
+- After saving, you will see several tabs to configure different options.
 
-## **Organisational memberships**
+###
 
-If your organisation offers memberships for other organisations (instead of just individuals), you can enable “Organisations sign up” in the Title tab.
+2. Configure the Title tab
 
-* Tick the option for “Become a member on behalf of an organisation”.
+- Set the title for your membership page.
 
-* Choose a profile that collects organisation details (legal name, contact person, etc).
+- Choose the *Financial Type* that will be recorded for these memberships.
 
-* Decide if this is required or optional for the person filling in the form.
+- Add an introductory message (you can include images and simple formatting).
 
-## **The Amounts tab**
+#### Organisational memberships
 
-On the Amounts tab you:
+- To let people join on behalf of an organisation, tick the relevant box.
 
-* Choose your payment processor(s) so people can pay online.
+- Choose a profile to collect organisation details.
 
-* Set whether the form only collects membership fees, or also extra donations.
+- Decide if organisational sign up is optional or required.
 
-* Note: Membership fees themselves are not configured here — the fee is set in the Memberships tab (below).
+###
 
-If your membership is free, you leave the “Execute real-time monetary transactions” option unchecked and pick a membership type with a zero fee.
+3. Configure the Amounts tab
 
-## **The Memberships tab**
+- Select which payment processor(s) people can use.
 
-Here you enable the membership functionality on the page. Key tasks include:
+- If you do *not* want to collect extra donations, leave the "Contribution Amounts section enabled" box unticked.
 
-* Tick **Membership section enabled** so this page handles membership sign-up/renewal.
+- If you *do* want to collect donations as well as membership fees, tick the box and set up suggested options or a price set.
 
-* Enter the text that will show to new members, and separately text for renewals (people who already have or had membership).
+#### Free memberships
 
-* Select which membership types are available on this form, set a default, and decide whether auto-renew is allowed (which requires a payment processor and recurring payment support).
+- For free memberships, leave "Execute real
+-time monetary transactions" unticked.
 
-* Optionally: If your setup is more complex (e.g., multiple membership levels or terms in one form), you may use a membership price set instead.
+- Choose a membership type with a zero minimum fee.
 
-## **The Receipt tab**
+###
 
-After someone completes the form, you’ll want to thank them and send confirmation. On this tab:
+4. Configure the Memberships tab
 
-* Customize the thank-you page message (the message that appears on screen).
+- Tick "Membership Section Enabled" to use this page for memberships.
 
-* Choose the “From” email address and subject for the receipt email.
+- Add text for the initial sign up and for renewals.
 
-* Add staff emails in CC or BCC if you want organisation staff to receive notification when someone signs up — but be careful: if those addresses bounce, it could affect email deliverability for the member.
+- Select which membership types are available, which is the default, and if any can be auto
+-renewed.
 
-## **The Tell-A-Friend tab**
+- If you want to offer multiple memberships or terms at once, use a *membership price set*.
 
-If you like, you can add a “tell a friend” feature on the thank-you page:
+###
 
-* This allows new members to share a link with friends via email.
+5. Configure the Receipt tab
 
-* If their friends click the link and sign up, the friend is added in CiviCRM and the “source” field shows they came through this refer-a-friend route.
+- Set up the thank
+-you page and email receipt options.
 
-## **Collecting additional information (Profiles tab)**
+- Customise the message and the email address the receipt comes from.
 
-To gather more than just basic info (email, name), you can use a profile on your membership form:
+- To further customise the email, use **Mailings > Message templates**.
 
-* The Profiles tab lets you pick or build a profile form that collects contact info (address, phone) or custom fields (interests, membership branch).
+#### Email alerts for staff
 
-* If someone is logged in when they sign up, CiviCRM pre-fills fields where possible.
+- Add staff emails to "CC Receipt To" or "BCC Receipt To" if you want notifications.
 
-* Warning: If you edit an existing profile here, it affects *all* uses of that profile elsewhere—so be cautious.
+- Make sure these emails are correct—bounced emails can cause issues with member records.
 
-## **Premiums tab**
+###
 
-If you offer a thank-you gift or incentive with membership (for example a T-shirt or badge), you use the Premiums tab:
+6. Tell
+-A-Friend tab (optional)
 
-* First configure the premium items in Contributions → Premiums.
+- Enable this to let new members invite friends by email.
 
-* Then on this tab you set up how the premium works with this membership page — introductory text, what qualifies for the gift, etc.
+- Friends who join this way are added to CiviCRM and marked as referred.
 
-## **Testing membership sign-up pages**
+###
 
-Before you publish your page for the public, run through tests:
+7. Profiles tab
 
-* In Contributions → Manage Contribution Pages, click “Links” next to your page and choose “Test-drive”.
+- Add a profile to collect extra information (like address or interests) during sign up.
 
-* Use the form as though you’re a member. Check that data appears in CiviCRM as expected (under Memberships).
+- Do *not* add a membership profile—membership data is collected automatically.
 
-* For payment testing use a sandbox or dummy processor (so you are not actually charged).
+- Be careful: editing a profile here changes it everywhere it's used.
 
-* Ask colleagues or a friendly volunteer to test too — different browsers, devices, scenarios.
+###
 
-* Regularly revisit and test your page: if members are getting confused, you may need to refine the form or wording.
+8. Premiums tab (optional)
 
-## **Adding the sign-up page to your website**
+- Offer thank
+-you gifts for joining.
 
-Once your form works:
+- Set up premiums first under **Contributions > Premiums (Thank
+-you Gifts)**.
 
-* Copy the public URL (from Contributions → Manage Contribution Pages → “Links” → “Live Page”).
+###
 
-* On your website (depending on your CMS: Drupal, WordPress, Joomla) insert the link or embed the form into your page/menu.
+9. Test your membership sign up page
 
-* For example: in WordPress you might use a shortcode; in Joomla you might create a menu item for the contribution page.
+- Use the "Test
+-drive" option (under **Contributions > Manage Contribution Pages**) to check everything works as expected.
 
-* The sign-up page should match your website’s theme by default. You can enhance it with images or styling if desired.
+- Test different scenarios (new member, renewal, different payment options).
 
-## **Permissions needed for online membership sign-up / renewal**
+- Ask colleagues or friends to try the form and give feedback.
 
-To allow both anonymous visitors and logged-in users to join or renew memberships online, your CMS roles must have the following:
+- Test regularly to keep the process smooth.
 
-* Permission to view profiles and forms so basic contact details can be collected.
+###
 
-* Permission to access all custom data (if you’ve added custom fields).
+10. Add the sign up page to your website
 
-* Permission to make online contributions (unless all your memberships are free and you’re not collecting any payments).
+- **Drupal:** Copy the page URL from "Live Page" and add it to your site menu or content.
+- **WordPress:** Copy the URL, use a plugin to create a custom link, or insert using a shortcode.
+- **Joomla!:** Create a new CiviCRM menu item, select the contribution page, and save.
+
+###
+
+11. Set permissions
+
+- Make sure users have the right permissions in your website CMS:
+
+  - "Profile listings and forms" (to collect contact info)
+  - "Access all custom data" (to collect extra fields)
+  - "Make online contributions" (unless memberships are free and you don't want donations)
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/membership/online
+-membership-sign-up/ -->
+
+<!--
+This page is a Guide: it is task
+-focused, showing users how to achieve the specific goal of setting up online membership sign up. It is not a Tutorial (no hand-held learning, but assumes some familiarity), not Reference (not a systematic list of options), and not Explanation (no background or theory). The level is Basic, as it is intended for non-expert users learning to perform a common task. -->

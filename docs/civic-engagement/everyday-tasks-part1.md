@@ -2,48 +2,82 @@
 categories:
   - Guide
 level: Basic
-summary: This guide provides step-by-step instructions on how to conduct a door-knock canvass using CiviEngage.
-section: Civic Engagement
+summary: Step-by-step instructions for non-profit staff to carry out everyday civic engagement tasks in CiviCRM, such as door-knock canvassing, phone banking, and mobilizing event participants.
+section: Civic Engagement > Everyday Tasks
 ---
 
-# Conducting a Door-Knock Canvass
+# Everyday civic engagement tasks
 
-## Introduction
-Conducting a door-knock canvass is a strategic activity that can be part of a larger campaign. This guide will walk you through setting up and executing a canvass using CiviEngage.
+## Conducting a door-knock canvass
 
-## Step 1: Create the Campaign and Survey
-1. Go to **Campaigns** > **New Campaign** and create a new campaign.
-2. Refer to the Campaign chapter for detailed instructions.
-3. Go to **Campaigns** > **New Survey**, give the survey a title, and select the appropriate campaign.
-4. From the **Activity Type** dropdown, select **WalkList**.
-5. From the **Profile** dropdown, select the custom profile you created for this Walklist survey.
-6. For **Survey Responses**, select **Use existing result set** and choose **Survey Default Results Set Options**.
-7. Click **Save**.
+Door-knock canvassing helps your organisation connect with community members by visiting them at home and recording their responses to surveys. Here’s how you can organise and carry out a door-knock canvass using CiviCRM:
 
-## Step 2: Reserve the Target Group
-1. Go to **Campaigns** > **Reserve Respondents** and select the appropriate survey.
-2. Select your target group in **Group(s)**, then click **Search**.
-3. On the **Find Respondents to Reserve** screen, select the contacts you want to survey.
-4. Click **Go to Reserve Respondents**, then click **Reserve**.
+###
+1. Create the campaign and survey for your walk list
 
-## Step 3: Create Your WalkList Report
-1. Go to **Reports** > **Create Templates from Reports** > **Survey Report (Detail)**.
-2. In the **Display Columns** area, check the boxes for: **Street Number**, **Street Name**, **Street Unit**, and **Survey Responses**.
-3. In the **Group By Columns** area, check the boxes for: **Street Name** and **Odd/Even Street Number**.
-4. In the **Set Filters** area, select your survey name in **Survey**. For **Respondent Status**, select **Is Equal to** and **Reserved** from the dropdown menus.
-5. Click **Preview Report**, then **Print Preview**. Print your report.
+- Make a new group of contacts you want to visit. You can search for people in a specific area or district.
 
-## Step 4: Conduct Your Door-Knock Canvass
-Your organisers and volunteers are now ready to go door-to-door and collect responses on their WalkList report sheets.
+- If you haven’t already, create a campaign: go to **Campaigns > New Campaign** and add your group of contacts.
 
-## Step 5: Record Responses
-At the end of each day or evening of canvassing, record the responses directly into CiviCRM.
+- Create a new survey: go to **Campaigns > New Survey**, give it a title, and link it to your campaign.
 
-1. Go to **Campaigns** > **Interview Respondents**.
-2. Enter the name of your survey and the name of the target group you surveyed during the canvass.
-3. On the **Find Respondents to Interview** screen, select the contacts for whom you want to record responses.
-4. Click **Go**.
-5. Enter the responses and results according to your WalkList sheet responses, then click **Record Response**.
+- For **Activity Type**, choose **WalkList**.
 
-## Step 6: Review Results
-At the end of the canvass, review the results of the survey. Refer to the **Reports and Analysis** chapter to learn how to view this report.
+- For **Profile**, select the custom profile you made for this survey.
+
+- For **Survey Responses**, choose **Use existing result set** and select **Survey Default Results Set Options**.
+
+- Click **Save**.
+
+###
+
+2. Reserve the target group you want to survey
+
+- Go to **Campaigns > Reserve Respondents** and pick your survey.
+
+- Select your target group in **Group(s)** and click **Search**.
+
+- On the results screen, select the contacts you want to survey and click **Go to Reserve Respondents**.
+
+- On the next screen, click **Reserve**.
+
+###
+
+3. Create your WalkList report
+
+- Go to **Reports > Create Templates from Reports > Survey Report (Detail)**.
+
+- In **Display Columns**, select: Street Number, Street Name, Street Unit, Survey Responses.
+
+- In **Group By Columns**, select: Street Name, Odd/Even Street Number.
+
+- In **Set Filters**, choose your survey name. For **Respondent Status**, select **Is Equal to** and **Reserved**.
+
+- Click **Preview Report**, then **Print Preview**.
+
+- Print your report. The printout will be sorted by street and include a cover sheet with response codes.
+
+###
+
+4. Conduct your door
+-knock canvass
+
+- Volunteers or staff visit each address on the WalkList and record responses on the printed sheets.
+
+###
+
+5. Record responses from the canvass
+
+- After canvassing, go to **Campaigns > Interview Respondents**.
+
+- Enter the survey name and the target group (and street name if needed).
+
+- On the results screen, select the contacts and click **Go**.
+
+- Enter the responses from your WalkList sheets and click **Record Response**.
+
+###
+
+6. Review the results
+
+- Program leads can review survey results using the reporting features in CiviCRM (see the Reports and Analysis chapter).

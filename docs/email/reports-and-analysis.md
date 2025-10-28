@@ -1,101 +1,64 @@
 ---
 categories:
   - Guide
-level: Intermediate
-summary: Learn how to use CiviMail's built-in reports to understand how your mailings performed and improve your future campaigns.
-section: Email and communications
+level: Basic
+summary: Learn how to use CiviMail’s reporting tools to track, understand, and improve your email campaigns, including managing bounces and analyzing recipient actions.
+section: Email > Reports and analysis
 ---
 
-# Analysing and reporting on your mailings
+# Understanding reports and analysis in CiviMail
 
-Once you've sent a mailing, the next step is to understand how it performed.
+## Viewing individual mail reports
 
-CiviMail provides detailed reports that help you measure delivery, engagement, and unsubscribes — giving you insight into what's working and where to improve.
+You can see a report for each email campaign you send by going to **Mailings > Scheduled and Sent Mailings** in CiviCRM. These reports update in real time, so you can refresh the page to see the latest results. Each report is split into sections, showing different statistics about your mailing. The information available depends on whether you enabled tracking options (like opens and clicks) when you set up your mailing.
 
-## Why reporting matters
+## Delivery summary
 
-Analysing your results helps you make evidence-based decisions.
+The delivery summary provides an overview of your email campaign’s performance. Here’s what you’ll see:
 
-By reviewing how supporters interact with your emails, you can:
+- **Intended recipients**: The number of people you tried to send your email to.
+- **Unique opens**: The number of people (or bots) CiviCRM believes have opened your email, if open tracking is enabled.
+- **Total opens**: The total number of times your email was opened, counting repeat views by the same person or bot.
+- **Click-throughs**: The number of times people clicked links in your email, if click tracking is enabled.
+- **Forwards**: How many times people forwarded your email using the special forward link.
+- **Replies**: The number of replies received, if reply tracking is enabled.
+- **Bounces**: The number of emails that couldn’t be delivered, if bounce processing is enabled.
+- **Unsubscribe requests**: How many people clicked an unsubscribe link in your email.
 
-- Identify which messages generate the most engagement  
-- Understand when and how your audience prefers to be contacted  
-- Spot issues with deliverability or content  
-- Improve future campaigns based on real data  
+### How open tracking works
 
-Consistent reporting turns email activity into learning opportunities for your organisation.
+CiviCRM uses a small, unique image in each email to track opens. When someone views the email and their email client downloads the image, CiviCRM records it as an open. Many email programs ask users whether to download images, so not every open is tracked. The actual number of readers is usually higher than reported. Use these numbers to compare your mailings and try different approaches to see what works best for your audience.
 
-## Accessing your mailing reports
+## Managing bounces and contacts with invalid emails
 
-To access your reports:
+If your server processes bounces, contacts whose emails bounce are marked as **On Hold** and won’t receive further messages. You can review bounces by clicking the **Bounces** link in the delivery summary. Investigate the reason for each bounce (like a typo in the email address), fix it, and remove the **On Hold** status if appropriate. You can then reuse your mailing and exclude those contacts from future sends.
 
-1. Go to **Mailings → Scheduled and Sent Mailings**.  
-2. Find the mailing you want to review.  
-3. Click the **Report** link next to it.
+You can also search for bounces using **Search > Advanced search** and filter by bounce type.
 
-Each report provides an overview of delivery results and engagement statistics.
+## Click-through summary
 
-## Understanding the key metrics
+This section shows statistics for each link in your email:
 
-CiviMail reports include several key figures:
+- **Clicks**: The total number of times each link was clicked.
+- **Unique clicks**: The number of individual people who clicked each link.
 
-- **Total Sent** — the number of emails successfully sent to recipients.  
-- **Delivered** — the number of messages that reached inboxes (not bounced).  
-- **Opened** — how many recipients opened your email at least once.  
-- **Clicked** — how many recipients clicked on a link inside your message.  
-- **Bounced** — the number of emails that could not be delivered.  
-- **Unsubscribed** — the number of people who opted out after receiving the email.  
+## Mailing reports with CiviReport
 
-These numbers together give a snapshot of how your campaign performed.
+CiviReport provides four useful reports for email campaigns:
 
-## Viewing engagement detail
+- **Mail Bounce Report**
+- **Mail Summary Report**
+- **Mail Clickthrough Report**
+- **Mail Opened Report**
 
-You can explore who opened, clicked, or unsubscribed from a mailing.
+These reports let you analyze multiple mailings at once and offer extra features, such as adding reports to dashboards or having them emailed to you.
 
-In the report, use the links next to each figure (for example, "View opened emails") to see the list of contacts involved.
+For more details, see the Reporting section in the user guide.
 
-This detail can help you:
+<!--
+Source: https://docs.civicrm.org/user/en/latest/email/reports
+-and-analysis/ -->
 
-- Identify your most engaged supporters  
-- Follow up with contacts who clicked specific links  
-- Review contacts who unsubscribed to understand patterns or topics that caused disengagement  
-
-Always handle this data responsibly and in line with your organisation's privacy policies.
-
-## Comparing campaigns over time
-
-Looking at one mailing in isolation is useful, but comparing several campaigns shows trends.
-
-You can:
-
-- Track engagement rates across newsletters or event invitations  
-- See whether changes in content or timing affect response  
-- Measure progress as your list grows and improves  
-
-If you run regular newsletters, record your open and click rates in a shared spreadsheet or dashboard to monitor performance month by month.
-
-## Using reports to improve performance
-
-Once you have your data, use it to refine future mailings:
-
-- If open rates are low, experiment with subject lines or send times.  
-- If click rates are low, review content and calls to action.  
-- If unsubscribe rates are high, consider adjusting frequency or segmentation.  
-- If bounce rates are high, clean your mailing list and review sender authentication.  
-
-Small, consistent changes based on data can significantly improve long-term engagement.
-
-## Exporting your report data
-
-If you want to analyse results further, you can export your mailing data as a CSV file.
-
-From the report screen, choose **Export Recipients**, then select the fields you need (email address, status, or engagement activity).
-
-You can open this file in Excel or another spreadsheet tool to create charts, summaries, or comparison reports.
-
-## Best practice
-
-- Review every mailing report within a few days of sending.  
-- Keep a record of key metrics for comparison.  
-- Focus on trends over time rather than one-off results.  
-- Share insights with your team so future campaigns benefit from what you've learned.
+<!--
+This page is a Guide: it helps users achieve specific goals (track and analyze mailings, manage bounces) with step
+-by-step actions and practical advice, but does not provide deep background or systematic reference. The level is Basic because it assumes no prior expertise and explains concepts in accessible language. -->

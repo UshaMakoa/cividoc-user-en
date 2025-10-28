@@ -1,152 +1,71 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide introduces CiviCRM contacts, explaining how to find, add, edit, and delete contacts, and how to understand and customize contact information for non-expert nonprofit users.  
-section: Organising your data  
+  - Reference
+level: Basic
+summary: Learn what contacts are in CiviCRM, the different types, and how to view, add, edit, and organize them for your non-profit’s needs.
+section: Organising your data
 ---
 
-# Contacts
+# Contacts overview
 
-## Introduction to contacts
+## What are contacts?
 
-Contacts are the foundation of CiviCRM. They represent the people, organizations, or households you work with. In CiviCRM, there are three main contact types:
+**Contacts** are the core records in CiviCRM. Everything your organisation tracks—such as donations, memberships, or event participation—is linked to a contact. There are three main types of contacts:
 
-- **Individuals** (people)
-- **Organizations** (companies or nonprofits)
-- **Households** (families or groups sharing an address)
+- **Individuals**: People, such as supporters, staff, or volunteers.
+- **Organisations**: Companies or other non-profit organisations.
+- **Households**: Families or groups sharing an address.
 
-Each contact has core information like names, addresses, phone numbers, email addresses, and communication preferences. Contacts connect to all other parts of CiviCRM, such as relationships, activities, contributions, and events.
+Each contact has standard fields, including names, addresses, phone numbers, email addresses, and communication preferences. You can also add your own custom fields or create subtypes for more specific needs.
 
-## Viewing contacts
+## How are contacts organised on screen?
 
-When you open a contact record, information is organized into tabs for easy navigation. The first tab, **Summary**, shows basic details like names and contact information. Other tabs display related information such as relationships, activities, contributions, memberships, events, groups, notes, and tags.
+When you view a contact, their information is organised into **tabs**:
 
-Some tabs appear only if certain CiviCRM features are enabled or if you have the right permissions.
+- **Summary**: Basic details like names, addresses, and contact methods.
+- **Relationships**: Connections to other contacts.
+- **Activities**: Interactions, such as meetings, emails, or event attendance.
+- **Mailings, Contributions, Memberships, Events**: Details about each type of engagement (these tabs appear if the relevant CiviCRM features are enabled).
+- **Groups and Tags**: Categories you use to organise contacts.
+- **Notes**: Free-text notes about the contact.
+- **Change Log**: Shows who changed what and when.
 
-## Contact actions
+Tabs appear or disappear depending on which CiviCRM components are enabled and your permissions.
 
-Above the tabs, the **Actions** button lets you quickly perform tasks related to the contact, such as adding notes or recording contributions and activities.
+## What actions can you perform with contacts?
 
-## Understanding the summary tab
+At the top of a contact’s record, you’ll find the **Actions** button. This lets you quickly:
 
-The summary tab shows:
+- Add a note
 
-- Names (with parts like prefix, first name, last name, nickname)
-- Addresses (home, work, billing, etc.)
-- Phone numbers (work, mobile, fax)
-- Email addresses (one can be marked for bulk mailings)
-- Communication preferences (how the contact prefers to be contacted)
-- Greetings and addressee fields (used in letters and emails)
-- Demographic details (birth date, gender, deceased status)
+- Record a contribution, meeting, or other activity
 
-## Managing addresses
+You can also add, edit, or delete contacts as needed.
 
-You can add multiple addresses for different purposes (e.g., home, work). One address can be marked as primary for mailings. Addresses can be shared between contacts, such as a person and their employer. When shared, updates to the address affect all linked contacts.
+## Key contact details
 
-If your system has mapping enabled, you can view addresses on a map.
+- **Names**: For individuals, you can record prefix, first name, middle name, last name, suffix, and nickname. For organisations, you record the organisation name.
+- **Addresses**: Each contact can have multiple addresses (e.g., home, work). You can mark one as primary, share addresses between contacts, and use mapping features if enabled.
+- **Phone numbers and emails**: Store multiple phone numbers and email addresses, and mark one as the primary for bulk mailings.
+- **Communication preferences and privacy options**: Specify how contacts prefer to be reached and respect their privacy choices (e.g., do not email, do not phone).
+- **Greetings and addressees**: CiviCRM can generate greetings like “Dear Jenny” automatically, which you can customise.
 
-## Phone numbers and emails
+## Organising and customising contacts
 
-Store multiple phone numbers with types (mobile, landline, fax). Mobile numbers can be used for SMS messaging.
+- **Contact subtypes**: Create subtypes (like “Student” or “Teacher”) based on the main contact types to better organise your data.
+- **Custom fields**: Add fields specific to your organisation’s needs.
+- **Customising the view**: Hide or rearrange fields and sections to simplify the contact screen for your users.
 
-Store multiple email addresses and designate one for bulk emails. Emails that bounce during mailings are automatically marked to avoid future mailings.
+## Adding, editing, and deleting contacts
 
-## Communication preferences and privacy
+- **Adding**: Use the Contacts menu to create new individuals, organisations, or households. Required fields are marked, and you can check for duplicates.
+- **Editing**: Click the edit link in any section or use the main edit button to update details.
+- **Deleting**: Delete a contact to move it to the trash (from where it can be restored if needed).
 
-Contacts can specify how they want to be contacted or if they prefer not to be contacted by phone, email, mail, or SMS. These preferences are respected during mailings and communications.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/organising
+-your-data/contacts/ -->
 
-Privacy options include:
-
-- Do not phone
-- Do not email
-- Do not mail
-- Do not SMS
-- Do not trade (no sharing of info with others)
-- No bulk emails (opt-out from mass mailings)
-
-## Greetings and addressee formats
-
-CiviCRM automatically creates greetings (like "Dear Jenny") based on contact names. You can customize these globally or for individual contacts.
-
-## Relationships tab
-
-Relationships connect contacts to each other with named connections (e.g., "parent of," "employee of"). A contact can have many relationships.
-
-## Activities tab
-
-This tab lists all interactions with the contact, such as emails, meetings, phone calls, event attendance, and contributions. You can also add new activities here.
-
-## Contributions tab
-
-Shows all financial contributions made by the contact, with options to add offline contributions or credit card payments on their behalf.
-
-## Memberships tab
-
-Displays memberships the contact holds, with options to add, renew, or delete memberships.
-
-## Events tab
-
-Lists events the contact has registered for or attended. You can register the contact for new events and manage their event status.
-
-## Groups tab
-
-Shows groups the contact belongs to, which can be used for mailing lists or permissions. You can add or remove contacts from groups here.
-
-## Notes tab
-
-Use this tab to record informal or additional information about a contact. Notes can be private (visible only to the author) or shared.
-
-## Tags tab
-
-Tags categorize contacts and can be used for searching or creating smart groups.
-
-## Change log tab
-
-Shows basic information about when and who last edited the contact record.
-
-## Adding contacts
-
-To add a new contact:
-
-1. Go to **Contacts > New Individual** (or select other contact types).
-2. Fill in the basic information like name and email.
-3. Use **Check for Matching Contacts** to avoid duplicates.
-4. Add addresses, phone numbers, emails, tags, and groups as needed.
-5. Choose **Save** to finish or **Save and New** to add another contact.
-
-Required fields:
-
-- Individuals: first name and last name OR email address
-- Organizations/Households: organization or household name
-
-## Editing contacts
-
-You can edit contact information directly on the summary screen by clicking **Edit Info** in each section or open the full edit screen for more detailed changes.
-
-If two users edit the same contact simultaneously, the second user will be notified and can merge changes manually.
-
-## Deleting contacts
-
-Contacts are not permanently deleted immediately; they move to the trash and can be restored later.
-
-- To delete a single contact, open their record and click **Delete Contact**.
-- To delete multiple contacts, use advanced search, select contacts, and choose **Delete Contacts** from the actions menu.
-
-## Contact subtypes
-
-You can create custom contact subtypes based on the main types to better organize contacts (e.g., "Student" subtype of Individual). Subtypes allow you to collect specific custom data for different groups.
-
-Contacts can have multiple subtypes but only one main type (Individual, Organization, or Household).
-
-Manage subtypes at **Administer > Customize Data and Screens > Contact Types**.
-
-## Customizing contact views
-
-You can hide or rearrange fields and sections to simplify the contact screen for your needs:
-
-- To hide demographics or change field order: **Administer > Customize Data and Screens > Display Preferences**
-- To customize address fields: **Administer > Localization > Address Settings**
-- To enable or disable tabs: **Administer > Customize Data and Screens > Display Preferences**
-
-Tabs depend on enabled components and user permissions.
+<!--
+This page is best classified as Reference: it systematically describes what contacts are, their fields, types, and how they are organised and managed in CiviCRM, without step
+-by-step instructions or in-depth conceptual background. It is suitable for users needing a factual overview and quick look-up. If more detailed procedures (e.g., “How to add a contact”) or conceptual explanations (e.g., “Why use contact subtypes?”) are needed, those should be split into separate Guide or Explanation pages. -->

@@ -1,58 +1,69 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit users can enable and create invoices in CiviCRM, customize invoice templates, and understand basic invoicing settings.  
-section: Invoicing  
+  - Guide
+level: Basic
+summary: Learn how to enable, create, send, and customize invoices for contributions in CiviCRM, step by step, using simple instructions.
+section: Contributions > Invoicing
 ---
 
 # Invoicing in CiviCRM
 
-## What is invoicing in CiviCRM?
+## Enable invoicing
 
-Invoicing lets you create, print, or email invoices for contributions in CiviCRM. It works with all financial types and contribution statuses, such as completed or pending. Before you can use invoicing, you need to enable it in your system settings.
+To use invoicing for your organisation’s contributions, you first need to turn on the feature.
 
-## Enabling invoicing
+- Go to **Administer > CiviContribute > CiviContribute Component Settings**.
 
-To start using invoicing:
+- Tick the box labeled **Enable Tax and Invoicing**.
 
-1. Go to **Administer > CiviContribute > CiviContribute Component Settings**.  
-2. Check the box labeled **Enable Tax and Invoicing**.  
+- On this screen, you can also:
 
-Here, you can also set:
+- Add a prefix for invoices and credit notes (for example, “INV
+-”).
 
-- A prefix for invoice and credit note numbers (to help organize your invoices).  
-- The due date interval (how many days, weeks, or years until the invoice is due).  
-- Custom notes or standard terms that will appear on every invoice.
+- Set how many days, weeks, or years until an invoice is due.
 
-## Creating an invoice
+- Add standard notes or terms to appear on all invoices.
 
-Once invoicing is enabled, you can create invoices for contributions:
+## Create and send an invoice
 
-1. Open the contact’s record and go to their **Contributions** tab.  
-2. Find the contribution you want to invoice.  
-3. Choose to either **Print Invoice** or **Email Invoice**.  
+Once invoicing is enabled, you can create and send invoices for any completed or pending contribution.
 
-- Printing downloads a PDF invoice.  
-- Emailing opens an options screen where you can:  
-  - Select the sender's email address.  
-  - Add an additional message to the email.
+- Go to the **Contact’s Contribution** tab.
 
-**Note:** When emailing an invoice, you cannot add CC or BCC recipients by default. If you need this feature, there is an extension called *invoicehelper* that adds it.
+- Find and view the contribution record you want to invoice.
 
-## Customizing invoices
+- Choose **Print Invoice** to download a PDF, or **Email Invoice** for email options.
 
-Invoices use a default template that fills in your organization’s name, address, and website from your organization’s contact information. To update this:
+### Emailing invoices
 
-- Go to **Administer Console > Configuration Checklist > Organization Address and Contact Info** to change your organization details.  
-- To change the look or the image on invoices, edit the template at **Administer > Communications > Message Templates > System Workflow Messages > Contributions-Invoice**.  
+- When you choose **Email Invoice**, you can:
 
-For example, to change the logo image, update the image source in the template code:
+- Select the “From” email address.
 
-```html
-<td><img src = "{$resourceBase}/i/civi99.png" height="34px" width="99px"></td>
-```
+- Type an additional message.
 
-## Advanced invoicing setup
+- Note: You cannot add CC or BCC when emailing invoices by default. If you need this, ask your administrator about the “invoicehelper” extension.
 
-If your organization uses accounting software like QuickBooks, you should work with your bookkeeper or accountant to set up financial types and accounts correctly in CiviCRM. For more detailed integration, see the Accounting Integration documentation and community resources.
+## Customize invoices
+
+You can change how invoices look and what information they show.
+
+- The organisation’s name, address, and website (shown on invoices) come from **Administer Console > Configuration Checklist > Organization Address and Contact Info**.
+
+- To change the invoice template or image:
+
+- Go to **Administer > Communications > Message Templates > System Workflow Messages > Contributions
+-Invoice**.
+
+- Edit the template code as needed, for example, to swap out the logo image.
+
+For advanced accounting integration (like with QuickBooks), work with your bookkeeper to set up financial types and accounts. See the “Accounting Integration” section for more details.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/contributions/invoicing/
+ -->
+
+<!--
+Suggestion: The original page is a step
+-by-step guide focused on enabling and using invoicing, with some brief reference material about customization. According to Diátaxis, this is best classified as a "Guide" (problem-oriented how-to). The customization and integration details could be split into a separate Reference or Tutorial page for advanced users if needed. -->

@@ -1,43 +1,55 @@
-# Source: https://docs.civicrm.org/user/en/latest/introduction/is-civicrm-for-you/
-
+---
 categories:
-  - Tutorial  
-level: Basic  
-summary: This page helps you decide if CiviCRM is the right tool for your non-profit organisation by exploring your needs and ways to learn more about the software.  
-section: Introduction  
+  - Explanation
+level: Basic
+summary: Learn how to decide if CiviCRM is the right fit for your non-profit by exploring your needs, real-world examples, and ways to get advice from the community or professionals.
+section: Introduction
+---
 
-# Is CiviCRM for you?
+# Is CiviCRM right for your organisation?
 
-## Understanding if CiviCRM fits your organisation
+## How to decide if CiviCRM is a good fit
 
-CiviCRM is a powerful tool designed to help non-profit organisations manage their contacts, fundraising, events, and more. However, it may not be the right fit for every organisation. This guide will help you explore whether CiviCRM meets your needs and how you can learn more before making a decision.
+CiviCRM is a powerful tool designed to help non-profits manage contacts, fundraising, memberships, events, and more. However, it may not be the best choice for every organisation. Here are some ways you can find out if CiviCRM meets your needs:
 
-## Identify your organisation’s needs
+- **Identify your organisation’s needs:** List what you want your software to do. Consider contact management, fundraising, event registration, reporting, and integration with your website.
+- **Read real-world examples:** Look for case studies about organisations similar to yours that use CiviCRM. This helps you see how others have benefited and what challenges they faced.
+- **Try a demonstration site:** Use free demo sites to explore CiviCRM’s features hands-on, without installing anything.
+- **Talk to other CiviCRM users:** If you know a similar organisation using CiviCRM, ask about their experience. If not, you can reach out to the CiviCRM community online.
+- **Consult with a CiviCRM expert:** Contact a professional consultant who can discuss your needs and show you how CiviCRM could work for your organisation.
+- **Test CiviCRM yourself:** You can download and install a test version of CiviCRM for free, or try CiviCRM Spark, a hosted version that’s easy to set up and ideal for smaller organisations or trial use.
 
-Start by thinking about what your organisation needs from a software system. What tasks do you want to manage better? For example, do you want to keep track of donors, manage events, or send newsletters? Knowing your goals will help you see if CiviCRM offers the features you need.
+## Getting advice from others
 
-## Learn from others’ experiences
+### Talking to other CiviCRM users
 
-One of the best ways to understand CiviCRM is to hear how other organisations like yours use it. Look for stories or case studies about groups similar to yours. This can give you real examples of how CiviCRM works in practice and what benefits it can bring.
+- Ask similar organisations about their experiences with CiviCRM.
 
-## Try CiviCRM yourself
+- If you don’t know anyone using CiviCRM, you can:
 
-You can explore CiviCRM hands-on by using free demonstration sites. Many of these let you play with the software without installing anything. This is a great way to get a feel for how it works and whether it feels like a good fit.
+- Contact a CiviCRM expert.
 
-If you want to try a full installation quickly, consider CiviCRM Spark. It is a hosted service that lets you set up your own CiviCRM system in minutes, with plans starting at $15 a month. It’s perfect for testing or for smaller organisations with up to 10,000 contacts.
+- Read case studies on the CiviCRM website.
 
-You can also download and install a test version of CiviCRM on your own computer or server for free if you prefer.
+- Post questions on non
+-profit technology mailing lists.
 
-## Talk to others who use CiviCRM
+- Use the CiviCRM Stack Exchange to ask questions and read answers from volunteers. Make your questions clear and use CiviCRM terms for the best help.
 
-If you know other organisations using CiviCRM, reach out to them and ask about their experience. The more similar their work is to yours, the more helpful their advice will be.
+- You’ll need to register for a Stack Exchange account to post questions or join discussions.
 
-If you don’t know anyone personally, you can join online communities and forums where CiviCRM users share tips and answer questions. When asking for help, try to be clear and use CiviCRM terms to get the best answers quickly.
+### Talking to CiviCRM consultants
 
-## Speak with a CiviCRM consultant
+- Professional consultants can help you understand whether CiviCRM is a good fit and guide you through the decision process.
 
-If you want personalised advice, consider talking to a professional consultant. Many experts and companies specialise in helping non-profits use CiviCRM effectively. A consultant can guide you through how CiviCRM might work for your organisation and help with setup or training.
+- The CiviCRM website lists contributors, partners, and sponsors who can help, or you may find a local web company with CiviCRM experience.
 
-## Next steps
+- Consider arranging a meeting with a consultant to discuss your organisation’s goals and see how CiviCRM could help.
 
-Once you’ve explored these options, you’ll be better prepared to decide if CiviCRM is right for your organisation. If you want to learn more about how to use CiviCRM, check out guides with real-world examples and step-by-step tutorials.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/introduction/is
+-civicrm-for-you/ -->
+
+<!--
+This page is best categorized as an Explanation, as it helps users understand if CiviCRM is suitable for them and provides background, context, and options for exploration, rather than step
+-by-step instructions or factual reference. The content is introductory and aimed at users who are new to CiviCRM and non-experts, so the level is Basic. For non-experts, splitting this page is not necessary as the content is focused and cohesive. -->

@@ -1,0 +1,224 @@
+site_name: 'CiviCRM User Guide'
+site_url: https://docs.civicrm.org/user/en/latest/
+repo_url: https://lab.civicrm.org/documentation/docs/user-en/
+edit_uri: https://lab.civicrm.org/documentation/docs/user-en/-/edit/master/docs/
+site_description: 'A guide for CiviCRM users.'
+site_author: 'The CiviCRM community'
+theme: 
+  name: material
+  icon:
+      repo: fontawesome/brands/gitlab
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      guess_lang: true
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            - startinline: true
+  - pymdownx.superfences:
+      css_class: codehilite
+  - pymdownx.inlinehilite:
+      css_class: codehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
+
+plugins:
+  - search:
+      lang: en
+  - categories
+
+nav:
+- Home: 'index.md'
+- Introduction:
+    - 'What is CiviCRM?': 'introduction/what-is-civicrm.md'
+    - 'Is CiviCRM for You?': 'introduction/is-civicrm-for-you.md'
+    - 'Real World Examples': 'introduction/real-world-examples.md'
+    - 'Components': 'introduction/components.md'
+    - 'Extensions': 'introduction/extensions.md'
+    - 'Who is CiviCRM?': 'introduction/who-is-civicrm.md'
+- Initial set up:
+    - 'Installation and basic set-up': 'initial-set-up/installation-and-basic-set-up.md'
+    - 'Customizing the user interface': 'initial-set-up/customizing-the-user-interface.md'
+    - 'Dates': 'initial-set-up/dates.md'
+    - 'Addresses': 'initial-set-up/addresses.md'
+    - 'Mapping': 'initial-set-up/mapping.md'
+    - 'Users contacts': 'initial-set-up/users-contacts.md'
+    - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
+    - 'Logging': 'initial-set-up/change-logging.md'
+    - 'Error handling': 'initial-set-up/error-handling.md'
+    - 'Scheduled Jobs': 'initial-set-up/scheduled-jobs.md'
+- Searching and reporting  :
+    - 'Introduction': 'the-user-interface/searching.md'
+    - 'Search URL Filtering': 'the-user-interface/searching-url-support.md'
+    - 'Reporting':
+      - 'What is CiviReport?': 'reporting/what-is-civireport.md'
+      - 'What You Need To Know': 'reporting/what-you-need-to-know.md'
+      - 'Set-up': 'reporting/set-up.md'
+      - 'Everyday Tasks': 'reporting/everyday-tasks.md'
+    - 'External reporting': 'reporting/external_reporting.md'
+    - 'Search Kit':
+          - 'Introduction to Search Kit': 'searching/searchkit/what-is-searchkit.md'
+          - 'Search Displays': 'searching/searchkit/search-displays.md'
+          - 'Search For': 'searching/searchkit/search_for.md'
+          - 'With (Optional) / With (Required) / Without': 'searching/searchkit/with_without.md'
+          - 'Group By': 'searching/searchkit/group_by.md'
+          - 'Where': 'searching/searchkit/where.md'
+          - 'Having': 'searching/searchkit/having.md'
+          - 'Field Transformations': 'searching/searchkit/field_transformations.md'
+          - 'Query Info': 'searching/searchkit/query_info.md'
+          - 'Search Button': 'searching/searchkit/search_button.md'
+          - 'Actions': 'searching/searchkit/actions.md'
+          - 'Save': 'searching/searchkit/save.md'
+          - 'Title': 'searching/searchkit/title.md' 
+          - 'Description': 'searching/searchkit/description.md'
+          - 'Expires': 'searching/searchkit/expiration_date.md'
+          - 'Tags': 'searching/searchkit/tags.md'
+          - 'Relative Date Formats': 'searching/relative-date-formats.md'
+          - 'Export and Import': 'searching/searchkit/export-import.md'
+          - 'Example: Create a Soft Credit Search and Display': 'searching/searchkit/soft-credit-example.md'
+          - 'Example: Create an Upcoming Events Form': 'searching/searchkit/example-upcoming-events.md'
+          - 'Example: Create a filterable public Membership List with Logo Grid': 'searching/searchkit/example-membership-listing.md'
+          - 'Example: Create a List of Donor Members to Invite': 'searching/searchkit/example-donor-members-to-invite.md'
+          - 'Example: Listing Contacts who have relationships of the same type': 'searching/searchkit/example-contacts-with-same-type-relationships.md'
+- Customising the user interface:
+    - 'FormBuilder' : 'the-user-interface/creating-new-forms.md'
+    - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
+    - 'Search Results Actions': 'the-user-interface/search-result-actions.md'
+- Organising your data:
+    - 'Overview': 'organising-your-data/overview.md'
+    - 'Mapping your data': 'organising-your-data/mapping-your-data.md'
+    - 'Contacts': 'organising-your-data/contacts.md'
+    - 'Groups and tags': 'organising-your-data/groups-and-tags.md'
+    - 'Smart groups': 'organising-your-data/smart-groups.md'
+    - 'Activities': 'organising-your-data/activities.md'
+    - 'Relationships': 'organising-your-data/relationships.md'
+    - 'Creating Custom Fields': 'organising-your-data/creating-custom-fields.md'
+    - 'Profiles': 'organising-your-data/profiles.md'
+    - 'Undelete': 'the-user-interface/undelete.md'
+- Common workflows:
+    - 'Importing Data into CiviCRM': 'common-workflows/importing-data-into-civicrm.md'
+    - 'Exporting Your Contacts': 'common-workflows/exporting-your-contacts.md'
+    - 'Deduping and Merging': 'common-workflows/deduping-and-merging.md'
+    - 'Tokens and mail merge': 'common-workflows/tokens-and-mail-merge.md'
+    - 'Postal mail communications': 'common-workflows/postal-mail-communications.md'
+    - 'Automating tasks': 'common-workflows/automating-tasks.md'
+- Contributions:
+    - 'What is CiviContribute?': 'contributions/what-is-civicontribute.md'
+    - 'Key concepts and configurations': 'contributions/key-concepts-and-configurations.md'
+    - 'Online contributions': 'contributions/online-contributions.md'
+    - 'Offline fundraising': 'contributions/offline-fundraising.md'
+    - 'Manual entry of contributions': 'contributions/manual-entry-of-contributions.md'
+    - 'Finding and viewing contributions': 'contributions/finding-and-viewing-contributions.md'
+    - 'Manual receipts and thank-you letters': 'contributions/manual-receipts-and-thank-yous.md'
+    - 'Reports and analysis': 'contributions/reports-and-analysis.md'
+    - 'Soft credits': 'contributions/soft-credits.md'
+    - 'Personal Campaign Pages': 'contributions/personal-campaign-pages.md'
+    - 'Accounting Integration': 'contributions/accounting-integration.md'
+    - 'Payment processors': 'contributions/payment-processors.md'
+    - 'Invoicing': 'contributions/invoicing.md'
+    - 'Sales tax and VAT': 'contributions/sales-tax-and-vat.md'
+    - 'Premiums': 'contributions/premiums.md'
+    - 'Widgets': 'contributions/widgets.md'
+    - 'Importing contributions': 'contributions/importing.md'
+- Pledges:
+    - 'What is CiviPledge?': 'pledges/what-is-civipledge.md'
+    - 'What you need to know': 'pledges/what-you-need-to-know.md'
+    - 'Set-up': 'pledges/set-up.md'
+    - 'Everyday tasks': 'pledges/everyday-tasks.md'
+    - 'Pledges Reports and Analysis': 'pledges/pledges-reports-and-analysis.md'
+- Events:
+    - 'What is CiviEvent?': 'events/what-is-civievent.md'
+    - 'Event planning and management': 'events/event-planning-and-management.md'
+    - 'Creating an event': 'events/creating-an-event.md'
+    - 'Online event registration': 'events/online-event-registration.md'
+    - 'Integrating events with your website': 'events/integrating-events-with-your-website.md'
+    - 'Manual event registration': 'events/manual-event-registration.md'
+    - 'Keeping track of events and participants': 'events/keeping-track-of-events-and-participants.md'
+    - 'Complex event fees': 'events/complex-event-fees.md'
+    - 'Event templates': 'events/event-templates.md'
+    - 'Reports': 'events/reports.md'
+    - 'Custom data for events': 'events/custom-data-for-events.md'
+    - 'Repeating Events': 'events/repeating-events.md'
+- Membership:
+    - 'What is CiviMember': 'membership/what-is-civimember.md'
+    - 'Defining memberships': 'membership/defining-memberships.md'
+    - 'Online membership sign up': 'membership/online-membership-sign-up.md'
+    - 'Manual entry of memberships': 'membership/manual-entry-of-memberships.md'
+    - 'Membership price sets': 'membership/membership-price-sets.md'
+    - 'Finding and viewing memberships': 'membership/finding-and-viewing-memberships.md'
+    - 'Membership Reports': 'membership/membership-reports.md'
+    - 'Renewals': 'membership/renewals.md'
+    - 'Cancelling and expiring memberships': 'membership/cancelling-and-expiring-memberships.md'
+    - 'Making member only websites': 'membership/making-member-only-websites.md'
+- Email:
+    - 'What is CiviMail?': 'email/what-is-civimail.md'
+    - 'What You Need To Know': 'email/what-you-need-to-know.md'
+    - 'Set-up': 'email/set-up.md'
+    - 'Maintaining Healthy Email Lists': 'email/maintaining-healthy-email-lists.md'
+    - 'Everyday tasks': 'email/everyday-tasks.md'
+    - 'Mass mailings using CiviMail': 'email/mass-mailings-using-civimail.md'
+    - 'Reports and analysis': 'email/reports-and-analysis.md'
+    - 'Scheduled reminders': 'email/scheduled-reminders.md'
+    - 'CiviMail A/B Testing': 'email/civimail-ab-testing.md'
+    - 'Message templates': 'email/message-templates.md'
+- SMS (text messaging):
+    - 'What is SMS?': 'sms-text-messaging/what-is-sms.md'
+    - 'Set-up': 'sms-text-messaging/set-up.md'
+    - 'Everyday tasks': 'sms-text-messaging/everyday-tasks.md'
+    - 'Reports and Analysis (SMS)': 'sms-text-messaging/reports-and-analysis-sms.md'
+- Case management:
+    - 'What is CiviCase?': 'case-management/what-is-civicase.md'
+    - 'What You Need To Know': 'case-management/what-you-need-to-know.md'
+    - 'Set-up': 'case-management/set-up.md'
+    - 'Everyday Tasks': 'case-management/everyday-tasks.md'
+    - 'Reports and analysis': 'case-management/reports-and-analysis.md'
+- Campaign:
+    - 'What is CiviCampaign?': 'campaign/what-is-civicampaign.md'
+    - 'What You Need To Know': 'campaign/what-you-need-to-know.md'
+    - 'Set-up': 'campaign/set-up.md'
+    - 'Everyday tasks': 'campaign/everyday-tasks.md'
+    - 'Reports and analysis': 'campaign/reports-and-analysis.md'
+- Survey:
+    - 'What is CiviSurvey?': 'survey/what-is-civisurvey.md'
+    - 'What You Need To Know': 'survey/what-you-need-to-know.md'
+    - 'Set-up': 'survey/set-up.md'
+    - 'Everyday Tasks': 'survey/everyday-tasks.md'
+    - 'Reports and analysis': 'survey/reports-and-analysis.md'
+    - 'What is GOTV (Voter Tracking)?': 'survey/what-is-gotv-voter-tracking.md'
+- Petition:
+    - 'What is CiviPetition?': 'petition/what-is-civipetition.md'
+    - 'What You Need To Know': 'petition/what-you-need-to-know.md'
+    - 'Set-up': 'petition/set-up.md'
+    - 'Everyday Tasks': 'petition/everyday-tasks.md'
+    - 'Reports and analysis': 'petition/reports-and-analysis.md'
+- Civic Engagement:
+    - 'What is CiviEngage?': 'civic-engagement/what-is-civiengage.md'
+    - 'What You Need To Know': 'civic-engagement/what-you-need-to-know.md'
+    - 'Set-up': 'civic-engagement/set-up.md'
+    - 'Everyday Tasks': 'civic-engagement/everyday-tasks.md'
+    - 'Reports and analysis': 'civic-engagement/reports-and-analysis.md'
+- Grants:
+    - 'What is CiviGrant?': 'grants/what-is-civigrant.md'
+    - 'What You Need To Know': 'grants/what-you-need-to-know.md'
+    - 'Set-up': 'grants/set-up.md'
+    - 'Everyday tasks': 'grants/every-day-tasks.md'
+    - 'Reports and analysis': 'grants/reports-and-analysis.md'
+- The CiviCRM Community:
+    - 'The CiviCRM Community': 'the-civicrm-community/the-civicrm-community.md'
+    - 'Bug Reporting': 'the-civicrm-community/bug-reporting.md'
+    - 'Localising CiviCRM': 'the-civicrm-community/localising-civicrm.md'
+    - 'Contributing to this guide': 'the-civicrm-community/contributing-to-this-manual.md'
+    - 'Asking for help in Chat': 'the-civicrm-community/asking-for-help-in-chat.md'
+- Appendices:
+    - 'History of this book': 'appendices/history-of-this-book.md'
+    - 'Free Software?': 'appendices/free-software.md'
+    - 'Glossary': 'appendices/glossary.md'
+    - 'Credits': 'appendices/credits.md'

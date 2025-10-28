@@ -1,87 +1,122 @@
 ---
 categories:
-  - Explanation  
-level: Basic  
-summary:  This page explains  membership price set - a flexible tool in CiviCRM that allows you to create forms with multiple membership and pricing options.
-section: Membership
+  - Guide
+level: Basic
+summary: Learn how to set up and use membership price sets in CiviCRM to let people join, renew, or select extra options for their memberships.
+section: Membership > Membership price sets
 ---
 
-# Understanding membership price sets
+# Membership price sets
 
+## What are membership price sets?
 
-A **membership price set** is a flexible tool in CiviCRM that allows you to create forms with multiple membership and pricing options. It helps when your membership structure is more complex than a single type and fee.
+Membership price sets let your organisation offer flexible membership options—such as signing up for multiple terms, joining more than one group in a single transaction, or adding non-membership items (like donations or club gear) during sign-up. You must define your membership types and financial types before creating a price set.
 
-Instead of one fixed membership level, a price set can include different membership types, durations, and optional extras, all on one form.
+## When to use membership price sets
 
-You might use a price set when you want to:
+Use membership price sets when you want to:
 
-* Offer different membership levels (for example, Standard, Concession, or Corporate)
+- Allow people to sign up for several years at once.
 
-* Allow multi-year memberships
+- Let people join more than one organisation or chapter at the same time.
 
-* Combine membership sign-up with optional extras such as merchandise or donations
+- Offer extras (like merchandise or donations) alongside membership sign
+-up.
 
-* Let members join more than one branch or chapter at once
+Membership price sets work for online join and renewal pages, and for new member sign-ups processed manually in CiviCRM’s back office. They cannot be used for manual renewals—each membership must be renewed individually.
 
-Price sets are most useful when you want to give members choice and flexibility. If you only have one membership type and fee, you can simply use the standard membership setup without a price set.
+## Creating a new price set
 
-Before you start using price sets, make sure your membership types and financial types are already defined.
+To create a price set:
 
-# **Page 2: Creating a membership price set**
+- Go to **Memberships > New Price Set** or **Administer > CiviMember > New Price Set**.
 
-**Type:** Guide  
- **Level:** Intermediate
+- Enter a clear, descriptive name for your price set (this helps both public users and admin staff).
 
-## **Creating a membership price set**
+- Tick the **Membership** box.
 
-This guide walks you through how to create a price set in CiviCRM and prepare it for use in your membership forms.
+- Set the **Default Financial Type** (this affects accounting—see the Contributions section for details).
 
-### **Step 1: Create a new price set**
+- Add help text for users if needed.
 
-1. Go to **Administer → CiviMember → New Price Set**.
+- Make sure the price set is marked **Active**.
 
-2. Give your price set a clear name, such as “Membership levels and extras”.
+- Click **Save**.
 
-3. In the **Used For** field, select **Memberships**.
+After saving, you’ll be prompted to add your first price field.
 
-4. Choose a **Default Financial Type** — usually “Membership Dues”.
+## Adding price fields
 
-5. Add help text to explain the form to users if needed.
+For each price field:
 
-6. Tick **Active** to make the price set available.
+- Enter a **Field Label** (shown to users).
 
-7. Click **Save**.
+- Choose an **Input Field Type**:
 
-You’ll now add your membership and other options as price fields.
+  - **Text/Numeric Quantity**: Users enter a quantity, and the total is calculated by multiplying by the unit price.
+  - **Select**: Users pick one option from a dropdown.
+  - **Radio**: Users pick one option from a list.
+  - **Checkbox**: Users can pick multiple options.
 
-### **Step 2: Add price fields**
+- The **Financial Type** defaults to the one you set for the price set, but you can change it.
 
-Each **price field** represents one choice or item on your form, such as a membership option or an add-on.
+- Decide if you want to **Display Amount** next to the label.
 
-1. Click **Add Price Field**.
+- Set other options as needed (order, help text, required, active).
 
-2. Enter a **Field Label** that clearly describes the option (for example, “Annual membership – £50”).
+- Use **Active On** and **Expire On** dates to control when a price field is visible (for example, to manage price changes).
 
-3. Choose an **Input Field Type**:
+- Set **Visibility** to Public (for your website) or Admin (for back office use only).
 
-   * **Radio buttons** – one choice from several options.
+## Examples
 
-   * **Checkboxes** – multiple selections allowed.
+### Multiple membership terms
 
-   * **Select** – a drop-down menu.
+To let users sign up for more than one term:
 
-4. Choose the **Financial Type**.
+- Use the **Radio** input type.
 
-5. Tick **Display Amount** if you want the price to appear beside the label.
+- Pick the relevant membership type.
 
-6. For membership items, choose the relevant **Membership Type**.
+- Adjust the number of terms and price as needed.
 
-7. If you want to offer multi-year membership, set the **Number of Terms** (for example, “2” for a two-year membership).
+- Note: Multi
+-term memberships set up this way cannot be auto-renewed.
 
-8. Add help text and ensure the field is active.
+### Membership in more than one organisation
 
-9. Click **Save**.
+To let users join more than one organisation:
 
-Repeat these steps for each option you want to offer.
+- Use the **Select** input type.
 
-Tip: Keep your options simple and clear. Too many choices can make your form harder to use.
+- Pick the membership types for each organisation.
+
+- Users can choose one option per field.
+
+- Remember: Each person can only have one active membership per organisation.
+
+### Non
+-membership price fields
+
+To offer extras (like gear or donations):
+
+- Use **Checkbox** for multiple items (e.g., club gear).
+
+- Leave membership type and number of terms blank for non
+-membership items.
+
+- Set label, amount, and financial type for each option.
+
+- Use **Text/Numeric Quantity** for items like raffle tickets (users enter how many they want).
+
+- For donations, set the unit price to 1 and allow users to enter any amount.
+
+Always test your price set thoroughly before using it on your live site to make sure everything works as expected.
+
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
+
+<!--
+Suggestion: This page is a Guide because it focuses on how to set up and use membership price sets to solve specific practical problems (not a step
+-by-step tutorial, not reference, and not conceptual explanation). It is Basic level, suitable for non-experts. If more detailed step-by-step instructions or background were needed, these could be split into separate Tutorial or Explanation pages. -->

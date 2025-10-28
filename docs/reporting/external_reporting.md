@@ -1,37 +1,48 @@
 ---
 categories:
-  - Guide
-level: Basic
-summary: This guide provides an overview of external reporting options for CiviCRM users, highlighting how to access and utilize data for reporting purposes.
+  - Explanation
+level: Intermediate
+summary: This page explains the concept of external reporting in CiviCRM, discussing how to report on data using external tools like Metabase, Tableau, and Power BI.
 section: Searching and reporting
 ---
 
-# External reporting
+# External reporting in civicrm
 
-In this guide, we will explore the options available for external reporting in CiviCRM. Reporting can be a powerful tool for non-profits to analyze their data and make informed decisions. 
+## Introduction to external reporting
 
-## Understanding external reporting
+External reporting in CiviCRM involves using tools outside of CiviCRM to analyze and visualize data. This approach is useful when you need to combine data from multiple sources or require more advanced analytics capabilities than what CiviCRM offers internally.
 
-When it comes to reporting in CiviCRM, there are two key points to keep in mind:
+## Why external reporting?
 
-1. **Real-time data**: This guide assumes you want to generate reports directly from your live CiviCRM database, ensuring you have the most current information at your fingertips.
-   
-2. **CiviCRM data only**: The focus here is on reporting data that resides solely within CiviCRM. If you need to combine this data with information from other applications, you will need to explore additional tools.
+External reporting tools like **Metabase**, **Tableau**, and **Power BI** allow you to create complex reports and dashboards by accessing your CiviCRM database directly via MySQL or MariaDB, or through the CiviCRM API. This method is particularly helpful when you want to:
+
+- **Combine data**: Integrate data from multiple applications for a more comprehensive view.
+- **Enhance analytics**: Leverage advanced analytics and visualization capabilities not available within CiviCRM.
+- **Customize reports**: Create tailored reports that meet specific organizational needs.
 
 ## Tools for external reporting
 
-While CiviCRM offers built-in reporting features, there are also many external tools that can help you create comprehensive reports, dashboards, and data visualizations. Some popular options include:
+Several tools are available for external reporting, each with its strengths:
 
-- **Metabase**
-- **Tableau**
-- **Power BI**
-- **RapidMiner**
-- **Pentaho**
+- **Metabase**: Known for its ease of use and simple setup, Metabase is ideal for creating quick, interactive dashboards.
+- **Tableau**: Offers powerful data visualization and analytics capabilities, making it suitable for complex data analysis.
+- **Power BI**: Provides robust reporting and business analytics tools, integrating well with Microsoft products.
 
-These tools can connect to your CiviCRM database, either through a direct link to the MySQL or MariaDB database or via the CiviCRM API.
+## Accessing your data
 
-## Getting help
+To use these tools, you need to access your CiviCRM database. This can be done through:
 
-If your organization lacks the technical skills needed to set up these external reporting tools, don’t hesitate to reach out for assistance. Your CiviCRM experts or support team can provide guidance and help you get started.
+- **Direct database connection**: Connect directly to your MySQL or MariaDB database.
+- **CiviCRM API**: Utilize the CiviCRM API to retrieve data without direct database access.
 
-By leveraging both CiviCRM's internal capabilities and external reporting tools, you can gain valuable insights into your organization's data, helping you to enhance your mission and impact.
+## Next steps
+
+If you lack the necessary skills for setting up external reporting, consider consulting with CiviCRM experts or your organization's IT support team.
+
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
+
+<!--
+Suggestion: This page could be split into a Guide for setting up external reporting tools and a Reference for listing available tools and their capabilities.
+ -->

@@ -1,48 +1,65 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide helps non-profit users of CiviCRM learn how to view, use, and manage reports within the system to support everyday tasks.  
-section: Everyday tasks  
+  - Guide
+level: Basic
+summary: Learn how to view, customize, and use CiviCRM reports for your nonprofit’s daily needs, including adding report results to groups and displaying reports on your dashboard.
+section: Reporting > Everyday tasks
 ---
 
-# Everyday tasks with reports in CiviCRM
+# Everyday tasks for using reports
 
 ## Viewing reports
 
-To see a report in CiviCRM:
+To view a report in CiviCRM:
 
-- Go to the **Reports** menu.
-- Choose the type of report you want.
-- Find the report you need.
-- Click **View Results** to see the report with preset filters.
-- Or click the report name to change the filters before viewing.
+- Go to **Reports** in the main menu.
 
-Some reports show data as tables by default, but if available, you can switch to bar or pie charts using a dropdown menu.
+- Select the relevant report type from the list.
 
-You can also create a PDF of the report for printing or sharing.
+- Find the report you want to see.
 
-If you want to work further with the data, export it as a CSV file to open in a spreadsheet program.
+- Click **View Results** to see the report with its current settings.
 
-If you have permission, you can adjust the report settings when viewing it. For help with this, see the CiviReport setup guide.
+- Click the report name to adjust the report’s criteria and settings if you have permission.
+
+Reports may also be added to your navigation menus for quick access. For example, an event report can appear directly in the Events menu.
+
+When you open a report, it usually appears as a table. Some reports let you choose to view the data as a bar or pie chart using a dropdown menu.
+
+You can also:
+
+- Create a **PDF** version of the table or chart for printing or emailing.
+
+- Export the data as a **CSV file** to use in a spreadsheet (for further calculations or analysis).
+
+If you want to change the filters or layout of a report, you need the right permissions. For more details on changing reports, see the setup section.
 
 ## Adding reports to your dashboard
 
-You can place reports on your dashboard, the first page you see after logging in, to quickly access important information.
+You can display specific reports on your dashboard (the first page you see after logging in):
 
-To add a report to your dashboard:
+- On your dashboard, click **Configure Your Dashboard**.
 
-- Click **Configure Your Dashboard** on your dashboard.
-- Select a report from the list.
-- Drag it onto your dashboard.
+- Choose a report from the list of available reports.
 
-Note that not all reports may be available to add here.
+- Drag the report onto your dashboard.
+
+Not all reports may be available for the dashboard, depending on how they were set up.
 
 ## Adding report results to a group
 
-Sometimes you want to take the contacts shown in a report and add them to a group for easy management or communication.
+If you want to add contacts from a report to a group:
 
-If this option is available in your report:
+- In some reports, you will see an option to add the contacts to a group.
 
-- Use the dropdown menu to select the group to add contacts to.
-- This helps you organize contacts based on report results.
+- Use the dropdown menu to choose the group you want to add the contacts to.
+
+This feature is not available in every report, but it is useful for organizing contacts for future mailings or activities.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/reporting/everyday
+-tasks/ -->
+
+<!--
+Suggestion: This page is a Guide, as it gives step
+-by-step instructions for common reporting tasks, without background or reference detail. The content is basic, as it assumes users are not experts and focuses on everyday use. If more detail about report setup or customization is needed, that should be split into a separate Guide or Reference page. -->

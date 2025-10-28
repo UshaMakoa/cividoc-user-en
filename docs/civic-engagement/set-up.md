@@ -1,92 +1,136 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how to enable and set up the CiviEngage component in CiviCRM, including how to customize its contact subtypes, custom fields, and surveys to support your organization's community engagement work.  
-section: Set-up  
+  - Guide
+level: Intermediate
+summary: Learn how to enable and customise CiviEngage in CiviCRM, including setting up contact subtypes, custom fields, and survey tools for civic engagement work.
+section: Civic Engagement > Set-up
 ---
 
-# Set up CiviEngage in CiviCRM
+# Set up CiviEngage
 
-## Enabling CiviEngage
+## Enable CiviEngage
 
-CiviEngage is included as a Drupal module when you install CiviCRM, so you only need to activate it. To do this, you need Drupal Administrator permissions to:
+To begin using CiviEngage, you need to enable it in your CiviCRM installation. CiviEngage is included as a module when you install CiviCRM on Drupal, but you must turn it on:
 
-- Enable the CiviEngage component within the CiviCRM module in Drupal.
-- Update the Administrator role permissions by checking access to the `civicrm_engage` module and its settings.
+- Make sure you have **Drupal Administrator** permissions.
 
-Make sure the CiviCampaign component is also enabled, as CiviEngage depends on it.
+- Enable the **CiviEngage component** within the CiviCRM module in Drupal.
 
-## Understanding CiviEngage contact subtypes
+- Update permissions for the Administrator role to allow access to CiviEngage settings (look for a permission like "access civiengage settings").
 
-CiviEngage uses contact subtypes to organize contacts with specific roles and to show related custom fields. When you install CiviEngage, it creates these subtypes:
+- Ensure the **CiviCampaign** component is also enabled, as CiviEngage depends on it.
 
-### Individual contact subtypes:
-- **Media Contact**: Tracks media-specific details like media type (newspaper, radio, TV), beat (coverage area), and media issue interests.
-- **Elected Official**: Includes information such as elected level (city council, senate) and role (spokesperson, scheduler).
-- **Funder Contact**: Captures funder details like program areas and issue interests.
+## Understand CiviEngage contact subtypes
 
-### Organisation contact subtypes:
-- **Media Outlet**: Stores media outlet details like type (TV, radio, newspaper).
-- **Foundation**: Tracks grant-related information such as average grant amount and funding areas.
+CiviEngage uses special contact subtypes to organise your data and expose relevant custom fields for different types of contacts.
 
-## Customizing custom field sets
+**Individual subtypes:**
 
-CiviEngage comes with predefined custom fields designed to help with community organizing. These fields mostly use multiple-choice options pre-filled with sample values. Before using CiviEngage, review and update these options to fit your organization's needs.
+- **Media Contact:** Tracks media-specific details (e.g., media type, beat, issue interests).
+- **Elected Official:** Stores information about elected officials (e.g., office, staff role).
+- **Funder Contact:** Captures funder-specific data (e.g., funding areas, programme interests).
 
-**Important:** Do not delete any custom fields or field sets, as other features like reports and searches depend on them.
+**Organisation subtypes:**
+- **Media Outlet:** Holds details about media organisations (e.g., type of media).
+- **Foundation:** Manages grant and funding information for foundations.
 
-To review or modify these fields, go to **Administer > Customize > Custom Data** in CiviCRM.
+## Review and customise custom field sets
 
-### Overview of key custom field sets
+When you install CiviEngage, it creates a variety of custom fields designed to help with community organising. Most are multiple-choice fields with example options.
 
-- **Communications Details**: Best time to contact, communication status, and reasons for do-not-contact preferences.
-- **Voter Info**: Voter ID, party registration, precinct, district info, and voting history.
-- **Constituent Info - Individuals**: Contact classification (volunteer, donor, etc.), staff responsible, and how/when the contact joined.
-- **Grassroots Info**: Member status, leadership level, issue interests, and volunteer interests.
-- **Constituent Info - Organizations**: Organization type (member, affiliate, business, government).
-- **Grant Info**: Average grant amount, funding areas, and requirements notes.
-- **Proposal Info**: Grant proposal details like ask amount, status, and dates.
-- **Participant Info**: Event participant needs and contact history.
-- **Event Details**: Additional event information including contact persons.
-- **Organizational Details**: Organization ratings and evaluations.
-- **Demographics**: Ethnicity, secondary language, and other demographic data.
-- **Media Outlet Info** and **Media Info**: Media type and interests for media contacts and outlets.
-- **Funder Info**: Program areas and issue interests for funder contacts.
-- **Elected Official Info**: Government level and staff roles.
+- **Before using CiviEngage, review and adjust the options to fit your organisation’s needs.**
 
-## Modifying custom value options
+- If your organisation is outside North America, you may want to update the language, but the concepts are broadly applicable.
 
-Many custom fields use shared option lists for consistency across different contexts. For example, the **Issue Interests** list is used for individuals, media contacts, funders, and grants.
+- **Do not delete** custom fields or field sets, as other features (like reports or searches) may depend on them.
 
-Review and customize these option lists to reflect your organization's focus areas and volunteer activities.
+To view and edit these fields:
 
-## Using custom profiles
+- Go to **Administer > Customize > Custom Data** in CiviCRM.
 
-CiviEngage provides custom profiles to help you update groups of fields easily for individuals or organizations, such as voter demographics or volunteer interests.
+You can add, edit, or disable options for each custom field, but avoid deleting fields or sets.
 
-## Setting up surveys for walklists and phonebanking
+## Overview of CiviEngage custom field sets
 
-CiviEngage works with CiviCampaign to help you create surveys for canvassing and phonebanking. When setting up surveys, consider:
+Here’s a summary of the main custom field sets included with CiviEngage and what they track:
 
-- Creating custom data sets with your survey questions and response options.
-- Building custom profiles to display these questions during data collection.
-- Defining your target audience as a group or smart group.
-- Associating surveys with campaigns if applicable.
-- Using default survey result options (e.g., Completed, Not Home, Moved) to track responses.
+- **Communications Details:** Best time to contact, communication status, reasons for not contacting.
+- **Voter Info:** State voter ID, party registration, precinct, voting history, and more.
+- **Constituent Info – Individuals:** Type (e.g., volunteer, donor), staff responsible, how/when joined.
+- **Grassroots Info:** Member status, leadership level, issue and volunteer interests.
+- **Constituent Info – Organizations:** Organisation type (e.g., member, affiliate, business).
+- **Grant Info:** Average grant amount, funding areas, requirements.
+- **Proposal Info:** Grant proposal details (amounts, status, dates).
+- **Participant Info:** Event participation needs and responses (childcare, rides, invitations).
+- **Event Details:** Event contact person.
+- **Organizational Details:** Organisation-specific ratings or categories.
+- **Demographics:** Ethnicity, secondary language.
+- **Media Outlet Info:** Media type for organisations.
+- **Media Info:** Media type and beat for individuals.
+- **Funder Info:** Programme areas and issue interests for funders.
+- **Elected Official Info:** Level and staff role for elected officials.
 
-### Tips for survey setup
+## Modify CiviEngage’s custom value options
 
-- If running many surveys with few questions, create one large custom data set and multiple profiles for each survey.
-- If running few surveys with many questions, create separate custom data sets for each survey.
+CiviEngage includes shared lists of value options for things like issue interests and volunteer activities. Review and update these lists to match your organisation’s work.
 
-## Creating custom data sets and profiles for surveys
+- **Issue Interests:** Used across individuals, media, funders, and grants. Create a list of issues important to your organisation.
+- **Volunteer Interests:** List all volunteer activities your organisation offers or plans to offer.
+- **Survey Default Result Set Options:** Standard labels for survey results (e.g., Completed, Not Home, Moved). Use short codes for easier reporting.
 
-To create surveys for walklists or phonebanking:
+## Use custom profiles
 
-1. Create a custom data set for your survey questions.
-2. Add custom fields as questions with response options.
-3. Create a custom profile that includes these questions.
-4. Use the profile during survey activities to collect responses.
+CiviEngage provides custom profiles to help you update multiple contacts at once, such as for voter demographics, issue interests, or event participation.
 
-This approach helps you organize survey data efficiently and supports better analysis of your outreach efforts.
+## Set up surveys for walklists and phonebanking
+
+CiviEngage, together with CiviCampaign, makes it easy to set up surveys for canvassing and phonebanking.
+
+- Think about the questions and responses you need to collect for analysis.
+
+- If you have multiple questions for an activity (Walklist or Phonebank), create a custom data set for those questions.
+
+- Create a custom profile with the questions you want to ask.
+
+- For phonebanking, you can include the phone number in the profile (set as view
+-only) for easy reference during calls.
+
+- Create a group or smart group of the contacts you plan to survey.
+
+- Decide if the survey is part of a larger campaign (create the campaign if needed).
+
+- When creating a survey, you can:
+
+- Indicate if it’s for a walklist or phonebank.
+
+- Link it to a campaign.
+
+- Attach the custom profile of questions.
+
+- Use default survey result options for tracking responses.
+
+**Tip:**
+
+- If you run many surveys with only a few questions each year, create one custom data set with all questions and separate profiles for each survey.
+
+- If you run only a few surveys with more questions, create separate data sets for each survey.
+
+## Create custom data sets and profiles for surveys
+
+- Create a custom data set to hold your survey questions (see the "Organising your data" section for details).
+
+- For Walklist surveys: link the data set to Walklist activities.
+
+- For Phonebank surveys: link the data set to Phonebank activities.
+
+- Add your questions as custom field labels and possible responses as option values.
+
+- Create a custom profile to pull in the relevant questions for your survey.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/civic
+-engagement/set-up/ -->
+
+<!--
+Suggestion: This page is a Guide, as it provides step
+-by-step, problem-oriented instructions for enabling and customising CiviEngage, but does not serve as a tutorial for first-time users nor as a systematic reference. The level is Intermediate, as it assumes some familiarity with CiviCRM administration and custom data management. If needed, the sections on custom field set definitions could be split into a Reference page, and the survey setup could be a standalone How-to Guide for clarity. -->

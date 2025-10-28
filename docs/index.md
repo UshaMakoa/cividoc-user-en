@@ -1,31 +1,49 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This page introduces the CiviCRM User Guide, explaining who it is for, how it differs from the System Administrator Guide, and how to get the most from the documentation.  
-section: Introduction  
+  - Reference
+level: Basic
+summary: This page describes the scope, purpose, and structure of the CiviCRM User Guide for non-profit users, clarifying what content is included and how it differs from other CiviCRM guides.
+section: Introduction
 ---
 
-# Home
+# Scope of the CiviCRM user guide
 
-## scope of this guide
+## What this guide covers
 
-This guide is designed for people who use CiviCRM through its web interface. It covers all the tasks you can do inside CiviCRM without needing special technical skills.
+The CiviCRM User Guide is for people who use CiviCRM through its web interface. It explains all the features and tools you can access directly from your browser, helping you get the most out of CiviCRM for your organisation’s day-to-day work.
 
-## user guide vs system administrator guide
+## How this guide is different from the System Administrator Guide
 
-There are two main guides: this User Guide and the System Administrator Guide. The User Guide focuses on everyday tasks you can do within CiviCRM itself. The System Administrator Guide covers technical topics like installation and upgrades that need access outside the CiviCRM interface.
+There is a separate System Administrator Guide. That guide covers tasks like installing CiviCRM, upgrading it, and other technical jobs that usually require special access to your server or files outside the CiviCRM website.
 
-Some topics, like setup and configuration, appear in both guides but from different angles. If you’re unsure which guide to use, start here for user tasks and check the System Administrator Guide for technical work.
+This User Guide focuses on what you can do from inside CiviCRM’s web interface. If a task needs you to use the server or command line, you will find it in the System Administrator Guide instead.
 
-## how to search the entire documentation
+## Searching the documentation
 
-You can search all CiviCRM documentation easily from your CiviCRM dashboard by using a special extension called docbot. This adds a search box right inside CiviCRM so you can find help quickly without leaving your workspace.
+If you want to search all CiviCRM documentation quickly from your dashboard, you can add a special extension called “docbot-extension.” To learn how to install an extension, see the instructions for installing extensions in CiviCRM.
 
-## editing this guide
+Once installed, this extension adds a search widget to your dashboard, making it easy to find help when you need it.
 
-This guide is created and maintained by the CiviCRM community using a tool called MkDocs. If you want to help improve the documentation, there are simple instructions available to get you started.
+## Editing and contributing to this guide
 
-## credits
+The User Guide is created using a tool called MkDocs and is stored in a GitLab repository.
 
-This User Guide is a team effort by many community members, supported by the Documentation Working Group. Their ongoing work helps keep the guide useful and up to date.
+If you want to suggest changes or help improve the guide:
+
+- For simple edits, see the page about contributing to this guide.
+
+- For more detailed instructions, see the writing documentation page in the Developer Guide.
+
+## Credits
+
+This guide is a community effort, written and updated by CiviCRM users and coordinated by the Documentation Working Group.
+
+To learn more about the history of this guide, see the “History of this book” chapter.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/
+ -->
+
+<!--
+Suggestion: This page is best classified as Reference because it systematically describes the scope, structure, and editorial process of the guide, rather than providing step
+-by-step instructions, problem-solving actions, or conceptual background. The content is factual and meant for quick consultation, matching the Diátaxis definition of Reference documentation[2][3][4]. Level is Basic, as it is aimed at orienting new or non-expert users. -->

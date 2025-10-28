@@ -1,74 +1,183 @@
 ---
 categories:
-  - Tutorial
+  - Guide
 level: Basic
-summary: This guide provides step-by-step instructions on how to customize the user interface in CiviCRM to better suit the needs of your organization and its users.
-section: Customizing the user interface
+summary: Learn how to adjust dropdown options, display settings, search preferences, navigation menus, and terminology in CiviCRM to make the system easier for your organisation to use.
+section: Initial set up / Customizing the user interface
 ---
 
-# Customizing the user interface in CiviCRM
+# Customizing the user interface
 
-CiviCRM is a powerful tool that can be tailored to fit the specific needs of your organization. This guide will help you understand how to customize the user interface so that it is user-friendly and efficient for your team. 
+CiviCRM lets you tailor the user interface so it matches your organisation’s needs and makes everyday tasks easier for your team. This guide shows you how to adjust dropdown menus, display settings, search preferences, navigation menus, data entry forms, and system terminology.
 
-## Changing dropdown options
+## Change dropdown options
 
-You can modify the options in dropdown fields on contact entry and editing forms. To do this, navigate to **Administer > Customize Data and Screens > Dropdown Options**. Here are some examples of dropdowns you can customize:
+You can add, rename, disable, or remove options from dropdown fields (like gender, prefixes, phone types, and more) to match your organisation’s language and needs.
 
-- **Gender**: Add or modify gender options.
-- **Phone types**: Change labels for phone types like Mobile or Pager.
-- **Website types**: Adjust the categories for websites such as Work or Social Media.
+- Go to **Administer > Customize Data and Screens > Dropdown Options**.
 
-Feel free to add, rename, disable, or remove options to better reflect your organization’s needs.
+- Choose the dropdown you want to edit (such as Gender, Individual Prefixes, Phone Types, etc.).
 
-## Changing display preferences
+- Add, rename, disable, or remove options as needed.
 
-If there are fields or categories of data that your organization does not track, you can hide these from users to simplify their experience. To adjust display preferences, go to **Administer > Customize Data and Screens > Display Preferences**. Here’s how:
+For "Preferred Communication Methods" (like Phone, Email, SMS):
 
-- Uncheck tabs for categories you don’t use, such as Cases or Grants.
-- Streamline the editing screen by hiding fields that aren’t relevant to your work.
+- Go to **Administer > Communications > Preferred Communication Methods** and adjust the options.
 
-Remember, hidden information remains in your database, so you can always re-display it later.
+*Note: Some dropdowns that define core data (like Activity Type or Contribution Status) are managed elsewhere. See the Organising Your Data section for those.*
 
-## Disabling popup forms
+## Change display preferences
 
-CiviCRM uses popup forms for quick data viewing and editing. If you prefer a traditional browsing experience, you can disable these popups. Go to **Administer > Customize Data and Screens > Display Preferences** and uncheck **Enable Popup Forms**. Keep in mind that this may slow down your interface as every form will require a full page load.
+You can hide fields or tabs that your organisation doesn’t use, making the interface simpler for your users.
 
-## Disabling activity assignee notifications
+- Go to **Administer > Customize Data and Screens > Display Preferences**.
 
-By default, CiviCRM sends notifications to all activity assignees when an activity is created. If you want to turn this off, go to **Administer > Customize Data and Screens > Display Preferences** and uncheck **Notify Activity Assignees**. You can also selectively disable notifications for specific activity types.
+To hide or show tabs when viewing contacts:
 
-## Customizing search preferences
+- Check or uncheck the boxes next to each tab under "Viewing Contacts".
 
-You can adjust how searches function in CiviCRM by going to **Administer > Customize Data and Screens > Search Preferences**. Here are some options you can modify:
+To hide or show sections when editing contacts:
 
-- **Automatic Wildcard**: Choose whether to automatically add wildcards to search terms.
-- **Include Email**: Decide if email addresses should be included in name searches.
-- **Smart group cache timeout**: Control how often the smart group cache refreshes.
+- Check or uncheck the boxes under "Editing Contacts".
 
-These adjustments can help speed up searches, especially in larger databases.
+*Any data in hidden fields or tabs stays in your database and will reappear if you show the fields again.*
 
-## Customizing date preferences
+## Disable popup forms
 
-To change how dates are displayed or to set allowed date ranges, navigate to **Administer > Localization > Date Formats** and **Administer > Customize Data and Screens > Date Preferences**. This is particularly useful if you need to log activities from specific time periods.
+If you prefer not to use popup windows for editing or viewing data:
 
-## Customizing the navigation menu
+- Go to **Administer > Customize Data and Screens > Display Preferences**.
 
-You can personalize the navigation menu to better fit your organization’s workflows. Go to **Administer > Customize Data and Screens > Navigation Menu** to:
+- Uncheck **Enable Popup Forms**.
 
-- Add or remove menu items.
-- Rename items to use terminology familiar to your users.
-- Move items to improve workflow efficiency.
+*Disabling popups may slow down the interface, as each form will load as a full page.*
 
-## Making custom data entry forms
+## Disable activity assignee notifications
 
-If you have staff or volunteers who frequently enter similar data, consider creating a Profile with only the necessary fields. This can streamline the data entry process. To create a Profile, go to **Administer > Customize Data and Screens > Profiles** and follow the prompts to set it up.
+By default, CiviCRM emails all activity assignees when an activity is created. To turn this off:
 
-## Customizing search views
+- Go to **Administer > Customize Data and Screens > Display Preferences**.
 
-You can create search views to make finding specific data easier. When creating a Profile, mark it for Search Views and set the visibility for the fields you want to include. 
+- Uncheck **Notify Activity Assignees**.
 
-## Using word replacement to change terminology
+- You can also disable notifications for specific activity types below this option.
 
-CiviCRM allows you to replace existing terminology with terms that better suit your organization. To set this up, go to **Administer > Customize Data and Screens > Word Replacements**. Enter the original text and the replacement text, and check the **Enabled** box to activate it.
+## Customize search preferences
 
-By customizing the user interface in CiviCRM, you can create a more efficient and user-friendly experience for your team. Take the time to explore these options and tailor the system to meet your organization’s unique needs.
+Adjust how searches work to suit your organisation’s needs and improve speed, especially for large databases.
+
+- Go to **Administer > Customize Data and Screens > Search Preferences**.
+
+Available options include:
+
+- **Automatic Wildcard**: Choose if searches should match parts of names or just the start.
+- **Include Email/Nickname**: Decide if these fields are included in name searches.
+- **Include Alphabetical Pager**: Show an A–Z bar for browsing results.
+- **Include Order By Clause**: Choose if results are ordered.
+- **Smart group cache timeout**: Set how often smart group results are refreshed.
+- **Autocomplete Contact Search**: Choose which fields show up in quick search results.
+- **Contact Reference Options**: Set which fields appear in autocomplete for contact reference fields.
+- **Autocomplete Results**: Set the maximum number of results shown.
+
+You can also adjust which fields appear on the main search screens:
+
+- Go to **Administer > Customize Data and Screens > Display Preferences** and use the "Contact Search" section.
+
+## Customize date preferences
+
+Set how dates are displayed and what date ranges are allowed.
+
+- To set the default date format: **Administer > Localization > Date Formats**.
+
+- To set allowed date ranges for specific fields: **Administer > Customize Data and Screens > Date Preferences**.
+
+For example, you can allow activity dates from 25 years ago if your organisation needs to track older events.
+
+## Customize the navigation menu
+
+You can add, remove, rename, or move items in the CiviCRM navigation menu to match your workflows.
+
+- Go to **Administer > Customize Data and Screens > Navigation Menu**.
+
+- To delete or rename a menu item, right
+-click it and select the option.
+
+- To move an item, drag and drop it where you want.
+
+- To add a new item:
+
+- Click **Add Menu Item**.
+
+- Fill in the title and URL.
+
+- Choose where it should appear in the menu.
+
+- Optionally, add a separator line below it.
+
+## Make custom data entry forms
+
+If your team enters lots of similar contacts, create a custom Profile form with just the fields you need.
+
+- Go to **Administer > Customize Data and Screens > Profiles** and click **Add Profile**.
+
+- Name your Profile (e.g., "Volunteer Data Entry Form").
+
+- Choose **Standalone Form or Directory** in the "Used For" field.
+
+- Add help text as needed.
+
+- Click **Save** to add fields.
+
+- For each field:
+
+- Select the contact type (Individual, Organization, etc.).
+
+- Choose the field.
+
+- Edit the label if needed.
+
+- Mark as required if necessary.
+
+- Add help text if useful.
+
+- Set the order for display.
+
+- Click **Save and New** to add more fields, or **Save** when done.
+
+- Preview your form and copy its link to add to your navigation menu if desired.
+
+## Customize search views
+
+You can control which fields show up in search results by creating a Profile for search views.
+
+- Create or open a Profile and set it as used for "Search Views".
+
+- When adding fields, set their visibility to "Public Pages" and check the "Results Column" box.
+
+- When running an advanced search, choose your Profile from the "Search Views" dropdown.
+
+## Use word replacement to change terminology
+
+Replace words across CiviCRM to match your organisation’s language (for example, change "Contribution" to "Donation").
+
+- Go to **Administer > Customize Data and Screens > Word Replacements**.
+
+- Enter the original word and your replacement.
+
+- Check "Exact Match" if you only want to replace exact matches.
+
+- Check "Enabled" to activate the replacement.
+
+- Add more rows as needed and click **Save**.
+
+*Note: Word replacements only work if you enter the English word, even if your CiviCRM is in another language.*
+
+---
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/initial
+-set-up/customizing-the-user-interface/ -->
+
+<!--
+This page is a Guide, as it gives step
+-by-step instructions for achieving specific configuration tasks, but does not serve as a tutorial for first-time users nor as a reference listing all options. Level is Basic, as it assumes little prior knowledge. If the page grows, some sections (like dropdown option lists or date format settings) could be split into Reference pages for easier lookup. -->

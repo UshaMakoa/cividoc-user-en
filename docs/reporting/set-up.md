@@ -1,70 +1,60 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how to create, customize, and manage reports in CiviCRM using the built-in report templates, helping non-profit users generate useful data insights without needing expert knowledge.  
-section: Reporting / Set-up  
+  - Guide
+level: Basic
+summary: Learn how to create, configure, and save a basic report in CiviCRM using built-in templates, so you can easily track and share important information about your contacts, donations, or memberships.
+section: Reporting / Searching and reporting
 ---
 
-# Set up CiviReports
+# Set up a basic report in CiviCRM
 
-## Introduction
+## Find and select a report template
 
-This guide will help you create and manage reports in CiviCRM using the report templates provided. You will learn how to select the data you want to see, customize your reports, and make them available to your users. This guide assumes you have a basic idea of why reports are useful and that the report you need can be made with the existing templates.
+Go to **Administer > CiviReport** in your CiviCRM menu. Here, you’ll see a list of available report templates, grouped by the type of data they handle (like contacts, contributions, or memberships). Each template has a short description to help you choose the right one for your needs. If you’re not sure which template to use, pick one that matches the kind of information you want to see—for example, “Membership Detail” for a list of your members.
 
-If you need a report that is not available as a template, you might need help from a developer to create a custom report.
+Click the name of the template you want to use. This opens the report configuration screen.
 
-## Report templates
+## Choose what information to include
 
-Report templates are pre-made report formats grouped by CiviCRM components (like contributions, memberships, or events). You start by choosing a template that fits your needs. You can find these templates under **Administer > CiviReport** in the menu.
+You’ll see several tabs where you can customize your report. Here’s what each tab does:
 
-If reports already exist from a template, you can view or edit them. To create a new report, click on the template name to start configuring it.
+- **Columns**: Check the boxes for the information you want to see in your report. Some columns are required and can’t be removed.
+- **Grouping** (if available): Use this to summarize your data, like showing total donations by year or month.
+- **Sorting** (if available): Choose how to order your results, such as alphabetically by name or by date.
+- **Filters**: Narrow down your results. For example, show only members who joined in the last year, or only donations above a certain amount.
 
-## Selecting report criteria
+Most filters are easy to understand. For date ranges, you can pick exact dates or use options like “This year” or “Last 12 months” to keep your report up to date automatically.
 
-When creating a report, you will set what information it shows by choosing options on tabs. The tabs you see depend on the template but usually include:
+After you’ve made your selections, click **Preview Report** to see how it looks.
 
-- **Columns**: Choose which data fields to display in the report. Some fields are required and cannot be removed.
-- **Grouping**: (Optional) Summarize data by categories, like donations per year. You can use more than one grouping, but some combinations may not work together.
-- **Sorting**: (Optional) Arrange the order of the report rows.
-- **Filters**: Select which records to include, such as members who joined in a specific date range.
+## Adjust and preview your report
 
-### Using the date range filter
+If the report doesn’t show exactly what you need, go back to the tabs and change your selections. Preview the report again until you’re happy with the results.
 
-Most reports let you filter records by date. You can choose:
+## Save and share your report
 
-- An absolute date range (e.g., January 1 to July 31, 2023)
-- A relative date range (e.g., last 12 months, previous year)
+Once your report looks right, you need to save it so you can use it again:
 
-Relative date ranges are helpful for reports you run regularly because they update automatically.
+- **Title and Format**: Give your report a clear name and description, so others in your organisation will know what it’s for.
+- **Email Delivery** (optional): Set up the report to be emailed to you or someone else on a schedule.
+- **Access**: Decide who can see or edit this report. You can add it to your menu, restrict it to certain users, or even put it on your dashboard for quick access.
 
-After setting your criteria, click **Preview Report** to see the results. You can adjust the settings if needed.
+When everything is set, click **Create Report**. Your new report will appear in **Reports > All Reports** and, if you chose, in your navigation menu.
 
-## Defining report settings
+## Edit or copy a report
 
-Once you are happy with the data shown, you need to save the report so it can be used again.
+If you need to change a report later, open it, make your changes, and click **Update Report** to save. If you want a similar report with different filters (for example, one report for events and another for fundraisers), open the original, change the filters, and click **Save a Copy**. Give the new report a different name and description.
 
-- On the **Title and Format** tab, give your report a clear name and description, like "Members joined this year."
-- You can customize the report header and footer using simple HTML, including adding your logo.
-- The **Email Delivery** tab lets you schedule the report to be emailed regularly to yourself or others. To use this, make sure the scheduled job for sending reports is enabled.
-- On the **Access** tab, decide if the report should appear in the menu and who can see or edit it. You can restrict access based on user permissions or roles to keep sensitive data secure.
-- You can also allow users to add the report to their personal dashboard if they have permission.
+## Report permissions
 
-When everything is set, click **Create Report**. Your report will now be listed under **Reports > All Reports** and in any menu location you chose.
+CiviCRM lets you control who can view, edit, or manage reports. There are special permissions for reports, so you can make sure only the right people see sensitive information.
 
-## Editing or copying reports
+---
 
-To change an existing report, open it, make your changes, and click **Update Report**.
+<!--
+Source: https://docs.civicrm.org/some/page/
+ -->
 
-If you want similar reports with different filters (for example, one for all events and another only for fundraising events), you can open a report, change the filters, and click **Save a Copy**. Give the new report a different title and description.
-
-## CiviReport permissions
-
-There are four key permissions related to reports:
-
-- **Access CiviReport**: View the report menu and reports you have permission for.
-- **Access Report Criteria**: Change the search filters in reports.
-- **Administer Reserved Reports**: Edit reports marked as reserved (usually for admins).
-- **Administer Reports**: Manage report templates and settings.
-
-Setting these permissions helps control who can see and modify reports in your organization.
+<!--
+This page is a How
+-to Guide: it focuses on the steps to achieve a specific task (creating and configuring a report) without explaining background concepts or theory. It is practical, action-oriented, and assumes the user knows why they want a report but not how to make one. The content is well-suited for non-expert users who need clear, step-by-step instructions. If the page included more about why certain report types exist or how reports fit into your organisation’s workflow, those parts would belong in an Explanation. Similarly, a full list of every possible column, filter, or permission would belong in a Reference. For best learning, consider splitting off exhaustive lists and technical details into a separate Reference page, and deeper context into an Explanation page. -->

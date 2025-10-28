@@ -1,131 +1,66 @@
 ---
 categories:
-  - Guide  
-level: Intermediate  
-summary: This guide explains how to use CiviCRM’s built-in reports and dashboards to track membership trends, identify renewals and lapses, and present information to your team or board.
-section: Membership
+  - Guide
+level: Basic
+summary: Learn how to view, create, and export membership reports in CiviCRM to understand and manage your organisation’s members.
+section: Membership > Reporting
 ---
 
+# Membership reports
 
-# Using membership reports and dashboards
+## Viewing membership reports
 
-This guide explains how to use CiviCRM’s built-in reports and dashboards to track membership trends, identify renewals and lapses, and present information to your team or board.
+CiviCRM provides several ready-made reports to help you understand your organisation’s memberships. These reports give you quick summaries and detailed information about your members, such as how many have joined each month, which memberships have lapsed, and more.
 
-You’ll learn which reports are most useful, how to customise them, and how to display membership data on your dashboard for quick access.
+- **Membership summary report**: Shows totals and trends for your members, grouped by time periods you choose (like month, quarter, or year). This helps you see how your membership is growing or changing over time.
+- **Membership detail report**: Gives detailed information for each member, based on the criteria you select. You can access this by clicking on a highlighted field in the summary report.
+- **Lapsed memberships report**: Lists memberships that have ended or will end before a date you choose, so you can follow up with those members.
+- **Contribution and membership details report**: Shows details about contributions and how they relate to memberships, based on your selected criteria.
 
-It’s aimed at staff and administrators who manage membership data and want clear insights without needing technical skills or complex reporting tools.
+You can find these reports under the Reports section in CiviCRM.
 
-## **Understanding membership reports**
+## Creating new membership reports
 
-CiviCRM includes several standard reports that help you analyse membership information.  
- These reports draw data directly from your membership records, so they’re always up to date.
+If the standard reports don’t meet your needs, you can create your own custom membership reports:
 
-The most commonly used reports are:
+1. Go to **Reports > Membership Reports**.
 
-* **Membership Summary Report** – gives totals by type, status, or join date.
+2. Click the **New Member Report** button.
 
-* **Membership Detail Report** – shows a list of individual members and their membership information.
+3. On the Create New Report Template screen, choose a membership report template.
 
-* **Membership Renewal Report** – focuses on renewals and lapses over a set period.
+4. Enter your criteria (for example, select specific membership types or date ranges).
 
-* **Membership Lapsed Report** – lists members whose memberships have expired or not renewed.
+5. Click **Preview Report** to see what your report will look like.
 
-* **Membership by Organisation Report** – useful for organisations with group or corporate memberships.
+6. If you’re happy with it, click **Create Report**, then give your report a name and save it for future use.
 
-You can run any of these reports as they are, or tailor them to your organisation’s needs.
+This allows you to quickly return to your custom reports whenever you need them.
 
-## **Step 1: Running a standard membership report**
+## Exporting membership records
 
-1. Go to **Reports → Create Reports from Templates**.
+You might want to export membership records to do further analysis, create mail merges, or use the data outside of CiviCRM. Here’s how:
 
-2. Scroll to the **Membership** section.
+1. Go to **Memberships > Find Members** and enter your search criteria.
 
-3. Choose the report type you want, such as *Membership Summary*.
+2. On the search results screen, select the records you want to export.
 
-4. Set filters to define what you want to see (for example, by membership type, status, or date range).
+3. In the **-actions-** dropdown, select **Export Members**.
 
-5. Click **Preview Report** to view the results.
+4. Choose either **Export PRIMARY fields** (a default set of fields) or **Select fields for export** (choose the fields you want).
 
-Tip: Start with the Membership Summary Report to get a clear overview of current, lapsed, and new members.
+5. Click **Continue**.
 
-## **Step 2: Customising your report**
+- If you choose Export PRIMARY fields, a file called `CiviCRM_Member_Search.csv` will be created with your selected records.
 
-You can customise any report to display exactly what you need.
+- If you choose Select fields for export, select your fields, optionally save the field mapping for future use, and click **Export**. The same type of CSV file will be created.
 
-1. Use the **Columns** tab to choose which fields to show (for example, contact name, start date, amount paid).
+You can now use this exported file for analysis or other tasks outside CiviCRM.
 
-2. Use **Filters** to narrow the results — for example, only current members or only those with expired memberships in the last 60 days.
+<!--
+Source: https://docs.civicrm.org/user/en/latest/membership/membership
+-reports/ -->
 
-3. Use **Sorting** to order results by join date, name, or amount.
-
-4. Add **Grouping** to summarise totals by membership type or organisation.
-
-Once the report looks right, click **Save a Copy** so you can reuse it later.
-
-## **Step 3: Scheduling or exporting reports**
-
-If you need to share membership data regularly:
-
-* Click **Export to CSV** or **PDF** to download your report.
-
-* To send it automatically, click **Schedule Report**, set a frequency (such as monthly), and choose who should receive it.
-
-This is ideal for monthly updates to your board or finance team without needing to run reports manually.
-
-## **Step 4: Creating a membership dashboard**
-
-Dashboards let you see key membership information as soon as you log in.
-
-To add a membership report to your dashboard:
-
-1. Open the report you want to display.
-
-2. Click **Add to Dashboard**.
-
-3. Choose a title and position for it on your home screen.
-
-4. Save your changes.
-
-You can add several reports to your dashboard — for example:
-
-* *Current Members by Type*
-
-* *Expiring Members in Next 30 Days*
-
-* *Recent Renewals*
-
-Dashboards help you monitor membership trends at a glance without needing to run reports each time.
-
-## **Step 5: Monitoring renewals and lapses**
-
-Use your reports to spot trends and take action:
-
-* Track how many members renew each month.
-
-* Identify which membership types have the most lapses.
-
-* Review whether reminder emails are improving renewal rates.
-
-You can combine report data with Smart Groups or Scheduled Reminders to target members who are due for renewal.
-
-## **Best practices**
-
-* Keep report names simple and consistent, such as “Monthly Membership Summary”.
-
-* Schedule reports to share automatically with key staff or board members.
-
-* Regularly review which reports you actually use — delete or archive older ones to keep your system tidy.
-
-* Combine membership and contribution reports if you want to track income alongside renewals.
-
-* Use dashboards as your day-to-day monitoring tool; run detailed reports only when needed.
-
-## **What’s next**
-
-Once you’re comfortable using reports and dashboards, you can:
-
-* Create custom reports using **SearchKit** for more tailored insights.
-
-* Build automated **Smart Groups** based on membership status or type.
-
-* Use these reports to plan renewal campaigns or track membership growth over time.
+<!--
+Suggestion: This page is a Guide, as it provides step
+-by-step instructions for specific tasks (viewing, creating, and exporting membership reports) rather than general background, exhaustive reference, or a hands-on tutorial. The level is Basic, as it assumes no advanced knowledge and is suitable for new users. If the page included more conceptual background (e.g., why reporting is important) or exhaustive lists of all report fields, those would belong in Explanation or Reference sections, respectively. -->

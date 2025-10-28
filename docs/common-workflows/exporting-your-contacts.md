@@ -2,54 +2,60 @@
 categories:
   - Guide
 level: Basic
-summary: Step-by-step instructions for exporting your contacts from CiviCRM, including how to select fields, save mappings, and handle common scenarios for non-profit users.
+summary: Learn how to export your contacts from CiviCRM into a spreadsheet or other application, step by step, with tips for choosing the right fields for your needs.
 section: Common workflows
 ---
 
-# Exporting your contacts from CiviCRM
+# Exporting your contacts
 
-## Overview
+Exporting contacts from CiviCRM allows you to save your contact information in a file format (CSV) that you can open in a spreadsheet program, import into other databases, or use for mail merges and labels.
 
-Exporting your contacts lets you share CiviCRM data with other applications by creating a file in a standard CSV format. This is useful for tasks like sending thank-you letters, creating mailing lists, or analyzing data in a spreadsheet. You can export a predefined set of fields or create your own custom export mapping to use again later.
+## Steps to export your contacts
 
-## Step 1: Search for contacts
+1. **Search for the contacts you want to export**
 
-Begin by searching for the contacts you want to export. You can use any of CiviCRM’s search tools, such as Quick Search, Find Contacts, Advanced Search, or Search Builder. If you’re working with a specific group, you can also start from the group view.
+   Use any search tool in CiviCRM—such as Quick Search, Find Contacts, Advanced Search, Search Builder, or a custom search—to find the contacts you need.
 
-## Step 2: Select contacts to export
+2. **Select the contacts**
 
-After your search, you’ll see a list of contacts. You can export all contacts in your results or select specific ones using the checkboxes next to each record.
+   After your search, select the contacts you want to export. You can select all results or choose specific contacts using the checkboxes next to each name.
 
-## Step 3: Start the export
+3. **Choose the export action**
 
-From the **Actions** dropdown menu, choose **Export Contacts**. This opens the export wizard, where you can customize your export.
+   Find the “- actions -” dropdown menu above your search results. Select **Export Contacts** from the list.
 
-## Step 4: Choose what to export
+4. **Choose what to export**
 
-You have two main options:
+   You can:
 
-- **Primary fields:** Export a standard set of 80 core contact fields (including primary email, phone, and address).
-- **Custom fields:** Select exactly which fields to include, such as non-primary contact details, custom fields, or data from related contacts. You can also use a previously saved export mapping.
+- Export a set of standard “primary fields” (basic contact details, primary email, phone, and address).
 
-If you’re creating mailing labels, you can choose to export one record per household or one per address. You can also exclude contacts marked “do not mail,” those without a street address, or those who are deceased.
+- Select specific fields to export, including custom fields or additional contact details.
 
-## Step 5: Add contacts from another group (optional)
+- Use a saved export mapping if you have one, to reuse a set of fields you’ve chosen before.
 
-If needed, you can add contacts from an additional group to your export.
+   If you’re preparing data for mailing labels, you can choose to export one record per household or per address, and set how names and greetings appear.
 
-## Step 6: Select fields and save mappings
+   You can also:
 
-If you chose to select your own fields or use a saved mapping, you’ll see a list of fields. You can use the mapping as is, modify it, or save your changes as a new mapping for future use.
+- Exclude contacts with “do not mail” privacy settings, no street address, or who are marked as deceased.
 
-## Step 7: Export your file
+- Add contacts from another group to your export.
 
-When you’re ready, click **Export**. Your file will download in CSV format, ready to use in a spreadsheet or other application.
+5. **Continue and confirm fields**
 
-## Tips
+   Click **Continue**. If you chose the primary fields, your download will start right away. If you chose to pick your own fields or use a mapping, you’ll see a screen to review and adjust your field selections. You can save your choices as a new mapping for future use.
 
-- **Field separator:** By default, CiviCRM uses a comma to separate fields in the CSV. If you need a different separator, you can change this in **Administer > Localization > Languages, Currency, Locations**.
-- **Reusing mappings:** Saving your export mappings saves time on future exports with similar requirements.
+6. **Download your file**
 
-## Next steps
+   When you’re ready, click **Export**. Your contacts will be downloaded as a CSV file, which you can open in Excel or another spreadsheet program.
 
-Now that you’ve exported your contacts, you can use the file for mail merges, data analysis, or sharing with colleagues. If you need to import data back into CiviCRM, see the guide on importing data.
+   By default, fields are separated by commas. If you need a different separator (for example, for use in another country), you can change this in **Administer > Localization > Languages, Currency, Locations** under “Import/Export Field Separator”.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/common
+-workflows/exporting-your-contacts/ -->
+
+<!--
+Suggestion: The page is a classic "How
+-to Guide" in Diátaxis terms: it is task-oriented, provides clear steps, and is focused on helping users achieve a specific outcome (exporting contacts). No background or technical reference is included. The appropriate level is Basic, as it is intended for non-experts and covers a common, essential task. The section is "Common workflows". The summary is tailored for non-expert users. If needed, a separate Reference page could list all export options and field definitions, but this page is best as a Guide. -->

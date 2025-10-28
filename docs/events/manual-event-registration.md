@@ -1,81 +1,119 @@
 ---
 categories:
-  - Guide  
-level: Basic  
-summary: This guide explains how non-profit staff can manually register participants for events in CiviCRM, including single registrations, partial payments, mass registrations, and importing registrations.  
-section: Events  
+  - Guide
+level: Basic
+summary: Learn how to manually register one or more participants for an event in CiviCRM, including handling payments and importing registrations.
+section: Events > Event registration
 ---
 
 # Manual event registration
 
+Manual event registration lets you and your team register people for events directly in CiviCRM, which is helpful if someone calls your office, sends an email, or registers in person.
+
 ## Registering a participant manually
 
-Sometimes people want to register for your event by phone, mail, or in person rather than online. CiviCRM lets you register these participants manually through the admin interface.
+Follow these steps to register someone for an event:
 
-To register a participant manually:
+1. Enter the person's name in the Quick search box at the top of CiviCRM.
 
-1. Use the Quick search box to find the person’s contact record.
-2. Select the contact from the search results.
-3. Click the **Events** tab on their contact record.
-4. Choose one of the registration options:
-   - **Add Event Registration**: for participants who will pay later (e.g., by check or at the event).
-   - **Submit Credit Card Event Registration**: for participants paying immediately by credit card (if your system supports this).
+2. Select the correct contact from the search results.
 
-When you select the event and participant role, the form will load any custom fields related to the event. If the event has a fee, you will see the event fees section and an option to record payment.
+3. On their contact record, click the **Events** tab.
 
-**Important:** Event registrations and payments are recorded separately but linked in CiviCRM. This means you can register someone without recording a payment (for example, for VIPs or speakers who attend for free).
+4. Click **Add Event Registration** if the person will pay later (by check or at the event), or **Submit Credit Card Event Registration** if you are taking their credit card payment now (this option appears only if your CiviCRM is set up with a payment processor).
 
-If the participant is paying now, check **Record Payment** and enter payment details. After saving, you can view the registration and the linked payment record on the contact’s Events tab.
+5. Fill out the registration form. The fields may change depending on your choices (for example, if the event has custom questions or fees).
 
-## Registering a participant paying a deposit (partial payment)
+6. If the event has a fee, you can record a payment by checking **Record Payment** and filling in the payment details. This links the event registration with a financial transaction in CiviCRM.
 
-You can register someone who pays part of the event fee and expects to pay the rest later.
+7. Click **Save** to finish.
 
-- Enter the amount paid now in the **Payment Information** section.
-- Set the **Participant Status** to **Partially paid**.
+**Tip:** If you do not record a payment, only the registration will be saved. You can always add a payment later.
 
-To record additional payments later:
+**Note:** Event registrations and payments are kept as separate records in CiviCRM. This means you can register someone without recording a payment, which is useful if you are waiving fees for a VIP or speaker.
+
+## Registering a participant with a deposit (partial payment)
+
+You can accept a deposit or partial payment when registering someone:
+
+1. In the **Payment Information** section, enter the amount paid (less than the full event fee).
+
+2. Set the **Participant Status** to **Partially paid**.
+
+3. Save the registration.
+
+To add more payments later:
 
 1. Go to the participant’s contact record.
+
 2. Click the **Events** tab.
-3. Find the partially paid registration, click **more** on the right.
-4. Choose **Record Payment** or **Submit Credit Card payment** to add the next payment.
 
-Once the full fee is paid, CiviCRM automatically updates the participant status to **Registered** and the payment status to **Completed** (you can override this if needed).
+3. Click **more** next to the event, then choose **Record Payment** or **Submit Credit Card payment**.
 
-You can view all payments made by clicking **view payments** on the registration or expanding the linked contribution record.
+4. Enter the new payment details.
+
+When the full fee is paid, the participant’s status will automatically update to **Registered**, and the payment status will show as **Completed**.
+
+**Tip:** You can view all payments made by clicking **view payments** under the Total Paid amount on the registration, or by expanding the Contribution record at the bottom.
 
 ## Mass registrations
 
-If you want to register many people at once (for example, participants from a previous event), you can use CiviCRM’s mass registration feature.
+You can register several people for the same event at once:
 
-Steps for mass registration:
+1. Search for the group of contacts you want to register (for example, by going to **Search > Find Participants**).
 
-1. Search for the contacts you want to register (e.g., previous participants).
-2. On the search results page, select all or specific contacts.
-3. From the **Actions** menu above the results, select **Register participants for event** and click **Go**.
-4. Choose the event and set registration options like participant status (e.g., Pending).
+2. On the search results page, select the people you want to register.
+
+3. From the **Actions** menu, choose **Register participants for event** and click **Go**.
+
+4. Choose the event and fill out the registration form. All selected contacts will get the same participant status and options.
+
 5. Click **Save**.
 
-**Note:**  
-- Mass registration applies the same settings to all selected contacts. To assign different statuses, run multiple mass registrations with different options.  
-- You cannot mass register participants for past events.  
-- You cannot record payments during mass registration; add payments individually later.
+**Limitations:**
+
+- All selected contacts get the same status and options.
+
+- You cannot mass
+-register for past events.
+
+- You cannot record payments (such as pay
+-later or credit card) for multiple people at once. Mass registration works best for free events or when you do not need to record payment now. You can add payments individually later.
 
 ## Importing registrations
 
-Importing registrations from a CSV file is a fast way to add many participants. Before importing, make sure:
+If you have many registrations in a spreadsheet, you can import them:
 
-- All participants already exist as contacts in CiviCRM. If not, import contacts first.  
-- You can match participants to contacts using Contact ID, External Identifier, or a combination of first name, last name, and email.
+### Preparing your data
 
-Required fields for import include one contact matching field, Event ID, and Participant Status.
+- Make sure all participants already exist as contacts in CiviCRM. If not, import contacts first.
 
-Steps to import registrations:
+- Your CSV file should include at least:
+
+- One field to match the contact (Contact ID, Email, or External Identifier)
+
+- Event ID
+
+- Participant Status
+
+### Import steps
 
 1. Go to **Events > Import Participants**.
-2. Upload your CSV file.
-3. Select contact type, date format, and other options, then click **Continue**.
-4. Match CSV columns to CiviCRM fields.
-5. Optionally save the field mapping for reuse.
-6. Preview and save the import.
+
+2. Select your CSV file.
+
+3. Choose the correct contact type, date format, and other options, then click **Continue**.
+
+4. Match the columns in your file to CiviCRM fields.
+
+5. (Optional) Save the field mapping for future imports.
+
+6. Preview and complete the import.
+
+<!--
+Source: https://docs.civicrm.org/user/en/latest/events/manual
+-event-registration/ -->
+
+<!--
+Suggestion: This page is a Guide, as it gives step
+-by-step instructions for specific tasks (manual, mass, and imported event registration) rather than teaching concepts (Explanation), providing a hands-on lesson (Tutorial), or listing exhaustive options (Reference). The level is Basic, as it is aimed at new or non-expert users. If needed, the "Importing registrations" section could be split into its own Guide for clarity. -->
